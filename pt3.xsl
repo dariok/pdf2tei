@@ -6,6 +6,19 @@
   exclude-result-prefixes="#all"
   version="3.0">
   
+  <xsl:template match="tei:text">
+    <xsl:variable name="head" select="tei:head[@level = 0][1]"/>
+    <text>
+      <front>
+        <xsl:apply-templates select="$head/preceding-sibling::node()" />
+      </front>
+      <body>
+        <xsl:apply-templates select="$head |
+          $head/following-sibling::node()" />
+      </body>
+    </text>
+  </xsl:template>
+  
   <xsl:template match="tei:head">
     <xsl:variable name="level" select="@level"/>
     <xsl:choose>
@@ -53,6 +66,10 @@
         </hi>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="text()[normalize-space() = '']">
+    <xsl:text> </xsl:text>
   </xsl:template>
   
   <xsl:template match="@* | node()">
