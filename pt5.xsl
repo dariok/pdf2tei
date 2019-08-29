@@ -11,7 +11,7 @@
       <xsl:when test="pt:p">
         <xsl:for-each-group select="node()" group-starting-with="pt:p">
           <p>
-            <xsl:sequence select="current-group()[position() &gt; 1]" />
+            <xsl:apply-templates select="current-group()[position() &gt; 1]" />
           </p>
         </xsl:for-each-group>
       </xsl:when>
@@ -21,6 +21,7 @@
     </xsl:choose>
   </xsl:template>
   
+  <xsl:template match="@level" />
   <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()" />
