@@ -13,8 +13,13 @@
         <xsl:apply-templates select="$head/preceding-sibling::node()" />
       </front>
       <body>
-        <xsl:apply-templates select="$head |
-          $head/following-sibling::node()" />
+        <xsl:for-each-group select="node()" group-starting-with="tei:head[@level = 0]">
+          <xsl:if test="current-group()[1][self::tei:head[@level = 0]]">
+            <div>
+              <xsl:apply-templates select="current-group()" />
+            </div>
+          </xsl:if>
+        </xsl:for-each-group>
       </body>
     </text>
   </xsl:template>
