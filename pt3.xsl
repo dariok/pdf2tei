@@ -18,18 +18,17 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="tei:hi">
+  <xsl:template match="*:hi">
     <xsl:variable name="mysize" select="@size"/>
     <xsl:choose>
-      <xsl:when test="preceding-sibling::*[1][self::tei:hi and @size = $mysize]">
-        <xsl:apply-templates />
-      </xsl:when>
+      <xsl:when test="preceding-sibling::*[1][self::*:hi and @size = $mysize]" />
       <xsl:otherwise>
         <xsl:variable name="next" select="following-sibling::*[not(@size) or (@size != $mysize)][1]"/>
-        <head>
+        <hi>
           <xsl:apply-templates select="@* | node()
-            | following-sibling::* intersect $next/preceding-sibling::*" />
-        </head>
+            | (following-sibling::* intersect $next/preceding-sibling::*)/node()
+            | following-sibling::text() intersect $next/preceding-sibling::text()" />
+        </hi>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
