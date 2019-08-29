@@ -57,17 +57,6 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="*:i">
-    <hi rend="italics">
-      <xsl:apply-templates />
-    </hi>
-  </xsl:template>
-  <xsl:template match="*:b">
-    <hi rend="bold">
-      <xsl:apply-templates />
-    </hi>
-  </xsl:template>
-  
   <xsl:template match="pt:text">
     <xsl:variable name="mtop" select="number(@top)"/>
     <xsl:variable name="mleft" select="number(@left)" />

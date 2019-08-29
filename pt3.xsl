@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:pt="https://github.com/dariok/pt"
+  xmlns="http://www.tei-c.org/ns/1.0"
+  exclude-result-prefixes="#all"
+  version="3.0">
+  
+  <xsl:template match="tei:head">
+    <xsl:variable name="level" select="@level"/>
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::*[1][self::tei:head and @level = $level]" />
+      <xsl:otherwise>
+        <head>
+          <xsl:apply-templates select="@* | node() | following-sibling::*[1][self::tei:head]/node()" />
+        </head>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="tei:hi">
+    <xsl:variable name="mysize" select="@size"/>
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::*[1][self::tei:hi and @size = $mysize]">
+        <xsl:apply-templates />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="next" select="following-sibling::*[not(@size) or (@size != $mysize)][1]"/>
+        <head>
+          <xsl:apply-templates select="@* | node()
+            | following-sibling::* intersect $next/preceding-sibling::*" />
+        </head>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="*:b">
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::*[1][self::*:b]" />
+      <xsl:otherwise>
+        <hi rend="bold">
+          <xsl:apply-templates select="node() | following-sibling::*[self::*:b]/node()"/>
+        </hi>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="*:i">
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::*[1][self::*:i]" />
+      <xsl:otherwise>
+        <hi rend="italics">
+          <xsl:apply-templates select="node() | following-sibling::*[self::*:i]/node()"/>
+        </hi>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
+  </xsl:template>
+</xsl:stylesheet>
