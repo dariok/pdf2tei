@@ -6,17 +6,20 @@
   exclude-result-prefixes="#all"
   version="3.0">
   
-  <xsl:template match="tei:text">
-    <text>
-      <body>
-        <xsl:apply-templates select="tei:head[@level = 0]" />
-      </body>
-    </text>
+  <xsl:template match="tei:head[@level = 0]">
+    <xsl:copy>
+      <xsl:apply-templates />
+    </xsl:copy>
+    <xsl:apply-templates select="following-sibling::node() 
+      intersect following-sibling::tei:head[1]/preceding-sibling::node()"/>
+    <xsl:apply-templates select="following-sibling::tei:head" />
   </xsl:template>
   
-  <xsl:template match="tei:head">
+  <xsl:template match="tei:div/tei:head[number(@level) &gt; 0]">
     <xsl:variable name="mylevel" select="number(@level)" />
-    <xsl:variable name="next" select="following-sibling::tei:head[number(@level) = $mylevel][1]"/>
+    <xsl:variable name="next"
+      select="following-sibling::tei:head[number(@level) = $mylevel
+        and not(preceding-sibling::tei:head[number(@level) &lt; $mylevel])][1]"/>
     <xsl:text>
       </xsl:text>
     <div>
@@ -34,15 +37,13 @@
         <xsl:when test="$next">
           <xsl:apply-templates select="following-sibling::* intersect $next/preceding-sibling::*" />
         </xsl:when>
-        <xsl:when test="following-sibling::tei:head[number(@level) &gt; $mylevel]">
-          <xsl:apply-templates select="following-sibling::tei:head[number(@level) &gt; $mylevel]" />
-        </xsl:when>
         <xsl:when test="following-sibling::tei:head[number(@level) &lt; $mylevel]">
           <xsl:apply-templates select="following-sibling::*
-            intersect following-sibling::tei:head[number(@level) &lt; $mylevel]/preceding-sibling::*"/>
+            intersect following-sibling::tei:head[number(@level) &lt; $mylevel][1]/preceding-sibling::*"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:apply-templates select="following-sibling::*" />
+          <!--<xsl:apply-templates select="following-sibling::*" />-->
+          <pt:problem />
         </xsl:otherwise>
       </xsl:choose>
     </div>
@@ -65,6 +66,10 @@
       <pt:p />
     </xsl:if>
     <xsl:apply-templates />
+  </xsl:template>
+  
+  <xsl:template match="text()[normalize-space() = '']">
+    <xsl:text> </xsl:text>
   </xsl:template>
   
   <xsl:template match="@* | node()">
