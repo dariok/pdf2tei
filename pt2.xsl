@@ -3,7 +3,6 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:pt="https://github.com/dariok/pt"
   exclude-result-prefixes="#all"
   version="3.0">
   
@@ -36,14 +35,16 @@
         </head>
       </xsl:when>
       <xsl:when test="$mysize &lt; $mainsize">
-        <hi rend="font-size: {$mysize}">
+        <xsl:copy>
+          <xsl:attribute name="level"
+             select="'-' || count($sizes/*[. &gt; $mysize and . &lt; $mainsize])" />
           <xsl:apply-templates select="@* | node()" />
-        </hi>
+        </xsl:copy>
       </xsl:when>
       <xsl:otherwise>
-        <pt:text>
+        <xsl:copy>
           <xsl:apply-templates select="@* | node()" />
-        </pt:text>
+        </xsl:copy>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
