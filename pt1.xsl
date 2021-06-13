@@ -28,8 +28,10 @@
   </xsl:template>
   
   <xsl:template match="*:text">
+    <xsl:variable name="font" select="@font"/>
     <xsl:copy>
       <xsl:attribute name="rendition" select="'#f' || @font" />
+      <xsl:attribute name="size" select="//*:fontspec[@id = $font]/@size" />
       <xsl:apply-templates select="@* | node()" />
     </xsl:copy>
   </xsl:template>
