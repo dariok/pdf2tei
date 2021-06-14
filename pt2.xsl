@@ -50,7 +50,7 @@
   </xsl:template>
   
   <xsl:template match="*:page">
-    <pb n="{@number}" />
+    <pb n="{@number}" top="-1" />
     <xsl:apply-templates />
   </xsl:template>
   

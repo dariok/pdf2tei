@@ -12,7 +12,7 @@
     <text>
       <body>
         <xsl:call-template name="divStructure">
-          <xsl:with-param name="context" select="node()" />
+          <xsl:with-param name="context" select="*" />
           <xsl:with-param name="level" select="0" />
         </xsl:call-template>
       </body>
@@ -56,7 +56,7 @@
   
   <xsl:template name="divStructure">
     <xsl:param name="level" as="xs:integer" />
-    <xsl:param name="context" as="node()+" />
+    <xsl:param name="context" as="element()+" />
     
     <xsl:for-each-group select="$context" group-starting-with="tei:head[@level = $level 
       and not(preceding-sibling::*[1][self::tei:head[@level = $level]])]">
@@ -70,10 +70,23 @@
             </xsl:call-template>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:apply-templates select="current-group()[not(self::tei:head and @level = $level)]" />
+            <xsl:call-template name="lines">
+              <xsl:with-param name="texts" select="current-group()[not(self::tei:head and @level = $level)]" />
+            </xsl:call-template>
           </xsl:otherwise>
         </xsl:choose>
       </div>
+    </xsl:for-each-group>
+  </xsl:template>
+  
+  <xsl:template name="lines">
+    <xsl:param name="texts" />
+    
+    <!-- div by ($mainsizeOfPage - 2) may be more accurate but does not seem necessary in current tests -->
+    <xsl:for-each-group select="$texts" group-adjacent="round(number(@top) div 10)">
+      <l left="{current-group()[1]/@left}" top="{current-grouping-key()}">
+        <xsl:apply-templates select="current-group()" />
+      </l>
     </xsl:for-each-group>
   </xsl:template>
   
