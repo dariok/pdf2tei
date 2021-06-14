@@ -9,18 +9,13 @@
   <xsl:output indent="1" />
   
   <xsl:template match="tei:text">
-    <xsl:variable name="head" select="tei:head[@level = 0][1]"/>
     <text>
-      <front>
-        <xsl:apply-templates select="$head/preceding-sibling::node()" />
-      </front>
       <body>
-        <xsl:for-each-group select="node()" group-starting-with="tei:head[@level = 0]">
-          <xsl:if test="current-group()[1][self::tei:head[@level = 0]]">
-            <div>
-              <xsl:apply-templates select="current-group()" />
-            </div>
-          </xsl:if>
+        <xsl:for-each-group select="node()" group-starting-with="tei:head[@level = 0 
+            and not(preceding-sibling::*[1][self::tei:head[@level = 0]])]">
+          <div>
+            <xsl:apply-templates select="current-group()" />
+          </div>
         </xsl:for-each-group>
       </body>
     </text>
