@@ -6,6 +6,8 @@
   exclude-result-prefixes="#all"
   version="3.0">
   
+  <xsl:output indent="1" />
+  
   <xsl:template match="tei:text">
     <xsl:variable name="head" select="tei:head[@level = 0][1]"/>
     <text>
@@ -47,6 +49,19 @@
             | (following-sibling::* intersect $next/preceding-sibling::*)/node()
             | following-sibling::text() intersect $next/preceding-sibling::text()" />
         </hi>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="*:a">
+    <xsl:choose>
+      <xsl:when test="string-length() &lt; 5">
+        <ref ref="{@href}">
+          <xsl:sequence select="node()" />
+        </ref>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:sequence select="node()" />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

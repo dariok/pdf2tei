@@ -36,19 +36,6 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="*:a">
-    <xsl:choose>
-      <xsl:when test="string-length() &lt; 5">
-        <ref ref="{@href}">
-          <xsl:sequence select="node()" />
-        </ref>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:sequence select="node()" />
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  
   <xsl:template match="*:fontspec">
     <rendition scheme="css">
       <xsl:attribute name="xml:id" select="'f' || @id" />
