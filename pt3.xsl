@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:pt="https://github.com/dariok/pt"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
   version="3.0">
@@ -11,12 +11,10 @@
   <xsl:template match="tei:text">
     <text>
       <body>
-        <xsl:for-each-group select="node()" group-starting-with="tei:head[@level = 0 
-            and not(preceding-sibling::*[1][self::tei:head[@level = 0]])]">
-          <div>
-            <xsl:apply-templates select="current-group()" />
-          </div>
-        </xsl:for-each-group>
+        <xsl:call-template name="divStructure">
+          <xsl:with-param name="context" select="node()" />
+          <xsl:with-param name="level" select="0" />
+        </xsl:call-template>
       </body>
     </text>
   </xsl:template>
@@ -54,6 +52,29 @@
         </hi>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template name="divStructure">
+    <xsl:param name="level" as="xs:integer" />
+    <xsl:param name="context" as="node()+" />
+    
+    <xsl:for-each-group select="$context" group-starting-with="tei:head[@level = $level 
+      and not(preceding-sibling::*[1][self::tei:head[@level = $level]])]">
+      <div>
+        <xsl:apply-templates select="current-group()[self:: tei:head and @level = $level]" />
+        <xsl:choose>
+          <xsl:when test="current-group()[self::tei:head and @level = $level + 1]">
+            <xsl:call-template name="divStructure">
+              <xsl:with-param name="context" select="current-group()[not(self::tei:head and @level = $level)]" />
+              <xsl:with-param name="level" select="$level + 1" />
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:apply-templates select="current-group()[not(self::tei:head and @level = $level)]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </div>
+    </xsl:for-each-group>
   </xsl:template>
   
   <xsl:template match="@* | node()">

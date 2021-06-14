@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns="http://www.tei-c.org/ns/1.0"
+  stylesheet="pt3.xsl">
+  <x:scenario label="1. div structure">
+    <x:scenario label="1.1">
+      <x:context>
+        <text>
+          <pb n="1"/>
+          <head level="4" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </head>
+          <head level="2" rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur  </head>
+          <head level="2" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </head>
+          
+          <pb n="2"/>
+          <pb n="3"/>
+          <image xmlns="" top="797" left="68" width="150" height="37" src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+          <head level="3" rendition="#f2" size="18" top="156" left="128" width="113" height="20">Merryl Rebello </head>
+          <head level="0" rendition="#f3" size="33" top="214" left="128" width="228" height="35">
+            <b xmlns="">Romulus in der  </b>
+          </head>
+          <head level="0" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
+            <b xmlns="">lateinischen Literatur  </b>
+          </head>
+          <head level="0" rendition="#f3" size="33" top="305" left="128" width="286" height="35">
+            <b xmlns="">von Ennius bis Ovid </b>
+          </head>
+          
+          <pb n="4"/>
+          <text xmlns="" level="-1" rendition="#f4" size="11" top="489" left="77" width="187" height="13">wbg Academic ist ein Imprint der wbg </text>
+          <text xmlns="" level="-1" rendition="#f4" size="11" top="508" left="77" width="310" height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
+        </text>
+      </x:context>
+      <x:expect label=".">
+        <text>
+          <body>
+            <div>
+              <pb n="1"/>
+              <head level="4" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </head>
+              <head level="2" rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur  </head>
+              <head level="2" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </head>
+              
+              <pb n="2"/>
+              <pb n="3"/>
+              <image xmlns="" top="797" left="68" width="150" height="37" src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+              <head level="3" rendition="#f2" size="18" top="156" left="128" width="113" height="20">Merryl Rebello </head>
+            </div>
+            <div>
+              <head level="0" rendition="#f3" size="33" top="214" left="128" width="228" height="35">
+                <hi rend="bold">Romulus in der  </hi>
+              </head>
+              <head level="0" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
+                <hi rend="bold">lateinischen Literatur  </hi>
+              </head>
+              <head level="0" rendition="#f3" size="33" top="305" left="128" width="286" height="35">
+                <hi rend="bold">von Ennius bis Ovid </hi>
+              </head>
+              
+              <pb n="4"/>
+              <text xmlns="" level="-1" rendition="#f4" size="11" top="489" left="77" width="187" height="13">wbg Academic ist ein Imprint der wbg </text>
+              <text xmlns="" level="-1" rendition="#f4" size="11" top="508" left="77" width="310" height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
+            </div>
+          </body>
+        </text>
+      </x:expect>
+    </x:scenario>
+  </x:scenario>
+</x:description>
