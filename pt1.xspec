@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" xmlns="http://www.tei-c.org/ns/1.0" stylesheet="pt1.xsl">
+  <x:scenario label="T1">
+    <x:context>
+      <pdf2xml producer="poppler" version="21.05.0" xmlns="">
+        <page number="1" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="0" size="16" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="1" size="19" family="AWSBWD+MinionPro" color="#000000"/>
+          <text top="129" left="68" width="103" height="18" font="0">Merryl Rebello </text>
+          <text top="161" left="68" width="300" height="21" font="1">Romulus in der lateinischen Literatur </text>
+          <text top="187" left="68" width="163" height="21" font="1">von Ennius bis Ovid </text>
+        </page>
+        <page number="2" position="absolute" top="0" left="0" height="935" width="722"> </page>
+        <page number="3" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="2" size="18" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="3" size="33" family="ZAGSWU+MinionPro" color="#000000"/>
+          <image top="797" left="68" width="150" height="37"
+            src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+          <text top="156" left="128" width="113" height="20" font="2">Merryl Rebello </text>
+          <text top="214" left="128" width="228" height="35" font="3"><b>Romulus in der </b></text>
+          <text top="260" left="128" width="311" height="35" font="3"><b>lateinischen Literatur </b></text>
+          <text top="305" left="128" width="286" height="35" font="3"><b>von Ennius bis Ovid </b></text>
+        </page>
+        <page number="4" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="4" size="11" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="5" size="11" family="WIFQKK+MinionPro" color="#000000"/>
+          <fontspec id="6" size="11" family="GQWJEU+MinionPro" color="#000000"/>
+          <text top="489" left="77" width="187" height="13" font="4">wbg Academic ist ein Imprint der wbg </text>
+          <text top="508" left="77" width="310" height="13" font="4">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
+          <text top="527" left="77" width="409" height="13" font="4">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </text>
+          <text top="545" left="77" width="291" height="13" font="4">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </text>
+          <text top="601" left="77" width="293" height="13" font="4">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </text>
+          <text top="677" left="77" width="417" height="12" font="5">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</text>
+          <text top="695" left="77" width="351" height="12" font="5">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</text>
+          <text top="714" left="77" width="410" height="12" font="5">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </text>
+          <text top="733" left="77" width="31" height="12" font="5">Lizenz</text>
+          <text top="733" left="108" width="3" height="13" font="6"> </text>
+          <text top="733" left="111" width="353" height="12" font="5">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </text>
+          <text top="751" left="77" width="70" height="12" font="5">Verwertung in</text>
+          <text top="751" left="147" width="3" height="13" font="6"> </text>
+          <text top="751" left="150" width="319" height="12" font="5">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </text>
+          <text top="770" left="77" width="115" height="12" font="5">vorherigen schriftlichen</text>
+          <text top="770" left="192" width="3" height="13" font="6"> </text>
+          <text top="770" left="195" width="127" height="12" font="5">Einwilligung des Verlages.</text>
+        </page>
+        <page number="5" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="7" size="13" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="8" size="33" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="9" size="15" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="10" size="16" family="VHKKMF+Calibri" color="#000000"/>
+          <fontspec id="11" size="15" family="HUOXVT+MinionPro-It" color="#000000"/>
+          <text top="856" left="354" width="10" height="15" font="7">5 </text>
+          <text top="135" left="300" width="114" height="36" font="8">Vorwort</text>
+          <text top="208" left="68" width="582" height="16" font="9">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </text>
+          <text top="228" left="68" width="578" height="16" font="9">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</text>
+          <text top="248" left="68" width="581" height="16" font="9">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </text>
+          <text top="268" left="68" width="106" height="16" font="9">verteidigt wurde. </text>
+          <text top="288" left="81" width="566" height="16" font="9">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</text>
+          <text top="309" left="68" width="386" height="16" font="9">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </text>
+          <text top="329" left="81" width="570" height="16" font="9">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </text>
+          <text top="349" left="68" width="583" height="16" font="9">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </text>
+          <text top="369" left="68" width="578" height="16" font="9">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</text>
+          <text top="390" left="68" width="358" height="16" font="9">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </text>
+          <text top="410" left="81" width="565" height="16" font="9">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</text>
+          <text top="430" left="68" width="581" height="16" font="9">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </text>
+          <text top="450" left="68" width="225" height="16" font="9">Auch ihm gilt mein herzlicher Dank. </text>
+          <text top="471" left="81" width="570" height="16" font="9">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </text>
+          <text top="491" left="68" width="582" height="16" font="9">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </text>
+          <text top="511" left="68" width="582" height="16" font="9">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </text>
+          <text top="531" left="68" width="135" height="16" font="9">Gemeinschaft zu sein. </text>
+          <text top="551" left="81" width="569" height="16" font="9">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </text>
+          <text top="572" left="68" width="153" height="16" font="9">Udolph zurückzuführen. </text>
+          <text top="592" left="81" width="571" height="16" font="9">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </text>
+          <text top="612" left="68" width="115" height="16" font="9">Schwester Melissa. </text>
+          <text top="653" left="68" width="168" height="16" font="9">Hamburg, im Februar 2019 </text>
+          <text top="693" left="68" width="90" height="16" font="9">Merryl Rebello</text>
+        </page>
+        <page number="12" position="absolute" top="0" left="0" height="935" width="722"> </page>
+        <page number="13" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="12" size="9" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="13" size="13" family="HUOXVT+MinionPro-It" color="#000000"/>
+          <text top="856" left="351" width="16" height="15" font="7">13 </text>
+          <text top="126" left="269" width="176" height="36" font="8">1. Einleitung</text>
+          <text top="199" left="68" width="583" height="16" font="9">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text>
+          <text top="219" left="68" width="581" height="16" font="9">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </text>
+          <text top="239" left="68" width="581" height="16" font="9">gefunden und gesäugt. Hirten nehmen die Kinder bei sich auf und ziehen sie groß. In ihrer Jugend </text>
+          <text top="260" left="68" width="578" height="16" font="9">beginnen sich die beiden Brüder zu Konkurrenten zu entwickeln. Nach Einholung der Vogelzei-</text>
+          <text top="280" left="68" width="578" height="16" font="9">chen beginnt Romulus, eine Mauer für eine neue Stadt zu bauen. Remus überspringt sie, um sei-</text>
+          <text top="300" left="68" width="582" height="16" font="9">nen Bruder zu verhöhnen, und wird zur Strafe erschlagen. Romulus benennt die neu gegründete </text>
+          <text top="320" left="68" width="578" height="16" font="9">Stadt nach sich selbst: Rom. Im weiteren Verlauf der Geschichte wird sie zur Weltherrschaft auf-</text>
+          <text top="340" left="68" width="49" height="16" font="9">steigen. </text>
+          <text top="361" left="81" width="569" height="16" font="9">Obwohl uns diese einfache und alte Geschichte heute nicht mehr als historisch gilt, scheint sie </text>
+          <text top="381" left="68" width="582" height="16" font="9">doch immerhin so viel universal gültige Wahrheit zu enthalten, dass sie zumindest in einem Teil </text>
+          <text top="401" left="68" width="584" height="16" font="9">unserer Gesellschaft immer noch von Generation zu Generation weitergegeben wird, z. B. in </text>
+          <text top="421" left="68" width="87" height="16" font="9">Schulbüchern.</text>
+          <text top="421" left="155" width="4" height="10" font="12">1</text>
+          <text top="421" left="159" width="491" height="16" font="9"> Schaut man sich aber um, so stellt man fest, dass der Stoff dieser Sage eigentlich </text>
+          <text top="442" left="68" width="582" height="16" font="9">nichts Urrömisches ist, sondern Teile dieser Geschichte so oder so ähnlich auch in der Bibel oder </text>
+          <text top="462" left="68" width="145" height="16" font="9">in den indischen Veden</text>
+          <text top="462" left="213" width="4" height="10" font="12">2</text>
+          <text top="462" left="217" width="433" height="16" font="9"> erzählt werden. Das macht sie zu einem Mythos und ihre Elemente zu </text>
+          <text top="482" left="68" width="61" height="16" font="9">Motiven. </text>
+          <text top="502" left="81" width="570" height="16" font="9">Diese Motive können in immer neuer Variation kombiniert und auch ergänzt werden, sodass </text>
+          <text top="523" left="68" width="583" height="16" font="9">die Botschaft der Geschichte sich ändert. Dabei sind Gründungsmythen für den Prozess der </text>
+          <text top="601" left="68" width="4" height="10" font="12">1</text>
+          <text top="602" left="72" width="574" height="15" font="7"> In den Schulbüchern wird die Gründung Roms meist gleich in einer der ersten Latein-Lektionen the-</text>
+          <text top="621" left="89" width="557" height="15" font="7">matisiert. Schützsack (2011) reißt in einer vergleichenden Untersuchung an, wie die Romulus-Thema-</text>
+          <text top="639" left="89" width="561" height="15" font="7">tik, vor allem der Aspekt des Brudermords, in fünf aktuellen Lateinlehrwerken umgesetzt wird. Doch </text>
+          <text top="657" left="89" width="561" height="15" font="7">auch jenseits der Lehrbuchphase erfreut sich das Thema Romulus ungebrochener Beliebtheit: Simons </text>
+          <text top="676" left="89" width="560" height="15" font="7">(2016) hat eine zehn Unterrichtseinheiten umfassende Reihe zum Vergleich der Apotheose des Romulus </text>
+          <text top="694" left="89" width="559" height="15" font="7">bei Livius und Ovid für die Oberstufe konzipiert; Sauer (2016) liefert umfangreiches Unterrichtsmaterial </text>
+          <text top="712" left="89" width="345" height="15" font="7">zum Bild von Romulus in Ciceros staatsphilosophischer Schrift </text>
+          <text top="712" left="434" width="71" height="14" font="13">De re publica</text>
+          <text top="712" left="504" width="3" height="15" font="7">.</text>
+          <text top="730" left="68" width="4" height="10" font="12">2</text>
+          <text top="732" left="72" width="2" height="15" font="7"> </text>
+          <text top="732" left="89" width="559" height="15" font="7">Zumindest das Zwillings- bzw. Brüdermotiv deutet auf einen gemeinsamen indoeuropäischen Ursprung </text>
+          <text top="751" left="89" width="561" height="15" font="7">der Sage hin. Manifestationen dieses Motivs sind die beiden Ashvins namens Dasra und Dasatya im </text>
+          <text top="769" left="89" width="560" height="15" font="7">Rigveda, die griechischen Dioskuren Kastor und Polydeukes oder die Brüder Kain und Abel in der Bibel, </text>
+          <text top="787" left="89" width="293" height="15" font="7">s. Briquel (1976) 145f mit Hinweis auf Harris (1906) </text>
+          <text top="788" left="382" width="172" height="14" font="13">The Cult of the Heavenly Twins</text>
+          <text top="787" left="554" width="92" height="15" font="7">. Zum Motiv der</text>
+          <text top="806" left="89" width="253" height="15" font="7">Aussetzung des Königskindes s. Binder (1964).</text>
+        </page>
+        <page number="14" position="absolute" top="0" left="0" height="935" width="722">
+          <text top="856" left="359" width="16" height="15" font="7">14 </text>
+          <text top="75" left="77" width="324" height="16" font="9">ständigen Um- und Neudeutung besonders anfällig,</text>
+          <text top="74" left="401" width="4" height="10" font="12">3</text>
+          <text top="75" left="406" width="254" height="16" font="9"> weil sie für bestimmte soziale Gruppen </text>
+          <text top="95" left="77" width="574" height="16" font="9">Identität konstituieren und häufig an aktuelle gesellschaftliche Entwicklungen angepasst werden.</text>
+          <text top="95" left="651" width="4" height="10" font="12">4</text>
+          <text top="95" left="655" width="3" height="16" font="9"> </text>
+          <text top="115" left="89" width="566" height="16" font="9">Auch die gesamte Antike hindurch fluktuiert der Romulus-Mythos, wenn er von unterschied-</text>
+          <text top="136" left="77" width="582" height="16" font="9">lichen Parteien in den verschiedensten Absichten erzählt wird: Die frühesten, die ihn benutzen, </text>
+          <text top="156" left="77" width="582" height="16" font="9">sind griechische Geschichtsschreiber ab etwa dem späten 4. Jh. v. Chr., die eine Erklärung dafür </text>
+          <text top="176" left="77" width="249" height="16" font="9">liefern wollen, weshalb Rom Rom heißt.</text>
+          <text top="176" left="326" width="4" height="10" font="12">5</text>
+          <text top="176" left="330" width="330" height="16" font="9"> Einer der letzten, der die Hauptfigur der römischen </text>
+          <text top="196" left="77" width="585" height="16" font="9">Gründungssage zumindest noch in seinem Namen trägt, ist der letzte weströmische Kaiser </text>
+          <text top="216" left="77" width="578" height="16" font="9">Romulus Augustulus (geb. um 460 n. Chr.). Dazwischen liegt ein ganzes Spektrum an Möglich-</text>
+          <text top="237" left="77" width="579" height="16" font="9">keiten des Umgangs mit der Romulus-Figur, das von der völligen Identifikation mit dem „Nati-</text>
+          <text top="257" left="77" width="586" height="16" font="9">onalhelden“ bis hin zur Distanzierung vom Brudermörder und Tyrannen alle denkbaren </text>
+          <text top="277" left="77" width="125" height="16" font="9">Nuancen beinhaltet. </text>
+          <text top="297" left="89" width="569" height="16" font="9">Die vorliegende Arbeit beschäftigt sich inhaltlich, zeitlich und auch sprachlich gesehen nur mit </text>
+          <text top="318" left="77" width="578" height="16" font="9">einer Teilmenge des soeben skizzierten Themenkomplexes: In ihr soll es darum gehen, wie römi-</text>
+          <text top="338" left="77" width="268" height="16" font="9">sche, genauer gesagt lateinisch schreibende</text>
+          <text top="338" left="345" width="4" height="10" font="12">6</text>
+          <text top="338" left="349" width="308" height="16" font="9"> Autoren, angefangen bei Ennius und endend bei </text>
+          <text top="358" left="77" width="581" height="16" font="9">Ovid, die Figur des Romulus in ihren Werken darstellen. Die Arbeit ist philologisch ausgerichtet, </text>
+          <text top="378" left="77" width="578" height="16" font="9">d. h. es werden hauptsächlich lateinische Primärtexte interpretiert. Historische und archäologi-</text>
+          <text top="399" left="77" width="578" height="16" font="9">sche Probleme werden demgegenüber nur in dem Maße angesprochen, wie es für die Untersu-</text>
+          <text top="419" left="77" width="357" height="16" font="9">chung literarischer Romulus-Darstellungen erforderlich ist.</text>
+          <text top="476" left="77" width="357" height="20" font="2">Überblick über Aufbau und Methodik der Arbeit </text>
+          <text top="520" left="77" width="578" height="16" font="9">Die Arbeit ist diachron und innerhalb des gewählten Zeitabschnittes auf größtmögliche Vollstän-</text>
+          <text top="540" left="77" width="578" height="16" font="9">digkeit hin angelegt, weil das Hauptziel meiner Untersuchung, eine differenzierte (Neu-)Beurtei-</text>
+          <text top="560" left="77" width="581" height="16" font="9">lung der Romulus-Darstellung, dadurch erreicht werden soll, dass möglichst viele aussagekräftige </text>
+          <text top="617" left="77" width="4" height="10" font="12">3</text>
+          <text top="619" left="81" width="137" height="15" font="7"> Deremetz (2013) 229. </text>
+          <text top="637" left="77" width="4" height="10" font="12">4</text>
+          <text top="639" left="81" width="577" height="15" font="7"> Raaflaub (2006) 24: „Das Bedürfnis nach zeitgeschichtlicher Aktualität war deshalb einer der wichtigsten </text>
+          <text top="658" left="98" width="479" height="15" font="7">Verformungsfaktoren in der antiken (Re-)konstruktion der römischen Frühgeschichte.“ </text>
+          <text top="676" left="77" width="4" height="10" font="12">5</text>
+          <text top="677" left="81" width="577" height="15" font="7"> Classen (1993) nennt die sizilianischen Geschichtsschreiber Alkimos und Kallias (spätes 4. Jh. v. Chr.), </text>
+          <text top="696" left="98" width="560" height="15" font="7">die über Rhomylos und Rhomos schreiben. Eine Rhome als Namensgeberin Roms kennen zwar bereits </text>
+          <text top="714" left="98" width="557" height="15" font="7">ältere Quellen (Hellanikos von Lesbos, gestorben um 400 v. Chr.), jedoch findet sich diese in der römi-</text>
+          <text top="732" left="98" width="560" height="15" font="7">schen Tradition nicht wieder. Später befassen sich Hieronymos von Kardia, Timaios von Tauromenion </text>
+          <text top="751" left="98" width="503" height="15" font="7">und Diokles von Peparethos mit der mythischen Stadtgründung Roms, s. Meister (1990) 142.</text>
+          <text top="769" left="77" width="4" height="10" font="12">6</text>
+          <text top="770" left="81" width="554" height="15" font="7"> Griechische Texte wie z. B. Dionysius von Halikarnass’ Schilderung der römischen Frühzeit in den </text>
+          <text top="771" left="634" width="21" height="14" font="13">An-</text>
+          <text top="790" left="98" width="105" height="14" font="13">tiquitates Romanae</text>
+          <text top="789" left="203" width="240" height="15" font="7"> und Plutarchs Romulus-Biographie in den </text>
+          <text top="790" left="443" width="85" height="14" font="13">Vitae parallelae</text>
+          <text top="789" left="528" width="131" height="15" font="7"> sind nicht Gegenstand </text>
+          <text top="808" left="98" width="79" height="15" font="7">dieser Arbeit. </text>
+        </page>
+        <page number="15" position="absolute" top="0" left="0" height="935" width="722">
+          <text top="856" left="351" width="16" height="15" font="7">15 </text>
+          <text top="75" left="68" width="582" height="16" font="9">Textzeugnisse zu Wort kommen und miteinander in einen Zusammenhang gebracht werden. In </text>
+          <text top="95" left="68" width="578" height="16" font="9">dieser Differenzierung sehe ich auch den Mehrwert dieser Arbeit angesichts der Fülle von Mo-</text>
+          <text top="115" left="68" width="581" height="16" font="9">nographien und Aufsätzen, die sich entweder schwerpunktmäßig oder am Rande mit Romulus </text>
+          <text top="136" left="68" width="578" height="16" font="9">beschäftigen, dabei aber meist nur eine kleine Auswahl an Texten ansprechen (s. den Forschungs-</text>
+          <text top="156" left="68" width="108" height="16" font="9">überblick unten). </text>
+          <text top="176" left="81" width="571" height="16" font="9">Die Arbeit ist in fünf Kapitel unterteilt: Zunächst werden die Romulus-Darstellungen der </text>
+          <text top="196" left="68" width="578" height="16" font="9">frühen lateinischen Dichter, d. h. des Naevius, Ennius und Lucilius, skizziert und (wo der Über-</text>
+          <text top="216" left="68" width="578" height="16" font="9">lieferungszustand der Texte dies noch zulässt) untersucht. Im nächsten Kapitel stehen Texte un-</text>
+          <text top="237" left="68" width="581" height="16" font="9">terschiedlicher Gattungen aus allen Schaffensperioden Ciceros im Fokus. An seinem Oeuvre lässt </text>
+          <text top="257" left="68" width="581" height="16" font="9">sich zum ersten Mal dokumentieren, wie sich das Romulus-Bild eines Autors über einen längeren </text>
+          <text top="277" left="68" width="581" height="16" font="9">Zeitraum entwickelt. Es folgt ein Kapitel zur Verwendung des Namens „Romulus“ in Schimpfwörtern </text>
+          <text top="297" left="68" width="579" height="16" font="9">in der Invektive, das kontextuell eng mit dem zuvor dargestellten Romulus-Bild bei Cicero in Verbin-</text>
+          <text top="318" left="68" width="488" height="16" font="9">dung steht. Als nächstes steht mit dem Abschnitt zur Gründungssage im ersten Buch </text>
+          <text top="318" left="556" width="91" height="16" font="11">Ab urbe condita</text>
+          <text top="318" left="646" width="3" height="16" font="9"> </text>
+          <text top="338" left="68" width="582" height="16" font="9">bei Livius erneut eine längere Textsequenz im Zentrum der Untersuchung. Im letzten Kapitel nehme </text>
+          <text top="358" left="68" width="582" height="16" font="9">ich das umfangreiche Corpus der Augusteischen Dichter Vergil, Horaz und Ovid als Grundlage, um </text>
+          <text top="379" left="68" width="488" height="16" font="9">zu zeigen, welche Schwerpunkte sie jeweils bei ihrer Darstellung des Romulus setzen. </text>
+          <text top="399" left="81" width="571" height="16" font="9">Eine solche Gliederung nimmt neben einem unterschiedlichen Umfang der einzelnen Teile </text>
+          <text top="419" left="68" width="581" height="16" font="9">auch in Kauf, dass einige der Kapitel sich mit Texten nur eines Autors auseinandersetzen (dies ist </text>
+          <text top="439" left="68" width="582" height="16" font="9">bei Cicero und Livius der Fall), wohingegen in anderen Kapiteln aus formalen und inhaltlichen </text>
+          <text top="459" left="68" width="582" height="16" font="9">Gründen mehrere Autoren zusammengruppiert werden (wie es z. B. im Schimpfwort-Kapitel oder </text>
+          <text top="480" left="68" width="578" height="16" font="9">bei den Dichtern der Fall ist). Auch muss man hinnehmen, dass Fragen mikrostruktureller Chro-</text>
+          <text top="500" left="68" width="581" height="16" font="9">nologie, also z. B. das Verhältnis einzelner Gedichte von Horaz und Vergil zueinander, bei einem </text>
+          <text top="520" left="68" width="583" height="16" font="9">solchen Aufbau nicht im Detail berücksichtigt werden können. Diese Gliederung in fünf große </text>
+          <text top="540" left="68" width="582" height="16" font="9">Blöcke bietet aber den Vorteil, dass Tendenzen klarer hervortreten und sich die einzelnen Teile </text>
+          <text top="561" left="68" width="578" height="16" font="9">gut miteinander vergleichen lassen. Dies soll dem Leser auch durch regelmäßige Zusammenfas-</text>
+          <text top="581" left="68" width="503" height="16" font="9">sungen der (Teil-)Ergebnisse am Ende der jeweiligen Einheiten ermöglicht werden. </text>
+          <text top="601" left="81" width="571" height="16" font="9">Angesichts dieser Vielzahl von römischen Schriftstellern, die so deutlich unterschiedliche </text>
+          <text top="621" left="68" width="583" height="16" font="9">Werke verfasst haben, erschien es nicht sinnvoll, eine einzige Methode der Interpretation zu </text>
+          <text top="642" left="68" width="578" height="16" font="9">entwickeln und diese auf alle Texte anzuwenden. Vielmehr habe ich mir die Freiheit vorbehal-</text>
+          <text top="662" left="68" width="578" height="16" font="9">ten, die Texte mit jeweils unterschiedlicher Herangehensweise zu untersuchen: Bei den frag-</text>
+          <text top="682" left="68" width="587" height="16" font="9">mentarischen oder (auch ohne Textverstümmelung) kürzeren Zeugnissen zu Romulus </text>
+          <text top="702" left="68" width="583" height="16" font="9">versuche ich, anhand der Einzeldarstellungen einen kohärenten Text, d. h. eine Sequenz von </text>
+          <text top="722" left="68" width="583" height="16" font="9">Aussagen zu Romulus zu gewinnen, indem ich z. B. nach Ähnlichkeiten und Abweichungen </text>
+          <text top="743" left="68" width="583" height="16" font="9">innerhalb dieser Gruppe von Stellen suche, aber auch regelmäßig den Vergleich zu anderen </text>
+          <text top="763" left="68" width="337" height="16" font="9">ungefähr zur selben Zeit schreibenden Autoren ziehe. </text>
+          <text top="783" left="81" width="569" height="16" font="9">Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </text>
+          <text top="803" left="68" width="583" height="16" font="9">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
+        </page>
+      </pdf2xml>
+    </x:context>
+    <x:expect label=".">
+      <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+          <encodingDesc>
+            <tagsDecl>
+              <rendition scheme="css" xml:id="f0">font-size: 16pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f1">font-size: 19pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f2">font-size: 18pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f3">font-size: 33pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f4">font-size: 11pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f5">font-size: 11pt; font-family: WIFQKK+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f6">font-size: 11pt; font-family: GQWJEU+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f7">font-size: 13pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f8">font-size: 33pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f9">font-size: 15pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f10">font-size: 16pt; font-family: VHKKMF+Calibri; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f11">font-size: 15pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f12">font-size: 9pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f13">font-size: 13pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+            </tagsDecl>
+          </encodingDesc>
+        </teiHeader>
+        <text>
+          <page xmlns="" number="1" position="absolute" top="0" left="0" height="935" width="722">
+            <text rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
+            <text rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur </text>
+            <text rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
+          </page>
+          <page xmlns="" number="2" position="absolute" top="0" left="0" height="935" width="722"/>
+          <page xmlns="" number="3" position="absolute" top="0" left="0" height="935" width="722">
+            <image top="797" left="68" width="150" height="37"
+              src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+            <text rendition="#f2" size="18" top="156" left="128" width="113" height="20">Merryl Rebello </text>
+            <text rendition="#f3" size="33" top="214" left="128" width="228" height="35"> <b>Romulus in der </b> </text>
+            <text rendition="#f3" size="33" top="260" left="128" width="311" height="35"> <b>lateinischen Literatur </b> </text>
+            <text rendition="#f3" size="33" top="305" left="128" width="286" height="35"> <b>von Ennius bis Ovid </b> </text>
+          </page>
+          <page xmlns="" number="4" position="absolute" top="0" left="0" height="935" width="722">
+            <text rendition="#f4" size="11" top="489" left="77" width="187" height="13">wbg Academic ist ein Imprint der wbg </text>
+            <text rendition="#f4" size="11" top="508" left="77" width="310" height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
+            <text rendition="#f4" size="11" top="527" left="77" width="409" height="13">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </text>
+            <text rendition="#f4" size="11" top="545" left="77" width="291" height="13">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </text>
+            <text rendition="#f4" size="11" top="601" left="77" width="293" height="13">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </text>
+            <text rendition="#f5" size="11" top="677" left="77" width="417" height="12">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</text>
+            <text rendition="#f5" size="11" top="695" left="77" width="351" height="12">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</text>
+            <text rendition="#f5" size="11" top="714" left="77" width="410" height="12">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </text>
+            <text rendition="#f5" size="11" top="733" left="77" width="31" height="12">Lizenz</text>
+            <text rendition="#f6" size="11" top="733" left="108" width="3" height="13"> </text>
+            <text rendition="#f5" size="11" top="733" left="111" width="353" height="12">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </text>
+            <text rendition="#f5" size="11" top="751" left="77" width="70" height="12">Verwertung in</text>
+            <text rendition="#f6" size="11" top="751" left="147" width="3" height="13"> </text>
+            <text rendition="#f5" size="11" top="751" left="150" width="319" height="12">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </text>
+            <text rendition="#f5" size="11" top="770" left="77" width="115" height="12">vorherigen schriftlichen</text>
+            <text rendition="#f6" size="11" top="770" left="192" width="3" height="13"> </text>
+            <text rendition="#f5" size="11" top="770" left="195" width="127" height="12">Einwilligung des Verlages.</text>
+          </page>
+          <page xmlns="" number="5" position="absolute" top="0" left="0" height="935" width="722">
+            <text rendition="#f7" size="13" top="856" left="354" width="10" height="15">5 </text>
+            <text rendition="#f8" size="33" top="135" left="300" width="114" height="36">Vorwort</text>
+            <text rendition="#f9" size="15" top="208" left="68" width="582" height="16">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </text>
+            <text rendition="#f9" size="15" top="228" left="68" width="578" height="16">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</text>
+            <text rendition="#f9" size="15" top="248" left="68" width="581" height="16">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </text>
+            <text rendition="#f9" size="15" top="268" left="68" width="106" height="16">verteidigt wurde. </text>
+            <text rendition="#f9" size="15" top="288" left="81" width="566" height="16">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</text>
+            <text rendition="#f9" size="15" top="309" left="68" width="386" height="16">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </text>
+            <text rendition="#f9" size="15" top="329" left="81" width="570" height="16">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </text>
+            <text rendition="#f9" size="15" top="349" left="68" width="583" height="16">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </text>
+            <text rendition="#f9" size="15" top="369" left="68" width="578" height="16">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</text>
+            <text rendition="#f9" size="15" top="390" left="68" width="358" height="16">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </text>
+            <text rendition="#f9" size="15" top="410" left="81" width="565" height="16">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</text>
+            <text rendition="#f9" size="15" top="430" left="68" width="581" height="16">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </text>
+            <text rendition="#f9" size="15" top="450" left="68" width="225" height="16">Auch ihm gilt mein herzlicher Dank. </text>
+            <text rendition="#f9" size="15" top="471" left="81" width="570" height="16">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </text>
+            <text rendition="#f9" size="15" top="491" left="68" width="582" height="16">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </text>
+            <text rendition="#f9" size="15" top="511" left="68" width="582" height="16">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </text>
+            <text rendition="#f9" size="15" top="531" left="68" width="135" height="16">Gemeinschaft zu sein. </text>
+            <text rendition="#f9" size="15" top="551" left="81" width="569" height="16">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </text>
+            <text rendition="#f9" size="15" top="572" left="68" width="153" height="16">Udolph zurückzuführen. </text>
+            <text rendition="#f9" size="15" top="592" left="81" width="571" height="16">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </text>
+            <text rendition="#f9" size="15" top="612" left="68" width="115" height="16">Schwester Melissa. </text>
+            <text rendition="#f9" size="15" top="653" left="68" width="168" height="16">Hamburg, im Februar 2019 </text>
+            <text rendition="#f9" size="15" top="693" left="68" width="90" height="16">Merryl Rebello</text>
+          </page>
+          <page xmlns="" number="12" position="absolute" top="0" left="0" height="935" width="722"/>
+          <page xmlns="" number="13" position="absolute" top="0" left="0" height="935" width="722">
+            <text rendition="#f7" size="13" top="856" left="351" width="16" height="15">13 </text>
+            <text rendition="#f8" size="33" top="126" left="269" width="176" height="36">1. Einleitung</text>
+            <text rendition="#f9" size="15" top="199" left="68" width="583" height="16">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text>
+            <text rendition="#f9" size="15" top="219" left="68" width="581" height="16">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </text>
+            <text rendition="#f9" size="15" top="239" left="68" width="581" height="16">gefunden und gesäugt. Hirten nehmen die Kinder bei sich auf und ziehen sie groß. In ihrer Jugend </text>
+            <text rendition="#f9" size="15" top="260" left="68" width="578" height="16">beginnen sich die beiden Brüder zu Konkurrenten zu entwickeln. Nach Einholung der Vogelzei-</text>
+            <text rendition="#f9" size="15" top="280" left="68" width="578" height="16">chen beginnt Romulus, eine Mauer für eine neue Stadt zu bauen. Remus überspringt sie, um sei-</text>
+            <text rendition="#f9" size="15" top="300" left="68" width="582" height="16">nen Bruder zu verhöhnen, und wird zur Strafe erschlagen. Romulus benennt die neu gegründete </text>
+            <text rendition="#f9" size="15" top="320" left="68" width="578" height="16">Stadt nach sich selbst: Rom. Im weiteren Verlauf der Geschichte wird sie zur Weltherrschaft auf-</text>
+            <text rendition="#f9" size="15" top="340" left="68" width="49" height="16">steigen. </text>
+            <text rendition="#f9" size="15" top="361" left="81" width="569" height="16">Obwohl uns diese einfache und alte Geschichte heute nicht mehr als historisch gilt, scheint sie </text>
+            <text rendition="#f9" size="15" top="381" left="68" width="582" height="16">doch immerhin so viel universal gültige Wahrheit zu enthalten, dass sie zumindest in einem Teil </text>
+            <text rendition="#f9" size="15" top="401" left="68" width="584" height="16">unserer Gesellschaft immer noch von Generation zu Generation weitergegeben wird, z. B. in </text>
+            <text rendition="#f9" size="15" top="421" left="68" width="87" height="16">Schulbüchern.</text>
+            <text rendition="#f12" size="9" top="421" left="155" width="4" height="10">1</text>
+            <text rendition="#f9" size="15" top="421" left="159" width="491" height="16"> Schaut man sich aber um, so stellt man fest, dass der Stoff dieser Sage eigentlich </text>
+            <text rendition="#f9" size="15" top="442" left="68" width="582" height="16">nichts Urrömisches ist, sondern Teile dieser Geschichte so oder so ähnlich auch in der Bibel oder </text>
+            <text rendition="#f9" size="15" top="462" left="68" width="145" height="16">in den indischen Veden</text>
+            <text rendition="#f12" size="9" top="462" left="213" width="4" height="10">2</text>
+            <text rendition="#f9" size="15" top="462" left="217" width="433" height="16"> erzählt werden. Das macht sie zu einem Mythos und ihre Elemente zu </text>
+            <text rendition="#f9" size="15" top="482" left="68" width="61" height="16">Motiven. </text>
+            <text rendition="#f9" size="15" top="502" left="81" width="570" height="16">Diese Motive können in immer neuer Variation kombiniert und auch ergänzt werden, sodass </text>
+            <text rendition="#f9" size="15" top="523" left="68" width="583" height="16">die Botschaft der Geschichte sich ändert. Dabei sind Gründungsmythen für den Prozess der </text>
+            <text rendition="#f12" size="9" top="601" left="68" width="4" height="10">1</text>
+            <text rendition="#f7" size="13" top="602" left="72" width="574" height="15"> In den Schulbüchern wird die Gründung Roms meist gleich in einer der ersten Latein-Lektionen the-</text>
+            <text rendition="#f7" size="13" top="621" left="89" width="557" height="15">matisiert. Schützsack (2011) reißt in einer vergleichenden Untersuchung an, wie die Romulus-Thema-</text>
+            <text rendition="#f7" size="13" top="639" left="89" width="561" height="15">tik, vor allem der Aspekt des Brudermords, in fünf aktuellen Lateinlehrwerken umgesetzt wird. Doch </text>
+            <text rendition="#f7" size="13" top="657" left="89" width="561" height="15">auch jenseits der Lehrbuchphase erfreut sich das Thema Romulus ungebrochener Beliebtheit: Simons </text>
+            <text rendition="#f7" size="13" top="676" left="89" width="560" height="15">(2016) hat eine zehn Unterrichtseinheiten umfassende Reihe zum Vergleich der Apotheose des Romulus </text>
+            <text rendition="#f7" size="13" top="694" left="89" width="559" height="15">bei Livius und Ovid für die Oberstufe konzipiert; Sauer (2016) liefert umfangreiches Unterrichtsmaterial </text>
+            <text rendition="#f7" size="13" top="712" left="89" width="345" height="15">zum Bild von Romulus in Ciceros staatsphilosophischer Schrift </text>
+            <text rendition="#f13" size="13" top="712" left="434" width="71" height="14">De re publica</text>
+            <text rendition="#f7" size="13" top="712" left="504" width="3" height="15">.</text>
+            <text rendition="#f12" size="9" top="730" left="68" width="4" height="10">2</text>
+            <text rendition="#f7" size="13" top="732" left="72" width="2" height="15"> </text>
+            <text rendition="#f7" size="13" top="732" left="89" width="559" height="15">Zumindest das Zwillings- bzw. Brüdermotiv deutet auf einen gemeinsamen indoeuropäischen Ursprung </text>
+            <text rendition="#f7" size="13" top="751" left="89" width="561" height="15">der Sage hin. Manifestationen dieses Motivs sind die beiden Ashvins namens Dasra und Dasatya im </text>
+            <text rendition="#f7" size="13" top="769" left="89" width="560" height="15">Rigveda, die griechischen Dioskuren Kastor und Polydeukes oder die Brüder Kain und Abel in der Bibel, </text>
+            <text rendition="#f7" size="13" top="787" left="89" width="293" height="15">s. Briquel (1976) 145f mit Hinweis auf Harris (1906) </text>
+            <text rendition="#f13" size="13" top="788" left="382" width="172" height="14">The Cult of the Heavenly Twins</text>
+            <text rendition="#f7" size="13" top="787" left="554" width="92" height="15">. Zum Motiv der</text>
+            <text rendition="#f7" size="13" top="806" left="89" width="253" height="15">Aussetzung des Königskindes s. Binder (1964).</text>
+          </page>
+          <page xmlns="" number="14" position="absolute" top="0" left="0" height="935" width="722">
+            <text rendition="#f7" size="13" top="856" left="359" width="16" height="15">14 </text>
+            <text rendition="#f9" size="15" top="75" left="77" width="324" height="16">ständigen Um- und Neudeutung besonders anfällig,</text>
+            <text rendition="#f12" size="9" top="74" left="401" width="4" height="10">3</text>
+            <text rendition="#f9" size="15" top="75" left="406" width="254" height="16"> weil sie für bestimmte soziale Gruppen </text>
+            <text rendition="#f9" size="15" top="95" left="77" width="574" height="16">Identität konstituieren und häufig an aktuelle gesellschaftliche Entwicklungen angepasst werden.</text>
+            <text rendition="#f12" size="9" top="95" left="651" width="4" height="10">4</text>
+            <text rendition="#f9" size="15" top="95" left="655" width="3" height="16"> </text>
+            <text rendition="#f9" size="15" top="115" left="89" width="566" height="16">Auch die gesamte Antike hindurch fluktuiert der Romulus-Mythos, wenn er von unterschied-</text>
+            <text rendition="#f9" size="15" top="136" left="77" width="582" height="16">lichen Parteien in den verschiedensten Absichten erzählt wird: Die frühesten, die ihn benutzen, </text>
+            <text rendition="#f9" size="15" top="156" left="77" width="582" height="16">sind griechische Geschichtsschreiber ab etwa dem späten 4. Jh. v. Chr., die eine Erklärung dafür </text>
+            <text rendition="#f9" size="15" top="176" left="77" width="249" height="16">liefern wollen, weshalb Rom Rom heißt.</text>
+            <text rendition="#f12" size="9" top="176" left="326" width="4" height="10">5</text>
+            <text rendition="#f9" size="15" top="176" left="330" width="330" height="16"> Einer der letzten, der die Hauptfigur der römischen </text>
+            <text rendition="#f9" size="15" top="196" left="77" width="585" height="16">Gründungssage zumindest noch in seinem Namen trägt, ist der letzte weströmische Kaiser </text>
+            <text rendition="#f9" size="15" top="216" left="77" width="578" height="16">Romulus Augustulus (geb. um 460 n. Chr.). Dazwischen liegt ein ganzes Spektrum an Möglich-</text>
+            <text rendition="#f9" size="15" top="237" left="77" width="579" height="16">keiten des Umgangs mit der Romulus-Figur, das von der völligen Identifikation mit dem „Nati-</text>
+            <text rendition="#f9" size="15" top="257" left="77" width="586" height="16">onalhelden“ bis hin zur Distanzierung vom Brudermörder und Tyrannen alle denkbaren </text>
+            <text rendition="#f9" size="15" top="277" left="77" width="125" height="16">Nuancen beinhaltet. </text>
+            <text rendition="#f9" size="15" top="297" left="89" width="569" height="16">Die vorliegende Arbeit beschäftigt sich inhaltlich, zeitlich und auch sprachlich gesehen nur mit </text>
+            <text rendition="#f9" size="15" top="318" left="77" width="578" height="16">einer Teilmenge des soeben skizzierten Themenkomplexes: In ihr soll es darum gehen, wie römi-</text>
+            <text rendition="#f9" size="15" top="338" left="77" width="268" height="16">sche, genauer gesagt lateinisch schreibende</text>
+            <text rendition="#f12" size="9" top="338" left="345" width="4" height="10">6</text>
+            <text rendition="#f9" size="15" top="338" left="349" width="308" height="16"> Autoren, angefangen bei Ennius und endend bei </text>
+            <text rendition="#f9" size="15" top="358" left="77" width="581" height="16">Ovid, die Figur des Romulus in ihren Werken darstellen. Die Arbeit ist philologisch ausgerichtet, </text>
+            <text rendition="#f9" size="15" top="378" left="77" width="578" height="16">d. h. es werden hauptsächlich lateinische Primärtexte interpretiert. Historische und archäologi-</text>
+            <text rendition="#f9" size="15" top="399" left="77" width="578" height="16">sche Probleme werden demgegenüber nur in dem Maße angesprochen, wie es für die Untersu-</text>
+            <text rendition="#f9" size="15" top="419" left="77" width="357" height="16">chung literarischer Romulus-Darstellungen erforderlich ist.</text>
+            <text rendition="#f2" size="18" top="476" left="77" width="357" height="20">Überblick über Aufbau und Methodik der Arbeit </text>
+            <text rendition="#f9" size="15" top="520" left="77" width="578" height="16">Die Arbeit ist diachron und innerhalb des gewählten Zeitabschnittes auf größtmögliche Vollstän-</text>
+            <text rendition="#f9" size="15" top="540" left="77" width="578" height="16">digkeit hin angelegt, weil das Hauptziel meiner Untersuchung, eine differenzierte (Neu-)Beurtei-</text>
+            <text rendition="#f9" size="15" top="560" left="77" width="581" height="16">lung der Romulus-Darstellung, dadurch erreicht werden soll, dass möglichst viele aussagekräftige </text>
+            <text rendition="#f12" size="9" top="617" left="77" width="4" height="10">3</text>
+            <text rendition="#f7" size="13" top="619" left="81" width="137" height="15"> Deremetz (2013) 229. </text>
+            <text rendition="#f12" size="9" top="637" left="77" width="4" height="10">4</text>
+            <text rendition="#f7" size="13" top="639" left="81" width="577" height="15"> Raaflaub (2006) 24: „Das Bedürfnis nach zeitgeschichtlicher Aktualität war deshalb einer der wichtigsten </text>
+            <text rendition="#f7" size="13" top="658" left="98" width="479" height="15">Verformungsfaktoren in der antiken (Re-)konstruktion der römischen Frühgeschichte.“ </text>
+            <text rendition="#f12" size="9" top="676" left="77" width="4" height="10">5</text>
+            <text rendition="#f7" size="13" top="677" left="81" width="577" height="15"> Classen (1993) nennt die sizilianischen Geschichtsschreiber Alkimos und Kallias (spätes 4. Jh. v. Chr.), </text>
+            <text rendition="#f7" size="13" top="696" left="98" width="560" height="15">die über Rhomylos und Rhomos schreiben. Eine Rhome als Namensgeberin Roms kennen zwar bereits </text>
+            <text rendition="#f7" size="13" top="714" left="98" width="557" height="15">ältere Quellen (Hellanikos von Lesbos, gestorben um 400 v. Chr.), jedoch findet sich diese in der römi-</text>
+            <text rendition="#f7" size="13" top="732" left="98" width="560" height="15">schen Tradition nicht wieder. Später befassen sich Hieronymos von Kardia, Timaios von Tauromenion </text>
+            <text rendition="#f7" size="13" top="751" left="98" width="503" height="15">und Diokles von Peparethos mit der mythischen Stadtgründung Roms, s. Meister (1990) 142.</text>
+            <text rendition="#f12" size="9" top="769" left="77" width="4" height="10">6</text>
+            <text rendition="#f7" size="13" top="770" left="81" width="554" height="15"> Griechische Texte wie z. B. Dionysius von Halikarnass’ Schilderung der römischen Frühzeit in den </text>
+            <text rendition="#f13" size="13" top="771" left="634" width="21" height="14">An-</text>
+            <text rendition="#f13" size="13" top="790" left="98" width="105" height="14">tiquitates Romanae</text>
+            <text rendition="#f7" size="13" top="789" left="203" width="240" height="15"> und Plutarchs Romulus-Biographie in den </text>
+            <text rendition="#f13" size="13" top="790" left="443" width="85" height="14">Vitae parallelae</text>
+            <text rendition="#f7" size="13" top="789" left="528" width="131" height="15"> sind nicht Gegenstand </text>
+            <text rendition="#f7" size="13" top="808" left="98" width="79" height="15">dieser Arbeit. </text>
+          </page>
+          <page xmlns="" number="15" position="absolute" top="0" left="0" height="935" width="722">
+            <text rendition="#f7" size="13" top="856" left="351" width="16" height="15">15 </text>
+            <text rendition="#f9" size="15" top="75" left="68" width="582" height="16">Textzeugnisse zu Wort kommen und miteinander in einen Zusammenhang gebracht werden. In </text>
+            <text rendition="#f9" size="15" top="95" left="68" width="578" height="16">dieser Differenzierung sehe ich auch den Mehrwert dieser Arbeit angesichts der Fülle von Mo-</text>
+            <text rendition="#f9" size="15" top="115" left="68" width="581" height="16">nographien und Aufsätzen, die sich entweder schwerpunktmäßig oder am Rande mit Romulus </text>
+            <text rendition="#f9" size="15" top="136" left="68" width="578" height="16">beschäftigen, dabei aber meist nur eine kleine Auswahl an Texten ansprechen (s. den Forschungs-</text>
+            <text rendition="#f9" size="15" top="156" left="68" width="108" height="16">überblick unten). </text>
+            <text rendition="#f9" size="15" top="176" left="81" width="571" height="16">Die Arbeit ist in fünf Kapitel unterteilt: Zunächst werden die Romulus-Darstellungen der </text>
+            <text rendition="#f9" size="15" top="196" left="68" width="578" height="16">frühen lateinischen Dichter, d. h. des Naevius, Ennius und Lucilius, skizziert und (wo der Über-</text>
+            <text rendition="#f9" size="15" top="216" left="68" width="578" height="16">lieferungszustand der Texte dies noch zulässt) untersucht. Im nächsten Kapitel stehen Texte un-</text>
+            <text rendition="#f9" size="15" top="237" left="68" width="581" height="16">terschiedlicher Gattungen aus allen Schaffensperioden Ciceros im Fokus. An seinem Oeuvre lässt </text>
+            <text rendition="#f9" size="15" top="257" left="68" width="581" height="16">sich zum ersten Mal dokumentieren, wie sich das Romulus-Bild eines Autors über einen längeren </text>
+            <text rendition="#f9" size="15" top="277" left="68" width="581" height="16">Zeitraum entwickelt. Es folgt ein Kapitel zur Verwendung des Namens „Romulus“ in Schimpfwörtern </text>
+            <text rendition="#f9" size="15" top="297" left="68" width="579" height="16">in der Invektive, das kontextuell eng mit dem zuvor dargestellten Romulus-Bild bei Cicero in Verbin-</text>
+            <text rendition="#f9" size="15" top="318" left="68" width="488" height="16">dung steht. Als nächstes steht mit dem Abschnitt zur Gründungssage im ersten Buch </text>
+            <text rendition="#f11" size="15" top="318" left="556" width="91" height="16">Ab urbe condita</text>
+            <text rendition="#f9" size="15" top="318" left="646" width="3" height="16"> </text>
+            <text rendition="#f9" size="15" top="338" left="68" width="582" height="16">bei Livius erneut eine längere Textsequenz im Zentrum der Untersuchung. Im letzten Kapitel nehme </text>
+            <text rendition="#f9" size="15" top="358" left="68" width="582" height="16">ich das umfangreiche Corpus der Augusteischen Dichter Vergil, Horaz und Ovid als Grundlage, um </text>
+            <text rendition="#f9" size="15" top="379" left="68" width="488" height="16">zu zeigen, welche Schwerpunkte sie jeweils bei ihrer Darstellung des Romulus setzen. </text>
+            <text rendition="#f9" size="15" top="399" left="81" width="571" height="16">Eine solche Gliederung nimmt neben einem unterschiedlichen Umfang der einzelnen Teile </text>
+            <text rendition="#f9" size="15" top="419" left="68" width="581" height="16">auch in Kauf, dass einige der Kapitel sich mit Texten nur eines Autors auseinandersetzen (dies ist </text>
+            <text rendition="#f9" size="15" top="439" left="68" width="582" height="16">bei Cicero und Livius der Fall), wohingegen in anderen Kapiteln aus formalen und inhaltlichen </text>
+            <text rendition="#f9" size="15" top="459" left="68" width="582" height="16">Gründen mehrere Autoren zusammengruppiert werden (wie es z. B. im Schimpfwort-Kapitel oder </text>
+            <text rendition="#f9" size="15" top="480" left="68" width="578" height="16">bei den Dichtern der Fall ist). Auch muss man hinnehmen, dass Fragen mikrostruktureller Chro-</text>
+            <text rendition="#f9" size="15" top="500" left="68" width="581" height="16">nologie, also z. B. das Verhältnis einzelner Gedichte von Horaz und Vergil zueinander, bei einem </text>
+            <text rendition="#f9" size="15" top="520" left="68" width="583" height="16">solchen Aufbau nicht im Detail berücksichtigt werden können. Diese Gliederung in fünf große </text>
+            <text rendition="#f9" size="15" top="540" left="68" width="582" height="16">Blöcke bietet aber den Vorteil, dass Tendenzen klarer hervortreten und sich die einzelnen Teile </text>
+            <text rendition="#f9" size="15" top="561" left="68" width="578" height="16">gut miteinander vergleichen lassen. Dies soll dem Leser auch durch regelmäßige Zusammenfas-</text>
+            <text rendition="#f9" size="15" top="581" left="68" width="503" height="16">sungen der (Teil-)Ergebnisse am Ende der jeweiligen Einheiten ermöglicht werden. </text>
+            <text rendition="#f9" size="15" top="601" left="81" width="571" height="16">Angesichts dieser Vielzahl von römischen Schriftstellern, die so deutlich unterschiedliche </text>
+            <text rendition="#f9" size="15" top="621" left="68" width="583" height="16">Werke verfasst haben, erschien es nicht sinnvoll, eine einzige Methode der Interpretation zu </text>
+            <text rendition="#f9" size="15" top="642" left="68" width="578" height="16">entwickeln und diese auf alle Texte anzuwenden. Vielmehr habe ich mir die Freiheit vorbehal-</text>
+            <text rendition="#f9" size="15" top="662" left="68" width="578" height="16">ten, die Texte mit jeweils unterschiedlicher Herangehensweise zu untersuchen: Bei den frag-</text>
+            <text rendition="#f9" size="15" top="682" left="68" width="587" height="16">mentarischen oder (auch ohne Textverstümmelung) kürzeren Zeugnissen zu Romulus </text>
+            <text rendition="#f9" size="15" top="702" left="68" width="583" height="16">versuche ich, anhand der Einzeldarstellungen einen kohärenten Text, d. h. eine Sequenz von </text>
+            <text rendition="#f9" size="15" top="722" left="68" width="583" height="16">Aussagen zu Romulus zu gewinnen, indem ich z. B. nach Ähnlichkeiten und Abweichungen </text>
+            <text rendition="#f9" size="15" top="743" left="68" width="583" height="16">innerhalb dieser Gruppe von Stellen suche, aber auch regelmäßig den Vergleich zu anderen </text>
+            <text rendition="#f9" size="15" top="763" left="68" width="337" height="16">ungefähr zur selben Zeit schreibenden Autoren ziehe. </text>
+            <text rendition="#f9" size="15" top="783" left="81" width="569" height="16">Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </text>
+            <text rendition="#f9" size="15" top="803" left="68" width="583" height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
+          </page>
+        </text>
+      </TEI>
+    </x:expect>
+  </x:scenario>
+</x:description>

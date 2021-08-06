@@ -19,7 +19,7 @@
       </xd:p>
     </xd:desc>
   </xd:doc>
-  <xsl:template match="/">
+  <xsl:template match="*:pdf2xml">
     <TEI>
       <teiHeader>
         <encodingDesc>
@@ -29,7 +29,7 @@
         </encodingDesc>
       </teiHeader>
       <text>
-        <xsl:apply-templates select="*:pdf2xml/*:page" />
+        <xsl:apply-templates select="*:page" />
       </text>
     </TEI>
   </xsl:template>
@@ -69,17 +69,13 @@
   <xsl:template match="*:fontspec">
     <rendition scheme="css">
       <xsl:attribute name="xml:id" select="'f' || @id" />
-      <xsl:text>
-               font-size: </xsl:text>
+      <xsl:text>font-size: </xsl:text>
       <xsl:value-of select="@size" />
-      <xsl:text>pt;
-               font-family: </xsl:text>
+      <xsl:text>pt; font-family: </xsl:text>
       <xsl:value-of _select="@family" />
-      <xsl:text>;
-               color: </xsl:text>
+      <xsl:text>; color: </xsl:text>
       <xsl:value-of select="@color" />
-      <xsl:text>;
-            </xsl:text>
+      <xsl:text>;</xsl:text>
     </rendition>
   </xsl:template>
   
