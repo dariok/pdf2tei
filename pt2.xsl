@@ -51,7 +51,9 @@
         <head>
           <xsl:attribute name="level"
             select="count($sizes/*[. &gt; $mysize])" />
-          <xsl:apply-templates select="@* | node()" />
+          <xsl:copy>
+            <xsl:apply-templates select="@* | node()" />
+          </xsl:copy>
         </head>
       </xsl:when>
       <xsl:when test="$mysize &lt; $mainsize">
@@ -78,6 +80,18 @@
       <xsl:sequence select="@height | @width" />
     </pb>
     <xsl:apply-templates />
+  </xsl:template>
+  
+  <xsl:template match="text()" mode="head">
+    <text>
+      <xsl:sequence select="parent::*/@*" />
+      <xsl:sequence select="." />
+    </text>
+  </xsl:template>
+  <xsl:template match="*" mode="head">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
   </xsl:template>
   
   <xd:doc>
