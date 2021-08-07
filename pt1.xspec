@@ -79,6 +79,7 @@
         <page number="13" position="absolute" top="0" left="0" height="935" width="722">
           <fontspec id="12" size="9" family="AWSBWD+MinionPro" color="#000000"/>
           <fontspec id="13" size="13" family="HUOXVT+MinionPro-It" color="#000000"/>
+          <fontspec id="14" size="15" family="ZAGSWU+MinionPro" color="#000000"/>
           <text top="856" left="351" width="16" height="15" font="7">13 </text>
           <text top="126" left="269" width="176" height="36" font="8">1. Einleitung</text>
           <text top="199" left="68" width="583" height="16" font="9">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text>
@@ -216,6 +217,249 @@
           <text top="783" left="81" width="569" height="16" font="9">Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </text>
           <text top="803" left="68" width="583" height="16" font="9">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
         </page>
+        <page number="22" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="17" size="24" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="18" size="19" family="HUOXVT+MinionPro-It" color="#000000"/>
+          <fontspec id="19" size="7" family="HUOXVT+MinionPro-It" color="#000000"/>
+          <fontspec id="21" size="8" family="AWSBWD+MinionPro" color="#000000"/>
+          <text top="856" left="359" width="16" height="15" font="7">22 </text>
+          <text top="123" left="304" width="128" height="26" font="17">2.1.  Naevius </text>
+          <text top="174" left="77" width="581" height="16" font="9">Naevius wurde um 285 v. Chr. geboren und diente im ersten Punischen Krieg als Soldat. Er verfasste </text>
+          <text top="194" left="77" width="582" height="16" font="9">Tragödien nach griechischen Vorlagen bzw. übertrug die Stoffe ins Lateinische, dichtete römischen </text>
+          <text top="215" left="77" width="455" height="16" font="9">Praetexten und auch Komödien. Sein Spät- und Hauptwerk jedoch war das </text>
+          <text top="215" left="531" width="98" height="16" font="11">Bellum Punicum</text>
+          <text top="215" left="629" width="30" height="16" font="9">, ein </text>
+          <text top="235" left="77" width="583" height="16" font="9">Epos in Saturniern, das den ersten Punischen Krieg besingt. Die Einteilung dieses Epos in sieben </text>
+          <text top="255" left="77" width="578" height="16" font="9">Bücher wurde bereits in der Antike vorgenommen, geht aber nicht auf Naevius selbst zurück, son-</text>
+          <text top="275" left="77" width="408" height="16" font="9">dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</text>
+          <text top="275" left="485" width="9" height="10" font="12">21</text>
+          <text top="275" left="493" width="7" height="16" font="9">  </text>
+          <text top="328" left="77" width="229" height="21" font="1">2.1.1.  Die „Archäologie“ des </text>
+          <text top="328" left="305" width="129" height="20" font="18">Bellum Punicum</text>
+          <text top="328" left="434" width="4" height="21" font="1"> </text>
+          <text top="374" left="77" width="579" height="16" font="9">Dem eigentlichen Kerngeschehen des Punischen Krieges vorgeschaltet war eine drei Bücher umfas-</text>
+          <text top="394" left="77" width="583" height="16" font="9">sende, in der Forschung als „Archäologie“ bezeichnete Behandlung der Frühgeschichte Roms „vom </text>
+          <text top="414" left="77" width="541" height="16" font="9">Auszug des Aeneas aus Troja bis zur Gründung und Benennung Roms durch Romulus [...]“.</text>
+          <text top="414" left="617" width="9" height="10" font="12">22</text>
+          <text top="414" left="626" width="32" height="16" font="9"> Dies </text>
+          <text top="434" left="77" width="579" height="16" font="9">kann sicher rekonstruiert werden, wenngleich der Name „Romulus“ in den entsprechenden Fragmen-</text>
+          <text top="455" left="77" width="141" height="16" font="9">ten nicht genannt wird.  </text>
+          <text top="475" left="89" width="569" height="16" font="9">In Frg. 21-22 W. ist zwar nicht von Romulus, aber von Amulius die Rede, der sich an dieser Stelle </text>
+          <text top="495" left="77" width="280" height="16" font="9">mit einer Geste des Danks gen Himmel wendet.</text>
+          <text top="495" left="356" width="9" height="10" font="12">23</text>
+          <text top="495" left="365" width="293" height="16" font="9"> Indirekte Zeugnisse liefern der Universalgelehrte </text>
+          <text top="515" left="77" width="96" height="16" font="9">Varro sowie der </text>
+          <text top="516" left="172" width="38" height="16" font="11">Aeneis</text>
+          <text top="515" left="210" width="447" height="16" font="9">-Kommentator Servius. Letzterer schreibt, dass Romulus sowohl bei Naevius </text>
+          <text top="536" left="77" width="259" height="16" font="9">als auch bei Ennius ein Enkel des Aeneas ist.</text>
+          <text top="535" left="336" width="9" height="10" font="12">24</text>
+          <text top="536" left="345" width="7" height="16" font="9">  </text>
+          <text top="556" left="89" width="372" height="16" font="9">Bei Varro lesen wir, dass Naevius den Namen des Hügels Aventin </text>
+          <text top="556" left="461" width="54" height="16" font="11">ab avibus</text>
+          <text top="556" left="514" width="143" height="16" font="9"> herleitet, den des Palatin </text>
+          <text top="577" left="77" width="223" height="16" font="9">hingegen mit dem Blöken von Vieh (</text>
+          <text top="577" left="300" width="36" height="16" font="11">balare</text>
+          <text top="577" left="335" width="267" height="16" font="9">) in Zusammenhang bringt und ihn deshalb </text>
+          <text top="577" left="602" width="54" height="16" font="11">Balatium</text>
+          <text top="577" left="655" width="3" height="16" font="9"> </text>
+          <text top="597" left="77" width="38" height="16" font="9">nennt.</text>
+          <text top="596" left="114" width="9" height="10" font="12">25</text>
+          <text top="597" left="122" width="533" height="16" font="9"> Die zweite Etymologie könnte auf pastoralen Kontext bei Naevius hindeuten und würde da-</text>
+          <text top="617" left="77" width="581" height="16" font="9">mit zur Geschichte von der Aussetzung der Zwillinge passen. Die Assoziation des Aventin mit Vögeln </text>
+          <text top="637" left="77" width="582" height="16" font="9">wiederum könnte bedeuten, dass es bereits bei Naevius eine Augurialszene mit den Zwillingsbrüdern </text>
+          <text top="657" left="77" width="24" height="16" font="9">gab.</text>
+          <text top="657" left="100" width="9" height="10" font="12">26</text>
+          <text top="657" left="109" width="549" height="16" font="9"> Keine der Informationen – weder die bei Varro noch die bei Servius – muss allerdings zwingend </text>
+          <text top="702" left="77" width="9" height="10" font="12">21</text>
+          <text top="704" left="85" width="52" height="15" font="7"> Suet. </text>
+          <text top="704" left="128" width="38" height="14" font="13">gramm</text>
+          <text top="704" left="166" width="28" height="15" font="7">. 2.4. </text>
+          <text top="722" left="77" width="9" height="10" font="12">22</text>
+          <text top="724" left="85" width="135" height="15" font="7">  Suerbaum (2002) 112. </text>
+          <text top="743" left="77" width="9" height="10" font="12">23</text>
+          <text top="744" left="85" width="52" height="15" font="7"> Non. </text>
+          <text top="744" left="127" width="49" height="15" font="7">116.31: </text>
+          <text top="745" left="166" width="381" height="14" font="13">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
+          <text top="749" left="547" width="2" height="8" font="19"> </text>
+          <text top="763" left="77" width="9" height="10" font="12">24</text>
+          <text top="764" left="85" width="52" height="15" font="7"> Serv. </text>
+          <text top="764" left="127" width="26" height="15" font="7">ad </text>
+          <text top="765" left="144" width="22" height="14" font="13">Aen</text>
+          <text top="764" left="165" width="41" height="15" font="7">. 1.273: </text>
+          <text top="765" left="206" width="423" height="14" font="13">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
+          <text top="764" left="630" width="3" height="15" font="7"> </text>
+          <text top="783" left="77" width="9" height="10" font="12">25</text>
+          <text top="785" left="85" width="58" height="15" font="7"> Varro </text>
+          <text top="785" left="133" width="23" height="14" font="13">ling.</text>
+          <text top="785" left="156" width="85" height="15" font="7"> 5.43 bzw. 5.53. </text>
+          <text top="803" left="77" width="9" height="10" font="12">26</text>
+          <text top="805" left="85" width="125" height="15" font="7">  Skutsch (1985) 225.  </text>
+        </page>
+        <page number="140" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="27" size="10" family="AWSBWD+MinionPro" color="#0000ff"/>
+          <text top="856" left="356" width="23" height="15" font="7">140 </text>
+          <text top="75" left="77" width="581" height="16" font="9">so könnte der Vorwurf lauten. Der echte Romulus gehört in eine Weltstadt, Cicero aber ist nur </text>
+          <text top="95" left="77" width="582" height="16" font="9">eine schlechtere Kopie, also ein „Provinz-Romulus“ oder auch ein „Romulus für Arme“. Auch </text>
+          <text top="115" left="77" width="578" height="16" font="9">hier haben wir es also mit dem Vorwurf zu tun, dass der Nachahmer das Original nicht errei-</text>
+          <text top="136" left="77" width="581" height="16" font="9">chen kann. Und wieder lässt sich festhalten: Nicht Romulus ist negativ dargestellt, sondern das, </text>
+          <text top="156" left="77" width="265" height="16" font="9">was sein Nacheiferer aus ihm gemacht hat. </text>
+          <text top="212" left="77" width="274" height="21" font="1">4.4.3.  „Du Schwuchtel-Romulus“ (</text>
+          <text top="212" left="350" width="122" height="20" font="18">cinaede Romule</text>
+          <text top="212" left="472" width="11" height="21" font="1">) </text>
+          <text top="257" left="77" width="582" height="16" font="9">Wenn Sulla und Cicero aufgrund ihrer Romulus-Nachahmung ins Lächerliche gezogen werden, </text>
+          <text top="277" left="77" width="582" height="16" font="9">so wäre es verwunderlich, wenn Caesar von dieser Bewegung verschont bliebe. Zwar ist über ihn </text>
+          <text top="298" left="77" width="581" height="16" font="9">nicht bekannt, dass er sich in seinen Werken zum Romulus stilisiert hätte, aber gegen Ende seines </text>
+          <text top="318" left="77" width="476" height="16" font="9">Lebens häufen sich die Parallelisierungen zu Romulus in seinen Handlungen.</text>
+          <text top="318" left="552" width="13" height="10" font="12">371</text>
+          <text top="318" left="565" width="95" height="16" font="9"> Er gehört also </text>
+          <text top="338" left="77" width="256" height="16" font="9">durchaus in den Kreis potenzieller Opfer.  </text>
+          <text top="359" left="89" width="190" height="16" font="9">Und tatsächlich wird in Catulls </text>
+          <text top="359" left="280" width="44" height="16" font="11">carmen</text>
+          <text top="359" left="324" width="286" height="16" font="9"> 29 eine Person gleich zweimal (V. 5 u. V. 9) als </text>
+          <text top="359" left="610" width="48" height="16" font="11">cinaede </text>
+          <text top="379" left="77" width="46" height="16" font="11">Romule</text>
+          <text top="379" left="122" width="533" height="16" font="9"> tituliert, die gemeinhin als Caesar dechiffriert wird. Das gesamte Gedicht ist eine Invek-</text>
+          <text top="399" left="77" width="582" height="16" font="9">tive gegen Caesar und die Machenschaften der Triumvirn und wird aufgrund der Anspielungen </text>
+          <text top="419" left="77" width="565" height="16" font="9">auf die Eroberungspolitik in die Zeit nach Caesars erstem Britannienfeldzug 55 v. Chr. datiert.</text>
+          <text top="419" left="642" width="13" height="10" font="12">372</text>
+          <text top="419" left="655" width="3" height="16" font="9"> </text>
+          <text top="440" left="77" width="581" height="16" font="9">In einem Satz zusammengefasst, könnte der Vorwurf des Gedichtes lauten „Wie kannst du, Caesar, </text>
+          <text top="460" left="77" width="582" height="16" font="9">es dulden, dass dein Liebling Mamurra die Provinzen ausbeutet und die Kriegsbeute verprasst?“  </text>
+          <text top="480" left="89" width="26" height="16" font="9">Mit </text>
+          <text top="481" left="116" width="97" height="16" font="11">cinaede Romule</text>
+          <text top="480" left="213" width="446" height="16" font="9"> liegt eindeutig ein Gebrauch als Schimpfwort vor, der sich jedoch von </text>
+          <text top="501" left="77" width="425" height="16" font="9">den vorigen Beispielen in dem Punkt strukturell unterscheidet, dass </text>
+          <text top="501" left="502" width="46" height="16" font="11">Romule</text>
+          <text top="501" left="549" width="110" height="16" font="9"> hier als Adjektiv </text>
+          <text top="521" left="77" width="536" height="16" font="9">verwendet wird, das in Catulls Dichtung nicht viel mehr bedeuten muss als „römisch“</text>
+          <text top="521" left="613" width="13" height="10" font="12">373</text>
+          <text top="521" left="626" width="33" height="16" font="9"> (das </text>
+          <text top="541" left="77" width="582" height="16" font="9">allerdings hier natürlich vom Namen Romulus abgeleitet ist). Der Ausdruck kann also in etwa </text>
+          <text top="562" left="77" width="502" height="16" font="9">mit „römische Schwuchtel“ oder „Schwuchtel-Romulus“ übersetzt werden, wobei </text>
+          <text top="562" left="579" width="53" height="16" font="11">cinaedus</text>
+          <text top="562" left="632" width="23" height="16" font="9"> be-</text>
+          <text top="582" left="77" width="582" height="16" font="9">kanntlich den beim Geschlechtsverkehr zwischen Männern den passiven Part übernehmenden </text>
+          <text top="602" left="77" width="37" height="16" font="9">Mann</text>
+          <text top="602" left="114" width="2" height="11" font="27"> </text>
+          <text top="602" left="117" width="542" height="16" font="9">bezeichnet. Angriffe auf die Sexualität gehören ebenfalls zum Standard-Repertoire der </text>
+          <text top="622" left="77" width="412" height="16" font="9">Invektive und sind auch im Rest des Catull-Gedichtes sehr präsent.</text>
+          <text top="622" left="489" width="13" height="10" font="12">374</text>
+          <text top="622" left="502" width="7" height="16" font="9">  </text>
+          <text top="669" left="77" width="13" height="10" font="12">371</text>
+          <text top="671" left="90" width="568" height="15" font="7">  So soll Caesar Romulus zu bestimmten Anlässen in seiner Kleidung nachgeahmt und hohe rote Schuhe </text>
+          <text top="690" left="98" width="524" height="15" font="7">getragen haben, s. Cass. Dio 43.43.2 u. vgl. Cass. Dio Frg. 1.7. Weitere Akte Caesars der Romulus-</text>
+          <text top="690" left="622" width="33" height="14" font="13">imita-</text>
+          <text top="708" left="98" width="17" height="14" font="13">tio </text>
+          <text top="708" left="115" width="180" height="15" font="7">führt Classen (1962) 194-196 an. </text>
+          <text top="726" left="77" width="13" height="10" font="12">372</text>
+          <text top="728" left="90" width="129" height="15" font="7">  Syndikus (1984) 176f. </text>
+          <text top="747" left="77" width="13" height="10" font="12">373</text>
+          <text top="748" left="90" width="128" height="15" font="7">  Vgl. Catull. 34.22-24: </text>
+          <text top="748" left="218" width="104" height="14" font="13">Romuli [...] gentem</text>
+          <text top="748" left="322" width="337" height="15" font="7"> kann wörtlich als „Volk des Romulus“ übersetzt werden, ist </text>
+          <text top="767" left="98" width="417" height="15" font="7">aber auch hier kaum mehr als ein poetischer Ausdruck für „römisches Volk“.</text>
+          <text top="785" left="77" width="13" height="10" font="12">374</text>
+          <text top="787" left="90" width="86" height="15" font="7"> Catull. 29.7f: </text>
+          <text top="787" left="170" width="351" height="14" font="13">perambulabit omnium cubilia / ut albulus columbus aut Adoneus</text>
+          <text top="787" left="521" width="78" height="15" font="7">. Catull. 19.13 </text>
+          <text top="787" left="599" width="56" height="14" font="13">nostra dif-</text>
+          <text top="806" left="98" width="82" height="14" font="13">fututa Mentula</text>
+          <text top="806" left="180" width="9" height="15" font="7">.  </text>
+        </page>
+        <page number="145" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="24" size="13" family="NNULJB+MinionPro" color="#000000"/>
+          <fontspec id="29" size="9" family="ZAGSWU+MinionPro" color="#000000"/>
+          <text top="856" left="347" width="23" height="15" font="7">145 </text>
+          <text top="79" left="72" width="254" height="16" font="9">Nam Catonem nostrum non tu amas plus </text>
+          <text top="100" left="72" width="277" height="16" font="9">quam ego; sed tamen ille optimo animo utens </text>
+          <text top="120" left="72" width="279" height="16" font="9">et summa fide nocet interdum rei publicae; di-</text>
+          <text top="140" left="72" width="267" height="16" font="9">cit enim tamquam in Platonis πολιτείᾳ, non </text>
+          <text top="161" left="72" width="61" height="16" font="9">tamquam </text>
+          <text top="161" left="134" width="98" height="16" font="14"><b>in Romuli faece</b></text>
+          <text top="161" left="232" width="84" height="16" font="9">, sententiam.  </text>
+          <text top="79" left="360" width="265" height="16" font="9">Denn du liebst unseren Cato nicht mehr als </text>
+          <text top="100" left="360" width="279" height="16" font="9">ich; aber trotzdem schadet er, obwohl er beste </text>
+          <text top="120" left="360" width="272" height="16" font="9">Absichten hat und höchst aufrichtig handelt, </text>
+          <text top="140" left="360" width="283" height="16" font="9">manchmal dem Staat; er stimmt nämlich so ab </text>
+          <text top="161" left="360" width="235" height="16" font="9">wie in Platons Idealstaat und nicht wie </text>
+          <text top="161" left="595" width="40" height="16" font="14"><b>in der </b></text>
+          <text top="181" left="360" width="37" height="16" font="14"><b>Gosse</b></text>
+          <text top="181" left="397" width="14" height="10" font="29"><b>388</b></text>
+          <text top="181" left="411" width="85" height="16" font="14"><b>des Romulus.</b></text>
+          <text top="182" left="495" width="3" height="16" font="9"> </text>
+          <text top="211" left="72" width="27" height="16" font="9">Cic. </text>
+          <text top="211" left="99" width="23" height="16" font="11">Att.</text>
+          <text top="211" left="122" width="35" height="16" font="9"> 2.1.8 </text>
+          <text top="256" left="68" width="28" height="16" font="11">Faex</text>
+          <text top="256" left="96" width="550" height="16" font="9"> hat ein Bedeutungsspektrum von „Bodensatz, Hefe“ (im Kontext der Lebensmittelverarbei-</text>
+          <text top="276" left="68" width="478" height="16" font="9">tung) über „Abschaum“ bis hin zu „Kot“. In der letztgenannten Bedeutung ist </text>
+          <text top="276" left="546" width="25" height="16" font="11">faex</text>
+          <text top="276" left="571" width="76" height="16" font="9"> in Schimpf-</text>
+          <text top="296" left="68" width="583" height="16" font="9">wörtern dann im wahrsten Sinne des Wortes Fäkalsprache bzw. Koprolalie. Cicero benutzt das </text>
+          <text top="317" left="68" width="583" height="16" font="9">Wort in seinem gesamten Oeuvre ausschließlich im übertragenen Sinne, und zwar wie in der </text>
+          <text top="337" left="68" width="255" height="16" font="9">zitierten Briefpassage in der Konstruktion </text>
+          <text top="380" left="111" width="260" height="15" font="7">Präposition + (Demonstrativum+) (Adjektiv +) </text>
+          <text top="380" left="371" width="40" height="14" font="13">faece + </text>
+          <text top="380" left="411" width="81" height="15" font="7">Genitivattribut</text>
+          <text top="380" left="492" width="12" height="9" font="21">389</text>
+          <text top="380" left="504" width="6" height="15" font="7">  </text>
+          <text top="417" left="68" width="579" height="16" font="9">Wie der Blick auf die anderen Fundstellen für diesen Ausdruck bei Cicero zeigt, ist ein herablas-</text>
+          <text top="438" left="68" width="582" height="16" font="9">sender Gebrauch dieser Formulierung auch in der Invektive durchaus mehrfach belegt; das Volk </text>
+          <text top="458" left="68" width="352" height="16" font="9">erscheint dann immer in einem äußerst schlechten Licht.</text>
+          <text top="458" left="420" width="13" height="10" font="12">390</text>
+          <text top="458" left="433" width="218" height="16" font="9"> In der zitierten Passage wird auch </text>
+          <text top="478" left="68" width="583" height="16" font="9">Romulus mit Menschen niederen Standes in Verbindung gebracht. In einer Episode bei Livius </text>
+          <text top="498" left="68" width="578" height="16" font="9">werden wir später lesen können, dass Romulus ein Asyl gegründet und dort Menschen zweifel-</text>
+          <text top="519" left="68" width="581" height="16" font="9">haften Ranges um sich geschart haben soll, um die Stadt Rom mit Menschen zu füllen – dies passt </text>
+          <text top="579" left="68" width="13" height="10" font="12">388</text>
+          <text top="581" left="81" width="116" height="15" font="7">  Es ist schwierig, für </text>
+          <text top="581" left="197" width="22" height="14" font="13">faex</text>
+          <text top="581" left="219" width="431" height="15" font="7"> eine deutsche Übersetzung zu finden, die alle Nuancen des lateinischen Wortes </text>
+          <text top="600" left="89" width="560" height="15" font="7">wiedergibt. „Abschaum“ würde den Lebensmittelkontext in die Zielsprache bringen, aber man kann nur </text>
+          <text top="618" left="89" width="557" height="15" font="7">Abschaum sein oder als solcher behandelt werden und sich nicht im Abschaum befinden. „Gosse“ hin-</text>
+          <text top="636" left="89" width="557" height="15" font="7">gegen gibt zwar den fäkalsprachlichen Aspekt adäquat wieder und zeigt auch die gleiche soziale Herab-</text>
+          <text top="654" left="89" width="560" height="15" font="7">setzung, die in der Sprechhaltung Ciceros zu erkennen ist – und es kann auch örtlich gebraucht werden. </text>
+          <text top="673" left="89" width="484" height="15" font="7">Als Bezeichnung für einen schlechten Staat ist „Gosse“ im Deutschen allerdings unüblich.</text>
+          <text top="691" left="68" width="13" height="10" font="12">389</text>
+          <text top="692" left="81" width="3" height="15" font="7"> </text>
+          <text top="693" left="89" width="111" height="14" font="13">Ex ea faece legationis</text>
+          <text top="692" left="200" width="31" height="15" font="7"> (Cic. </text>
+          <text top="693" left="232" width="24" height="14" font="13">Verr</text>
+          <text top="692" left="256" width="51" height="15" font="7">., 2.1.99); </text>
+          <text top="693" left="307" width="164" height="14" font="13">illam omnem faecem civitatum</text>
+          <text top="692" left="471" width="31" height="15" font="7"> (Cic. </text>
+          <text top="693" left="502" width="27" height="14" font="13">Flacc</text>
+          <text top="692" left="530" width="45" height="15" font="7">. 18.10); </text>
+          <text top="693" left="575" width="74" height="14" font="13">ex omni faece </text>
+          <text top="712" left="89" width="27" height="14" font="13">urbis</text>
+          <text top="711" left="116" width="34" height="15" font="7"> (Cic. </text>
+          <text top="712" left="150" width="16" height="14" font="13">Pis</text>
+          <text top="711" left="166" width="34" height="15" font="7">. 9.7); </text>
+          <text top="712" left="200" width="155" height="14" font="13">apud sordem urbis et faecem</text>
+          <text top="711" left="355" width="34" height="15" font="7"> (Cic. </text>
+          <text top="712" left="389" width="17" height="14" font="13">Att</text>
+          <text top="711" left="406" width="57" height="15" font="7">. 1.16.11); </text>
+          <text top="712" left="463" width="187" height="14" font="13">nam apud perdidissimam illam et </text>
+          <text top="730" left="89" width="123" height="14" font="13">infimam faecem populi</text>
+          <text top="730" left="212" width="32" height="15" font="7"> (Cic. </text>
+          <text top="730" left="244" width="13" height="14" font="13">Q.</text>
+          <text top="730" left="257" width="3" height="15" font="7"> </text>
+          <text top="730" left="260" width="12" height="14" font="13">fr.</text>
+          <text top="730" left="272" width="40" height="15" font="7"> 2.5.3). </text>
+          <text top="748" left="68" width="13" height="10" font="12">390</text>
+          <text top="749" left="81" width="279" height="15" font="7">  Opelt (1965) 228 weist darauf hin, dass Cicero mit </text>
+          <text top="750" left="360" width="22" height="14" font="13">faex</text>
+          <text top="749" left="382" width="267" height="15" font="7"> auch seine Geringschätzung als Autor gegenüber </text>
+          <text top="769" left="89" width="299" height="15" font="7">seinem urteilsunfähigen Publikum ausdrückt, vgl. Cic. </text>
+          <text top="769" left="388" width="21" height="14" font="13">fam</text>
+          <text top="769" left="409" width="45" height="15" font="7">. 7.32.2. </text>
+          <text top="769" left="454" width="72" height="14" font="13">sed quoniam </text>
+          <text top="770" left="526" width="118" height="13" font="24"><b>tanta faex est in urbe</b></text>
+          <text top="769" left="643" width="6" height="14" font="13">, </text>
+          <text top="787" left="89" width="560" height="14" font="13">ut nihil tam sit ἀκύθηρον quod non alicui venustum esse videatur, pugna, si me amas, [...] ut sacramento </text>
+          <text top="806" left="89" width="132" height="14" font="13">contendas mea non esse. </text>
+          <text top="806" left="222" width="9" height="15" font="7">   </text>
+        </page>
       </pdf2xml>
     </x:context>
     <x:expect label=".">
@@ -237,6 +481,14 @@
               <rendition scheme="css" xml:id="f11">font-size: 15pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
               <rendition scheme="css" xml:id="f12">font-size: 9pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
               <rendition scheme="css" xml:id="f13">font-size: 13pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f14">font-size: 15pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f17">font-size: 24pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f18">font-size: 19pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f19">font-size: 7pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f21">font-size: 8pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f27">font-size: 10pt; font-family: AWSBWD+MinionPro; color: #0000ff;</rendition>
+              <rendition scheme="css" xml:id="f24">font-size: 13pt; font-family: NNULJB+MinionPro; color: #000000;</rendition>
+              <rendition scheme="css" xml:id="f29">font-size: 9pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
             </tagsDecl>
           </encodingDesc>
         </teiHeader>
@@ -440,6 +692,1422 @@
             <text rendition="#f9" size="15" top="783" left="81" width="569" height="16">Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </text>
             <text rendition="#f9" size="15" top="803" left="68" width="583" height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
           </page>
+          <page xmlns=""
+            number="22"
+            position="absolute"
+            top="0"
+            left="0"
+            height="935"
+            width="722">
+         <text rendition="#f7"
+               size="13"
+               top="856"
+               left="359"
+               width="16"
+               height="15">22 </text>
+         <text rendition="#f17"
+               size="24"
+               top="123"
+               left="304"
+               width="128"
+               height="26">2.1.  Naevius </text>
+         <text rendition="#f9"
+               size="15"
+               top="174"
+               left="77"
+               width="581"
+               height="16">Naevius wurde um 285 v. Chr. geboren und diente im ersten Punischen Krieg als Soldat. Er verfasste </text>
+         <text rendition="#f9"
+               size="15"
+               top="194"
+               left="77"
+               width="582"
+               height="16">Tragödien nach griechischen Vorlagen bzw. übertrug die Stoffe ins Lateinische, dichtete römischen </text>
+         <text rendition="#f9"
+               size="15"
+               top="215"
+               left="77"
+               width="455"
+               height="16">Praetexten und auch Komödien. Sein Spät- und Hauptwerk jedoch war das </text>
+         <text rendition="#f11"
+               size="15"
+               top="215"
+               left="531"
+               width="98"
+               height="16">Bellum Punicum</text>
+         <text rendition="#f9"
+               size="15"
+               top="215"
+               left="629"
+               width="30"
+               height="16">, ein </text>
+         <text rendition="#f9"
+               size="15"
+               top="235"
+               left="77"
+               width="583"
+               height="16">Epos in Saturniern, das den ersten Punischen Krieg besingt. Die Einteilung dieses Epos in sieben </text>
+         <text rendition="#f9"
+               size="15"
+               top="255"
+               left="77"
+               width="578"
+               height="16">Bücher wurde bereits in der Antike vorgenommen, geht aber nicht auf Naevius selbst zurück, son-</text>
+         <text rendition="#f9"
+               size="15"
+               top="275"
+               left="77"
+               width="408"
+               height="16">dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</text>
+         <text rendition="#f12"
+               size="9"
+               top="275"
+               left="485"
+               width="9"
+               height="10">21</text>
+         <text rendition="#f9"
+               size="15"
+               top="275"
+               left="493"
+               width="7"
+               height="16">  </text>
+         <text rendition="#f1"
+               size="19"
+               top="328"
+               left="77"
+               width="229"
+               height="21">2.1.1.  Die „Archäologie“ des </text>
+         <text rendition="#f18"
+               size="19"
+               top="328"
+               left="305"
+               width="129"
+               height="20">Bellum Punicum</text>
+         <text rendition="#f1"
+               size="19"
+               top="328"
+               left="434"
+               width="4"
+               height="21"> </text>
+         <text rendition="#f9"
+               size="15"
+               top="374"
+               left="77"
+               width="579"
+               height="16">Dem eigentlichen Kerngeschehen des Punischen Krieges vorgeschaltet war eine drei Bücher umfas-</text>
+         <text rendition="#f9"
+               size="15"
+               top="394"
+               left="77"
+               width="583"
+               height="16">sende, in der Forschung als „Archäologie“ bezeichnete Behandlung der Frühgeschichte Roms „vom </text>
+         <text rendition="#f9"
+               size="15"
+               top="414"
+               left="77"
+               width="541"
+               height="16">Auszug des Aeneas aus Troja bis zur Gründung und Benennung Roms durch Romulus [...]“.</text>
+         <text rendition="#f12"
+               size="9"
+               top="414"
+               left="617"
+               width="9"
+               height="10">22</text>
+         <text rendition="#f9"
+               size="15"
+               top="414"
+               left="626"
+               width="32"
+               height="16"> Dies </text>
+         <text rendition="#f9"
+               size="15"
+               top="434"
+               left="77"
+               width="579"
+               height="16">kann sicher rekonstruiert werden, wenngleich der Name „Romulus“ in den entsprechenden Fragmen-</text>
+         <text rendition="#f9"
+               size="15"
+               top="455"
+               left="77"
+               width="141"
+               height="16">ten nicht genannt wird.  </text>
+         <text rendition="#f9"
+               size="15"
+               top="475"
+               left="89"
+               width="569"
+               height="16">In Frg. 21-22 W. ist zwar nicht von Romulus, aber von Amulius die Rede, der sich an dieser Stelle </text>
+         <text rendition="#f9"
+               size="15"
+               top="495"
+               left="77"
+               width="280"
+               height="16">mit einer Geste des Danks gen Himmel wendet.</text>
+         <text rendition="#f12"
+               size="9"
+               top="495"
+               left="356"
+               width="9"
+               height="10">23</text>
+         <text rendition="#f9"
+               size="15"
+               top="495"
+               left="365"
+               width="293"
+               height="16"> Indirekte Zeugnisse liefern der Universalgelehrte </text>
+         <text rendition="#f9"
+               size="15"
+               top="515"
+               left="77"
+               width="96"
+               height="16">Varro sowie der </text>
+         <text rendition="#f11"
+               size="15"
+               top="516"
+               left="172"
+               width="38"
+               height="16">Aeneis</text>
+         <text rendition="#f9"
+               size="15"
+               top="515"
+               left="210"
+               width="447"
+               height="16">-Kommentator Servius. Letzterer schreibt, dass Romulus sowohl bei Naevius </text>
+         <text rendition="#f9"
+               size="15"
+               top="536"
+               left="77"
+               width="259"
+               height="16">als auch bei Ennius ein Enkel des Aeneas ist.</text>
+         <text rendition="#f12"
+               size="9"
+               top="535"
+               left="336"
+               width="9"
+               height="10">24</text>
+         <text rendition="#f9"
+               size="15"
+               top="536"
+               left="345"
+               width="7"
+               height="16">  </text>
+         <text rendition="#f9"
+               size="15"
+               top="556"
+               left="89"
+               width="372"
+               height="16">Bei Varro lesen wir, dass Naevius den Namen des Hügels Aventin </text>
+         <text rendition="#f11"
+               size="15"
+               top="556"
+               left="461"
+               width="54"
+               height="16">ab avibus</text>
+         <text rendition="#f9"
+               size="15"
+               top="556"
+               left="514"
+               width="143"
+               height="16"> herleitet, den des Palatin </text>
+         <text rendition="#f9"
+               size="15"
+               top="577"
+               left="77"
+               width="223"
+               height="16">hingegen mit dem Blöken von Vieh (</text>
+         <text rendition="#f11"
+               size="15"
+               top="577"
+               left="300"
+               width="36"
+               height="16">balare</text>
+         <text rendition="#f9"
+               size="15"
+               top="577"
+               left="335"
+               width="267"
+               height="16">) in Zusammenhang bringt und ihn deshalb </text>
+         <text rendition="#f11"
+               size="15"
+               top="577"
+               left="602"
+               width="54"
+               height="16">Balatium</text>
+         <text rendition="#f9"
+               size="15"
+               top="577"
+               left="655"
+               width="3"
+               height="16"> </text>
+         <text rendition="#f9"
+               size="15"
+               top="597"
+               left="77"
+               width="38"
+               height="16">nennt.</text>
+         <text rendition="#f12"
+               size="9"
+               top="596"
+               left="114"
+               width="9"
+               height="10">25</text>
+         <text rendition="#f9"
+               size="15"
+               top="597"
+               left="122"
+               width="533"
+               height="16"> Die zweite Etymologie könnte auf pastoralen Kontext bei Naevius hindeuten und würde da-</text>
+         <text rendition="#f9"
+               size="15"
+               top="617"
+               left="77"
+               width="581"
+               height="16">mit zur Geschichte von der Aussetzung der Zwillinge passen. Die Assoziation des Aventin mit Vögeln </text>
+         <text rendition="#f9"
+               size="15"
+               top="637"
+               left="77"
+               width="582"
+               height="16">wiederum könnte bedeuten, dass es bereits bei Naevius eine Augurialszene mit den Zwillingsbrüdern </text>
+         <text rendition="#f9"
+               size="15"
+               top="657"
+               left="77"
+               width="24"
+               height="16">gab.</text>
+         <text rendition="#f12"
+               size="9"
+               top="657"
+               left="100"
+               width="9"
+               height="10">26</text>
+         <text rendition="#f9"
+               size="15"
+               top="657"
+               left="109"
+               width="549"
+               height="16"> Keine der Informationen – weder die bei Varro noch die bei Servius – muss allerdings zwingend </text>
+         <text rendition="#f12"
+               size="9"
+               top="702"
+               left="77"
+               width="9"
+               height="10">21</text>
+         <text rendition="#f7"
+               size="13"
+               top="704"
+               left="85"
+               width="52"
+               height="15"> Suet. </text>
+         <text rendition="#f13"
+               size="13"
+               top="704"
+               left="128"
+               width="38"
+               height="14">gramm</text>
+         <text rendition="#f7"
+               size="13"
+               top="704"
+               left="166"
+               width="28"
+               height="15">. 2.4. </text>
+         <text rendition="#f12"
+               size="9"
+               top="722"
+               left="77"
+               width="9"
+               height="10">22</text>
+         <text rendition="#f7"
+               size="13"
+               top="724"
+               left="85"
+               width="135"
+               height="15">  Suerbaum (2002) 112. </text>
+         <text rendition="#f12"
+               size="9"
+               top="743"
+               left="77"
+               width="9"
+               height="10">23</text>
+         <text rendition="#f7"
+               size="13"
+               top="744"
+               left="85"
+               width="52"
+               height="15"> Non. </text>
+         <text rendition="#f7"
+               size="13"
+               top="744"
+               left="127"
+               width="49"
+               height="15">116.31: </text>
+         <text rendition="#f13"
+               size="13"
+               top="745"
+               left="166"
+               width="381"
+               height="14">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
+         <text rendition="#f19"
+               size="7"
+               top="749"
+               left="547"
+               width="2"
+               height="8"> </text>
+         <text rendition="#f12"
+               size="9"
+               top="763"
+               left="77"
+               width="9"
+               height="10">24</text>
+         <text rendition="#f7"
+               size="13"
+               top="764"
+               left="85"
+               width="52"
+               height="15"> Serv. </text>
+         <text rendition="#f7"
+               size="13"
+               top="764"
+               left="127"
+               width="26"
+               height="15">ad </text>
+         <text rendition="#f13"
+               size="13"
+               top="765"
+               left="144"
+               width="22"
+               height="14">Aen</text>
+         <text rendition="#f7"
+               size="13"
+               top="764"
+               left="165"
+               width="41"
+               height="15">. 1.273: </text>
+         <text rendition="#f13"
+               size="13"
+               top="765"
+               left="206"
+               width="423"
+               height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
+         <text rendition="#f7"
+               size="13"
+               top="764"
+               left="630"
+               width="3"
+               height="15"> </text>
+         <text rendition="#f12"
+               size="9"
+               top="783"
+               left="77"
+               width="9"
+               height="10">25</text>
+         <text rendition="#f7"
+               size="13"
+               top="785"
+               left="85"
+               width="58"
+               height="15"> Varro </text>
+         <text rendition="#f13"
+               size="13"
+               top="785"
+               left="133"
+               width="23"
+               height="14">ling.</text>
+         <text rendition="#f7"
+               size="13"
+               top="785"
+               left="156"
+               width="85"
+               height="15"> 5.43 bzw. 5.53. </text>
+         <text rendition="#f12"
+               size="9"
+               top="803"
+               left="77"
+               width="9"
+               height="10">26</text>
+         <text rendition="#f7"
+               size="13"
+               top="805"
+               left="85"
+               width="125"
+               height="15">  Skutsch (1985) 225.  </text>
+      </page>
+          <page xmlns=""
+            number="140"
+            position="absolute"
+            top="0"
+            left="0"
+            height="935"
+            width="722">
+         <text rendition="#f7"
+               size="13"
+               top="856"
+               left="356"
+               width="23"
+               height="15">140 </text>
+         <text rendition="#f9"
+               size="15"
+               top="75"
+               left="77"
+               width="581"
+               height="16">so könnte der Vorwurf lauten. Der echte Romulus gehört in eine Weltstadt, Cicero aber ist nur </text>
+         <text rendition="#f9"
+               size="15"
+               top="95"
+               left="77"
+               width="582"
+               height="16">eine schlechtere Kopie, also ein „Provinz-Romulus“ oder auch ein „Romulus für Arme“. Auch </text>
+         <text rendition="#f9"
+               size="15"
+               top="115"
+               left="77"
+               width="578"
+               height="16">hier haben wir es also mit dem Vorwurf zu tun, dass der Nachahmer das Original nicht errei-</text>
+         <text rendition="#f9"
+               size="15"
+               top="136"
+               left="77"
+               width="581"
+               height="16">chen kann. Und wieder lässt sich festhalten: Nicht Romulus ist negativ dargestellt, sondern das, </text>
+         <text rendition="#f9"
+               size="15"
+               top="156"
+               left="77"
+               width="265"
+               height="16">was sein Nacheiferer aus ihm gemacht hat. </text>
+         <text rendition="#f1"
+               size="19"
+               top="212"
+               left="77"
+               width="274"
+               height="21">4.4.3.  „Du Schwuchtel-Romulus“ (</text>
+         <text rendition="#f18"
+               size="19"
+               top="212"
+               left="350"
+               width="122"
+               height="20">cinaede Romule</text>
+         <text rendition="#f1"
+               size="19"
+               top="212"
+               left="472"
+               width="11"
+               height="21">) </text>
+         <text rendition="#f9"
+               size="15"
+               top="257"
+               left="77"
+               width="582"
+               height="16">Wenn Sulla und Cicero aufgrund ihrer Romulus-Nachahmung ins Lächerliche gezogen werden, </text>
+         <text rendition="#f9"
+               size="15"
+               top="277"
+               left="77"
+               width="582"
+               height="16">so wäre es verwunderlich, wenn Caesar von dieser Bewegung verschont bliebe. Zwar ist über ihn </text>
+         <text rendition="#f9"
+               size="15"
+               top="298"
+               left="77"
+               width="581"
+               height="16">nicht bekannt, dass er sich in seinen Werken zum Romulus stilisiert hätte, aber gegen Ende seines </text>
+         <text rendition="#f9"
+               size="15"
+               top="318"
+               left="77"
+               width="476"
+               height="16">Lebens häufen sich die Parallelisierungen zu Romulus in seinen Handlungen.</text>
+         <text rendition="#f12"
+               size="9"
+               top="318"
+               left="552"
+               width="13"
+               height="10">371</text>
+         <text rendition="#f9"
+               size="15"
+               top="318"
+               left="565"
+               width="95"
+               height="16"> Er gehört also </text>
+         <text rendition="#f9"
+               size="15"
+               top="338"
+               left="77"
+               width="256"
+               height="16">durchaus in den Kreis potenzieller Opfer.  </text>
+         <text rendition="#f9"
+               size="15"
+               top="359"
+               left="89"
+               width="190"
+               height="16">Und tatsächlich wird in Catulls </text>
+         <text rendition="#f11"
+               size="15"
+               top="359"
+               left="280"
+               width="44"
+               height="16">carmen</text>
+         <text rendition="#f9"
+               size="15"
+               top="359"
+               left="324"
+               width="286"
+               height="16"> 29 eine Person gleich zweimal (V. 5 u. V. 9) als </text>
+         <text rendition="#f11"
+               size="15"
+               top="359"
+               left="610"
+               width="48"
+               height="16">cinaede </text>
+         <text rendition="#f11"
+               size="15"
+               top="379"
+               left="77"
+               width="46"
+               height="16">Romule</text>
+         <text rendition="#f9"
+               size="15"
+               top="379"
+               left="122"
+               width="533"
+               height="16"> tituliert, die gemeinhin als Caesar dechiffriert wird. Das gesamte Gedicht ist eine Invek-</text>
+         <text rendition="#f9"
+               size="15"
+               top="399"
+               left="77"
+               width="582"
+               height="16">tive gegen Caesar und die Machenschaften der Triumvirn und wird aufgrund der Anspielungen </text>
+         <text rendition="#f9"
+               size="15"
+               top="419"
+               left="77"
+               width="565"
+               height="16">auf die Eroberungspolitik in die Zeit nach Caesars erstem Britannienfeldzug 55 v. Chr. datiert.</text>
+         <text rendition="#f12"
+               size="9"
+               top="419"
+               left="642"
+               width="13"
+               height="10">372</text>
+         <text rendition="#f9"
+               size="15"
+               top="419"
+               left="655"
+               width="3"
+               height="16"> </text>
+         <text rendition="#f9"
+               size="15"
+               top="440"
+               left="77"
+               width="581"
+               height="16">In einem Satz zusammengefasst, könnte der Vorwurf des Gedichtes lauten „Wie kannst du, Caesar, </text>
+         <text rendition="#f9"
+               size="15"
+               top="460"
+               left="77"
+               width="582"
+               height="16">es dulden, dass dein Liebling Mamurra die Provinzen ausbeutet und die Kriegsbeute verprasst?“  </text>
+         <text rendition="#f9"
+               size="15"
+               top="480"
+               left="89"
+               width="26"
+               height="16">Mit </text>
+         <text rendition="#f11"
+               size="15"
+               top="481"
+               left="116"
+               width="97"
+               height="16">cinaede Romule</text>
+         <text rendition="#f9"
+               size="15"
+               top="480"
+               left="213"
+               width="446"
+               height="16"> liegt eindeutig ein Gebrauch als Schimpfwort vor, der sich jedoch von </text>
+         <text rendition="#f9"
+               size="15"
+               top="501"
+               left="77"
+               width="425"
+               height="16">den vorigen Beispielen in dem Punkt strukturell unterscheidet, dass </text>
+         <text rendition="#f11"
+               size="15"
+               top="501"
+               left="502"
+               width="46"
+               height="16">Romule</text>
+         <text rendition="#f9"
+               size="15"
+               top="501"
+               left="549"
+               width="110"
+               height="16"> hier als Adjektiv </text>
+         <text rendition="#f9"
+               size="15"
+               top="521"
+               left="77"
+               width="536"
+               height="16">verwendet wird, das in Catulls Dichtung nicht viel mehr bedeuten muss als „römisch“</text>
+         <text rendition="#f12"
+               size="9"
+               top="521"
+               left="613"
+               width="13"
+               height="10">373</text>
+         <text rendition="#f9"
+               size="15"
+               top="521"
+               left="626"
+               width="33"
+               height="16"> (das </text>
+         <text rendition="#f9"
+               size="15"
+               top="541"
+               left="77"
+               width="582"
+               height="16">allerdings hier natürlich vom Namen Romulus abgeleitet ist). Der Ausdruck kann also in etwa </text>
+         <text rendition="#f9"
+               size="15"
+               top="562"
+               left="77"
+               width="502"
+               height="16">mit „römische Schwuchtel“ oder „Schwuchtel-Romulus“ übersetzt werden, wobei </text>
+         <text rendition="#f11"
+               size="15"
+               top="562"
+               left="579"
+               width="53"
+               height="16">cinaedus</text>
+         <text rendition="#f9"
+               size="15"
+               top="562"
+               left="632"
+               width="23"
+               height="16"> be-</text>
+         <text rendition="#f9"
+               size="15"
+               top="582"
+               left="77"
+               width="582"
+               height="16">kanntlich den beim Geschlechtsverkehr zwischen Männern den passiven Part übernehmenden </text>
+         <text rendition="#f9"
+               size="15"
+               top="602"
+               left="77"
+               width="37"
+               height="16">Mann</text>
+         <text rendition="#f27"
+               size="10"
+               top="602"
+               left="114"
+               width="2"
+               height="11"> </text>
+         <text rendition="#f9"
+               size="15"
+               top="602"
+               left="117"
+               width="542"
+               height="16">bezeichnet. Angriffe auf die Sexualität gehören ebenfalls zum Standard-Repertoire der </text>
+         <text rendition="#f9"
+               size="15"
+               top="622"
+               left="77"
+               width="412"
+               height="16">Invektive und sind auch im Rest des Catull-Gedichtes sehr präsent.</text>
+         <text rendition="#f12"
+               size="9"
+               top="622"
+               left="489"
+               width="13"
+               height="10">374</text>
+         <text rendition="#f9"
+               size="15"
+               top="622"
+               left="502"
+               width="7"
+               height="16">  </text>
+         <text rendition="#f12"
+               size="9"
+               top="669"
+               left="77"
+               width="13"
+               height="10">371</text>
+         <text rendition="#f7"
+               size="13"
+               top="671"
+               left="90"
+               width="568"
+               height="15">  So soll Caesar Romulus zu bestimmten Anlässen in seiner Kleidung nachgeahmt und hohe rote Schuhe </text>
+         <text rendition="#f7"
+               size="13"
+               top="690"
+               left="98"
+               width="524"
+               height="15">getragen haben, s. Cass. Dio 43.43.2 u. vgl. Cass. Dio Frg. 1.7. Weitere Akte Caesars der Romulus-</text>
+         <text rendition="#f13"
+               size="13"
+               top="690"
+               left="622"
+               width="33"
+               height="14">imita-</text>
+         <text rendition="#f13"
+               size="13"
+               top="708"
+               left="98"
+               width="17"
+               height="14">tio </text>
+         <text rendition="#f7"
+               size="13"
+               top="708"
+               left="115"
+               width="180"
+               height="15">führt Classen (1962) 194-196 an. </text>
+         <text rendition="#f12"
+               size="9"
+               top="726"
+               left="77"
+               width="13"
+               height="10">372</text>
+         <text rendition="#f7"
+               size="13"
+               top="728"
+               left="90"
+               width="129"
+               height="15">  Syndikus (1984) 176f. </text>
+         <text rendition="#f12"
+               size="9"
+               top="747"
+               left="77"
+               width="13"
+               height="10">373</text>
+         <text rendition="#f7"
+               size="13"
+               top="748"
+               left="90"
+               width="128"
+               height="15">  Vgl. Catull. 34.22-24: </text>
+         <text rendition="#f13"
+               size="13"
+               top="748"
+               left="218"
+               width="104"
+               height="14">Romuli [...] gentem</text>
+         <text rendition="#f7"
+               size="13"
+               top="748"
+               left="322"
+               width="337"
+               height="15"> kann wörtlich als „Volk des Romulus“ übersetzt werden, ist </text>
+         <text rendition="#f7"
+               size="13"
+               top="767"
+               left="98"
+               width="417"
+               height="15">aber auch hier kaum mehr als ein poetischer Ausdruck für „römisches Volk“.</text>
+         <text rendition="#f12"
+               size="9"
+               top="785"
+               left="77"
+               width="13"
+               height="10">374</text>
+         <text rendition="#f7"
+               size="13"
+               top="787"
+               left="90"
+               width="86"
+               height="15"> Catull. 29.7f: </text>
+         <text rendition="#f13"
+               size="13"
+               top="787"
+               left="170"
+               width="351"
+               height="14">perambulabit omnium cubilia / ut albulus columbus aut Adoneus</text>
+         <text rendition="#f7"
+               size="13"
+               top="787"
+               left="521"
+               width="78"
+               height="15">. Catull. 19.13 </text>
+         <text rendition="#f13"
+               size="13"
+               top="787"
+               left="599"
+               width="56"
+               height="14">nostra dif-</text>
+         <text rendition="#f13"
+               size="13"
+               top="806"
+               left="98"
+               width="82"
+               height="14">fututa Mentula</text>
+         <text rendition="#f7"
+               size="13"
+               top="806"
+               left="180"
+               width="9"
+               height="15">.  </text>
+      </page>
+          <page xmlns=""
+            number="145"
+            position="absolute"
+            top="0"
+            left="0"
+            height="935"
+            width="722">
+         <text rendition="#f7"
+               size="13"
+               top="856"
+               left="347"
+               width="23"
+               height="15">145 </text>
+         <text rendition="#f9"
+               size="15"
+               top="79"
+               left="72"
+               width="254"
+               height="16">Nam Catonem nostrum non tu amas plus </text>
+         <text rendition="#f9"
+               size="15"
+               top="100"
+               left="72"
+               width="277"
+               height="16">quam ego; sed tamen ille optimo animo utens </text>
+         <text rendition="#f9"
+               size="15"
+               top="120"
+               left="72"
+               width="279"
+               height="16">et summa fide nocet interdum rei publicae; di-</text>
+         <text rendition="#f9"
+               size="15"
+               top="140"
+               left="72"
+               width="267"
+               height="16">cit enim tamquam in Platonis πολιτείᾳ, non </text>
+         <text rendition="#f9"
+               size="15"
+               top="161"
+               left="72"
+               width="61"
+               height="16">tamquam </text>
+         <text rendition="#f14"
+               size="15"
+               top="161"
+               left="134"
+               width="98"
+               height="16">
+            <b>in Romuli faece</b>
+         </text>
+         <text rendition="#f9"
+               size="15"
+               top="161"
+               left="232"
+               width="84"
+               height="16">, sententiam.  </text>
+         <text rendition="#f9"
+               size="15"
+               top="79"
+               left="360"
+               width="265"
+               height="16">Denn du liebst unseren Cato nicht mehr als </text>
+         <text rendition="#f9"
+               size="15"
+               top="100"
+               left="360"
+               width="279"
+               height="16">ich; aber trotzdem schadet er, obwohl er beste </text>
+         <text rendition="#f9"
+               size="15"
+               top="120"
+               left="360"
+               width="272"
+               height="16">Absichten hat und höchst aufrichtig handelt, </text>
+         <text rendition="#f9"
+               size="15"
+               top="140"
+               left="360"
+               width="283"
+               height="16">manchmal dem Staat; er stimmt nämlich so ab </text>
+         <text rendition="#f9"
+               size="15"
+               top="161"
+               left="360"
+               width="235"
+               height="16">wie in Platons Idealstaat und nicht wie </text>
+         <text rendition="#f14"
+               size="15"
+               top="161"
+               left="595"
+               width="40"
+               height="16">
+            <b>in der </b>
+         </text>
+         <text rendition="#f14"
+               size="15"
+               top="181"
+               left="360"
+               width="37"
+               height="16">
+            <b>Gosse</b>
+         </text>
+         <text rendition="#f29"
+               size="9"
+               top="181"
+               left="397"
+               width="14"
+               height="10">
+            <b>388</b>
+         </text>
+         <text rendition="#f14"
+               size="15"
+               top="181"
+               left="411"
+               width="85"
+               height="16">
+            <b>des Romulus.</b>
+         </text>
+         <text rendition="#f9"
+               size="15"
+               top="182"
+               left="495"
+               width="3"
+               height="16"> </text>
+         <text rendition="#f9"
+               size="15"
+               top="211"
+               left="72"
+               width="27"
+               height="16">Cic. </text>
+         <text rendition="#f11"
+               size="15"
+               top="211"
+               left="99"
+               width="23"
+               height="16">Att.</text>
+         <text rendition="#f9"
+               size="15"
+               top="211"
+               left="122"
+               width="35"
+               height="16"> 2.1.8 </text>
+         <text rendition="#f11"
+               size="15"
+               top="256"
+               left="68"
+               width="28"
+               height="16">Faex</text>
+         <text rendition="#f9"
+               size="15"
+               top="256"
+               left="96"
+               width="550"
+               height="16"> hat ein Bedeutungsspektrum von „Bodensatz, Hefe“ (im Kontext der Lebensmittelverarbei-</text>
+         <text rendition="#f9"
+               size="15"
+               top="276"
+               left="68"
+               width="478"
+               height="16">tung) über „Abschaum“ bis hin zu „Kot“. In der letztgenannten Bedeutung ist </text>
+         <text rendition="#f11"
+               size="15"
+               top="276"
+               left="546"
+               width="25"
+               height="16">faex</text>
+         <text rendition="#f9"
+               size="15"
+               top="276"
+               left="571"
+               width="76"
+               height="16"> in Schimpf-</text>
+         <text rendition="#f9"
+               size="15"
+               top="296"
+               left="68"
+               width="583"
+               height="16">wörtern dann im wahrsten Sinne des Wortes Fäkalsprache bzw. Koprolalie. Cicero benutzt das </text>
+         <text rendition="#f9"
+               size="15"
+               top="317"
+               left="68"
+               width="583"
+               height="16">Wort in seinem gesamten Oeuvre ausschließlich im übertragenen Sinne, und zwar wie in der </text>
+         <text rendition="#f9"
+               size="15"
+               top="337"
+               left="68"
+               width="255"
+               height="16">zitierten Briefpassage in der Konstruktion </text>
+         <text rendition="#f7"
+               size="13"
+               top="380"
+               left="111"
+               width="260"
+               height="15">Präposition + (Demonstrativum+) (Adjektiv +) </text>
+         <text rendition="#f13"
+               size="13"
+               top="380"
+               left="371"
+               width="40"
+               height="14">faece + </text>
+         <text rendition="#f7"
+               size="13"
+               top="380"
+               left="411"
+               width="81"
+               height="15">Genitivattribut</text>
+         <text rendition="#f21"
+               size="8"
+               top="380"
+               left="492"
+               width="12"
+               height="9">389</text>
+         <text rendition="#f7"
+               size="13"
+               top="380"
+               left="504"
+               width="6"
+               height="15">  </text>
+         <text rendition="#f9"
+               size="15"
+               top="417"
+               left="68"
+               width="579"
+               height="16">Wie der Blick auf die anderen Fundstellen für diesen Ausdruck bei Cicero zeigt, ist ein herablas-</text>
+         <text rendition="#f9"
+               size="15"
+               top="438"
+               left="68"
+               width="582"
+               height="16">sender Gebrauch dieser Formulierung auch in der Invektive durchaus mehrfach belegt; das Volk </text>
+         <text rendition="#f9"
+               size="15"
+               top="458"
+               left="68"
+               width="352"
+               height="16">erscheint dann immer in einem äußerst schlechten Licht.</text>
+         <text rendition="#f12"
+               size="9"
+               top="458"
+               left="420"
+               width="13"
+               height="10">390</text>
+         <text rendition="#f9"
+               size="15"
+               top="458"
+               left="433"
+               width="218"
+               height="16"> In der zitierten Passage wird auch </text>
+         <text rendition="#f9"
+               size="15"
+               top="478"
+               left="68"
+               width="583"
+               height="16">Romulus mit Menschen niederen Standes in Verbindung gebracht. In einer Episode bei Livius </text>
+         <text rendition="#f9"
+               size="15"
+               top="498"
+               left="68"
+               width="578"
+               height="16">werden wir später lesen können, dass Romulus ein Asyl gegründet und dort Menschen zweifel-</text>
+         <text rendition="#f9"
+               size="15"
+               top="519"
+               left="68"
+               width="581"
+               height="16">haften Ranges um sich geschart haben soll, um die Stadt Rom mit Menschen zu füllen – dies passt </text>
+         <text rendition="#f12"
+               size="9"
+               top="579"
+               left="68"
+               width="13"
+               height="10">388</text>
+         <text rendition="#f7"
+               size="13"
+               top="581"
+               left="81"
+               width="116"
+               height="15">  Es ist schwierig, für </text>
+         <text rendition="#f13"
+               size="13"
+               top="581"
+               left="197"
+               width="22"
+               height="14">faex</text>
+         <text rendition="#f7"
+               size="13"
+               top="581"
+               left="219"
+               width="431"
+               height="15"> eine deutsche Übersetzung zu finden, die alle Nuancen des lateinischen Wortes </text>
+         <text rendition="#f7"
+               size="13"
+               top="600"
+               left="89"
+               width="560"
+               height="15">wiedergibt. „Abschaum“ würde den Lebensmittelkontext in die Zielsprache bringen, aber man kann nur </text>
+         <text rendition="#f7"
+               size="13"
+               top="618"
+               left="89"
+               width="557"
+               height="15">Abschaum sein oder als solcher behandelt werden und sich nicht im Abschaum befinden. „Gosse“ hin-</text>
+         <text rendition="#f7"
+               size="13"
+               top="636"
+               left="89"
+               width="557"
+               height="15">gegen gibt zwar den fäkalsprachlichen Aspekt adäquat wieder und zeigt auch die gleiche soziale Herab-</text>
+         <text rendition="#f7"
+               size="13"
+               top="654"
+               left="89"
+               width="560"
+               height="15">setzung, die in der Sprechhaltung Ciceros zu erkennen ist – und es kann auch örtlich gebraucht werden. </text>
+         <text rendition="#f7"
+               size="13"
+               top="673"
+               left="89"
+               width="484"
+               height="15">Als Bezeichnung für einen schlechten Staat ist „Gosse“ im Deutschen allerdings unüblich.</text>
+         <text rendition="#f12"
+               size="9"
+               top="691"
+               left="68"
+               width="13"
+               height="10">389</text>
+         <text rendition="#f7"
+               size="13"
+               top="692"
+               left="81"
+               width="3"
+               height="15"> </text>
+         <text rendition="#f13"
+               size="13"
+               top="693"
+               left="89"
+               width="111"
+               height="14">Ex ea faece legationis</text>
+         <text rendition="#f7"
+               size="13"
+               top="692"
+               left="200"
+               width="31"
+               height="15"> (Cic. </text>
+         <text rendition="#f13"
+               size="13"
+               top="693"
+               left="232"
+               width="24"
+               height="14">Verr</text>
+         <text rendition="#f7"
+               size="13"
+               top="692"
+               left="256"
+               width="51"
+               height="15">., 2.1.99); </text>
+         <text rendition="#f13"
+               size="13"
+               top="693"
+               left="307"
+               width="164"
+               height="14">illam omnem faecem civitatum</text>
+         <text rendition="#f7"
+               size="13"
+               top="692"
+               left="471"
+               width="31"
+               height="15"> (Cic. </text>
+         <text rendition="#f13"
+               size="13"
+               top="693"
+               left="502"
+               width="27"
+               height="14">Flacc</text>
+         <text rendition="#f7"
+               size="13"
+               top="692"
+               left="530"
+               width="45"
+               height="15">. 18.10); </text>
+         <text rendition="#f13"
+               size="13"
+               top="693"
+               left="575"
+               width="74"
+               height="14">ex omni faece </text>
+         <text rendition="#f13"
+               size="13"
+               top="712"
+               left="89"
+               width="27"
+               height="14">urbis</text>
+         <text rendition="#f7"
+               size="13"
+               top="711"
+               left="116"
+               width="34"
+               height="15"> (Cic. </text>
+         <text rendition="#f13"
+               size="13"
+               top="712"
+               left="150"
+               width="16"
+               height="14">Pis</text>
+         <text rendition="#f7"
+               size="13"
+               top="711"
+               left="166"
+               width="34"
+               height="15">. 9.7); </text>
+         <text rendition="#f13"
+               size="13"
+               top="712"
+               left="200"
+               width="155"
+               height="14">apud sordem urbis et faecem</text>
+         <text rendition="#f7"
+               size="13"
+               top="711"
+               left="355"
+               width="34"
+               height="15"> (Cic. </text>
+         <text rendition="#f13"
+               size="13"
+               top="712"
+               left="389"
+               width="17"
+               height="14">Att</text>
+         <text rendition="#f7"
+               size="13"
+               top="711"
+               left="406"
+               width="57"
+               height="15">. 1.16.11); </text>
+         <text rendition="#f13"
+               size="13"
+               top="712"
+               left="463"
+               width="187"
+               height="14">nam apud perdidissimam illam et </text>
+         <text rendition="#f13"
+               size="13"
+               top="730"
+               left="89"
+               width="123"
+               height="14">infimam faecem populi</text>
+         <text rendition="#f7"
+               size="13"
+               top="730"
+               left="212"
+               width="32"
+               height="15"> (Cic. </text>
+         <text rendition="#f13"
+               size="13"
+               top="730"
+               left="244"
+               width="13"
+               height="14">Q.</text>
+         <text rendition="#f7"
+               size="13"
+               top="730"
+               left="257"
+               width="3"
+               height="15"> </text>
+         <text rendition="#f13"
+               size="13"
+               top="730"
+               left="260"
+               width="12"
+               height="14">fr.</text>
+         <text rendition="#f7"
+               size="13"
+               top="730"
+               left="272"
+               width="40"
+               height="15"> 2.5.3). </text>
+         <text rendition="#f12"
+               size="9"
+               top="748"
+               left="68"
+               width="13"
+               height="10">390</text>
+         <text rendition="#f7"
+               size="13"
+               top="749"
+               left="81"
+               width="279"
+               height="15">  Opelt (1965) 228 weist darauf hin, dass Cicero mit </text>
+         <text rendition="#f13"
+               size="13"
+               top="750"
+               left="360"
+               width="22"
+               height="14">faex</text>
+         <text rendition="#f7"
+               size="13"
+               top="749"
+               left="382"
+               width="267"
+               height="15"> auch seine Geringschätzung als Autor gegenüber </text>
+         <text rendition="#f7"
+               size="13"
+               top="769"
+               left="89"
+               width="299"
+               height="15">seinem urteilsunfähigen Publikum ausdrückt, vgl. Cic. </text>
+         <text rendition="#f13"
+               size="13"
+               top="769"
+               left="388"
+               width="21"
+               height="14">fam</text>
+         <text rendition="#f7"
+               size="13"
+               top="769"
+               left="409"
+               width="45"
+               height="15">. 7.32.2. </text>
+         <text rendition="#f13"
+               size="13"
+               top="769"
+               left="454"
+               width="72"
+               height="14">sed quoniam </text>
+         <text rendition="#f24"
+               size="13"
+               top="770"
+               left="526"
+               width="118"
+               height="13">
+            <b>tanta faex est in urbe</b>
+         </text>
+         <text rendition="#f13"
+               size="13"
+               top="769"
+               left="643"
+               width="6"
+               height="14">, </text>
+         <text rendition="#f13"
+               size="13"
+               top="787"
+               left="89"
+               width="560"
+               height="14">ut nihil tam sit ἀκύθηρον quod non alicui venustum esse videatur, pugna, si me amas, [...] ut sacramento </text>
+         <text rendition="#f13"
+               size="13"
+               top="806"
+               left="89"
+               width="132"
+               height="14">contendas mea non esse. </text>
+         <text rendition="#f7"
+               size="13"
+               top="806"
+               left="222"
+               width="9"
+               height="15">   </text>
+      </page>
         </text>
       </TEI>
     </x:expect>

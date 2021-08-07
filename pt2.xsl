@@ -15,18 +15,27 @@
     </xd:desc>
   </xd:doc>
   
-  <xsl:variable name="sizes">
-    <xsl:for-each-group select="//*:text" group-by="@size">
-      <xsl:sort select="count(current-group())" order="descending" />
-      <s>
-        <xsl:value-of select="current-group()[1]/@size"/>
-      </s>
-    </xsl:for-each-group>
-  </xsl:variable>
-  
-  <xsl:variable name="mainsize" as="xs:int">
-    <xsl:value-of select="number($sizes/*[1])"/>
-  </xsl:variable>
+  <xsl:template match="tei:TEI">
+    <xsl:variable name="sizes">
+      <xsl:for-each-group select="tei:text//*:text" group-by="@size">
+        <xsl:sort select="count(current-group())" order="descending" />
+        <s>
+          <xsl:value-of select="current-group()[1]/@size"/>
+        </s>
+      </xsl:for-each-group>
+    </xsl:variable>
+    
+    <xsl:variable name="mainsize" as="xs:int">
+      <xsl:value-of select="number($sizes/*[1])"/>
+    </xsl:variable>
+    
+    <TEI>
+      <xsl:apply-templates select="@* | node()">
+        <xsl:with-param name="sizes" select="$sizes" tunnel="1" />
+        <xsl:with-param name="mainsize" select="$mainsize" tunnel="1" />
+      </xsl:apply-templates>
+    </TEI>
+  </xsl:template>
   
   <xd:doc>
     <xd:desc>
@@ -34,6 +43,8 @@
     </xd:desc>
   </xd:doc>
   <xsl:template match="text">
+    <xsl:param name="sizes" tunnel="true" />
+    <xsl:param name="mainsize" tunnel="true" />
     <xsl:variable name="mysize" select="number(@size)"/>
     <xsl:choose>
       <xsl:when test="$mysize &gt; $mainsize">
@@ -56,6 +67,17 @@
         </xsl:copy>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xd:doc>
+    <xd:desc>Use <xd:pre>tei:pb</xd:pre> to delimit pages; we need the size info so we can compute indents, columns,
+      marginalia in a later step.</xd:desc>
+  </xd:doc>
+  <xsl:template match="*:page">
+    <pb n="{@number}">
+      <xsl:sequence select="@height | @width" />
+    </pb>
+    <xsl:apply-templates />
   </xsl:template>
   
   <xd:doc>
