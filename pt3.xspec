@@ -103,27 +103,13 @@
                <body>
                   <div>
                      <pb n="1" height="935" width="722"/>
-                     <head level="4"
-                           rendition="#f0"
-                           size="16"
-                           top="129"
-                           left="68"
-                           width="103"
-                           height="18">Merryl Rebello </head>
-                     <head level="2"
-                           rendition="#f1"
-                           size="19"
-                           top="161"
-                           left="68"
-                           width="300"
-                           height="21">Romulus in der lateinischen Literatur </head>
-                     <head level="2"
-                           rendition="#f1"
-                           size="19"
-                           top="187"
-                           left="68"
-                           width="163"
-                           height="21">von Ennius bis Ovid </head>
+                    <head level="4"><text rendition="#f0" size="16" top="129" left="68" width="103" height="18" xmlns=""
+                      >Merryl Rebello </text></head>
+                    <head level="2"><text rendition="#f1" size="19" top="161" left="68" width="300" height="21" xmlns=""
+                      >Romulus in der lateinischen Literatur </text></head>
+                    <head level="2"><text rendition="#f1" size="19" top="187" left="68" width="163" height="21" xmlns=""
+                      >von Ennius bis Ovid </text></head>
+                    
                      <pb n="2" height="935" width="722"/>
                      <pb n="3" height="935" width="722"/>
                      <image xmlns=""
@@ -132,42 +118,19 @@
                             width="150"
                             height="37"
                             src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
-                     <head level="3"
-                           rendition="#f2"
-                           size="18"
-                           top="156"
-                           left="128"
-                           width="113"
-                           height="20">Merryl Rebello </head>
+                    <head level="3"><text rendition="#f2" size="18" top="156" left="128" width="113" height="20" xmlns=""
+                      >Merryl Rebello </text></head>
                   </div>
                   <div>
-                     <head level="0"
-                           rendition="#f3"
-                           size="33"
-                           top="214"
-                           left="128"
-                           width="228"
-                           height="35">
-                        <hi rend="bold">Romulus in der </hi>
-                     </head>
-                     <head level="0"
-                           rendition="#f3"
-                           size="33"
-                           top="260"
-                           left="128"
-                           width="311"
-                           height="35">
-                        <hi rend="bold">lateinischen Literatur </hi>
-                     </head>
-                     <head level="0"
-                           rendition="#f3"
-                           size="33"
-                           top="305"
-                           left="128"
-                           width="286"
-                           height="35">
-                        <hi rend="bold">von Ennius bis Ovid </hi>
-                     </head>
+                    <head level="0"><text rendition="#f3" size="33" top="214" left="128" width="228" height="35" xmlns="">
+                      <hi rend="bold" xmlns="http://www.tei-c.org/ns/1.0">Romulus in der </hi>
+                    </text></head>
+                    <head level="0"><text rendition="#f3" size="33" top="260" left="128" width="311" height="35" xmlns="">
+                      <hi rend="bold" xmlns="http://www.tei-c.org/ns/1.0">lateinischen Literatur </hi>
+                    </text></head>
+                    <head level="0"><text rendition="#f3" size="33" top="305" left="128" width="286" height="35" xmlns="">
+                      <hi rend="bold" xmlns="http://www.tei-c.org/ns/1.0">von Ennius bis Ovid </hi>
+                    </text></head>
                      <pb n="4" height="935" width="722"/>
                      <l left="77" top="49" size="11">
                         <text xmlns=""
@@ -340,13 +303,8 @@
                      </l>
                   </div>
                   <div>
-                     <head level="0"
-                           rendition="#f8"
-                           size="33"
-                           top="135"
-                           left="300"
-                           width="114"
-                           height="36">Vorwort</head>
+                    <head level="0"><text rendition="#f8" size="33" top="135" left="300" width="114" height="36" xmlns=""
+                      >Vorwort</text></head>
                      <l left="68" top="21" size="15">
                         <text xmlns=""
                               rendition="#f9"
@@ -567,13 +525,8 @@
                      </l>
                   </div>
                   <div>
-                     <head level="0"
-                           rendition="#f8"
-                           size="33"
-                           top="126"
-                           left="269"
-                           width="176"
-                           height="36">1. Einleitung</head>
+                    <head level="0"><text rendition="#f8" size="33" top="126" left="269" width="176" height="36" xmlns=""
+                      >1. Einleitung</text></head>
                      <div>
                         <text xmlns=""
                               rendition="#f9"
@@ -1071,13 +1024,8 @@
                               left="77"
                               width="357"
                               height="16">chung literarischer Romulus-Darstellungen erforderlich ist.</text>
-                        <head level="3"
-                              rendition="#f2"
-                              size="18"
-                              top="476"
-                              left="77"
-                              width="357"
-                              height="20">Überblick über Aufbau und Methodik der Arbeit </head>
+                       <head level="3"><text rendition="#f2" size="18" top="476" left="77" width="357" height="20" xmlns=""
+                         >Überblick über Aufbau und Methodik der Arbeit </text></head>
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -1544,13 +1492,8 @@
                               height="15">22 </text>
                      </div>
                      <div>
-                        <head level="1"
-                              rendition="#f17"
-                              size="24"
-                              top="123"
-                              left="304"
-                              width="128"
-                              height="26">2.1.  Naevius </head>
+                       <head level="1"><text rendition="#f17" size="24" top="123" left="304" width="128" height="26" xmlns=""
+                         >2.1.  Naevius </text></head>
                         <div>
                            <l left="77" top="17" size="15">
                               <text xmlns=""
@@ -1637,27 +1580,12 @@
                            </l>
                         </div>
                         <div>
-                           <head level="2"
-                                 rendition="#f1"
-                                 size="19"
-                                 top="328"
-                                 left="77"
-                                 width="229"
-                                 height="21">2.1.1.  Die „Archäologie“ des </head>
-                           <head level="2"
-                                 rendition="#f18"
-                                 size="19"
-                                 top="328"
-                                 left="305"
-                                 width="129"
-                                 height="20">Bellum Punicum</head>
-                           <head level="2"
-                                 rendition="#f1"
-                                 size="19"
-                                 top="328"
-                                 left="434"
-                                 width="4"
-                                 height="21"> </head>
+                          <head level="2"><text rendition="#f1" size="19" top="328" left="77" width="229" height="21" xmlns=""
+                            >2.1.1.  Die „Archäologie“ des </text></head>
+                          <head level="2"><text rendition="#f18" size="19" top="328" left="305" width="129" height="20" xmlns=""
+                            >Bellum Punicum</text></head>
+                          <head level="2"><text rendition="#f1" size="19" top="328" left="434" width="4" height="21" xmlns=""
+                            > </text></head>
                            <l left="77" top="37" size="15">
                               <text xmlns=""
                                     rendition="#f9"
@@ -2200,27 +2128,11 @@
                            </l>
                         </div>
                         <div>
-                           <head level="2"
-                                 rendition="#f1"
-                                 size="19"
-                                 top="212"
-                                 left="77"
-                                 width="274"
-                                 height="21">4.4.3.  „Du Schwuchtel-Romulus“ (</head>
-                           <head level="2"
-                                 rendition="#f18"
-                                 size="19"
-                                 top="212"
-                                 left="350"
-                                 width="122"
-                                 height="20">cinaede Romule</head>
-                           <head level="2"
-                                 rendition="#f1"
-                                 size="19"
-                                 top="212"
-                                 left="472"
-                                 width="11"
-                                 height="21">) </head>
+                          <head level="2"><text rendition="#f1" size="19" top="212" left="77" width="274" height="21" xmlns=""
+                            >4.4.3.  „Du Schwuchtel-Romulus“ (</text></head>
+                          <head level="2"><text rendition="#f18" size="19" top="212" left="350" width="122" height="20" xmlns=""
+                            >cinaede Romule</text></head>
+                          <head level="2"><text rendition="#f1" size="19" top="212" left="472" width="11" height="21" xmlns="">) </text></head>
                            <l left="77" top="26" size="15">
                               <text xmlns=""
                                     rendition="#f9"
