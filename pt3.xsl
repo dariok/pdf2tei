@@ -92,22 +92,16 @@
     <xsl:for-each-group select="$context" group-starting-with="tei:head[@level = $level 
       and not(preceding-sibling::*[1][self::tei:head[@level = $level]])]">
       <div>
-        <xsl:apply-templates select="current-group()[self:: tei:head and @level = $level]" />
         <xsl:choose>
           <xsl:when test="current-group()[self::tei:head and @level = $level + 1]">
+            <xsl:apply-templates select="current-group()[@level = $level][1]" />
             <xsl:call-template name="divStructure">
               <xsl:with-param name="context" select="current-group()[not(self::tei:head and @level = $level)]" />
               <xsl:with-param name="level" select="$level + 1" />
             </xsl:call-template>
           </xsl:when>
-          <!-- e.g. title pages -->
-          <xsl:when test="current-group()[self::tei:head] and not(current-group()[self::tei:head and @level = $level])">
-            <xsl:apply-templates select="current-group()" />
-          </xsl:when>
           <xsl:otherwise>
-            <xsl:call-template name="lines">
-              <xsl:with-param name="texts" select="current-group()[not(self::tei:head and @level = $level)]" />
-            </xsl:call-template>
+            <xsl:apply-templates select="current-group()" />
           </xsl:otherwise>
         </xsl:choose>
       </div>
@@ -116,28 +110,21 @@
   
   <xd:doc>
     <xd:desc>
-      <xd:p>Evalutate <xd:pre>@top</xd:pre> to group <xd:pre>*:text</xd:pre> into lines.</xd:p>
+      <xd:p>Group headings by level</xd:p>
     </xd:desc>
-    <xd:param name="texts">A sequence to texts to be grouped.</xd:param>
   </xd:doc>
-  <xsl:template name="lines">
-    <xsl:param name="texts" />
+  <xsl:template match="tei:head">
+    <xsl:variable name="level" select="@level" />
+    <xsl:variable name="end" select="following-sibling::*[not(@level eq $level)][1]" />
     
-    <!-- div by ($mainsizeOfPage - 2) may be more accurate but does not seem necessary in current tests -->
-    <xsl:for-each-group select="$texts" group-adjacent="round(number(@top) div 10)">
-      <xsl:choose>
-        <!-- no @top: pagebreak -->
-        <xsl:when test="not(@top)">
-          <xsl:sequence select="." />
-        </xsl:when>
-        <!-- We need to evaluate info such as @left later, so we copy the elements -->
-        <xsl:otherwise>
-          <l left="{current-group()[1]/@left}" top="{current-grouping-key()}" size="{current-group()[1]/@size}">
-            <xsl:apply-templates select="current-group()" />
-          </l>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:for-each-group>
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::*[1][@level eq $level]" />
+      <xsl:otherwise>
+        <head level="{$level}">
+          <xsl:apply-templates select="* | (following-sibling::* intersect $end/preceding-sibling::*)/*" />
+        </head>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xd:doc>

@@ -3,68 +3,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   stylesheet="pt3.xsl">
   <x:scenario label="1. div structure">
-    <x:scenario label="1.1">
-      <x:context>
-        <text>
-          <pb n="1"/>
-          <head level="4" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </head>
-          <head level="2" rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur  </head>
-          <head level="2" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </head>
-          
-          <pb n="2"/>
-          <pb n="3"/>
-          <image xmlns="" top="797" left="68" width="150" height="37" src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
-          <head level="3" rendition="#f2" size="18" top="156" left="128" width="113" height="20">Merryl Rebello </head>
-          <head level="0" rendition="#f3" size="33" top="214" left="128" width="228" height="35">
-            <b xmlns="">Romulus in der  </b>
-          </head>
-          <head level="0" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
-            <b xmlns="">lateinischen Literatur  </b>
-          </head>
-          <head level="0" rendition="#f3" size="33" top="305" left="128" width="286" height="35">
-            <b xmlns="">von Ennius bis Ovid </b>
-          </head>
-          
-          <pb n="4"/>
-          <text xmlns="" level="-1" rendition="#f4" size="11" top="489" left="77" width="187" height="13">wbg Academic ist ein Imprint der wbg </text>
-          <text xmlns="" level="-1" rendition="#f4" size="11" top="508" left="77" width="310" height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
-        </text>
-      </x:context>
-      <x:expect label=".">
-        <text>
-          <body>
-            <div>
-              <pb n="1"/>
-              <head level="4" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </head>
-              <head level="2" rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur  </head>
-              <head level="2" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </head>
-              
-              <pb n="2"/>
-              <pb n="3"/>
-              <image xmlns="" top="797" left="68" width="150" height="37" src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
-              <head level="3" rendition="#f2" size="18" top="156" left="128" width="113" height="20">Merryl Rebello </head>
-            </div>
-            <div>
-              <head level="0" rendition="#f3" size="33" top="214" left="128" width="228" height="35">
-                <hi rend="bold">Romulus in der  </hi>
-              </head>
-              <head level="0" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
-                <hi rend="bold">lateinischen Literatur  </hi>
-              </head>
-              <head level="0" rendition="#f3" size="33" top="305" left="128" width="286" height="35">
-                <hi rend="bold">von Ennius bis Ovid </hi>
-              </head>
-              
-              <pb n="4"/>
-              <l top="49" left="77" size="11"><text xmlns="" level="-1" rendition="#f4" size="11" top="489" left="77" width="187" height="13"
-                >wbg Academic ist ein Imprint der wbg </text></l>
-              <l top="51" left="77" size="11"><text xmlns="" level="-1" rendition="#f4" size="11" top="508" left="77" width="310" height="13"
-                >© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text></l>
-            </div>
-          </body>
-        </text>
-      </x:expect>
-    </x:scenario>
+    
   </x:scenario>
   
   <x:scenario label="T2">
@@ -105,9 +44,10 @@
                      <pb n="1" height="935" width="722"/>
                     <head level="4"><text rendition="#f0" size="16" top="129" left="68" width="103" height="18" xmlns=""
                       >Merryl Rebello </text></head>
-                    <head level="2"><text rendition="#f1" size="19" top="161" left="68" width="300" height="21" xmlns=""
-                      >Romulus in der lateinischen Literatur </text></head>
-                    <head level="2"><text rendition="#f1" size="19" top="187" left="68" width="163" height="21" xmlns=""
+                    <head level="2">
+                      <text rendition="#f1" size="19" top="161" left="68" width="300" height="21" xmlns=""
+                      >Romulus in der lateinischen Literatur </text>
+                      <text rendition="#f1" size="19" top="187" left="68" width="163" height="21" xmlns=""
                       >von Ennius bis Ovid </text></head>
                     
                      <pb n="2" height="935" width="722"/>
@@ -122,17 +62,17 @@
                       >Merryl Rebello </text></head>
                   </div>
                   <div>
-                    <head level="0"><text rendition="#f3" size="33" top="214" left="128" width="228" height="35" xmlns="">
+                    <head level="0">
+                      <text rendition="#f3" size="33" top="214" left="128" width="228" height="35" xmlns="">
                       <hi rend="bold" xmlns="http://www.tei-c.org/ns/1.0">Romulus in der </hi>
-                    </text></head>
-                    <head level="0"><text rendition="#f3" size="33" top="260" left="128" width="311" height="35" xmlns="">
+                    </text>
+                      <text rendition="#f3" size="33" top="260" left="128" width="311" height="35" xmlns="">
                       <hi rend="bold" xmlns="http://www.tei-c.org/ns/1.0">lateinischen Literatur </hi>
-                    </text></head>
-                    <head level="0"><text rendition="#f3" size="33" top="305" left="128" width="286" height="35" xmlns="">
+                    </text>
+                      <text rendition="#f3" size="33" top="305" left="128" width="286" height="35" xmlns="">
                       <hi rend="bold" xmlns="http://www.tei-c.org/ns/1.0">von Ennius bis Ovid </hi>
                     </text></head>
                      <pb n="4" height="935" width="722"/>
-                     <l left="77" top="49" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f4"
@@ -141,8 +81,6 @@
                               left="77"
                               width="187"
                               height="13">wbg Academic ist ein Imprint der wbg </text>
-                     </l>
-                     <l left="77" top="51" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f4"
@@ -151,8 +89,6 @@
                               left="77"
                               width="310"
                               height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
-                     </l>
-                     <l left="77" top="53" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f4"
@@ -161,8 +97,6 @@
                               left="77"
                               width="409"
                               height="13">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </text>
-                     </l>
-                     <l left="77" top="55" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f4"
@@ -171,8 +105,6 @@
                               left="77"
                               width="291"
                               height="13">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </text>
-                     </l>
-                     <l left="77" top="60" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f4"
@@ -181,8 +113,6 @@
                               left="77"
                               width="293"
                               height="13">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </text>
-                     </l>
-                     <l left="77" top="68" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f5"
@@ -191,8 +121,6 @@
                               left="77"
                               width="417"
                               height="12">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</text>
-                     </l>
-                     <l left="77" top="70" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f5"
@@ -201,8 +129,6 @@
                               left="77"
                               width="351"
                               height="12">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</text>
-                     </l>
-                     <l left="77" top="71" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f5"
@@ -211,8 +137,6 @@
                               left="77"
                               width="410"
                               height="12">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </text>
-                     </l>
-                     <l left="77" top="73" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f5"
@@ -237,8 +161,6 @@
                               left="111"
                               width="353"
                               height="12">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </text>
-                     </l>
-                     <l left="77" top="75" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f5"
@@ -263,8 +185,6 @@
                               left="150"
                               width="319"
                               height="12">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </text>
-                     </l>
-                     <l left="77" top="77" size="11">
                         <text xmlns=""
                               level="-1"
                               rendition="#f5"
@@ -289,9 +209,7 @@
                               left="195"
                               width="127"
                               height="12">Einwilligung des Verlages.</text>
-                     </l>
                      <pb n="5" height="935" width="722"/>
-                     <l left="354" top="86" size="13">
                         <text xmlns=""
                               level="-0"
                               rendition="#f7"
@@ -300,12 +218,10 @@
                               left="354"
                               width="10"
                               height="15">5 </text>
-                     </l>
                   </div>
                   <div>
                     <head level="0"><text rendition="#f8" size="33" top="135" left="300" width="114" height="36" xmlns=""
                       >Vorwort</text></head>
-                     <l left="68" top="21" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -313,8 +229,6 @@
                               left="68"
                               width="582"
                               height="16">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </text>
-                     </l>
-                     <l left="68" top="23" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -322,8 +236,6 @@
                               left="68"
                               width="578"
                               height="16">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</text>
-                     </l>
-                     <l left="68" top="25" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -331,8 +243,6 @@
                               left="68"
                               width="581"
                               height="16">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </text>
-                     </l>
-                     <l left="68" top="27" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -340,8 +250,6 @@
                               left="68"
                               width="106"
                               height="16">verteidigt wurde. </text>
-                     </l>
-                     <l left="81" top="29" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -349,8 +257,6 @@
                               left="81"
                               width="566"
                               height="16">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</text>
-                     </l>
-                     <l left="68" top="31" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -358,8 +264,6 @@
                               left="68"
                               width="386"
                               height="16">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </text>
-                     </l>
-                     <l left="81" top="33" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -367,8 +271,6 @@
                               left="81"
                               width="570"
                               height="16">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </text>
-                     </l>
-                     <l left="68" top="35" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -376,8 +278,6 @@
                               left="68"
                               width="583"
                               height="16">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </text>
-                     </l>
-                     <l left="68" top="37" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -385,8 +285,6 @@
                               left="68"
                               width="578"
                               height="16">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</text>
-                     </l>
-                     <l left="68" top="39" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -394,8 +292,6 @@
                               left="68"
                               width="358"
                               height="16">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </text>
-                     </l>
-                     <l left="81" top="41" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -403,8 +299,6 @@
                               left="81"
                               width="565"
                               height="16">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</text>
-                     </l>
-                     <l left="68" top="43" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -412,8 +306,6 @@
                               left="68"
                               width="581"
                               height="16">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </text>
-                     </l>
-                     <l left="68" top="45" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -421,8 +313,6 @@
                               left="68"
                               width="225"
                               height="16">Auch ihm gilt mein herzlicher Dank. </text>
-                     </l>
-                     <l left="81" top="47" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -430,8 +320,6 @@
                               left="81"
                               width="570"
                               height="16">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </text>
-                     </l>
-                     <l left="68" top="49" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -439,8 +327,6 @@
                               left="68"
                               width="582"
                               height="16">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </text>
-                     </l>
-                     <l left="68" top="51" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -448,8 +334,6 @@
                               left="68"
                               width="582"
                               height="16">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </text>
-                     </l>
-                     <l left="68" top="53" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -457,8 +341,6 @@
                               left="68"
                               width="135"
                               height="16">Gemeinschaft zu sein. </text>
-                     </l>
-                     <l left="81" top="55" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -466,8 +348,6 @@
                               left="81"
                               width="569"
                               height="16">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </text>
-                     </l>
-                     <l left="68" top="57" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -475,8 +355,6 @@
                               left="68"
                               width="153"
                               height="16">Udolph zurückzuführen. </text>
-                     </l>
-                     <l left="81" top="59" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -484,8 +362,6 @@
                               left="81"
                               width="571"
                               height="16">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </text>
-                     </l>
-                     <l left="68" top="61" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -493,8 +369,6 @@
                               left="68"
                               width="115"
                               height="16">Schwester Melissa. </text>
-                     </l>
-                     <l left="68" top="65" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -502,8 +376,6 @@
                               left="68"
                               width="168"
                               height="16">Hamburg, im Februar 2019 </text>
-                     </l>
-                     <l left="68" top="69" size="15">
                         <text xmlns=""
                               rendition="#f9"
                               size="15"
@@ -511,9 +383,8 @@
                               left="68"
                               width="90"
                               height="16">Merryl Rebello</text>
-                     </l>
                      <pb n="12" height="935" width="722"/>
-                     <l left="351" top="86" size="13">
+                    <pb n="13" height="935" width="722"/>
                         <text xmlns=""
                               level="-0"
                               rendition="#f7"
@@ -522,7 +393,6 @@
                               left="351"
                               width="16"
                               height="15">13 </text>
-                     </l>
                   </div>
                   <div>
                     <head level="0"><text rendition="#f8" size="33" top="126" left="269" width="176" height="36" xmlns=""
@@ -1495,7 +1365,6 @@
                        <head level="1"><text rendition="#f17" size="24" top="123" left="304" width="128" height="26" xmlns=""
                          >2.1.  Naevius </text></head>
                         <div>
-                           <l left="77" top="17" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1503,8 +1372,6 @@
                                     left="77"
                                     width="581"
                                     height="16">Naevius wurde um 285 v. Chr. geboren und diente im ersten Punischen Krieg als Soldat. Er verfasste </text>
-                           </l>
-                           <l left="77" top="19" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1512,8 +1379,6 @@
                                     left="77"
                                     width="582"
                                     height="16">Tragödien nach griechischen Vorlagen bzw. übertrug die Stoffe ins Lateinische, dichtete römischen </text>
-                           </l>
-                           <l left="77" top="22" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1535,8 +1400,6 @@
                                     left="629"
                                     width="30"
                                     height="16">, ein </text>
-                           </l>
-                           <l left="77" top="24" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1544,8 +1407,6 @@
                                     left="77"
                                     width="583"
                                     height="16">Epos in Saturniern, das den ersten Punischen Krieg besingt. Die Einteilung dieses Epos in sieben </text>
-                           </l>
-                           <l left="77" top="26" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1553,8 +1414,6 @@
                                     left="77"
                                     width="578"
                                     height="16">Bücher wurde bereits in der Antike vorgenommen, geht aber nicht auf Naevius selbst zurück, son-</text>
-                           </l>
-                           <l left="77" top="28" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1577,16 +1436,14 @@
                                     left="493"
                                     width="7"
                                     height="16"> </text>
-                           </l>
                         </div>
                         <div>
                           <head level="2"><text rendition="#f1" size="19" top="328" left="77" width="229" height="21" xmlns=""
-                            >2.1.1.  Die „Archäologie“ des </text></head>
-                          <head level="2"><text rendition="#f18" size="19" top="328" left="305" width="129" height="20" xmlns=""
-                            >Bellum Punicum</text></head>
-                          <head level="2"><text rendition="#f1" size="19" top="328" left="434" width="4" height="21" xmlns=""
+                            >2.1.1.  Die „Archäologie“ des </text>
+                            <text rendition="#f18" size="19" top="328" left="305" width="129" height="20" xmlns=""
+                            >Bellum Punicum</text>
+                            <text rendition="#f1" size="19" top="328" left="434" width="4" height="21" xmlns=""
                             > </text></head>
-                           <l left="77" top="37" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1594,8 +1451,6 @@
                                     left="77"
                                     width="579"
                                     height="16">Dem eigentlichen Kerngeschehen des Punischen Krieges vorgeschaltet war eine drei Bücher umfas-</text>
-                           </l>
-                           <l left="77" top="39" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1603,8 +1458,6 @@
                                     left="77"
                                     width="583"
                                     height="16">sende, in der Forschung als „Archäologie“ bezeichnete Behandlung der Frühgeschichte Roms „vom </text>
-                           </l>
-                           <l left="77" top="41" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1627,8 +1480,6 @@
                                     left="626"
                                     width="32"
                                     height="16"> Dies </text>
-                           </l>
-                           <l left="77" top="43" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1636,8 +1487,6 @@
                                     left="77"
                                     width="579"
                                     height="16">kann sicher rekonstruiert werden, wenngleich der Name „Romulus“ in den entsprechenden Fragmen-</text>
-                           </l>
-                           <l left="77" top="46" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1645,8 +1494,6 @@
                                     left="77"
                                     width="141"
                                     height="16">ten nicht genannt wird.  </text>
-                           </l>
-                           <l left="89" top="48" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1654,8 +1501,6 @@
                                     left="89"
                                     width="569"
                                     height="16">In Frg. 21-22 W. ist zwar nicht von Romulus, aber von Amulius die Rede, der sich an dieser Stelle </text>
-                           </l>
-                           <l left="77" top="50" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1678,8 +1523,6 @@
                                     left="365"
                                     width="293"
                                     height="16"> Indirekte Zeugnisse liefern der Universalgelehrte </text>
-                           </l>
-                           <l left="77" top="52" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1701,8 +1544,6 @@
                                     left="210"
                                     width="447"
                                     height="16">-Kommentator Servius. Letzterer schreibt, dass Romulus sowohl bei Naevius </text>
-                           </l>
-                           <l left="77" top="54" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1725,8 +1566,6 @@
                                     left="345"
                                     width="7"
                                     height="16"> </text>
-                           </l>
-                           <l left="89" top="56" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1748,8 +1587,6 @@
                                     left="514"
                                     width="143"
                                     height="16"> herleitet, den des Palatin </text>
-                           </l>
-                           <l left="77" top="58" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1785,8 +1622,6 @@
                                     left="655"
                                     width="3"
                                     height="16"> </text>
-                           </l>
-                           <l left="77" top="60" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1809,8 +1644,6 @@
                                     left="122"
                                     width="533"
                                     height="16"> Die zweite Etymologie könnte auf pastoralen Kontext bei Naevius hindeuten und würde da-</text>
-                           </l>
-                           <l left="77" top="62" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1818,8 +1651,6 @@
                                     left="77"
                                     width="581"
                                     height="16">mit zur Geschichte von der Aussetzung der Zwillinge passen. Die Assoziation des Aventin mit Vögeln </text>
-                           </l>
-                           <l left="77" top="64" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1827,8 +1658,6 @@
                                     left="77"
                                     width="582"
                                     height="16">wiederum könnte bedeuten, dass es bereits bei Naevius eine Augurialszene mit den Zwillingsbrüdern </text>
-                           </l>
-                           <l left="77" top="66" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -1851,8 +1680,6 @@
                                     left="109"
                                     width="549"
                                     height="16"> Keine der Informationen – weder die bei Varro noch die bei Servius – muss allerdings zwingend </text>
-                           </l>
-                           <l left="77" top="70" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -1885,8 +1712,6 @@
                                     left="166"
                                     width="28"
                                     height="15">. 2.4. </text>
-                           </l>
-                           <l left="77" top="72" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -1903,8 +1728,6 @@
                                     left="85"
                                     width="135"
                                     height="15">  Suerbaum (2002) 112. </text>
-                           </l>
-                           <l left="77" top="74" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -1929,8 +1752,6 @@
                                     left="127"
                                     width="49"
                                     height="15">116.31: </text>
-                           </l>
-                           <l left="166" top="75" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -1947,8 +1768,6 @@
                                     left="547"
                                     width="2"
                                     height="8"> </text>
-                           </l>
-                           <l left="77" top="76" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -1973,8 +1792,6 @@
                                     left="127"
                                     width="26"
                                     height="15">ad </text>
-                           </l>
-                           <l left="144" top="77" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -1983,8 +1800,6 @@
                                     left="144"
                                     width="22"
                                     height="14">Aen</text>
-                           </l>
-                           <l left="165" top="76" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -1993,8 +1808,6 @@
                                     left="165"
                                     width="41"
                                     height="15">. 1.273: </text>
-                           </l>
-                           <l left="206" top="77" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -2003,8 +1816,6 @@
                                     left="206"
                                     width="423"
                                     height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
-                           </l>
-                           <l left="630" top="76" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2013,8 +1824,6 @@
                                     left="630"
                                     width="3"
                                     height="15"> </text>
-                           </l>
-                           <l left="77" top="78" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -2023,8 +1832,6 @@
                                     left="77"
                                     width="9"
                                     height="10">25</text>
-                           </l>
-                           <l left="85" top="79" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2049,8 +1856,6 @@
                                     left="156"
                                     width="85"
                                     height="15"> 5.43 bzw. 5.53. </text>
-                           </l>
-                           <l left="77" top="80" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -2059,8 +1864,6 @@
                                     left="77"
                                     width="9"
                                     height="10">26</text>
-                           </l>
-                           <l left="85" top="81" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2069,9 +1872,7 @@
                                     left="85"
                                     width="125"
                                     height="15">  Skutsch (1985) 225.  </text>
-                           </l>
                            <pb n="140" height="935" width="722"/>
-                           <l left="356" top="86" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2080,8 +1881,6 @@
                                     left="356"
                                     width="23"
                                     height="15">140 </text>
-                           </l>
-                           <l left="77" top="8" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2089,8 +1888,6 @@
                                     left="77"
                                     width="581"
                                     height="16">so könnte der Vorwurf lauten. Der echte Romulus gehört in eine Weltstadt, Cicero aber ist nur </text>
-                           </l>
-                           <l left="77" top="10" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2098,8 +1895,6 @@
                                     left="77"
                                     width="582"
                                     height="16">eine schlechtere Kopie, also ein „Provinz-Romulus“ oder auch ein „Romulus für Arme“. Auch </text>
-                           </l>
-                           <l left="77" top="12" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2107,8 +1902,6 @@
                                     left="77"
                                     width="578"
                                     height="16">hier haben wir es also mit dem Vorwurf zu tun, dass der Nachahmer das Original nicht errei-</text>
-                           </l>
-                           <l left="77" top="14" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2116,8 +1909,6 @@
                                     left="77"
                                     width="581"
                                     height="16">chen kann. Und wieder lässt sich festhalten: Nicht Romulus ist negativ dargestellt, sondern das, </text>
-                           </l>
-                           <l left="77" top="16" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2125,15 +1916,13 @@
                                     left="77"
                                     width="265"
                                     height="16">was sein Nacheiferer aus ihm gemacht hat. </text>
-                           </l>
                         </div>
                         <div>
                           <head level="2"><text rendition="#f1" size="19" top="212" left="77" width="274" height="21" xmlns=""
-                            >4.4.3.  „Du Schwuchtel-Romulus“ (</text></head>
-                          <head level="2"><text rendition="#f18" size="19" top="212" left="350" width="122" height="20" xmlns=""
-                            >cinaede Romule</text></head>
-                          <head level="2"><text rendition="#f1" size="19" top="212" left="472" width="11" height="21" xmlns="">) </text></head>
-                           <l left="77" top="26" size="15">
+                            >4.4.3.  „Du Schwuchtel-Romulus“ (</text>
+                            <text rendition="#f18" size="19" top="212" left="350" width="122" height="20" xmlns=""
+                            >cinaede Romule</text>
+                            <text rendition="#f1" size="19" top="212" left="472" width="11" height="21" xmlns="">) </text></head>
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2141,8 +1930,6 @@
                                     left="77"
                                     width="582"
                                     height="16">Wenn Sulla und Cicero aufgrund ihrer Romulus-Nachahmung ins Lächerliche gezogen werden, </text>
-                           </l>
-                           <l left="77" top="28" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2150,8 +1937,6 @@
                                     left="77"
                                     width="582"
                                     height="16">so wäre es verwunderlich, wenn Caesar von dieser Bewegung verschont bliebe. Zwar ist über ihn </text>
-                           </l>
-                           <l left="77" top="30" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2159,8 +1944,6 @@
                                     left="77"
                                     width="581"
                                     height="16">nicht bekannt, dass er sich in seinen Werken zum Romulus stilisiert hätte, aber gegen Ende seines </text>
-                           </l>
-                           <l left="77" top="32" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2183,8 +1966,6 @@
                                     left="565"
                                     width="95"
                                     height="16"> Er gehört also </text>
-                           </l>
-                           <l left="77" top="34" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2192,8 +1973,6 @@
                                     left="77"
                                     width="256"
                                     height="16">durchaus in den Kreis potenzieller Opfer.  </text>
-                           </l>
-                           <l left="89" top="36" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2222,8 +2001,6 @@
                                     left="610"
                                     width="48"
                                     height="16">cinaede </text>
-                           </l>
-                           <l left="77" top="38" size="15">
                               <text xmlns=""
                                     rendition="#f11"
                                     size="15"
@@ -2238,8 +2015,6 @@
                                     left="122"
                                     width="533"
                                     height="16"> tituliert, die gemeinhin als Caesar dechiffriert wird. Das gesamte Gedicht ist eine Invek-</text>
-                           </l>
-                           <l left="77" top="40" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2247,8 +2022,6 @@
                                     left="77"
                                     width="582"
                                     height="16">tive gegen Caesar und die Machenschaften der Triumvirn und wird aufgrund der Anspielungen </text>
-                           </l>
-                           <l left="77" top="42" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2271,8 +2044,6 @@
                                     left="655"
                                     width="3"
                                     height="16"> </text>
-                           </l>
-                           <l left="77" top="44" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2280,8 +2051,6 @@
                                     left="77"
                                     width="581"
                                     height="16">In einem Satz zusammengefasst, könnte der Vorwurf des Gedichtes lauten „Wie kannst du, Caesar, </text>
-                           </l>
-                           <l left="77" top="46" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2289,8 +2058,6 @@
                                     left="77"
                                     width="582"
                                     height="16">es dulden, dass dein Liebling Mamurra die Provinzen ausbeutet und die Kriegsbeute verprasst?“  </text>
-                           </l>
-                           <l left="89" top="48" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2312,8 +2079,6 @@
                                     left="213"
                                     width="446"
                                     height="16"> liegt eindeutig ein Gebrauch als Schimpfwort vor, der sich jedoch von </text>
-                           </l>
-                           <l left="77" top="50" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2335,8 +2100,6 @@
                                     left="549"
                                     width="110"
                                     height="16"> hier als Adjektiv </text>
-                           </l>
-                           <l left="77" top="52" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2359,8 +2122,6 @@
                                     left="626"
                                     width="33"
                                     height="16"> (das </text>
-                           </l>
-                           <l left="77" top="54" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2368,8 +2129,6 @@
                                     left="77"
                                     width="582"
                                     height="16">allerdings hier natürlich vom Namen Romulus abgeleitet ist). Der Ausdruck kann also in etwa </text>
-                           </l>
-                           <l left="77" top="56" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2391,8 +2150,6 @@
                                     left="632"
                                     width="23"
                                     height="16"> be-</text>
-                           </l>
-                           <l left="77" top="58" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2400,8 +2157,6 @@
                                     left="77"
                                     width="582"
                                     height="16">kanntlich den beim Geschlechtsverkehr zwischen Männern den passiven Part übernehmenden </text>
-                           </l>
-                           <l left="77" top="60" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2424,8 +2179,6 @@
                                     left="117"
                                     width="542"
                                     height="16">bezeichnet. Angriffe auf die Sexualität gehören ebenfalls zum Standard-Repertoire der </text>
-                           </l>
-                           <l left="77" top="62" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2448,8 +2201,6 @@
                                     left="502"
                                     width="7"
                                     height="16"> </text>
-                           </l>
-                           <l left="77" top="67" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -2466,8 +2217,6 @@
                                     left="90"
                                     width="568"
                                     height="15">  So soll Caesar Romulus zu bestimmten Anlässen in seiner Kleidung nachgeahmt und hohe rote Schuhe </text>
-                           </l>
-                           <l left="98" top="69" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2484,8 +2233,6 @@
                                     left="622"
                                     width="33"
                                     height="14">imita-</text>
-                           </l>
-                           <l left="98" top="71" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -2502,8 +2249,6 @@
                                     left="115"
                                     width="180"
                                     height="15">führt Classen (1962) 194-196 an. </text>
-                           </l>
-                           <l left="77" top="73" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -2520,8 +2265,6 @@
                                     left="90"
                                     width="129"
                                     height="15">  Syndikus (1984) 176f. </text>
-                           </l>
-                           <l left="77" top="75" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -2554,8 +2297,6 @@
                                     left="322"
                                     width="337"
                                     height="15"> kann wörtlich als „Volk des Romulus“ übersetzt werden, ist </text>
-                           </l>
-                           <l left="98" top="77" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2564,8 +2305,6 @@
                                     left="98"
                                     width="417"
                                     height="15">aber auch hier kaum mehr als ein poetischer Ausdruck für „römisches Volk“.</text>
-                           </l>
-                           <l left="77" top="79" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -2606,8 +2345,6 @@
                                     left="599"
                                     width="56"
                                     height="14">nostra dif-</text>
-                           </l>
-                           <l left="98" top="81" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -2624,9 +2361,7 @@
                                     left="180"
                                     width="9"
                                     height="15">.  </text>
-                           </l>
                            <pb n="145" height="935" width="722"/>
-                           <l left="347" top="86" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2635,8 +2370,6 @@
                                     left="347"
                                     width="23"
                                     height="15">145 </text>
-                           </l>
-                           <l left="72" top="8" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2644,8 +2377,6 @@
                                     left="72"
                                     width="254"
                                     height="16">Nam Catonem nostrum non tu amas plus </text>
-                           </l>
-                           <l left="72" top="10" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2653,8 +2384,6 @@
                                     left="72"
                                     width="277"
                                     height="16">quam ego; sed tamen ille optimo animo utens </text>
-                           </l>
-                           <l left="72" top="12" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2662,8 +2391,6 @@
                                     left="72"
                                     width="279"
                                     height="16">et summa fide nocet interdum rei publicae; di-</text>
-                           </l>
-                           <l left="72" top="14" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2671,8 +2398,6 @@
                                     left="72"
                                     width="267"
                                     height="16">cit enim tamquam in Platonis πολιτείᾳ, non </text>
-                           </l>
-                           <l left="72" top="16" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2696,8 +2421,6 @@
                                     left="232"
                                     width="84"
                                     height="16">, sententiam.  </text>
-                           </l>
-                           <l left="360" top="8" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2705,8 +2428,6 @@
                                     left="360"
                                     width="265"
                                     height="16">Denn du liebst unseren Cato nicht mehr als </text>
-                           </l>
-                           <l left="360" top="10" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2714,8 +2435,6 @@
                                     left="360"
                                     width="279"
                                     height="16">ich; aber trotzdem schadet er, obwohl er beste </text>
-                           </l>
-                           <l left="360" top="12" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2723,8 +2442,6 @@
                                     left="360"
                                     width="272"
                                     height="16">Absichten hat und höchst aufrichtig handelt, </text>
-                           </l>
-                           <l left="360" top="14" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2732,8 +2449,6 @@
                                     left="360"
                                     width="283"
                                     height="16">manchmal dem Staat; er stimmt nämlich so ab </text>
-                           </l>
-                           <l left="360" top="16" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2750,8 +2465,6 @@
                                     height="16">
                                  <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">in der </hi>
                               </text>
-                           </l>
-                           <l left="360" top="18" size="15">
                               <text xmlns=""
                                     rendition="#f14"
                                     size="15"
@@ -2787,8 +2500,6 @@
                                     left="495"
                                     width="3"
                                     height="16"> </text>
-                           </l>
-                           <l left="72" top="21" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2810,8 +2521,6 @@
                                     left="122"
                                     width="35"
                                     height="16"> 2.1.8 </text>
-                           </l>
-                           <l left="68" top="26" size="15">
                               <text xmlns=""
                                     rendition="#f11"
                                     size="15"
@@ -2826,8 +2535,6 @@
                                     left="96"
                                     width="550"
                                     height="16"> hat ein Bedeutungsspektrum von „Bodensatz, Hefe“ (im Kontext der Lebensmittelverarbei-</text>
-                           </l>
-                           <l left="68" top="28" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2849,8 +2556,6 @@
                                     left="571"
                                     width="76"
                                     height="16"> in Schimpf-</text>
-                           </l>
-                           <l left="68" top="30" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2858,8 +2563,6 @@
                                     left="68"
                                     width="583"
                                     height="16">wörtern dann im wahrsten Sinne des Wortes Fäkalsprache bzw. Koprolalie. Cicero benutzt das </text>
-                           </l>
-                           <l left="68" top="32" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2867,8 +2570,6 @@
                                     left="68"
                                     width="583"
                                     height="16">Wort in seinem gesamten Oeuvre ausschließlich im übertragenen Sinne, und zwar wie in der </text>
-                           </l>
-                           <l left="68" top="34" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2876,8 +2577,6 @@
                                     left="68"
                                     width="255"
                                     height="16">zitierten Briefpassage in der Konstruktion </text>
-                           </l>
-                           <l left="111" top="38" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -2918,8 +2617,6 @@
                                     left="504"
                                     width="6"
                                     height="15">  </text>
-                           </l>
-                           <l left="68" top="42" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2927,8 +2624,6 @@
                                     left="68"
                                     width="579"
                                     height="16">Wie der Blick auf die anderen Fundstellen für diesen Ausdruck bei Cicero zeigt, ist ein herablas-</text>
-                           </l>
-                           <l left="68" top="44" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2936,8 +2631,6 @@
                                     left="68"
                                     width="582"
                                     height="16">sender Gebrauch dieser Formulierung auch in der Invektive durchaus mehrfach belegt; das Volk </text>
-                           </l>
-                           <l left="68" top="46" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2960,8 +2653,6 @@
                                     left="433"
                                     width="218"
                                     height="16"> In der zitierten Passage wird auch </text>
-                           </l>
-                           <l left="68" top="48" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2969,8 +2660,6 @@
                                     left="68"
                                     width="583"
                                     height="16">Romulus mit Menschen niederen Standes in Verbindung gebracht. In einer Episode bei Livius </text>
-                           </l>
-                           <l left="68" top="50" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2978,8 +2667,6 @@
                                     left="68"
                                     width="578"
                                     height="16">werden wir später lesen können, dass Romulus ein Asyl gegründet und dort Menschen zweifel-</text>
-                           </l>
-                           <l left="68" top="52" size="15">
                               <text xmlns=""
                                     rendition="#f9"
                                     size="15"
@@ -2987,8 +2674,6 @@
                                     left="68"
                                     width="581"
                                     height="16">haften Ranges um sich geschart haben soll, um die Stadt Rom mit Menschen zu füllen – dies passt </text>
-                           </l>
-                           <l left="68" top="58" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -3021,8 +2706,6 @@
                                     left="219"
                                     width="431"
                                     height="15"> eine deutsche Übersetzung zu finden, die alle Nuancen des lateinischen Wortes </text>
-                           </l>
-                           <l left="89" top="60" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -3031,8 +2714,6 @@
                                     left="89"
                                     width="560"
                                     height="15">wiedergibt. „Abschaum“ würde den Lebensmittelkontext in die Zielsprache bringen, aber man kann nur </text>
-                           </l>
-                           <l left="89" top="62" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -3041,8 +2722,6 @@
                                     left="89"
                                     width="557"
                                     height="15">Abschaum sein oder als solcher behandelt werden und sich nicht im Abschaum befinden. „Gosse“ hin-</text>
-                           </l>
-                           <l left="89" top="64" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -3051,8 +2730,6 @@
                                     left="89"
                                     width="557"
                                     height="15">gegen gibt zwar den fäkalsprachlichen Aspekt adäquat wieder und zeigt auch die gleiche soziale Herab-</text>
-                           </l>
-                           <l left="89" top="65" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -3061,8 +2738,6 @@
                                     left="89"
                                     width="560"
                                     height="15">setzung, die in der Sprechhaltung Ciceros zu erkennen ist – und es kann auch örtlich gebraucht werden. </text>
-                           </l>
-                           <l left="89" top="67" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -3071,8 +2746,6 @@
                                     left="89"
                                     width="484"
                                     height="15">Als Bezeichnung für einen schlechten Staat ist „Gosse“ im Deutschen allerdings unüblich.</text>
-                           </l>
-                           <l left="68" top="69" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -3161,8 +2834,6 @@
                                     left="575"
                                     width="74"
                                     height="14">ex omni faece </text>
-                           </l>
-                           <l left="89" top="71" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -3235,8 +2906,6 @@
                                     left="463"
                                     width="187"
                                     height="14">nam apud perdidissimam illam et </text>
-                           </l>
-                           <l left="89" top="73" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -3285,8 +2954,6 @@
                                     left="272"
                                     width="40"
                                     height="15"> 2.5.3). </text>
-                           </l>
-                           <l left="68" top="75" size="9">
                               <text xmlns=""
                                     level="-3"
                                     rendition="#f12"
@@ -3319,8 +2986,6 @@
                                     left="382"
                                     width="267"
                                     height="15"> auch seine Geringschätzung als Autor gegenüber </text>
-                           </l>
-                           <l left="89" top="77" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f7"
@@ -3371,8 +3036,6 @@
                                     left="643"
                                     width="6"
                                     height="14">, </text>
-                           </l>
-                           <l left="89" top="79" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -3381,8 +3044,6 @@
                                     left="89"
                                     width="560"
                                     height="14">ut nihil tam sit ἀκύθηρον quod non alicui venustum esse videatur, pugna, si me amas, [...] ut sacramento </text>
-                           </l>
-                           <l left="89" top="81" size="13">
                               <text xmlns=""
                                     level="-0"
                                     rendition="#f13"
@@ -3399,7 +3060,6 @@
                                     left="222"
                                     width="9"
                                     height="15">   </text>
-                           </l>
                         </div>
                      </div>
                   </div>
