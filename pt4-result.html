@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <title>Test Report for /home/dario/git/oatbyco/pdf2tei/pt3.xsl (passed: 1 / pending: 0 / failed: 0 / total: 1)</title>
+      <title>Test Report for /home/dario/git/oatbyco/pdf2tei/pt4.xsl (passed: 3 / pending: 0 / failed: 0 / total: 3)</title>
       <style type="text/css">/****************************************************************************/
 /*  File:       test-report.css                                             */
 /*  Author:     Jeni Tennison                                               */
@@ -585,9 +585,9 @@ span.scenario-totals {
    </head>
    <body>
       <h1>Test Report</h1>
-      <p>Stylesheet: <a href="file:/home/dario/git/oatbyco/pdf2tei/pt3.xsl">/home/dario/git/oatbyco/pdf2tei/pt3.xsl</a></p>
-      <p>XSpec: <a href="file:/home/dario/git/oatbyco/pdf2tei/pt3.xspec">/home/dario/git/oatbyco/pdf2tei/pt3.xspec</a></p>
-      <p>Tested: 9 August 2021 at 17:06</p>
+      <p>Stylesheet: <a href="file:/home/dario/git/oatbyco/pdf2tei/pt4.xsl">/home/dario/git/oatbyco/pdf2tei/pt4.xsl</a></p>
+      <p>XSpec: <a href="file:/home/dario/git/oatbyco/pdf2tei/pt4.xspec">/home/dario/git/oatbyco/pdf2tei/pt4.xspec</a></p>
+      <p>Tested: 9 August 2021 at 18:00</p>
       <h2>Contents</h2>
       <table class="xspec">
          <colgroup>
@@ -600,31 +600,31 @@ span.scenario-totals {
          <thead>
             <tr>
                <th></th>
-               <th class="totals">passed: 1</th>
+               <th class="totals">passed: 3</th>
                <th class="totals">pending: 0</th>
                <th class="totals">failed: 0</th>
-               <th class="totals">total: 1</th>
+               <th class="totals">total: 3</th>
             </tr>
          </thead>
          <tbody>
             <tr class="successful">
-               <th><a href="#top_scenario1">1. div structure</a></th>
+               <th><a href="#top_scenario1">T1</a></th>
+               <th class="totals">1</th>
                <th class="totals">0</th>
                <th class="totals">0</th>
-               <th class="totals">0</th>
-               <th class="totals">0</th>
+               <th class="totals">1</th>
             </tr>
             <tr class="successful">
-               <th><a href="#top_scenario2">T2</a></th>
-               <th class="totals">1</th>
+               <th><a href="#top_scenario2">T2: group lines</a></th>
+               <th class="totals">2</th>
                <th class="totals">0</th>
                <th class="totals">0</th>
-               <th class="totals">1</th>
+               <th class="totals">2</th>
             </tr>
          </tbody>
       </table>
       <div id="top_scenario1">
-         <h2 class="successful">1. div structure<span class="scenario-totals"></span></h2>
+         <h2 class="successful">T1<span class="scenario-totals">passed: 1 / pending: 0 / failed: 0 / total: 1</span></h2>
          <table class="xspec" id="table_scenario1">
             <colgroup>
                <col style="width:75%" />
@@ -632,14 +632,18 @@ span.scenario-totals {
             </colgroup>
             <tbody>
                <tr class="successful">
-                  <th>1. div structure</th>
-                  <th></th>
+                  <th>T1</th>
+                  <th>passed: 1 / pending: 0 / failed: 0 / total: 1</th>
+               </tr>
+               <tr class="successful">
+                  <td>.</td>
+                  <td>Success</td>
                </tr>
             </tbody>
          </table>
       </div>
       <div id="top_scenario2">
-         <h2 class="successful">T2<span class="scenario-totals">passed: 1 / pending: 0 / failed: 0 / total: 1</span></h2>
+         <h2 class="successful">T2: group lines<span class="scenario-totals">passed: 2 / pending: 0 / failed: 0 / total: 2</span></h2>
          <table class="xspec" id="table_scenario2">
             <colgroup>
                <col style="width:75%" />
@@ -647,7 +651,19 @@ span.scenario-totals {
             </colgroup>
             <tbody>
                <tr class="successful">
-                  <th>T2</th>
+                  <th>T2: group lines</th>
+                  <th>passed: 2 / pending: 0 / failed: 0 / total: 2</th>
+               </tr>
+               <tr class="successful">
+                  <th>T2.1</th>
+                  <th>passed: 1 / pending: 0 / failed: 0 / total: 1</th>
+               </tr>
+               <tr class="successful">
+                  <td>.</td>
+                  <td>Success</td>
+               </tr>
+               <tr class="successful">
+                  <th>T2.2</th>
                   <th>passed: 1 / pending: 0 / failed: 0 / total: 1</th>
                </tr>
                <tr class="successful">

@@ -1,97 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:pt="https://github.com/dariok/pt"
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
   version="3.0">
   
-  <xsl:template match="tei:text/*">
-    <xsl:text>
-    </xsl:text>
-    <xsl:copy>
-      <xsl:choose>
-        <xsl:when test="tei:head[number(@level) = 0]">
-          <xsl:apply-templates select="tei:head[number(@level) = 0]" />
-        </xsl:when>
-        <xsl:when test="tei:head[number(@level) = 1]">
-          <xsl:apply-templates select="tei:head[number(@level) = 1]" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:variable name="level" select="tei:div[1]/tei:head[1]/@level"/>
-          <xsl:apply-templates select="tei:div/tei:head[@level = $level]" />
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:copy>
-  </xsl:template>
+  <xsl:output indent="1" />
   
-  <xsl:template match="tei:head[@level = 0]">
-    <xsl:text>
-      </xsl:text>
-    <xsl:copy>
-      <xsl:apply-templates />
-    </xsl:copy>
-    <xsl:apply-templates select="following-sibling::node() 
-      intersect following-sibling::tei:head[1]/preceding-sibling::node()"/>
-    <xsl:apply-templates
-      select="following-sibling::tei:head[number(@level) = 1]" />
-  </xsl:template>
+  <xd:doc scope="stylesheet">
+    <xd:desc>Combine <xd:pre>text</xd:pre> into <xd:pre>tei:l</xd:pre> so we can reconstruct line breaks
+      and have a basis for establishing paragaph-like boxes.</xd:desc>
+  </xd:doc>
   
-  <xsl:template match="tei:head">
-    <xsl:variable name="me" select="."/>
-    <xsl:variable name="mylevel" select="number(@level)" />
-    <xsl:variable name="next"
-      select="(following-sibling::tei:head[number(@level) lt $mylevel + 1])[1]"/>
-    <xsl:text>
-      </xsl:text>
+  <xsl:template match="tei:div">
     <div>
-      <xsl:text>
-        </xsl:text>
-      <xsl:sequence select="." />
-      <xsl:choose>
-        <xsl:when test="$next">
-          <xsl:apply-templates select="following-sibling::*
-              intersect following-sibling::tei:head[1]/preceding-sibling::*" />
-          <xsl:apply-templates select="following-sibling::tei:head[number(@level) = $mylevel + 1]
-              intersect $next/preceding-sibling::tei:head" />
-        </xsl:when>
-        <xsl:when test="not($next) and following-sibling::tei:head">
-          <xsl:apply-templates select="following-sibling::*
-              intersect following-sibling::tei:head[1]/preceding-sibling::*" />
-          <xsl:apply-templates select="following-sibling::tei:head[number(@level) = $mylevel + 1]" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates select="following-sibling::*" />
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:sequence select="@*" />
+      <xsl:call-template name="lines">
+        <xsl:with-param name="texts" select="*" />
+      </xsl:call-template>
     </div>
   </xsl:template>
   
-  <xsl:template match="tei:pb">
-    <xsl:choose>
-      <xsl:when test="following-sibling::node()[1][self::tei:head]" />
-      <xsl:otherwise>
-        <xsl:sequence select="." />
-      </xsl:otherwise>
-    </xsl:choose>
+  <xd:doc>
+    <xd:desc>
+      <xd:p>Evalutate <xd:pre>@top</xd:pre> to group <xd:pre>*:text</xd:pre> into lines.</xd:p>
+    </xd:desc>
+    <xd:param name="texts">A sequence to texts to be grouped.</xd:param>
+  </xd:doc>
+  <xsl:template name="lines">
+    <xsl:param name="texts" />
+    
+    <!-- div by ($mainsizeOfPage - 2) may be more accurate but does not seem necessary in current tests -->
+    <xsl:for-each-group select="$texts" group-adjacent="round(number(@top) div 10)">
+      <xsl:choose>
+        <!-- no @top: pagebreak -->
+        <xsl:when test="not(@top)">
+          <!-- this can be a pb or a head or a sequence of these (e. g. part title, page break, chapter title).
+            Hence, we need to look at each part in turn -->
+          <xsl:for-each select="current-group()">
+            <xsl:choose>
+              <xsl:when test="text">
+                <xsl:copy>
+                  <xsl:sequence select="@*" />
+                  <xsl:call-template name="lines">
+                    <xsl:with-param name="texts" select="*" />
+                  </xsl:call-template>
+                </xsl:copy>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:sequence select="." />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:for-each>
+        </xsl:when>
+        <!-- We need to evaluate info such as @left later, so we copy the elements -->
+        <xsl:otherwise>
+          <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
+          
+          <l left="{current-group()[1]/@left}" top="{min(current-group()/@top)}" size="{current-group()[1]/@size}"
+              bottom="{max($bottom)}" right="{current-group()[last()]/@left + current-group()[last()]/@width}">
+            <xsl:apply-templates select="current-group()" />
+          </l>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each-group>
   </xsl:template>
   
-  <xsl:template match="pt:text">
-    <xsl:variable name="mtop" select="number(@top)"/>
-    <xsl:variable name="mleft" select="number(@left)" />
-    <xsl:variable name="nextline" select="following-sibling::pt:text[number(@top) &gt; $mtop][1]" />
-    <!-- anpassen! z.B. Register: 2 text mit gleichem top, aber verschd. left: pt:tab dazwischen, wenn 
-      danach top größer ist, pt:lb dazwischen, außer es gibt auch Einzug, dann pt:p -->
-    <xsl:if test="$mleft &gt; $nextline/@left">
-      <pt:p />
-    </xsl:if>
-    <xsl:apply-templates />
-  </xsl:template>
-  
-  <xsl:template match="text()[normalize-space() = '']">
-    <xsl:text> </xsl:text>
-  </xsl:template>
-  
+  <xd:doc>
+    <xd:desc>
+      <xd:p>Default</xd:p>
+    </xd:desc>
+  </xd:doc>
   <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()" />
