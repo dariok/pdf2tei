@@ -17,14 +17,16 @@
   
   <xsl:template match="tei:div">
     <div>
-      <xsl:for-each-group select="*" group-starting-with="tei:l[@left ne preceding-sibling::tei:l[1]/@left
+      <xsl:for-each-group select="*" group-starting-with="tei:l[(@left ne preceding-sibling::tei:l[1]/@left
+        and @left ne following-sibling::tei:l[1]/@left)
         or not(preceding-sibling::tei:l)]">
-        <xsl:variable name="first" select="(current-group()[self::tei:l])[1]"/>
+        <xsl:variable name="first" select="(current-group()[self::tei:l])[1]" />
+        <xsl:variable name="id" select="generate-id($first)" />
         <xsl:choose>
           <xsl:when test="$first">
-            <xsl:apply-templates select="current-group()[position() lt $first/position()]" />
+            <xsl:apply-templates select="current-group()[following-sibling::*[generate-id() = $id]]" />
             <ab>
-              <xsl:apply-templates select="$first | $first/following-sibling::*" />
+              <xsl:apply-templates select="$first | current-group()[preceding-sibling::*[generate-id() = $id]]" />
             </ab>
           </xsl:when>
           <xsl:otherwise>
@@ -44,7 +46,7 @@
           <xsl:apply-templates select="$group" mode="head" />
   -->
   
-  <xsl:template match="@level" />
+  <xsl:template match="tei:head/@level" />
   <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()" />

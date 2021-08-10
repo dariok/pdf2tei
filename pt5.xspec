@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" stylesheet="pt5.xsl">
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+      xmlns:tei="http://www.tei-c.org/ns/1.0"
+      xmlns="http://www.tei-c.org/ns/1.0"
+      stylesheet="pt5.xsl">
   <x:scenario label="T1">
-    <x:context href="pt4.xspec" select="//x:scenario[@label eq 'T1']/x:expect/tei:TEI"/>
+    <x:context href="pt4.xspec?strip-space=yes" select="//x:scenario[@label eq 'T1']/x:expect/tei:TEI"/>
     <x:expect label=".">
       <TEI>
             <teiHeader>
@@ -34,96 +37,73 @@
             </teiHeader>
             <text>
                <body>
+                     <div>
+                           <pb n="1" height="935" width="722"/>
+                           <head>
+                                 <lb/>
+                                 <text xmlns=""
+                                       rendition="#f0"
+                                       size="16"
+                                       top="129"
+                                       left="68"
+                                       width="103"
+                                       height="18">Merryl Rebello </text>
+                           </head>
+                           <head>
+                                 <lb/>
+                                 <text xmlns=""
+                                       rendition="#f1"
+                                       size="19"
+                                       top="161"
+                                       left="68"
+                                       width="300"
+                                       height="21">Romulus in der lateinischen Literatur </text>
+                                 <lb/>
+                                 <text xmlns=""
+                                       rendition="#f1"
+                                       size="19"
+                                       top="187"
+                                       left="68"
+                                       width="163"
+                                       height="21">von Ennius bis Ovid </text>
+                           </head>
+                           <pb n="2" height="935" width="722"/>
+                           <pb n="3" height="935" width="722"/>
+                           <ab>
+                              <l left="68" top="797" size="" bottom="834" right="218">
+                                 <image xmlns=""
+                                       top="797"
+                                       left="68"
+                                       width="150"
+                                       height="37"
+                                       src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+                           </l>
+                           <head>
+                              <lb/>
+                              <text xmlns=""
+                                       rendition="#f2"
+                                       size="18"
+                                       top="156"
+                                       left="128"
+                                       width="113"
+                                       height="20">Merryl Rebello </text>
+                           </head>
+                        </ab>
+                     </div>
                   <div>
-                     <pb n="1" height="935" width="722"/>
-                     <head level="4">
-                        <l left="68" top="129" size="16" bottom="147" right="171">
-                           <text xmlns=""
-                                 rendition="#f0"
-                                 size="16"
-                                 top="129"
-                                 left="68"
-                                 width="103"
-                                 height="18">Merryl Rebello </text>
-                        </l>
-                     </head>
-                     <head level="2">
-                        <l left="68" top="161" size="19" bottom="182" right="368">
-                           <text xmlns=""
-                                 rendition="#f1"
-                                 size="19"
-                                 top="161"
-                                 left="68"
-                                 width="300"
-                                 height="21">Romulus in der lateinischen Literatur </text>
-                        </l>
-                        <l left="68" top="187" size="19" bottom="208" right="231">
-                           <text xmlns=""
-                                 rendition="#f1"
-                                 size="19"
-                                 top="187"
-                                 left="68"
-                                 width="163"
-                                 height="21">von Ennius bis Ovid </text>
-                        </l>
-                     </head>
-                     <pb n="2" height="935" width="722"/>
-                     <pb n="3" height="935" width="722"/>
-                     <ab><l left="68" top="797" size="" bottom="834" right="218">
-                        <image xmlns=""
-                               top="797"
-                               left="68"
-                               width="150"
-                               height="37"
-                               src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
-                     </l></ab>
-                     <head level="3">
-                        <l left="128" top="156" size="18" bottom="176" right="241">
-                           <text xmlns=""
-                                 rendition="#f2"
-                                 size="18"
-                                 top="156"
-                                 left="128"
-                                 width="113"
-                                 height="20">Merryl Rebello </text>
-                        </l>
-                     </head>
-                  </div>
-                  <div>
-                     <head level="0">
-                        <l left="128" top="214" size="33" bottom="249" right="356">
-                           <text xmlns=""
-                                 rendition="#f3"
-                                 size="33"
-                                 top="214"
-                                 left="128"
-                                 width="228"
-                                 height="35">
-                              <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">Romulus in der </hi>
-                           </text>
-                        </l>
-                        <l left="128" top="260" size="33" bottom="295" right="439">
-                           <text xmlns=""
-                                 rendition="#f3"
-                                 size="33"
-                                 top="260"
-                                 left="128"
-                                 width="311"
-                                 height="35">
-                              <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">lateinischen Literatur </hi>
-                           </text>
-                        </l>
-                        <l left="128" top="305" size="33" bottom="340" right="414">
-                           <text xmlns=""
-                                 rendition="#f3"
-                                 size="33"
-                                 top="305"
-                                 left="128"
-                                 width="286"
-                                 height="35">
-                              <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">von Ennius bis Ovid </hi>
-                           </text>
-                        </l>
+                     <head>
+                        <lb />
+                        <text xmlns="" rendition="#f3" size="33" top="214" left="128" width="228" height="35">
+                           <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">Romulus in der </hi>
+                        </text>
+                        <lb />
+                        <text xmlns="" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
+                           <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">lateinischen Literatur </hi>
+                        </text>
+                        <lb />
+                        <text xmlns="" rendition="#f3" size="33" top="305" left="128" width="286" height="35">
+                           <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">von Ennius bis Ovid </hi>
+                        </text>
                      </head>
                      <pb n="4" height="935" width="722"/>
                      <ab><l left="77" top="489" size="11" bottom="502" right="264">
@@ -283,9 +263,9 @@
                               left="195"
                               width="127"
                               height="12">Einwilligung des Verlages.</text>
-                     </l></ab>
+                     </l>
                      <pb n="5" height="935" width="722"/>
-                     <ab><l left="354" top="856" size="13" bottom="871" right="364">
+                     <l left="354" top="856" size="13" bottom="871" right="364">
                         <text xmlns=""
                               level="-0"
                               rendition="#f7"
@@ -297,8 +277,8 @@
                      </l></ab>
                   </div>
                   <div>
-                     <head level="0">
-                        <l left="300" top="135" size="33" bottom="171" right="414">
+                     <head>
+                        <lb />
                            <text xmlns=""
                                  rendition="#f8"
                                  size="33"
@@ -306,7 +286,6 @@
                                  left="300"
                                  width="114"
                                  height="36">Vorwort</text>
-                        </l>
                      </head>
                      <ab><l left="68" top="208" size="15" bottom="224" right="650">
                         <text xmlns=""
@@ -514,10 +493,10 @@
                               left="68"
                               width="90"
                               height="16">Merryl Rebello</text>
-                     </l></ab>
+                     </l>
                      <pb n="12" height="935" width="722"/>
                      <pb n="13" height="935" width="722"/>
-                     <ab><l left="351" top="856" size="13" bottom="871" right="367">
+                     <l left="351" top="856" size="13" bottom="871" right="367">
                         <text xmlns=""
                               level="-0"
                               rendition="#f7"
@@ -529,8 +508,8 @@
                      </l></ab>
                   </div>
                   <div>
-                     <head level="0">
-                        <l left="269" top="126" size="33" bottom="162" right="445">
+                     <head>
+                        <lb />
                            <text xmlns=""
                                  rendition="#f8"
                                  size="33"
@@ -538,7 +517,6 @@
                                  left="269"
                                  width="176"
                                  height="36">1. Einleitung</text>
-                        </l>
                      </head>
                      <div>
                         <ab><l left="68" top="199" size="15" bottom="215" right="651">
@@ -1137,8 +1115,8 @@
                                  width="357"
                                  height="16">chung literarischer Romulus-Darstellungen erforderlich ist.</text>
                         </l>
-                        <head level="3">
-                           <l left="77" top="476" size="18" bottom="496" right="434">
+                        <head>
+                           <lb />
                               <text xmlns=""
                                     rendition="#f2"
                                     size="18"
@@ -1146,7 +1124,6 @@
                                     left="77"
                                     width="357"
                                     height="20">Überblick über Aufbau und Methodik der Arbeit </text>
-                           </l>
                         </head>
                         <l left="77" top="520" size="15" bottom="536" right="655">
                            <text xmlns=""
@@ -1720,7 +1697,8 @@
                         </l>
                      </div>
                      <div>
-                        <head level="1">
+                        <head>
+                           <lb />
                            <text xmlns=""
                                  rendition="#f17"
                                  size="24"
@@ -1803,7 +1781,8 @@
                                  height="16"> </text>
                         </div>
                         <div>
-                           <head level="2">
+                           <head>
+                              <lb />
                               <text xmlns=""
                                     rendition="#f1"
                                     size="19"
@@ -2300,7 +2279,8 @@
                                  height="16">was sein Nacheiferer aus ihm gemacht hat. </text>
                         </div>
                         <div>
-                           <head level="2">
+                           <head>
+                              <lb />
                               <text xmlns=""
                                     rendition="#f1"
                                     size="19"
