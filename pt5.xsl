@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:pt="https://github.com/dariok/pt"
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
   version="3.0">
   
+  <xsl:output indent="1" />
+  
+  <xd:doc>
+    <xd:desc>
+      <xd:p>Try to find the borders of blocks</xd:p>
+    </xd:desc>
+  </xd:doc>
+  
   <xsl:template match="tei:div">
-    <xsl:choose>
-      <xsl:when test="pt:p">
-        <xsl:for-each-group select="node()" group-starting-with="pt:p">
-          <p>
-            <xsl:apply-templates select="current-group()[position() &gt; 1]" />
-          </p>
-        </xsl:for-each-group>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates select="node()" />
-      </xsl:otherwise>
-    </xsl:choose>
+    <div>
+      <xsl:for-each-group select="*" group-starting-with="tei:l[@left ne preceding-sibling::tei:l[1]/@left
+        or not(preceding-sibling::tei:l)]">
+        <xsl:variable name="first" select="(current-group()[self::tei:l])[1]"/>
+        <xsl:choose>
+          <xsl:when test="$first">
+            <xsl:apply-templates select="current-group()[position() lt $first/position()]" />
+            <ab>
+              <xsl:apply-templates select="$first | $first/following-sibling::*" />
+            </ab>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:apply-templates select="current-group()" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each-group>
+    </div>
   </xsl:template>
+  
+  <!-- 
+  <xsl:sequence select="@size | $group[1]/@rendition" />
+          <xsl:attribute name="top" select="min($group/@top)" />
+          <xsl:attribute name="left" select="min($group/@left)" />
+          <xsl:attribute name="width" select="max($group/@width)" />
+          <xsl:attribute name="height" select="$group[last()]/@top + $group[last()]/@height - $group[1]/@top" />
+          <xsl:apply-templates select="$group" mode="head" />
+  -->
   
   <xsl:template match="@level" />
   <xsl:template match="@* | node()">
