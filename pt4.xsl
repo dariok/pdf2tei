@@ -51,10 +51,15 @@
                 </xsl:copy>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:sequence select="." />
+                <xsl:apply-templates select="." />
               </xsl:otherwise>
             </xsl:choose>
           </xsl:for-each>
+        </xsl:when>
+        <!-- in headings, we can simply create lb -->
+        <xsl:when test="current-group()[parent::tei:head]">
+          <lb />
+          <xsl:apply-templates select="current-group()" />
         </xsl:when>
         <!-- We need to evaluate info such as @left later, so we copy the elements -->
         <xsl:otherwise>
