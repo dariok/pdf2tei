@@ -561,7 +561,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="797"
-                     size=""
+                     size="0"
                      bottom="834"
                      right="218">
                      <image xmlns=""

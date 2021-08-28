@@ -53,10 +53,15 @@
         group-adjacent="round(number(@top) div 10)">
         <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
         <xsl:variable name="sizes">
-          <xsl:for-each-group select="current-group()" group-by="@size">
-            <xsl:sort select="string-length(string-join(current-group()))" />
-            <xsl:value-of select="current-grouping-key()" />
-          </xsl:for-each-group>
+          <xsl:choose>
+            <xsl:when test="@size">
+              <xsl:for-each-group select="current-group()" group-by="@size">
+                <xsl:sort select="string-length(string-join(current-group()))" />
+                <xsl:value-of select="current-grouping-key()" />
+              </xsl:for-each-group>
+            </xsl:when>
+            <xsl:otherwise>0</xsl:otherwise>
+          </xsl:choose>
         </xsl:variable>
         
         <l left="{current-group()[1]/@left}" top="{min(current-group()/@top)}" size="{$sizes[1]}"
