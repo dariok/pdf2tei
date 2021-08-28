@@ -17,61 +17,8 @@
   
   <xsl:template match="tei:div">
     <div>
-      <xsl:sequence select="@*" />
-      <xsl:call-template name="lines">
-        <xsl:with-param name="texts" select="*" />
-      </xsl:call-template>
+      <xsl:apply-templates select="@* | node()" />
     </div>
-  </xsl:template>
-  
-  <xd:doc>
-    <xd:desc>
-      <xd:p>Evalutate <xd:pre>@top</xd:pre> to group <xd:pre>*:text</xd:pre> into lines.</xd:p>
-    </xd:desc>
-    <xd:param name="texts">A sequence to texts to be grouped.</xd:param>
-  </xd:doc>
-  <xsl:template name="lines">
-    <xsl:param name="texts" />
-    
-    <!-- div by ($mainsizeOfPage - 2) may be more accurate but does not seem necessary in current tests -->
-    <xsl:for-each-group select="$texts" group-adjacent="round(number(@top) div 10)">
-      <xsl:choose>
-        <!-- no @top: pagebreak -->
-        <xsl:when test="not(@top)">
-          <!-- this can be a pb or a head or a sequence of these (e. g. part title, page break, chapter title).
-            Hence, we need to look at each part in turn -->
-          <xsl:for-each select="current-group()">
-            <xsl:choose>
-              <xsl:when test="text">
-                <xsl:copy>
-                  <xsl:sequence select="@*" />
-                  <xsl:call-template name="lines">
-                    <xsl:with-param name="texts" select="*" />
-                  </xsl:call-template>
-                </xsl:copy>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:apply-templates select="." />
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:for-each>
-        </xsl:when>
-        <!-- in headings, we can simply create lb -->
-        <xsl:when test="current-group()[parent::tei:head]">
-          <lb />
-          <xsl:apply-templates select="current-group()" />
-        </xsl:when>
-        <!-- We need to evaluate info such as @left later, so we copy the elements -->
-        <xsl:otherwise>
-          <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
-          
-          <l left="{current-group()[1]/@left}" top="{min(current-group()/@top)}" size="{current-group()[1]/@size}"
-              bottom="{max($bottom)}" right="{current-group()[last()]/@left + current-group()[last()]/@width}">
-            <xsl:apply-templates select="current-group()" />
-          </l>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:for-each-group>
   </xsl:template>
   
   <xd:doc>

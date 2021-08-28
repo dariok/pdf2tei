@@ -8,6 +8,8 @@
   
   <xsl:output omit-xml-declaration="1" indent="1" />
   
+  <xsl:variable name="specs" select="//*:fontspec"/>
+  
   <xd:doc>
     <xd:desc>
       <xd:p>Create the basic TEI outline:
@@ -24,7 +26,7 @@
       <teiHeader>
         <encodingDesc>
           <tagsDecl>
-            <xsl:apply-templates select="//*:fontspec" />
+            <xsl:apply-templates select="$specs" />
           </tagsDecl>
         </encodingDesc>
       </teiHeader>
@@ -38,11 +40,30 @@
     <xd:desc>
       <xd:p>Copy <xd:pre>*:page</xd:pre> into <xd:pre>tei:text</xd:pre>, omit <xd:pre>*:fontspec</xd:pre> as it will be
         used for tei:tagsDecl</xd:p>
+      <xd:p>Evalutate <xd:pre>@top</xd:pre> to group <xd:pre>*:text</xd:pre> into lines.</xd:p>
     </xd:desc>
   </xd:doc>
   <xsl:template match="*:page">
     <xsl:copy>
-      <xsl:apply-templates select="@* | *[not(self::*:fontspec)]" />
+      <xsl:apply-templates select="@*" />
+      <xsl:variable name="contents" as="element()*">
+        <xsl:apply-templates select="*[not(self::*:fontspec)]" />
+      </xsl:variable>
+      <xsl:for-each-group select="$contents"
+        group-adjacent="round(number(@top) div 10)">
+        <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
+        <xsl:variable name="sizes">
+          <xsl:for-each-group select="current-group()" group-by="@size">
+            <xsl:sort select="string-length(string-join(current-group()))" />
+            <xsl:value-of select="current-grouping-key()" />
+          </xsl:for-each-group>
+        </xsl:variable>
+        
+        <l left="{current-group()[1]/@left}" top="{min(current-group()/@top)}" size="{$sizes[1]}"
+          bottom="{max($bottom)}" right="{current-group()[last()]/@left + current-group()[last()]/@width}">
+          <xsl:sequence select="current-group()" />
+        </l>
+      </xsl:for-each-group>
     </xsl:copy>
   </xsl:template>
   
@@ -56,7 +77,7 @@
     <xsl:variable name="font" select="@font"/>
     <xsl:copy>
       <xsl:attribute name="rendition" select="'#f' || @font" />
-      <xsl:attribute name="size" select="//*:fontspec[@id = $font]/@size" />
+      <xsl:attribute name="size" select="$specs[@id = $font]/@size" />
       <xsl:apply-templates select="@* | node()" />
     </xsl:copy>
   </xsl:template>
