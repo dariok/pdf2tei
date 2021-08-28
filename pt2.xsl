@@ -17,7 +17,7 @@
   
   <xsl:template match="tei:TEI">
     <xsl:variable name="sizes">
-      <xsl:for-each-group select="tei:text//*:text" group-by="@size">
+      <xsl:for-each-group select="tei:text//tei:l" group-by="@size">
         <xsl:sort select="count(current-group())" order="descending" />
         <s>
           <xsl:value-of select="current-group()[1]/@size"/>
@@ -30,7 +30,8 @@
     </xsl:variable>
     
     <TEI>
-      <xsl:apply-templates select="@* | node()">
+      <xsl:sequence select="tei:teiHeader" />
+      <xsl:apply-templates select="tei:text">
         <xsl:with-param name="sizes" select="$sizes" tunnel="1" />
         <xsl:with-param name="mainsize" select="$mainsize" tunnel="1" />
       </xsl:apply-templates>
@@ -41,8 +42,10 @@
     <xd:desc>
       <xd:p>Try a classification based on relative font size and assign a level</xd:p>
     </xd:desc>
+    <xd:param name="sizes">Sequence of all size values in the document</xd:param>
+    <xd:param name="mainsize">The most common size in the document</xd:param>
   </xd:doc>
-  <xsl:template match="text">
+  <xsl:template match="tei:l">
     <xsl:param name="sizes" tunnel="true" />
     <xsl:param name="mainsize" tunnel="true" />
     <xsl:variable name="mysize" select="number(@size)"/>
@@ -51,47 +54,20 @@
         <head>
           <xsl:attribute name="level"
             select="count($sizes/*[. &gt; $mysize])" />
-          <xsl:copy>
-            <xsl:apply-templates select="@* | node()" />
-          </xsl:copy>
+          <xsl:sequence select="." />
         </head>
       </xsl:when>
-      <xsl:when test="$mysize &lt; $mainsize">
-        <xsl:copy>
-          <xsl:attribute name="level"
-             select="'-' || count($sizes/*[. &gt; $mysize and . &lt; $mainsize])" />
-          <xsl:apply-templates select="@* | node()" />
-        </xsl:copy>
+      <xsl:when test="$mainsize eq $mysize">
+        <xsl:sequence select="." />
       </xsl:when>
       <xsl:otherwise>
-        <xsl:copy>
-          <xsl:apply-templates select="@* | node()" />
-        </xsl:copy>
+        <l>
+          <xsl:attribute name="level"
+             select="count($sizes/*[. &gt; $mysize and . &lt; $mainsize]) - 1" />
+          <xsl:sequence select="@* | node()" />
+        </l>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
-  
-  <xd:doc>
-    <xd:desc>Use <xd:pre>tei:pb</xd:pre> to delimit pages; we need the size info so we can compute indents, columns,
-      marginalia in a later step.</xd:desc>
-  </xd:doc>
-  <xsl:template match="*:page">
-    <pb n="{@number}">
-      <xsl:sequence select="@height | @width" />
-    </pb>
-    <xsl:apply-templates />
-  </xsl:template>
-  
-  <xsl:template match="text()" mode="head">
-    <text>
-      <xsl:sequence select="parent::*/@*" />
-      <xsl:sequence select="." />
-    </text>
-  </xsl:template>
-  <xsl:template match="*" mode="head">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()" />
-    </xsl:copy>
   </xsl:template>
   
   <xd:doc>
