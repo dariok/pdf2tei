@@ -5299,4 +5299,35 @@
          </TEI>
     </x:expect>
   </x:scenario>
+  
+  <x:scenario label="T2: single tests">
+    <x:scenario label="T2.1">
+      <x:context>
+        <page number="13" position="absolute" top="0" left="0" height="935" width="722">
+          <fontspec id="7" size="13" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="8" size="33" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="9" size="15" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="12" size="9" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="13" size="13" family="HUOXVT+MinionPro-It" color="#000000"/>
+          <fontspec id="14" size="15" family="ZAGSWU+MinionPro" color="#000000"/>
+          <text top="856" left="351" width="16" height="15" font="7">13 </text>
+          <text top="126" left="269" width="176" height="36" font="8">1. Einleitung</text>
+          <text top="199" left="68" width="583" height="16" font="9">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text>
+          <text top="219" left="68" width="581" height="16" font="9">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </text>
+        </page>
+      </x:context>
+      <x:expect label=".">
+        <page number="13" position="absolute" top="0" left="0" height="935" width="722">
+          <l size="13" top="856" left="351" right="367" bottom="871"><text top="856" left="351" width="16" height="15"
+                rendition="#f7" size="13">13 </text></l>
+          <l size="33" top="126" left="269" right="445" bottom="162"><text top="126" left="269" width="176" height="36"
+                rendition="#f8" size="33">1. Einleitung</text></l>
+          <l size="15" top="199" left="68" right="651" bottom="215"><text top="199" left="68" width="583" height="16"
+                rendition="#f9" size="15">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text></l>
+          <l size="15" top="219" left="68" right="649" bottom="235"><text top="219" left="68" width="581" height="16"
+                rendition="#f9" size="15">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </text></l>
+        </page>
+      </x:expect>
+    </x:scenario>
+  </x:scenario>
 </x:description>
