@@ -1395,7 +1395,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="421"
-                     size="915"
+                     size="15"
                      bottom="437"
                      right="650">
                      <text xmlns=""
@@ -1437,7 +1437,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="462"
-                     size="915"
+                     size="15"
                      bottom="478"
                      right="650">
                      <text xmlns=""
@@ -1507,7 +1507,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="601"
-                     size="913"
+                     size="13"
                      bottom="617"
                      right="646">
                      <text xmlns=""
@@ -1626,7 +1626,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="730"
-                     size="913"
+                     size="13"
                      bottom="747"
                      right="648">
                      <text xmlns=""
@@ -1788,7 +1788,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="95"
-                     size="915"
+                     size="15"
                      bottom="111"
                      right="658">
                      <text xmlns=""
@@ -1858,7 +1858,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="176"
-                     size="915"
+                     size="15"
                      bottom="192"
                      right="660">
                      <text xmlns=""
@@ -1984,7 +1984,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="338"
-                     size="915"
+                     size="15"
                      bottom="354"
                      right="657">
                      <text xmlns=""
@@ -2124,7 +2124,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="617"
-                     size="913"
+                     size="13"
                      bottom="634"
                      right="218">
                      <text xmlns=""
@@ -2145,7 +2145,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="637"
-                     size="913"
+                     size="13"
                      bottom="654"
                      right="658">
                      <text xmlns=""
@@ -2180,7 +2180,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="676"
-                     size="913"
+                     size="13"
                      bottom="692"
                      right="658">
                      <text xmlns=""
@@ -2257,7 +2257,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="769"
-                     size="913"
+                     size="13"
                      bottom="785"
                      right="655">
                      <text xmlns=""
@@ -3008,7 +3008,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="275"
-                     size="915"
+                     size="15"
                      bottom="291"
                      right="500">
                      <text xmlns=""
@@ -3092,7 +3092,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="414"
-                     size="915"
+                     size="15"
                      bottom="430"
                      right="658">
                      <text xmlns=""
@@ -3162,7 +3162,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="495"
-                     size="915"
+                     size="15"
                      bottom="511"
                      right="658">
                      <text xmlns=""
@@ -3218,7 +3218,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="535"
-                     size="915"
+                     size="15"
                      bottom="552"
                      right="352">
                      <text xmlns=""
@@ -3316,7 +3316,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="596"
-                     size="915"
+                     size="15"
                      bottom="613"
                      right="655">
                      <text xmlns=""
@@ -3372,7 +3372,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="657"
-                     size="915"
+                     size="15"
                      bottom="673"
                      right="658">
                      <text xmlns=""
@@ -3400,7 +3400,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="702"
-                     size="913"
+                     size="13"
                      bottom="719"
                      right="194">
                      <text xmlns=""
@@ -3435,7 +3435,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="722"
-                     size="913"
+                     size="13"
                      bottom="739"
                      right="220">
                      <text xmlns=""
@@ -3456,7 +3456,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="743"
-                     size="913"
+                     size="13"
                      bottom="759"
                      right="176">
                      <text xmlns=""
@@ -3484,7 +3484,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="166"
                      top="745"
-                     size="713"
+                     size="13"
                      bottom="759"
                      right="549">
                      <text xmlns=""
@@ -3505,7 +3505,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="763"
-                     size="913"
+                     size="13"
                      bottom="779"
                      right="153">
                      <text xmlns=""
@@ -3821,7 +3821,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="318"
-                     size="915"
+                     size="15"
                      bottom="334"
                      right="660">
                      <text xmlns=""
@@ -3933,7 +3933,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="419"
-                     size="915"
+                     size="15"
                      bottom="435"
                      right="658">
                      <text xmlns=""
@@ -4045,7 +4045,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="521"
-                     size="915"
+                     size="15"
                      bottom="537"
                      right="659">
                      <text xmlns=""
@@ -4129,7 +4129,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="602"
-                     size="1015"
+                     size="15"
                      bottom="618"
                      right="659">
                      <text xmlns=""
@@ -4157,7 +4157,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="622"
-                     size="915"
+                     size="15"
                      bottom="638"
                      right="509">
                      <text xmlns=""
@@ -4185,7 +4185,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="669"
-                     size="913"
+                     size="13"
                      bottom="686"
                      right="658">
                      <text xmlns=""
@@ -4248,7 +4248,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="726"
-                     size="913"
+                     size="13"
                      bottom="743"
                      right="219">
                      <text xmlns=""
@@ -4269,7 +4269,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="747"
-                     size="913"
+                     size="13"
                      bottom="763"
                      right="659">
                      <text xmlns=""
@@ -4318,7 +4318,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="785"
-                     size="913"
+                     size="13"
                      bottom="802"
                      right="655">
                      <text xmlns=""
@@ -4568,7 +4568,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="360"
                      top="181"
-                     size="915"
+                     size="15"
                      bottom="198"
                      right="498">
                      <text xmlns=""
@@ -4728,7 +4728,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="111"
                      top="380"
-                     size="813"
+                     size="13"
                      bottom="395"
                      right="510">
                      <text xmlns=""
@@ -4798,7 +4798,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="458"
-                     size="915"
+                     size="15"
                      bottom="474"
                      right="651">
                      <text xmlns=""
@@ -4868,7 +4868,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="579"
-                     size="913"
+                     size="13"
                      bottom="596"
                      right="650">
                      <text xmlns=""
@@ -4973,7 +4973,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="691"
-                     size="913"
+                     size="13"
                      bottom="707"
                      right="649">
                      <text xmlns=""
@@ -5176,7 +5176,7 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="68"
                      top="748"
-                     size="913"
+                     size="13"
                      bottom="764"
                      right="649">
                      <text xmlns=""
@@ -5326,6 +5326,26 @@
                 rendition="#f9" size="15">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text></l>
           <l size="15" top="219" left="68" right="649" bottom="235"><text top="219" left="68" width="581" height="16"
                 rendition="#f9" size="15">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </text></l>
+        </page>
+      </x:expect>
+    </x:scenario>
+    <x:scenario label="T2.1">
+      <x:context>
+        <page>
+          <fontspec id="9" size="15" family="AWSBWD+MinionPro" color="#000000"/>
+          <fontspec id="12" size="9" family="AWSBWD+MinionPro" color="#000000"/>
+          <text top="275" left="77" width="408" height="16" font="9">dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</text>
+          <text top="275" left="485" width="9" height="10" font="12">21</text>
+          <text top="275" left="493" width="7" height="16" font="9">  </text>
+        </page>
+      </x:context>
+      <x:expect label=".">
+        <page>
+          <l size="15" top="275" left="77" right="500" bottom="291">
+            <text size="15" top="275" left="77" width="408" height="16" rendition="#f9">dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</text>
+            <text size="9" top="275" left="485" width="9" height="10" rendition="#f12">21</text>
+            <text size="15" top="275" left="493" width="7" height="16" rendition="#f9">  </text>
+          </l>
         </page>
       </x:expect>
     </x:scenario>

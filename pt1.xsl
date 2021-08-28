@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
@@ -52,11 +53,11 @@
       <xsl:for-each-group select="$contents"
         group-adjacent="round(number(@top) div 10)">
         <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
-        <xsl:variable name="sizes">
+        <xsl:variable name="sizes" as="xs:int*">
           <xsl:choose>
             <xsl:when test="@size">
               <xsl:for-each-group select="current-group()" group-by="@size">
-                <xsl:sort select="string-length(string-join(current-group()))" />
+                <xsl:sort select="string-length(string-join(current-group()))" order="descending" />
                 <xsl:value-of select="current-grouping-key()" />
               </xsl:for-each-group>
             </xsl:when>
@@ -82,7 +83,7 @@
     <xsl:variable name="font" select="@font"/>
     <xsl:copy>
       <xsl:attribute name="rendition" select="'#f' || @font" />
-      <xsl:attribute name="size" select="$specs[@id = $font]/@size" />
+      <xsl:attribute name="size" select="$specs[@id = $font][1]/@size" />
       <xsl:apply-templates select="@* | node()" />
     </xsl:copy>
   </xsl:template>
