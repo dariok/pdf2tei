@@ -5329,7 +5329,7 @@
         </page>
       </x:expect>
     </x:scenario>
-    <x:scenario label="T2.1">
+    <x:scenario label="T2.2">
       <x:context>
         <page>
           <fontspec id="9" size="15" family="AWSBWD+MinionPro" color="#000000"/>

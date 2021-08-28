@@ -40,6 +40,25 @@
   
   <xd:doc>
     <xd:desc>
+      <xd:p>Evaluate for the left alignment to aid block detection</xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:template match="*:page">
+    <xsl:variable name="lefts" as="element()*">
+      <xsl:for-each-group select="tei:l" group-by="@left">
+        <xsl:sort select="count(current-group())" order="descending" />
+        <l value="{current-grouping-key()}" count="{count(current-group())}" />
+      </xsl:for-each-group>
+    </xsl:variable>
+    
+    <page>
+      <xsl:attribute name="l" select="$lefts[1]/@value" />
+      <xsl:apply-templates select="@* | node()" />
+    </page>
+  </xsl:template>
+  
+  <xd:doc>
+    <xd:desc>
       <xd:p>Try a classification based on relative font size and assign a level</xd:p>
     </xd:desc>
     <xd:param name="sizes">Sequence of all size values in the document</xd:param>
