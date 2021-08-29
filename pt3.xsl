@@ -11,14 +11,28 @@
   <xsl:output indent="1" />
   
   <xd:doc>
-    <xd:desc>Use <xd:pre>tei:pb</xd:pre> to delimit pages; we need the size info so we can compute indents, columns,
-      marginalia in a later step.</xd:desc>
+    <xd:desc>
+      <xd:p>Try to guess whether there’s forme work on this page; normal book or article pages ususally have no more
+        than one line of footer and header each. Official writs, letters etc. may have more (e. g. complete addresses
+        etc. but we ignore those use cases for now – this can be dealt with in post processing.</xd:p>
+    </xd:desc>
   </xd:doc>
   <xsl:template match="*:page">
-    <pb n="{@number}">
-      <xsl:sequence select="@height | @width" />
-    </pb>
-    <xsl:apply-templates />
+    <xsl:choose>
+      <xsl:when test="tei:cb and count(tei:cb[1]/preceding-sibling::*) lt 2 and not(tei:cb[1]/preceding-sibling::tei:head)">
+        <pb n="{@number}">
+          <xsl:sequence select="@height | @width" />
+          <xsl:apply-templates select="tei:cb[1]/preceding-sibling::*" />
+        </pb>
+        <xsl:apply-templates select="tei:cb[1]/following-sibling::*" />
+      </xsl:when>
+      <xsl:otherwise>
+        <pb n="{@number}">
+          <xsl:sequence select="@height | @width" />
+        </pb>
+        <xsl:apply-templates />
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xd:doc>
