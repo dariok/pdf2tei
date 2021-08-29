@@ -11,19 +11,14 @@
   <xsl:output indent="1" />
   
   <xd:doc>
-    <xd:desc>
-      <xd:p>Try to create a structure and write it to <xd:pre>tei:body</xd:pre>.</xd:p>
-    </xd:desc>
+    <xd:desc>Use <xd:pre>tei:pb</xd:pre> to delimit pages; we need the size info so we can compute indents, columns,
+      marginalia in a later step.</xd:desc>
   </xd:doc>
-  <xsl:template match="tei:text">
-    <text>
-      <body>
-        <xsl:call-template name="divStructure">
-          <xsl:with-param name="context" select="*" />
-          <xsl:with-param name="level" select="0" />
-        </xsl:call-template>
-      </body>
-    </text>
+  <xsl:template match="*:page">
+    <pb n="{@number}">
+      <xsl:sequence select="@height | @width" />
+    </pb>
+    <xsl:apply-templates />
   </xsl:template>
   
   <xd:doc>
@@ -77,36 +72,7 @@
     </xsl:choose>
   </xsl:template>
   
-  <xd:doc>
-    <xd:desc>
-      <xd:p>Try to create a hierarchical structure of <xd:pre>tei:div</xd:pre> based to lines that have been recognized
-        as headings. Use the value of <xd:pre>@level</xd:pre> to determine nesting.</xd:p>
-    </xd:desc>
-    <xd:param name="level">The level to use for grouping</xd:param>
-    <xd:param name="context">The content of the parent <xd:pre>tei:div</xd:pre> which is to be structured.</xd:param>
-  </xd:doc>
-  <xsl:template name="divStructure">
-    <xsl:param name="level" as="xs:integer" />
-    <xsl:param name="context" as="element()+" />
-    
-    <xsl:for-each-group select="$context" group-starting-with="tei:head[@level = $level 
-      and not(preceding-sibling::*[1][self::tei:head[@level = $level]])]">
-      <div>
-        <xsl:choose>
-          <xsl:when test="current-group()[self::tei:head and @level = $level + 1]">
-            <xsl:apply-templates select="current-group()[@level = $level][1]" />
-            <xsl:call-template name="divStructure">
-              <xsl:with-param name="context" select="current-group()[not(self::tei:head and @level = $level)]" />
-              <xsl:with-param name="level" select="$level + 1" />
-            </xsl:call-template>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:apply-templates select="current-group()" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </div>
-    </xsl:for-each-group>
-  </xsl:template>
+  
   
   <xd:doc>
     <xd:desc>
