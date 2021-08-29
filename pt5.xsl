@@ -17,17 +17,22 @@
   
   <!-- assumptions when guessing blocks:
        - no preceding-sibling::tei:l  ––  e.g. first line after heading
-       - different indentation from preceding or following tei:l while of the same size
-       - different font size from preceding or following tei:l  ––  smaller or bigger text run, e.g. footnotes
+       - @left has some other value than the main left of the page
+       - @size is different than the previous lines’
+       - the previous line is more than 1% of total width shorter than it’s preceding line (we assume all pages have
+         roughly the same width or it will get even more complicated)
        - does not start with a small letter
   -->
-  <!-- TODO no, we need to change this! Figure out, what the usual left is -->
   <xsl:template match="tei:div">
     <div>
       <xsl:for-each-group select="*"
-        group-starting-with="tei:l[
+        group-starting-with="tei:l[not(matches(., '^[a-z]')) and (
           not(preceding-sibling::tei:l)
-          or @left ne preceding::tei:pb[1]/@l]">
+          or @left ne preceding::tei:pb[1]/@l
+          or @size ne preceding-sibling::tei:l[1]/@size
+          or preceding-sibling::tei:l[1]/@right/number() lt preceding-sibling::tei:l[2]/@right/number() - 0.01 *
+               preceding::tei:pb[1]/@width
+        )]">
         <xsl:variable name="first" select="(current-group()[self::tei:l])[1]" />
         <xsl:variable name="id" select="generate-id($first)" />
         <xsl:choose>

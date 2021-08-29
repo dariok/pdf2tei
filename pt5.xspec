@@ -767,7 +767,8 @@
                                  left="68"
                                  width="583"
                                  height="16">die Botschaft der Geschichte sich ändert. Dabei sind Gründungsmythen für den Prozess der </text>
-                        </l>
+                        </l></ab>
+                     <ab>
                         <l level="-1"
                            left="68"
                            top="601"
@@ -789,8 +790,6 @@
                                  width="574"
                                  height="15"> In den Schulbüchern wird die Gründung Roms meist gleich in einer der ersten Latein-Lektionen the-</text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="621"
@@ -805,8 +804,6 @@
                                  width="557"
                                  height="15">matisiert. Schützsack (2011) reißt in einer vergleichenden Untersuchung an, wie die Romulus-Thema-</text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="639"
@@ -821,8 +818,6 @@
                                  width="561"
                                  height="15">tik, vor allem der Aspekt des Brudermords, in fünf aktuellen Lateinlehrwerken umgesetzt wird. Doch </text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="657"
@@ -853,8 +848,6 @@
                                  width="560"
                                  height="15">(2016) hat eine zehn Unterrichtseinheiten umfassende Reihe zum Vergleich der Apotheose des Romulus </text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="694"
@@ -869,8 +862,6 @@
                                  width="559"
                                  height="15">bei Livius und Ovid für die Oberstufe konzipiert; Sauer (2016) liefert umfangreiches Unterrichtsmaterial </text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="712"
@@ -927,8 +918,6 @@
                                  width="559"
                                  height="15">Zumindest das Zwillings- bzw. Brüdermotiv deutet auf einen gemeinsamen indoeuropäischen Ursprung </text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="751"
@@ -943,8 +932,6 @@
                                  width="561"
                                  height="15">der Sage hin. Manifestationen dieses Motivs sind die beiden Ashvins namens Dasra und Dasatya im </text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="769"
@@ -959,8 +946,6 @@
                                  width="560"
                                  height="15">Rigveda, die griechischen Dioskuren Kastor und Polydeukes oder die Brüder Kain und Abel in der Bibel, </text>
                         </l>
-                     </ab>
-                     <ab>
                         <l level="-1"
                            left="89"
                            top="787"
@@ -1005,6 +990,8 @@
                                  width="253"
                                  height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                         </l>
+                     </ab>
+                     <ab>
                         <pb n="14" height="935" width="722" l="77">
                            <l level="-1"
                               left="359"
@@ -5112,6 +5099,8 @@
                width="358"
                height="16"> haben sich in ihren Werken mit Romulus und dem Stadt-</text>
          </l>
+         </ab>
+         <ab>
          <l level="-1"
             left="68"
             top="805"
@@ -5451,6 +5440,915 @@
        </div>
       </body>
      </text>
+      </x:expect>
+   </x:scenario>
+   
+   <x:scenario label="T3">
+      <x:context>
+         <div>
+            <div>
+               <pb n="24" height="935" width="722">
+                     <l level="-1"
+                        left="359"
+                        top="856"
+                        size="13"
+                        bottom="871"
+                        right="375">
+                        <text xmlns=""
+                              rendition="#f7"
+                              size="13"
+                              top="856"
+                              left="359"
+                              width="16"
+                              height="15">24 </text>
+                     </l>
+                  </pb>
+                  <l left="77" top="75" size="15" bottom="91" right="659">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="75"
+                           left="77"
+                           width="582"
+                           height="16">Unklar ist, ob diese Titel zwei oder aber drei Stücken zuzuordnen sind, da (2) und (3) entweder </text>
+                  </l>
+                  <l left="77" top="95" size="15" bottom="111" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="95"
+                           left="77"
+                           width="583"
+                           height="16">jeweils ein Theaterstück bezeichnet haben könnten oder aber auch beide Alternativtitel zu ein </text>
+                  </l>
+                  <l left="77" top="115" size="15" bottom="131" right="661">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="115"
+                           left="77"
+                           width="584"
+                           height="16">und demselben Stück gewesen sein könnten. Manuwald, die sich in ihrer Untersuchung der </text>
+                  </l>
+                  <l left="77" top="136" size="15" bottom="152" right="655">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="136"
+                           left="77"
+                           width="578"
+                           height="16">Praetexta als Gattung auch im Detail mit den Titeln der naevianischen Romulus-Praetexten aus-</text>
+                  </l>
+                  <l left="77" top="156" size="15" bottom="172" right="659">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="156"
+                           left="77"
+                           width="582"
+                           height="16">einandergesetzt hat, gelangt zu dem Schluss, dass (1) kein echter Titel, sondern in Wirklichkeit </text>
+                  </l>
+                  <l left="77" top="176" size="15" bottom="192" right="659">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="176"
+                           left="77"
+                           width="292"
+                           height="16">die Beschreibung einer Szene aus dem Stück ist.</text>
+                     <text xmlns=""
+                           rendition="#f12"
+                           size="9"
+                           top="176"
+                           left="368"
+                           width="9"
+                           height="10">30</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="176"
+                           left="377"
+                           width="282"
+                           height="16"> Für das bei Festus überlieferte Fragment zum </text>
+                  </l>
+                  <l left="77" top="196" size="15" bottom="213" right="660">
+                     <text xmlns=""
+                           rendition="#f11"
+                           size="15"
+                           top="197"
+                           left="77"
+                           width="36"
+                           height="16">Lupus</text>
+                     <text xmlns=""
+                           rendition="#f12"
+                           size="9"
+                           top="196"
+                           left="113"
+                           width="9"
+                           height="10">31</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="197"
+                           left="122"
+                           width="538"
+                           height="16"> liefert sie anhand der dort genannten Eigennamen eine Rekonstruktion der Handlung </text>
+                  </l>
+                  <l left="77" top="216" size="15" bottom="233" right="658">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="217"
+                           left="77"
+                           width="545"
+                           height="16">dieses Verses: Ein Mann aus Veji namens Vel Vibe begrüßt den Albanerkönig Amulius.</text>
+                     <text xmlns=""
+                           rendition="#f12"
+                           size="9"
+                           top="216"
+                           left="622"
+                           width="9"
+                           height="10">32</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="217"
+                           left="630"
+                           width="28"
+                           height="16"> Die </text>
+                  </l>
+                  <l left="77" top="237" size="15" bottom="254" right="655">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="237"
+                           left="77"
+                           width="108"
+                           height="16">Nachrichten zum </text>
+                     <text xmlns=""
+                           rendition="#f11"
+                           size="15"
+                           top="238"
+                           left="185"
+                           width="53"
+                           height="16">Romulus</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="237"
+                           left="237"
+                           width="418"
+                           height="16"> des Naevius geben leider keinerlei Hinweise auf eine mögliche Hand-</text>
+                  </l>
+                  <l left="77" top="257" size="15" bottom="273" right="628">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="257"
+                           left="77"
+                           width="551"
+                           height="16">lung, da Varro, der nur am sprachlichen Aspekt interessiert ist, jeweils nur ein Wort zitiert. </text>
+                  </l>
+               </div>
+               <div>
+                  <head level="2">
+                     <l left="77" top="310" size="19" bottom="331" right="345">
+                        <text xmlns=""
+                              rendition="#f1"
+                              size="19"
+                              top="310"
+                              left="77"
+                              width="268"
+                              height="21">2.1.3.  Fazit: Romulus bei Naevius </text>
+                     </l>
+                  </head>
+                  <l left="77" top="356" size="15" bottom="372" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="356"
+                           left="77"
+                           width="583"
+                           height="16">Ob Naevius nun eines, zwei oder drei Stücke zum Romulus-Stoff verfasst hat, ist letztlich nicht </text>
+                  </l>
+                  <l left="77" top="376" size="15" bottom="392" right="658">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="376"
+                           left="77"
+                           width="581"
+                           height="16">zu entscheiden. Wichtiger für den vorliegenden Zusammenhang ist die Feststellung, dass Naevius </text>
+                  </l>
+                  <l left="77" top="396" size="15" bottom="412" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="396"
+                           left="77"
+                           width="583"
+                           height="16">Romulus nicht nur in seinem Epos, sondern auch in dramatischer Form behandelt hat. Diese </text>
+                  </l>
+                  <l left="77" top="416" size="15" bottom="432" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="416"
+                           left="77"
+                           width="583"
+                           height="16">Figur scheint bei Naevius also erstens eine zentrale Rolle gespielt zu haben, zweitens lässt sich </text>
+                  </l>
+                  <l left="77" top="436" size="15" bottom="452" right="648">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="436"
+                           left="77"
+                           width="571"
+                           height="16">beobachten, dass Romulus’ Auftreten offenbar nicht an eine bestimmte Gattung gebunden ist.  </text>
+                  </l>
+               </div>
+            </div>
+            <div>
+               <head level="1">
+                  <l left="309" top="503" size="24" bottom="529" right="427">
+                     <text xmlns=""
+                           rendition="#f17"
+                           size="24"
+                           top="503"
+                           left="309"
+                           width="118"
+                           height="26">2.2.  Ennius </text>
+                  </l>
+               </head>
+               <l left="77" top="554" size="15" bottom="570" right="658">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="554"
+                        left="77"
+                        width="581"
+                        height="16">Ennius (239-169 v. Chr.) galt in mehrfacher Hinsicht als Nachfolger und Übertreffer des Naevius. </text>
+               </l>
+               <l left="77" top="574" size="15" bottom="590" right="655">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="574"
+                        left="77"
+                        width="578"
+                        height="16">Nach einem Feldzug im zweiten Punischen Krieg von Cato nach Rom mitgebracht, arbeitete En-</text>
+               </l>
+               <l left="77" top="595" size="15" bottom="611" right="658">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="595"
+                        left="77"
+                        width="581"
+                        height="16">nius dort als Griechisch- und Lateinlehrer. 189 v. Chr. begleitete er M. Fulvius Nobilior (s. u.) auf </text>
+               </l>
+               <l left="77" top="615" size="15" bottom="631" right="659">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="615"
+                        left="77"
+                        width="582"
+                        height="16">einen Feldzug und erhielt danach das römische Bürgerrecht. Auch er verfasste ein Epos über die </text>
+               </l>
+               <l left="77" top="635" size="15" bottom="652" right="658">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="635"
+                        left="77"
+                        width="432"
+                        height="16">Geschichte Roms, die ursprünglich vermutlich 15 Bücher umfassenden </text>
+                  <text xmlns=""
+                        rendition="#f11"
+                        size="15"
+                        top="636"
+                        left="508"
+                        width="48"
+                        height="16">Annales</text>
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="635"
+                        left="556"
+                        width="102"
+                        height="16">, jedoch dichtete </text>
+               </l>
+               <l left="77" top="655" size="15" bottom="671" right="561">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="655"
+                        left="77"
+                        width="484"
+                        height="16">er nicht mehr im altrömischen Versmaß des Saturniers, sondern im Hexameter. </text>
+               </l>
+               <l level="-1"
+                  left="77"
+                  top="728"
+                  size="13"
+                  bottom="745"
+                  right="223">
+                  <text xmlns=""
+                        rendition="#f12"
+                        size="9"
+                        top="728"
+                        left="77"
+                        width="9"
+                        height="10">30</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="730"
+                        left="85"
+                        width="138"
+                        height="15">  Manuwald (2001) 146. </text>
+               </l>
+               <l level="-1"
+                  left="77"
+                  top="749"
+                  size="13"
+                  bottom="765"
+                  right="655">
+                  <text xmlns=""
+                        rendition="#f12"
+                        size="9"
+                        top="749"
+                        left="77"
+                        width="9"
+                        height="10">31</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="750"
+                        left="85"
+                        width="152"
+                        height="15">  Im Altlateinischen kann </text>
+                  <text xmlns=""
+                        rendition="#f13"
+                        size="13"
+                        top="750"
+                        left="237"
+                        width="29"
+                        height="14">lupus</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="750"
+                        left="267"
+                        width="388"
+                        height="15"> beide Genera bezeichnen; bei besonderer Betonung oder der Eindeu-</text>
+               </l>
+               <l level="-1"
+                  left="98"
+                  top="769"
+                  size="13"
+                  bottom="784"
+                  right="658">
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="769"
+                        left="98"
+                        width="275"
+                        height="15">tigkeit halber sprach man von der Wölfin als einer </text>
+                  <text xmlns=""
+                        rendition="#f13"
+                        size="13"
+                        top="769"
+                        left="373"
+                        width="72"
+                        height="14">lupus femina </text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="769"
+                        left="445"
+                        width="132"
+                        height="15">(dies tut auch Ennius, s. </text>
+                  <text xmlns=""
+                        rendition="#f13"
+                        size="13"
+                        top="769"
+                        left="577"
+                        width="21"
+                        height="14">ann</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="769"
+                        left="598"
+                        width="60"
+                        height="15">. Frg. 65 u. </text>
+               </l>
+               <l level="-1"
+                  left="98"
+                  top="787"
+                  size="13"
+                  bottom="802"
+                  right="550">
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="787"
+                        left="98"
+                        width="450"
+                        height="15">66 Sk. = 68 u. 70 V.) Weitere Belege dafür führt Manuwald (2001) 151, Anm. 51 an.</text>
+                  <text xmlns=""
+                        rendition="#f16"
+                        size="7"
+                        top="792"
+                        left="548"
+                        width="2"
+                        height="8"> </text>
+               </l>
+               <l level="-1"
+                  left="77"
+                  top="805"
+                  size="13"
+                  bottom="822"
+                  right="223">
+                  <text xmlns=""
+                        rendition="#f12"
+                        size="9"
+                        top="805"
+                        left="77"
+                        width="9"
+                        height="10">32</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="807"
+                        left="85"
+                        width="138"
+                        height="15">  Manuwald (2001) 148. </text>
+               </l>
+            </div>
+      </x:context>
+      <x:expect label=".">
+         <div>
+            <div>
+               <pb n="24" height="935" width="722">
+                     <l level="-1"
+                        left="359"
+                        top="856"
+                        size="13"
+                        bottom="871"
+                        right="375">
+                        <text xmlns=""
+                              rendition="#f7"
+                              size="13"
+                              top="856"
+                              left="359"
+                              width="16"
+                              height="15">24 </text>
+                     </l>
+               </pb>
+               <ab>
+                  <l left="77" top="75" size="15" bottom="91" right="659">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="75"
+                           left="77"
+                           width="582"
+                           height="16">Unklar ist, ob diese Titel zwei oder aber drei Stücken zuzuordnen sind, da (2) und (3) entweder </text>
+                  </l>
+                  <l left="77" top="95" size="15" bottom="111" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="95"
+                           left="77"
+                           width="583"
+                           height="16">jeweils ein Theaterstück bezeichnet haben könnten oder aber auch beide Alternativtitel zu ein </text>
+                  </l>
+                  <l left="77" top="115" size="15" bottom="131" right="661">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="115"
+                           left="77"
+                           width="584"
+                           height="16">und demselben Stück gewesen sein könnten. Manuwald, die sich in ihrer Untersuchung der </text>
+                  </l>
+                  <l left="77" top="136" size="15" bottom="152" right="655">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="136"
+                           left="77"
+                           width="578"
+                           height="16">Praetexta als Gattung auch im Detail mit den Titeln der naevianischen Romulus-Praetexten aus-</text>
+                  </l>
+                  <l left="77" top="156" size="15" bottom="172" right="659">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="156"
+                           left="77"
+                           width="582"
+                           height="16">einandergesetzt hat, gelangt zu dem Schluss, dass (1) kein echter Titel, sondern in Wirklichkeit </text>
+                  </l>
+                  <l left="77" top="176" size="15" bottom="192" right="659">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="176"
+                           left="77"
+                           width="292"
+                           height="16">die Beschreibung einer Szene aus dem Stück ist.</text>
+                     <text xmlns=""
+                           rendition="#f12"
+                           size="9"
+                           top="176"
+                           left="368"
+                           width="9"
+                           height="10">30</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="176"
+                           left="377"
+                           width="282"
+                           height="16"> Für das bei Festus überlieferte Fragment zum </text>
+                  </l>
+                  <l left="77" top="196" size="15" bottom="213" right="660">
+                     <text xmlns=""
+                           rendition="#f11"
+                           size="15"
+                           top="197"
+                           left="77"
+                           width="36"
+                           height="16">Lupus</text>
+                     <text xmlns=""
+                           rendition="#f12"
+                           size="9"
+                           top="196"
+                           left="113"
+                           width="9"
+                           height="10">31</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="197"
+                           left="122"
+                           width="538"
+                           height="16"> liefert sie anhand der dort genannten Eigennamen eine Rekonstruktion der Handlung </text>
+                  </l>
+                  <l left="77" top="216" size="15" bottom="233" right="658">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="217"
+                           left="77"
+                           width="545"
+                           height="16">dieses Verses: Ein Mann aus Veji namens Vel Vibe begrüßt den Albanerkönig Amulius.</text>
+                     <text xmlns=""
+                           rendition="#f12"
+                           size="9"
+                           top="216"
+                           left="622"
+                           width="9"
+                           height="10">32</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="217"
+                           left="630"
+                           width="28"
+                           height="16"> Die </text>
+                  </l>
+                  <l left="77" top="237" size="15" bottom="254" right="655">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="237"
+                           left="77"
+                           width="108"
+                           height="16">Nachrichten zum </text>
+                     <text xmlns=""
+                           rendition="#f11"
+                           size="15"
+                           top="238"
+                           left="185"
+                           width="53"
+                           height="16">Romulus</text>
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="237"
+                           left="237"
+                           width="418"
+                           height="16"> des Naevius geben leider keinerlei Hinweise auf eine mögliche Hand-</text>
+                  </l>
+                  <l left="77" top="257" size="15" bottom="273" right="628">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="257"
+                           left="77"
+                           width="551"
+                           height="16">lung, da Varro, der nur am sprachlichen Aspekt interessiert ist, jeweils nur ein Wort zitiert. </text>
+                  </l>
+               </ab>
+            </div>
+            <div>
+               <head>
+                  <l left="77" top="310" size="19" bottom="331" right="345">
+                     <text xmlns=""
+                           rendition="#f1"
+                           size="19"
+                           top="310"
+                           left="77"
+                           width="268"
+                           height="21">2.1.3.  Fazit: Romulus bei Naevius </text>
+                  </l>
+               </head>
+               <ab>
+                  <l left="77" top="356" size="15" bottom="372" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="356"
+                           left="77"
+                           width="583"
+                           height="16">Ob Naevius nun eines, zwei oder drei Stücke zum Romulus-Stoff verfasst hat, ist letztlich nicht </text>
+                  </l>
+                  <l left="77" top="376" size="15" bottom="392" right="658">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="376"
+                           left="77"
+                           width="581"
+                           height="16">zu entscheiden. Wichtiger für den vorliegenden Zusammenhang ist die Feststellung, dass Naevius </text>
+                  </l>
+                  <l left="77" top="396" size="15" bottom="412" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="396"
+                           left="77"
+                           width="583"
+                           height="16">Romulus nicht nur in seinem Epos, sondern auch in dramatischer Form behandelt hat. Diese </text>
+                  </l>
+                  <l left="77" top="416" size="15" bottom="432" right="660">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="416"
+                           left="77"
+                           width="583"
+                           height="16">Figur scheint bei Naevius also erstens eine zentrale Rolle gespielt zu haben, zweitens lässt sich </text>
+                  </l>
+                  <l left="77" top="436" size="15" bottom="452" right="648">
+                     <text xmlns=""
+                           rendition="#f9"
+                           size="15"
+                           top="436"
+                           left="77"
+                           width="571"
+                           height="16">beobachten, dass Romulus’ Auftreten offenbar nicht an eine bestimmte Gattung gebunden ist.  </text>
+                  </l>
+               </ab>
+            </div>
+         </div>
+         <div>
+            <head>
+               <l left="309" top="503" size="24" bottom="529" right="427">
+                  <text xmlns=""
+                        rendition="#f17"
+                        size="24"
+                        top="503"
+                        left="309"
+                        width="118"
+                        height="26">2.2.  Ennius </text>
+               </l>
+            </head>
+            <ab>
+               <l left="77" top="554" size="15" bottom="570" right="658">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="554"
+                        left="77"
+                        width="581"
+                        height="16">Ennius (239-169 v. Chr.) galt in mehrfacher Hinsicht als Nachfolger und Übertreffer des Naevius. </text>
+               </l>
+               <l left="77" top="574" size="15" bottom="590" right="655">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="574"
+                        left="77"
+                        width="578"
+                        height="16">Nach einem Feldzug im zweiten Punischen Krieg von Cato nach Rom mitgebracht, arbeitete En-</text>
+               </l>
+               <l left="77" top="595" size="15" bottom="611" right="658">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="595"
+                        left="77"
+                        width="581"
+                        height="16">nius dort als Griechisch- und Lateinlehrer. 189 v. Chr. begleitete er M. Fulvius Nobilior (s. u.) auf </text>
+               </l>
+               <l left="77" top="615" size="15" bottom="631" right="659">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="615"
+                        left="77"
+                        width="582"
+                        height="16">einen Feldzug und erhielt danach das römische Bürgerrecht. Auch er verfasste ein Epos über die </text>
+               </l>
+               <l left="77" top="635" size="15" bottom="652" right="658">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="635"
+                        left="77"
+                        width="432"
+                        height="16">Geschichte Roms, die ursprünglich vermutlich 15 Bücher umfassenden </text>
+                  <text xmlns=""
+                        rendition="#f11"
+                        size="15"
+                        top="636"
+                        left="508"
+                        width="48"
+                        height="16">Annales</text>
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="635"
+                        left="556"
+                        width="102"
+                        height="16">, jedoch dichtete </text>
+               </l>
+               <l left="77" top="655" size="15" bottom="671" right="561">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="655"
+                        left="77"
+                        width="484"
+                        height="16">er nicht mehr im altrömischen Versmaß des Saturniers, sondern im Hexameter. </text>
+               </l>
+            </ab>
+            <ab>
+               <l level="-1"
+                  left="77"
+                  top="728"
+                  size="13"
+                  bottom="745"
+                  right="223">
+                  <text xmlns=""
+                        rendition="#f12"
+                        size="9"
+                        top="728"
+                        left="77"
+                        width="9"
+                        height="10">30</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="730"
+                        left="85"
+                        width="138"
+                        height="15">  Manuwald (2001) 146. </text>
+               </l>
+            </ab>
+            <ab>
+               <l level="-1"
+                  left="77"
+                  top="749"
+                  size="13"
+                  bottom="765"
+                  right="655">
+                  <text xmlns=""
+                        rendition="#f12"
+                        size="9"
+                        top="749"
+                        left="77"
+                        width="9"
+                        height="10">31</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="750"
+                        left="85"
+                        width="152"
+                        height="15">  Im Altlateinischen kann </text>
+                  <text xmlns=""
+                        rendition="#f13"
+                        size="13"
+                        top="750"
+                        left="237"
+                        width="29"
+                        height="14">lupus</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="750"
+                        left="267"
+                        width="388"
+                        height="15"> beide Genera bezeichnen; bei besonderer Betonung oder der Eindeu-</text>
+               </l>
+               <l level="-1"
+                  left="98"
+                  top="769"
+                  size="13"
+                  bottom="784"
+                  right="658">
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="769"
+                        left="98"
+                        width="275"
+                        height="15">tigkeit halber sprach man von der Wölfin als einer </text>
+                  <text xmlns=""
+                        rendition="#f13"
+                        size="13"
+                        top="769"
+                        left="373"
+                        width="72"
+                        height="14">lupus femina </text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="769"
+                        left="445"
+                        width="132"
+                        height="15">(dies tut auch Ennius, s. </text>
+                  <text xmlns=""
+                        rendition="#f13"
+                        size="13"
+                        top="769"
+                        left="577"
+                        width="21"
+                        height="14">ann</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="769"
+                        left="598"
+                        width="60"
+                        height="15">. Frg. 65 u. </text>
+               </l>
+               <l level="-1"
+                  left="98"
+                  top="787"
+                  size="13"
+                  bottom="802"
+                  right="550">
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="787"
+                        left="98"
+                        width="450"
+                        height="15">66 Sk. = 68 u. 70 V.) Weitere Belege dafür führt Manuwald (2001) 151, Anm. 51 an.</text>
+                  <text xmlns=""
+                        rendition="#f16"
+                        size="7"
+                        top="792"
+                        left="548"
+                        width="2"
+                        height="8"> </text>
+               </l>
+            </ab>
+            <ab>
+               <l level="-1"
+                  left="77"
+                  top="805"
+                  size="13"
+                  bottom="822"
+                  right="223">
+                  <text xmlns=""
+                        rendition="#f12"
+                        size="9"
+                        top="805"
+                        left="77"
+                        width="9"
+                        height="10">32</text>
+                  <text xmlns=""
+                        rendition="#f7"
+                        size="13"
+                        top="807"
+                        left="85"
+                        width="138"
+                        height="15">  Manuwald (2001) 148. </text>
+               </l>
+            </ab>
+         </div>
       </x:expect>
    </x:scenario>
 </x:description>
