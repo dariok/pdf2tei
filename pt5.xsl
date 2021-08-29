@@ -15,19 +15,29 @@
     </xd:desc>
   </xd:doc>
   
+  <!-- assumptions when guessing blocks:
+       - no preceding-sibling::tei:l  ––  e.g. first line after heading
+       - different indentation from preceding or following tei:l while of the same size
+       - different font size from preceding or following tei:l  ––  smaller or bigger text run, e.g. footnotes
+       - does not start with a small letter
+  -->
+  <!-- TODO no, we need to change this! Figure out, what the usual left is -->
   <xsl:template match="tei:div">
     <div>
-      <xsl:for-each-group select="*" group-starting-with="tei:l[(@left ne preceding-sibling::tei:l[1]/@left
-        and @left ne following-sibling::tei:l[1]/@left)
-        or not(preceding-sibling::tei:l)]">
+      <xsl:for-each-group select="*"
+        group-starting-with="tei:l[
+          not(preceding-sibling::tei:l)
+          or @left ne preceding::tei:pb[1]/@l]">
         <xsl:variable name="first" select="(current-group()[self::tei:l])[1]" />
         <xsl:variable name="id" select="generate-id($first)" />
         <xsl:choose>
           <xsl:when test="$first">
             <xsl:apply-templates select="current-group()[following-sibling::*[generate-id() = $id]]" />
             <ab>
-              <xsl:apply-templates select="$first | current-group()[preceding-sibling::*[generate-id() = $id]]" />
+              <xsl:apply-templates select="$first | current-group()[preceding-sibling::*[generate-id() = $id]
+                 and not(self::tei:div)]" />
             </ab>
+            <xsl:apply-templates select="current-group()[self::tei:div]" />
           </xsl:when>
           <xsl:otherwise>
             <xsl:apply-templates select="current-group()" />
