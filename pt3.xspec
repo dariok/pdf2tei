@@ -24,7 +24,7 @@
         </page>
       </x:context>
       <x:expect label=".">
-        <pb height="935" width="722" n="5">
+        <pb height="935" width="722" n="5" l="68">
           <l level="-1" left="354" top="856" size="13" bottom="871" right="364">
             <text xmlns="" rendition="#f7" size="13" top="856" left="354" width="10" height="15">5 </text>
           </l>
@@ -78,7 +78,7 @@
                </encodingDesc>
             </teiHeader>
             <text>
-               <pb n="1" height="935" width="722"/>
+               <pb n="1" height="935" width="722" l="68" />
                <head level="4">
                   <l left="68" top="129" size="16" bottom="147" right="171">
                      <text xmlns=""
@@ -101,8 +101,8 @@
                            height="21">Romulus in der lateinischen Literatur </text>
                   </l>
                </head>
-               <pb n="2" height="935" width="722"/>
-               <pb n="3" height="935" width="722">
+               <pb n="2" height="935" width="722" l=""/>
+               <pb n="3" height="935" width="722" l="128">
                   <l level="2"
                      left="68"
                      top="797"
@@ -141,7 +141,7 @@
                      </text>
                   </l>
                </head>
-               <pb n="4" height="935" width="722"/>
+               <pb n="4" height="935" width="722" l="77"/>
                <l level="0"
                   left="77"
                   top="489"
@@ -338,7 +338,7 @@
                         width="127"
                         height="12">Einwilligung des Verlages.</text>
                </l>
-               <pb n="5" height="935" width="722">
+               <pb n="5" height="935" width="722" l="68">
                   <l level="-1"
                      left="354"
                      top="856"
@@ -572,8 +572,8 @@
                         width="90"
                         height="16">Merryl Rebello</text>
                </l>
-               <pb n="12" height="935" width="722"/>
-               <pb n="13" height="935" width="722">
+               <pb n="12" height="935" width="722" l=""/>
+               <pb n="13" height="935" width="722" l="68">
                   <l level="-1"
                      left="351"
                      top="856"
@@ -998,7 +998,7 @@
                         width="253"
                         height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                </l>
-               <pb n="14" height="935" width="722">
+               <pb n="14" height="935" width="722" l="77">
                   <l level="-1"
                      left="359"
                      top="856"
@@ -1490,7 +1490,7 @@
                         width="79"
                         height="15">dieser Arbeit. </text>
                </l>
-               <pb n="15" height="935" width="722">
+               <pb n="15" height="935" width="722" l="68">
                   <l level="-1"
                      left="351"
                      top="856"
@@ -1853,7 +1853,7 @@
                         width="583"
                         height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
                </l>
-               <pb n="22" height="935" width="722">
+               <pb n="22" height="935" width="722" l="77">
                   <l level="-1"
                      left="359"
                      top="856"
@@ -2509,7 +2509,7 @@
                         width="125"
                         height="15">  Skutsch (1985) 225.  </text>
                </l>
-               <pb n="140" height="935" width="722">
+               <pb n="140" height="935" width="722" l="77">
                   <l level="-1"
                      left="356"
                      top="856"
@@ -3102,7 +3102,7 @@
                         width="9"
                         height="15">.  </text>
                </l>
-               <pb n="145" height="935" width="722">
+               <pb n="145" height="935" width="722" l="68">
                   <l level="-1"
                      left="347"
                      top="856"

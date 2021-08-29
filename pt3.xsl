@@ -21,14 +21,14 @@
     <xsl:choose>
       <xsl:when test="tei:cb and count(tei:cb[1]/preceding-sibling::*) lt 2 and not(tei:cb[1]/preceding-sibling::tei:head)">
         <pb n="{@number}">
-          <xsl:sequence select="@height | @width" />
+          <xsl:sequence select="@height | @width | @l" />
           <xsl:apply-templates select="tei:cb[1]/preceding-sibling::*" />
         </pb>
         <xsl:apply-templates select="tei:cb[1]/following-sibling::*" />
       </xsl:when>
       <xsl:otherwise>
         <pb n="{@number}">
-          <xsl:sequence select="@height | @width" />
+          <xsl:sequence select="@height | @width | @l" />
         </pb>
         <xsl:apply-templates />
       </xsl:otherwise>
