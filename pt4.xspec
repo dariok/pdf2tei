@@ -37,6 +37,7 @@
             <text>
                <body>
                   <div>
+                     <pb n="1" height="935" width="722" l="68"/>
                      <head level="4">
                         <l left="68" top="129" size="16" bottom="147" right="171">
                            <text xmlns=""
@@ -59,7 +60,22 @@
                                  height="21">Romulus in der lateinischen Literatur </text>
                         </l>
                      </head>
-                     <pb n="2" height="935" width="722"/>
+                     <pb n="2" height="935" width="722" l=""/>
+                     <pb n="3" height="935" width="722" l="128">
+                        <l level="2"
+                           left="68"
+                           top="797"
+                           size="0"
+                           bottom="834"
+                           right="218">
+                           <image xmlns=""
+                                  top="797"
+                                  left="68"
+                                  width="150"
+                                  height="37"
+                                  src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+                        </l>
+                     </pb>
                      <head level="3">
                         <l left="128" top="156" size="18" bottom="176" right="241">
                            <text xmlns=""
@@ -86,7 +102,7 @@
                            </text>
                         </l>
                      </head>
-                     <pb n="4" height="935" width="722"/>
+                     <pb n="4" height="935" width="722" l="77"/>
                      <l level="0"
                         left="77"
                         top="489"
@@ -285,7 +301,7 @@
                      </l>
                   </div>
                   <div>
-                     <pb n="5" height="935" width="722">
+                     <pb n="5" height="935" width="722" l="68">
                         <l level="-1"
                            left="354"
                            top="856"
@@ -519,10 +535,10 @@
                               width="90"
                               height="16">Merryl Rebello</text>
                      </l>
-                     <pb n="12" height="935" width="722"/>
+                     <pb n="12" height="935" width="722" l=""/>
                   </div>
                   <div>
-                     <pb n="13" height="935" width="722">
+                     <pb n="13" height="935" width="722" l="68">
                         <l level="-1"
                            left="351"
                            top="856"
@@ -947,7 +963,7 @@
                               width="253"
                               height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                      </l>
-                     <pb n="14" height="935" width="722">
+                     <pb n="14" height="935" width="722" l="77">
                         <l level="-1"
                            left="359"
                            top="856"
@@ -1439,7 +1455,7 @@
                               width="79"
                               height="15">dieser Arbeit. </text>
                      </l>
-                     <pb n="15" height="935" width="722">
+                     <pb n="15" height="935" width="722" l="68">
                         <l level="-1"
                            left="351"
                            top="856"
@@ -2255,7 +2271,7 @@
                                  width="79"
                                  height="15">dieser Arbeit. </text>
                         </l>
-                        <pb n="15" height="935" width="722">
+                        <pb n="15" height="935" width="722" l="68">
                            <l level="-1"
                               left="351"
                               top="856"
@@ -2620,7 +2636,7 @@
                         </l>
                      </div>
                      <div>
-                        <pb n="22" height="935" width="722">
+                        <pb n="22" height="935" width="722" l="77">
                            <l level="-1"
                               left="359"
                               top="856"
@@ -2730,22 +2746,6 @@
                                  height="16">  </text>
                         </l>
                         <div>
-                           <pb n="22" height="935" width="722">
-                              <l level="-1"
-                                 left="359"
-                                 top="856"
-                                 size="13"
-                                 bottom="871"
-                                 right="375">
-                                 <text xmlns=""
-                                       rendition="#f7"
-                                       size="13"
-                                       top="856"
-                                       left="359"
-                                       width="16"
-                                       height="15">22 </text>
-                              </l>
-                           </pb>
                            <head level="1">
                               <l left="304" top="123" size="24" bottom="149" right="432">
                                  <text xmlns=""
@@ -3388,7 +3388,7 @@
                                     width="125"
                                     height="15">  Skutsch (1985) 225.  </text>
                            </l>
-                           <pb n="140" height="935" width="722">
+                           <pb n="140" height="935" width="722" l="77">
                               <l level="-1"
                                  left="356"
                                  top="856"
@@ -3983,7 +3983,7 @@
                                     width="9"
                                     height="15">.  </text>
                            </l>
-                           <pb n="145" height="935" width="722">
+                           <pb n="145" height="935" width="722" l="68">
                               <l level="-1"
                                  left="347"
                                  top="856"
@@ -4791,7 +4791,7 @@
   <x:scenario label="T2">
     <x:context>
       <text>
-         <pb n="13" height="935" width="722">
+         <pb n="13" height="935" width="722" l="68">
             <l level="-1"
                left="351"
                top="856"
@@ -4827,7 +4827,7 @@
                width="583"
                height="16">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text>
          </l>
-         <pb n="21" height="935" width="722">
+         <pb n="21" height="935" width="722" l="68">
             <l level="-1"
                left="351"
                top="856"
@@ -4898,7 +4898,7 @@
                width="540"
                height="15">  Das Problem der Zuweisung des entsprechenden Fragments an Lucilius wird auf S. 32 behandelt. </text>
          </l>
-         <pb n="22" height="935" width="722">
+         <pb n="22" height="935" width="722" l="77">
             <l level="-1"
                left="359"
                top="856"
@@ -5167,7 +5167,7 @@
                width="508"
                height="15">Romulus selbst oder Remus als Sprecher angenommen werden muss, vgl. Skutsch (1985) 238. </text>
          </l>
-         <pb n="48" height="935" width="722">
+         <pb n="48" height="935" width="722" l="77">
             <l level="-1"
                left="359"
                top="856"
@@ -5210,7 +5210,7 @@
       <body>
        <div />
        <div>
-         <pb n="13" height="935" width="722">
+         <pb n="13" height="935" width="722" l="68">
             <l level="-1"
                left="351"
                top="856"
@@ -5248,7 +5248,7 @@
          </l>
        </div>
        <div>
-         <pb n="21" height="935" width="722">
+         <pb n="21" height="935" width="722" l="68">
             <l level="-1"
                left="351"
                top="856"
@@ -5320,7 +5320,7 @@
                height="15">  Das Problem der Zuweisung des entsprechenden Fragments an Lucilius wird auf S. 32 behandelt. </text>
          </l>
          <div>
-            <pb n="22" height="935" width="722">
+            <pb n="22" height="935" width="722" l="77">
                <l level="-1"
                   left="359"
                   top="856"
@@ -5598,7 +5598,7 @@
          </div>
        </div>
        <div>
-         <pb n="48" height="935" width="722">
+         <pb n="48" height="935" width="722" l="77">
             <l level="-1"
                left="359"
                top="856"
