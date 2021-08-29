@@ -60,6 +60,7 @@
   <xd:doc>
     <xd:desc>
       <xd:p>Try a classification based on relative font size and assign a level</xd:p>
+      <xd:p>Try to establish column breaks, marginalia or forme work: line jumps back to top</xd:p>
     </xd:desc>
     <xd:param name="sizes">Sequence of all size values in the document</xd:param>
     <xd:param name="mainsize">The most common size in the document</xd:param>
@@ -67,7 +68,9 @@
   <xsl:template match="tei:l">
     <xsl:param name="sizes" tunnel="true" />
     <xsl:param name="mainsize" tunnel="true" />
-    <xsl:variable name="mysize" select="number(@size)"/>
+    <xsl:variable name="mysize" select="number(@size)" />
+    <xsl:variable name="mytop" select="number(@top)" />
+    
     <xsl:choose>
       <xsl:when test="$mysize &gt; $mainsize">
         <head>
@@ -87,6 +90,10 @@
         </l>
       </xsl:otherwise>
     </xsl:choose>
+    
+    <xsl:if test="following-sibling::*[1]/@top/number(.) lt $mytop">
+      <cb />
+    </xsl:if>
   </xsl:template>
   
   <xd:doc>
