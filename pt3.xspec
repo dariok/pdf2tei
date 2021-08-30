@@ -3,7 +3,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   stylesheet="pt3.xsl">
   <x:scenario label="T1">
-    <x:scenario label="T1.1: fw">
+    <x:scenario label="T1.1">
       <x:context>
         <page l="68" number="5" position="absolute" top="0" left="0" height="935" width="722">
           <l level="-1" left="354" top="856" size="13" bottom="871" right="364">
@@ -43,6 +43,70 @@
             </l>
       </x:expect>
     </x:scenario>
+    <x:scenario label="T1.2">
+       <x:context>
+          <page l="68" number="1" position="absolute" top="0" left="0" height="935" width="722">
+             <head level="4"><l left="68" top="129" size="16" bottom="147" right="171">
+                <text xmlns="" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
+             </l></head>
+             <head level="2"><l left="68" top="161" size="19" bottom="182" right="368">
+                <text xmlns="" rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur  </text>
+             </l></head>
+             <head level="2"><l left="68" top="187" size="19" bottom="208" right="231">
+                <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
+             </l></head>
+          </page>
+       </x:context>
+       <x:expect label="head level 2 with 2 lines">
+          <pb l="68" n="1" height="935" width="722" />
+          <head level="4"><l left="68" top="129" size="16" bottom="147" right="171">
+             <text xmlns="" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
+          </l></head>
+          <head level="2">
+             <l left="68" top="161" size="19" bottom="182" right="368">
+               <text xmlns="" rendition="#f1" size="19" top="161" left="68" width="300" height="21">Romulus in der lateinischen Literatur  </text>
+             </l>
+             <l left="68" top="187" size="19" bottom="208" right="231">
+               <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
+          </l></head>
+       </x:expect>
+    </x:scenario>
+     <x:scenario label="T1.3">
+        <x:context>
+           <page l="77" number="132" position="absolute" top="0" left="0" height="935" width="722">
+              <l level="-1" left="356" top="856" size="13" bottom="871" right="379">
+                 <text xmlns="" rendition="#f7" size="13" top="856" left="356" width="23" height="15">132 </text>
+              </l><cb/>
+              <head level="0"><l left="144" top="123" size="33" bottom="159" right="588">
+                 <text xmlns="" rendition="#f8" size="33" top="123" left="144" width="444" height="36">4. „Romulus“ in Schimpfwörtern</text>
+              </l></head>
+              <head level="0"><l left="261" top="168" size="33" bottom="204" right="477">
+                 <text xmlns="" rendition="#f8" size="33" top="168" left="261" width="216" height="36">in der Invektive </text>
+              </l></head>
+              <l left="77" top="236" size="15" bottom="252" right="655">
+                 <text xmlns="" rendition="#f9" size="15" top="236" left="77" width="578" height="16">Wird „Romulus“ in Schimpfwörtern verwendet, handelt es sich um eine von mehreren Manifes-</text>
+              </l>
+           </page>
+        </x:context>
+        <x:expect label="one head">
+           <pb l="77" n="132" height="935" width="722">
+             <l level="-1" left="356" top="856" size="13" bottom="871" right="379">
+              <text xmlns="" rendition="#f7" size="13" top="856" left="356" width="23" height="15">132 </text>
+             </l>
+           </pb>
+           <head level="0">
+              <l left="144" top="123" size="33" bottom="159" right="588">
+                 <text xmlns="" rendition="#f8" size="33" top="123" left="144" width="444" height="36">4. „Romulus“ in Schimpfwörtern</text>
+              </l>
+              <l left="261" top="168" size="33" bottom="204" right="477">
+                 <text xmlns="" rendition="#f8" size="33" top="168" left="261" width="216" height="36">in der Invektive </text>
+              </l>
+           </head>
+           <l left="77" top="236" size="15" bottom="252" right="655">
+              <text xmlns="" rendition="#f9" size="15" top="236" left="77" width="578" height="16">Wird „Romulus“ in Schimpfwörtern verwendet, handelt es sich um eine von mehreren Manifes-</text>
+           </l>
+        </x:expect>
+     </x:scenario>
   </x:scenario>
   
   <x:scenario label="T2">
@@ -100,6 +164,9 @@
                            width="300"
                            height="21">Romulus in der lateinischen Literatur </text>
                   </l>
+                  <l left="68" top="187" size="19" bottom="208" right="231">
+                     <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
+                  </l>
                </head>
                <pb n="2" height="935" width="722" l=""/>
                <pb n="3" height="935" width="722" l="128">
@@ -138,6 +205,22 @@
                            width="228"
                            height="35">
                         <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">Romulus in der </hi>
+                     </text>
+                  </l>
+                  <l left="128" top="260" size="33" bottom="295" right="439">
+                     <text xmlns="" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
+                        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">lateinischen Literatur </hi>
+                     </text>
+                  </l>
+                  <l left="128" top="305" size="33" bottom="340" right="414">
+                     <text xmlns=""
+                        rendition="#f3"
+                        size="33"
+                        top="305"
+                        left="128"
+                        width="286"
+                        height="35">
+                        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">von Ennius bis Ovid </hi>
                      </text>
                   </l>
                </head>

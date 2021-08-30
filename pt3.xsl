@@ -101,7 +101,15 @@
       <xsl:when test="preceding-sibling::*[1][@level eq $level]" />
       <xsl:otherwise>
         <head level="{$level}">
-          <xsl:apply-templates select="* | (following-sibling::* intersect $end/preceding-sibling::*)/*" />
+          <xsl:apply-templates select="*" />
+           <xsl:choose>
+              <xsl:when test="$end">
+                 <xsl:apply-templates select="(following-sibling::* intersect $end/preceding-sibling::*)/*" />
+              </xsl:when>
+              <xsl:otherwise>
+                 <xsl:apply-templates select="following-sibling::*/*" />
+              </xsl:otherwise>
+           </xsl:choose>
         </head>
       </xsl:otherwise>
     </xsl:choose>
