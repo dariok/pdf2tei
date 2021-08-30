@@ -42,37 +42,43 @@
     <xsl:param name="context" as="element()+" />
     
     <xsl:for-each-group select="$context" group-starting-with="tei:head[@level = $level]">
-      <div>
-        <xsl:choose>
-          <!-- the very first pb, followed by a level 0 heading: will be copied by next iteration -->
-<!--          <xsl:when test="count(current-group()) = 1 and not(current-group()/preceding-sibling::*)" />-->
-          <xsl:when test="not(current-group()[@level = $level])">
+      <xsl:choose>
+        <!-- the very first pb, followed by a level 0 heading: will be copied by next iteration -->
+        <xsl:when test="count(current-group()) = 1 and not(current-group()/preceding-sibling::*)" />
+        <xsl:when test="current-group()[self::tei:head and @level = $level + 1]">
+           <div>
+              <xsl:sequence select="current-group()[1]/preceding-sibling::*[1][self::tei:pb]" />
+              
+              <xsl:for-each-group select="current-group()"
+                 group-starting-with="tei:head[@level = $level or @level = $level + 1]">
+                 <xsl:choose>
+                    <xsl:when test="current-group()[1]/@level = $level">
+                       <xsl:apply-templates select="current-group()"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                       <xsl:call-template name="divStructure">
+                          <xsl:with-param name="context" select="current-group()" />
+                          <xsl:with-param name="level" select="$level + 1" />
+                       </xsl:call-template>
+                    </xsl:otherwise>
+                 </xsl:choose>
+              </xsl:for-each-group>
+           </div>
+        </xsl:when>
+         <xsl:when test="not(current-group()[self::tei:head])">
             <xsl:apply-templates select="current-group()">
                <xsl:with-param name="level" select="$level" tunnel="1" />
             </xsl:apply-templates>
-          </xsl:when>
-          <xsl:when test="current-group()[self::tei:head and @level = $level + 1]">
-            <xsl:variable name="head" select="current-group()[1]"/>
-            <xsl:variable name="lower" select="current-group()[self::tei:head and @level = $level +1][1]"/>
-            
-            <xsl:sequence select="$head/preceding-sibling::*[1][self::tei:pb]" />
-            <xsl:sequence select="$head" />
-            <xsl:apply-templates select="$head/following-sibling::* intersect $lower/preceding-sibling::*">
-               <xsl:with-param name="level" select="$level" tunnel="1" />
-            </xsl:apply-templates>
-            <xsl:call-template name="divStructure">
-              <xsl:with-param name="context" select="$lower | current-group()[preceding-sibling::*[@level = $level +1 ]]" />
-              <xsl:with-param name="level" select="$level + 1" />
-            </xsl:call-template>
-          </xsl:when>
-          <xsl:otherwise>
+         </xsl:when>
+        <xsl:otherwise>
+          <div>
             <xsl:sequence select="current-group()[1]/preceding-sibling::*[1][self::tei:pb]" />
             <xsl:apply-templates select="current-group()">
                <xsl:with-param name="level" select="$level" tunnel="1" />
             </xsl:apply-templates>
-          </xsl:otherwise>
-        </xsl:choose>
-      </div>
+          </div>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:for-each-group>
   </xsl:template>
    
