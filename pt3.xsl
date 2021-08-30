@@ -95,7 +95,7 @@
   </xd:doc>
   <xsl:template match="tei:head">
     <xsl:variable name="level" select="@level" />
-    <xsl:variable name="end" select="following-sibling::*[not(@level eq $level)][1]" />
+    <xsl:variable name="end" select="(following-sibling::tei:l | following-sibling::tei:head[@level != $level])[1]" />
     
     <xsl:choose>
       <xsl:when test="preceding-sibling::*[1][@level eq $level]" />

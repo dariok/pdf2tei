@@ -80,7 +80,9 @@
         </head>
       </xsl:when>
       <xsl:when test="$mainsize eq $mysize">
-        <xsl:sequence select="." />
+        <l level="0">
+           <xsl:apply-templates select="@* | node()" />
+        </l>
       </xsl:when>
       <xsl:otherwise>
         <l>
