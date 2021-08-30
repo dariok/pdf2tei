@@ -37,7 +37,7 @@
         <text>
           <body>
                <div>
-                  <pb n="1" height="935" width="722" l="68"/>
+                  <pb n="1" height="935" width="722" l="68" r="368" />
                   <head level="4">
                      <l left="68" top="129" size="16" bottom="147" right="171">
                         <text xmlns=""
@@ -63,8 +63,8 @@
                         <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
                      </l>
                   </head>
-                  <pb n="2" height="935" width="722" l=""/>
-                  <pb n="3" height="935" width="722" l="128">
+                  <pb n="2" height="935" width="722" l="" r="" />
+                  <pb n="3" height="935" width="722" l="128" r="439">
                      <l level="2"
                         left="68"
                         top="797"
@@ -121,7 +121,7 @@
                         </text>
                      </l>
                   </head>
-                  <pb n="4" height="935" width="722" l="77"/>
+                  <pb n="4" height="935" width="722" l="77" r="494"/>
                   <l level="0"
                      left="77"
                      top="489"
@@ -320,7 +320,7 @@
                   </l>
                </div>
                <div>
-                  <pb n="5" height="935" width="722" l="68">
+                  <pb n="5" height="935" width="722" l="68" r="650">
                      <l level="-1"
                         left="354"
                         top="856"
@@ -554,10 +554,10 @@
                            width="90"
                            height="16">Merryl Rebello</text>
                   </l>
-                  <pb n="12" height="935" width="722" l=""/>
+                  <pb n="12" height="935" width="722" l="" r=""/>
                </div>
              <div>
-                <pb n="13" height="935" width="722" l="68">
+                <pb n="13" height="935" width="722" l="68" r="650">
                    <l level="-1"
                       left="351"
                       top="856"
@@ -982,7 +982,7 @@
                         width="253"
                         height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                </l>
-               <pb n="14" height="935" width="722" l="77">
+               <pb n="14" height="935" width="722" l="77" r="655">
                   <l level="-1"
                      left="359"
                      top="856"
@@ -1474,7 +1474,7 @@
                         width="79"
                         height="15">dieser Arbeit. </text>
                </l>
-               <pb n="15" height="935" width="722" l="68">
+               <pb n="15" height="935" width="722" l="68" r="646">
                   <l level="-1"
                      left="351"
                      top="856"
@@ -1838,7 +1838,7 @@
                         height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
                </l>
                <div>
-               <pb n="22" height="935" width="722" l="77">
+               <pb n="22" height="935" width="722" l="77" r="658">
                   <l level="-1"
                      left="359"
                      top="856"
@@ -2495,7 +2495,7 @@
                         width="125"
                         height="15">  Skutsch (1985) 225.  </text>
                </l>
-               <pb n="140" height="935" width="722" l="77">
+               <pb n="140" height="935" width="722" l="77" r="659">
                   <l level="-1"
                      left="356"
                      top="856"
@@ -3090,7 +3090,7 @@
                         width="9"
                         height="15">.  </text>
                </l>
-               <pb n="145" height="935" width="722" l="68">
+               <pb n="145" height="935" width="722" l="68" r="649">
                   <l level="-1"
                      left="347"
                      top="856"
@@ -3898,7 +3898,7 @@
   <x:scenario label="T2">
     <x:context>
       <text>
-         <pb n="13" height="935" width="722" l="68">
+         <pb n="13" height="935" width="722" l="68" r="651">
             <l level="-1"
                left="351"
                top="856"
@@ -3934,7 +3934,7 @@
                width="583"
                height="16">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </text>
          </l>
-         <pb n="21" height="935" width="722" l="68">
+         <pb n="21" height="935" width="722" l="68" r="647">
             <l level="-1"
                left="351"
                top="856"
@@ -4005,7 +4005,7 @@
                width="540"
                height="15">  Das Problem der Zuweisung des entsprechenden Fragments an Lucilius wird auf S. 32 behandelt. </text>
          </l>
-         <pb n="22" height="935" width="722" l="77">
+         <pb n="22" height="935" width="722" l="77" r="659">
             <l level="-1"
                left="359"
                top="856"
@@ -4274,7 +4274,7 @@
                width="508"
                height="15">Romulus selbst oder Remus als Sprecher angenommen werden muss, vgl. Skutsch (1985) 238. </text>
          </l>
-         <pb n="48" height="935" width="722" l="77">
+         <pb n="48" height="935" width="722" l="77" r="659">
             <l level="-1"
                left="359"
                top="856"
@@ -4315,7 +4315,7 @@
     <x:expect label=".">
      <text><body>
        <div>
-         <pb n="13" height="935" width="722" l="68">
+         <pb n="13" height="935" width="722" l="68" r="651">
             <l level="-1"
                left="351"
                top="856"
@@ -4353,7 +4353,7 @@
          </l>
        </div>
        <div>
-         <pb n="21" height="935" width="722" l="68">
+         <pb n="21" height="935" width="722" l="68" r="647">
             <l level="-1"
                left="351"
                top="856"
@@ -4425,7 +4425,7 @@
                height="15">  Das Problem der Zuweisung des entsprechenden Fragments an Lucilius wird auf S. 32 behandelt. </text>
          </l>
          <div>
-         <pb n="22" height="935" width="722" l="77">
+         <pb n="22" height="935" width="722" l="77" r="659">
             <l level="-1"
                left="359"
                top="856"
@@ -4703,7 +4703,7 @@
         </div>
         </div>
         <div>
-         <pb n="48" height="935" width="722" l="77">
+         <pb n="48" height="935" width="722" l="77" r="659">
             <l level="-1"
                left="359"
                top="856"

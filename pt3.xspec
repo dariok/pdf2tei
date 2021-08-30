@@ -5,7 +5,7 @@
   <x:scenario label="T1">
     <x:scenario label="T1.1">
       <x:context>
-        <page l="68" number="5" position="absolute" top="0" left="0" height="935" width="722">
+        <page l="68" number="5" position="absolute" top="0" left="0" height="935" width="722" r="650">
           <l level="-1" left="354" top="856" size="13" bottom="871" right="364">
             <text xmlns="" rendition="#f7" size="13" top="856" left="354" width="10" height="15">5 </text>
           </l><cb/>
@@ -24,7 +24,7 @@
         </page>
       </x:context>
       <x:expect label=".">
-        <pb height="935" width="722" n="5" l="68">
+        <pb height="935" width="722" n="5" l="68" r="650">
           <l level="-1" left="354" top="856" size="13" bottom="871" right="364">
             <text xmlns="" rendition="#f7" size="13" top="856" left="354" width="10" height="15">5 </text>
           </l>
@@ -45,7 +45,7 @@
     </x:scenario>
     <x:scenario label="T1.2">
        <x:context>
-          <page l="68" number="1" position="absolute" top="0" left="0" height="935" width="722">
+          <page l="68" number="1" position="absolute" top="0" left="0" height="935" width="722" r="368">
              <head level="4"><l left="68" top="129" size="16" bottom="147" right="171">
                 <text xmlns="" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
              </l></head>
@@ -58,7 +58,7 @@
           </page>
        </x:context>
        <x:expect label="head level 2 with 2 lines">
-          <pb l="68" n="1" height="935" width="722" />
+          <pb l="68" n="1" height="935" width="722" r="368" />
           <head level="4"><l left="68" top="129" size="16" bottom="147" right="171">
              <text xmlns="" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
           </l></head>
@@ -73,7 +73,7 @@
     </x:scenario>
      <x:scenario label="T1.3">
         <x:context>
-           <page l="77" number="132" position="absolute" top="0" left="0" height="935" width="722">
+           <page l="77" number="132" position="absolute" top="0" left="0" height="935" width="722" r="655">
               <l level="-1" left="356" top="856" size="13" bottom="871" right="379">
                  <text xmlns="" rendition="#f7" size="13" top="856" left="356" width="23" height="15">132 </text>
               </l><cb/>
@@ -89,7 +89,7 @@
            </page>
         </x:context>
         <x:expect label="one head">
-           <pb l="77" n="132" height="935" width="722">
+           <pb l="77" n="132" height="935" width="722" r="655">
              <l level="-1" left="356" top="856" size="13" bottom="871" right="379">
               <text xmlns="" rendition="#f7" size="13" top="856" left="356" width="23" height="15">132 </text>
              </l>
@@ -109,14 +109,14 @@
      </x:scenario>
      <x:scenario label="T1.4">
         <x:context>
-           <page number="11">
+           <page number="11" r="">
               <head level="0"><l>h01</l></head>
               <head level="0"><l>h02</l></head>
               <head level="1"><l>h1</l></head>
            </page>
         </x:context>
         <x:expect label=".">
-           <pb n="11" />
+           <pb n="11" r="" />
            <head level="0">
               <l>h01</l>
               <l>h02</l></head>
@@ -158,7 +158,7 @@
                </encodingDesc>
             </teiHeader>
             <text>
-               <pb n="1" height="935" width="722" l="68" />
+               <pb n="1" height="935" width="722" l="68" r="368"/>
                <head level="4">
                   <l left="68" top="129" size="16" bottom="147" right="171">
                      <text xmlns=""
@@ -184,8 +184,8 @@
                      <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
                   </l>
                </head>
-               <pb n="2" height="935" width="722" l=""/>
-               <pb n="3" height="935" width="722" l="128">
+               <pb n="2" height="935" width="722" l="" r=""/>
+               <pb n="3" height="935" width="722" l="128" r="439">
                   <l level="2"
                      left="68"
                      top="797"
@@ -240,7 +240,7 @@
                      </text>
                   </l>
                </head>
-               <pb n="4" height="935" width="722" l="77"/>
+               <pb n="4" height="935" width="722" l="77" r="494"/>
                <l level="0"
                   left="77"
                   top="489"
@@ -437,7 +437,7 @@
                         width="127"
                         height="12">Einwilligung des Verlages.</text>
                </l>
-               <pb n="5" height="935" width="722" l="68">
+               <pb n="5" height="935" width="722" l="68" r="650">
                   <l level="-1"
                      left="354"
                      top="856"
@@ -671,8 +671,8 @@
                         width="90"
                         height="16">Merryl Rebello</text>
                </l>
-               <pb n="12" height="935" width="722" l=""/>
-               <pb n="13" height="935" width="722" l="68">
+               <pb n="12" height="935" width="722" l="" r=""/>
+               <pb n="13" height="935" width="722" l="68" r="650">
                   <l level="-1"
                      left="351"
                      top="856"
@@ -1097,7 +1097,7 @@
                         width="253"
                         height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                </l>
-               <pb n="14" height="935" width="722" l="77">
+               <pb n="14" height="935" width="722" l="77" r="655">
                   <l level="-1"
                      left="359"
                      top="856"
@@ -1589,7 +1589,7 @@
                         width="79"
                         height="15">dieser Arbeit. </text>
                </l>
-               <pb n="15" height="935" width="722" l="68">
+               <pb n="15" height="935" width="722" l="68" r="646">
                   <l level="-1"
                      left="351"
                      top="856"
@@ -1952,7 +1952,7 @@
                         width="583"
                         height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
                </l>
-               <pb n="22" height="935" width="722" l="77">
+               <pb n="22" height="935" width="722" l="77" r="658">
                   <l level="-1"
                      left="359"
                      top="856"
@@ -2608,7 +2608,7 @@
                         width="125"
                         height="15">  Skutsch (1985) 225.  </text>
                </l>
-               <pb n="140" height="935" width="722" l="77">
+               <pb n="140" height="935" width="722" l="77" r="659">
                   <l level="-1"
                      left="356"
                      top="856"
@@ -3201,7 +3201,7 @@
                         width="9"
                         height="15">.  </text>
                </l>
-               <pb n="145" height="935" width="722" l="68">
+               <pb n="145" height="935" width="722" l="68" r="649">
                   <l level="-1"
                      left="347"
                      top="856"

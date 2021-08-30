@@ -34,7 +34,7 @@
                   </tagsDecl>
                </encodingDesc>
             </teiHeader><text>
-               <page l="68" number="1" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="68" number="1" position="absolute" top="0" left="0" height="935" width="722" r="368">
                   <head level="4"><l left="68" top="129" size="16" bottom="147" right="171">
                      <text xmlns="" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
                   </l></head>
@@ -45,8 +45,8 @@
                      <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
                   </l></head>
                </page>
-               <page l="" number="2" position="absolute" top="0" left="0" height="935" width="722"/>
-               <page l="128" number="3" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="" number="2" position="absolute" top="0" left="0" height="935" width="722" r="" />
+               <page l="128" number="3" position="absolute" top="0" left="0" height="935" width="722" r="439">
                   <l level="2" left="68" top="797" size="0" bottom="834" right="218">
                      <image xmlns="" top="797" left="68" width="150" height="37" src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
                   </l><cb/>
@@ -69,7 +69,7 @@
                      </text>
                   </l></head>
                </page>
-               <page l="77" number="4" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="77" number="4" position="absolute" top="0" left="0" height="935" width="722" r="494">
                   <l level="0" left="77" top="489" size="11" bottom="502" right="264">
                      <text xmlns="" rendition="#f4" size="11" top="489" left="77" width="187" height="13">wbg Academic ist ein Imprint der wbg </text>
                   </l>
@@ -110,7 +110,7 @@
                      <text xmlns="" rendition="#f5" size="11" top="770" left="195" width="127" height="12">Einwilligung des Verlages.</text>
                   </l>
                </page>
-               <page l="68" number="5" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="68" number="5" position="absolute" top="0" left="0" height="935" width="722" r="650">
                   <l level="-1" left="354" top="856" size="13" bottom="871" right="364">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="354" width="10" height="15">5 </text>
                   </l><cb/>
@@ -187,8 +187,8 @@
                      <text xmlns="" rendition="#f9" size="15" top="693" left="68" width="90" height="16">Merryl Rebello</text>
                   </l>
                </page>
-               <page l="" number="12" position="absolute" top="0" left="0" height="935" width="722"/>
-               <page l="68" number="13" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="" number="12" position="absolute" top="0" left="0" height="935" width="722" r="" />
+               <page l="68" number="13" position="absolute" top="0" left="0" height="935" width="722" r="650">
                   <l level="-1" left="351" top="856" size="13" bottom="871" right="367">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="351" width="16" height="15">13 </text>
                   </l><cb/>
@@ -294,7 +294,7 @@
                      <text xmlns="" rendition="#f7" size="13" top="806" left="89" width="253" height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                   </l>
                </page>
-               <page l="77" number="14" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="77" number="14" position="absolute" top="0" left="0" height="935" width="722" r="655">
                   <l level="-1" left="359" top="856" size="13" bottom="871" right="375">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="359" width="16" height="15">14 </text>
                   </l><cb/>
@@ -418,7 +418,7 @@
                      <text xmlns="" rendition="#f7" size="13" top="808" left="98" width="79" height="15">dieser Arbeit. </text>
                   </l>
                </page>
-               <page l="68" number="15" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="68" number="15" position="absolute" top="0" left="0" height="935" width="722" r="646">
                   <l level="-1" left="351" top="856" size="13" bottom="871" right="367">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="351" width="16" height="15">15 </text>
                   </l><cb/>
@@ -536,7 +536,7 @@
                      <text xmlns="" rendition="#f9" size="15" top="803" left="68" width="583" height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
                   </l>
                </page>
-               <page l="77" number="22" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="77" number="22" position="absolute" top="0" left="0" height="935" width="722" r="658">
                   <l level="-1" left="359" top="856" size="13" bottom="871" right="375">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="359" width="16" height="15">22 </text>
                   </l><cb/>
@@ -684,7 +684,7 @@
                      <text xmlns="" rendition="#f7" size="13" top="805" left="85" width="125" height="15">  Skutsch (1985) 225.  </text>
                   </l>
                </page>
-               <page l="77" number="140" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="77" number="140" position="absolute" top="0" left="0" height="935" width="722" r="659">
                   <l level="-1" left="356" top="856" size="13" bottom="871" right="379">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="356" width="23" height="15">140 </text>
                   </l><cb/>
@@ -822,7 +822,7 @@
                      <text xmlns="" rendition="#f7" size="13" top="806" left="180" width="9" height="15">.  </text>
                   </l>
                </page>
-               <page l="68" number="145" position="absolute" top="0" left="0" height="935" width="722">
+               <page l="68" number="145" position="absolute" top="0" left="0" height="935" width="722" r="649">
                   <l level="-1" left="347" top="856" size="13" bottom="871" right="370">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="347" width="23" height="15">145 </text>
                   </l><cb/>
@@ -1037,7 +1037,7 @@
             <rendition scheme="css" xml:id="f9">font-size: 15pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
           </teiHeader>
           <text>
-            <page number="13" position="absolute" top="0" left="0" height="935" width="722" l="68">
+            <page number="13" position="absolute" top="0" left="0" height="935" width="722" l="68" r="651">
               <l size="13" top="856" left="351" right="367" bottom="871" level="-1">
                 <text top="856" left="351" width="16" height="15" rendition="#f7" size="13">13 </text></l>
               <cb />
