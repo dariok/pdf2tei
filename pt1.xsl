@@ -3,6 +3,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+  xmlns:pt="https://github.com/dariok/pdf2tei"
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
   version="3.0">
@@ -47,16 +48,15 @@
   <xsl:template match="*:page">
     <xsl:copy>
       <xsl:apply-templates select="@*" />
-      <xsl:variable name="contents" as="element()*">
-        <xsl:apply-templates select="*[not(self::*:fontspec)]" />
-      </xsl:variable>
-      <xsl:for-each-group select="$contents"
-        group-adjacent="round(number(@top) div 10)">
+      <xsl:for-each-group select="*[not(self::*:fontspec)]" group-starting-with="*[
+         @top/number() gt preceding-sibling::*[@top][1]/@top + preceding-sibling::*[@top][1]/@height
+         or @top/number() lt preceding-sibling::*[@top][1]/@top - preceding-sibling::*[@top][1]/@height
+      ]">
         <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
         <xsl:variable name="sizes" as="xs:int*">
           <xsl:choose>
-            <xsl:when test="@size">
-              <xsl:for-each-group select="current-group()" group-by="@size">
+            <xsl:when test="current-group()[@font]">
+              <xsl:for-each-group select="current-group()" group-by="pt:size(.)">
                 <xsl:sort select="string-length(string-join(current-group()))" order="descending" />
                 <xsl:value-of select="current-grouping-key()" />
               </xsl:for-each-group>
@@ -67,11 +67,23 @@
         
         <l left="{current-group()[1]/@left}" top="{min(current-group()/@top)}" size="{$sizes[1]}"
           bottom="{max($bottom)}" right="{current-group()[last()]/@left + current-group()[last()]/@width}">
-          <xsl:sequence select="current-group()" />
+          <xsl:apply-templates select="current-group()" />
         </l>
       </xsl:for-each-group>
     </xsl:copy>
   </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>
+         <p>Get the font size for the given element</p>
+      </xd:desc>
+      <xd:param name="context">The element to be avaluated</xd:param>
+   </xd:doc>
+   <xsl:function name="pt:size" as="xs:double">
+      <xsl:param name="context" as="element()" />
+      
+      <xsl:sequence select="$specs[@id = $context/@font]/@size/number()" />
+   </xsl:function>
   
   <xd:doc>
     <xd:desc>

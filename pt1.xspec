@@ -1745,10 +1745,10 @@
                   </l>
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
-                     top="75"
+                     top="74"
                      size="15"
                      bottom="91"
-                     right="401">
+                     right="660">
                      <text xmlns=""
                            rendition="#f9"
                            size="15"
@@ -1756,13 +1756,6 @@
                            left="77"
                            width="324"
                            height="16">ständigen Um- und Neudeutung besonders anfällig,</text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="401"
-                     top="74"
-                     size="9"
-                     bottom="84"
-                     right="405">
                      <text xmlns=""
                            rendition="#f12"
                            size="9"
@@ -1770,13 +1763,6 @@
                            left="401"
                            width="4"
                            height="10">3</text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="406"
-                     top="75"
-                     size="15"
-                     bottom="91"
-                     right="660">
                      <text xmlns=""
                            rendition="#f9"
                            size="15"
@@ -3458,7 +3444,7 @@
                      top="743"
                      size="13"
                      bottom="759"
-                     right="176">
+                     right="549">
                      <text xmlns=""
                            rendition="#f12"
                            size="9"
@@ -3480,13 +3466,6 @@
                            left="127"
                            width="49"
                            height="15">116.31: </text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="166"
-                     top="745"
-                     size="13"
-                     bottom="759"
-                     right="549">
                      <text xmlns=""
                            rendition="#f13"
                            size="13"
@@ -3507,7 +3486,7 @@
                      top="763"
                      size="13"
                      bottom="779"
-                     right="153">
+                     right="633">
                      <text xmlns=""
                            rendition="#f12"
                            size="9"
@@ -3529,13 +3508,6 @@
                            left="127"
                            width="26"
                            height="15">ad </text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="144"
-                     top="765"
-                     size="13"
-                     bottom="779"
-                     right="166">
                      <text xmlns=""
                            rendition="#f13"
                            size="13"
@@ -3543,13 +3515,6 @@
                            left="144"
                            width="22"
                            height="14">Aen</text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="165"
-                     top="764"
-                     size="13"
-                     bottom="779"
-                     right="206">
                      <text xmlns=""
                            rendition="#f7"
                            size="13"
@@ -3557,13 +3522,6 @@
                            left="165"
                            width="41"
                            height="15">. 1.273: </text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="206"
-                     top="765"
-                     size="13"
-                     bottom="779"
-                     right="629">
                      <text xmlns=""
                            rendition="#f13"
                            size="13"
@@ -3571,13 +3529,6 @@
                            left="206"
                            width="423"
                            height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="630"
-                     top="764"
-                     size="13"
-                     bottom="779"
-                     right="633">
                      <text xmlns=""
                            rendition="#f7"
                            size="13"
@@ -3589,9 +3540,9 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="783"
-                     size="9"
-                     bottom="793"
-                     right="86">
+                     size="13"
+                     bottom="800"
+                     right="241">
                      <text xmlns=""
                            rendition="#f12"
                            size="9"
@@ -3599,13 +3550,6 @@
                            left="77"
                            width="9"
                            height="10">25</text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="85"
-                     top="785"
-                     size="13"
-                     bottom="800"
-                     right="241">
                      <text xmlns=""
                            rendition="#f7"
                            size="13"
@@ -3631,9 +3575,9 @@
                   <l xmlns="http://www.tei-c.org/ns/1.0"
                      left="77"
                      top="803"
-                     size="9"
-                     bottom="813"
-                     right="86">
+                     size="13"
+                     bottom="820"
+                     right="210">
                      <text xmlns=""
                            rendition="#f12"
                            size="9"
@@ -3641,13 +3585,6 @@
                            left="77"
                            width="9"
                            height="10">26</text>
-                  </l>
-                  <l xmlns="http://www.tei-c.org/ns/1.0"
-                     left="85"
-                     top="805"
-                     size="13"
-                     bottom="820"
-                     right="210">
                      <text xmlns=""
                            rendition="#f7"
                            size="13"

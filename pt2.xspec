@@ -6,34 +6,36 @@
   <x:scenario label="T1">
     <x:context href="pt1.xspec?strip-space=yes" select="//*:scenario[@label = 'T1']/x:expect/*:TEI" />
     <x:expect label=".">
-      <TEI><teiHeader>
-               <encodingDesc>
-                  <tagsDecl>
-                     <rendition scheme="css" xml:id="f0">font-size: 16pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f1">font-size: 19pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f2">font-size: 18pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f3">font-size: 33pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f4">font-size: 11pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f5">font-size: 11pt; font-family: WIFQKK+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f6">font-size: 11pt; font-family: GQWJEU+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f7">font-size: 13pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f8">font-size: 33pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f9">font-size: 15pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f10">font-size: 16pt; font-family: VHKKMF+Calibri; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f11">font-size: 15pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f12">font-size: 9pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f13">font-size: 13pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f14">font-size: 15pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f17">font-size: 24pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f18">font-size: 19pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f19">font-size: 7pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f21">font-size: 8pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f27">font-size: 10pt; font-family: AWSBWD+MinionPro; color: #0000ff;</rendition>
-                     <rendition scheme="css" xml:id="f24">font-size: 13pt; font-family: NNULJB+MinionPro; color: #000000;</rendition>
-                     <rendition scheme="css" xml:id="f29">font-size: 9pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
-                  </tagsDecl>
-               </encodingDesc>
-            </teiHeader><text>
+      <TEI>
+         <teiHeader>
+            <encodingDesc>
+               <tagsDecl>
+                  <rendition scheme="css" xml:id="f0">font-size: 16pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f1">font-size: 19pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f2">font-size: 18pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f3">font-size: 33pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f4">font-size: 11pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f5">font-size: 11pt; font-family: WIFQKK+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f6">font-size: 11pt; font-family: GQWJEU+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f7">font-size: 13pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f8">font-size: 33pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f9">font-size: 15pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f10">font-size: 16pt; font-family: VHKKMF+Calibri; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f11">font-size: 15pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f12">font-size: 9pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f13">font-size: 13pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f14">font-size: 15pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f17">font-size: 24pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f18">font-size: 19pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f19">font-size: 7pt; font-family: HUOXVT+MinionPro-It; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f21">font-size: 8pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f27">font-size: 10pt; font-family: AWSBWD+MinionPro; color: #0000ff;</rendition>
+                  <rendition scheme="css" xml:id="f24">font-size: 13pt; font-family: NNULJB+MinionPro; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f29">font-size: 9pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
+               </tagsDecl>
+            </encodingDesc>
+         </teiHeader>
+         <text>
                <page l="68" number="1" position="absolute" top="0" left="0" height="935" width="722" r="368">
                   <head level="4"><l left="68" top="129" size="16" bottom="147" right="171">
                      <text xmlns="" rendition="#f0" size="16" top="129" left="68" width="103" height="18">Merryl Rebello </text>
@@ -46,8 +48,8 @@
                   </l></head>
                </page>
                <page l="" number="2" position="absolute" top="0" left="0" height="935" width="722" r="" />
-               <page l="128" number="3" position="absolute" top="0" left="0" height="935" width="722" r="439">
-                  <l level="2" left="68" top="797" size="0" bottom="834" right="218">
+            <page l="128" number="3" position="absolute" top="0" left="0" height="935" width="722" r="439">
+                  <l level="1" left="68" top="797" size="0" bottom="834" right="218">
                      <image xmlns="" top="797" left="68" width="150" height="37" src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
                   </l><cb/>
                   <head level="3"><l left="128" top="156" size="18" bottom="176" right="241">
@@ -294,19 +296,15 @@
                      <text xmlns="" rendition="#f7" size="13" top="806" left="89" width="253" height="15">Aussetzung des Königskindes s. Binder (1964).</text>
                   </l>
                </page>
-               <page l="77" number="14" position="absolute" top="0" left="0" height="935" width="722" r="655">
+            <page l="77" number="14" position="absolute" top="0" left="0" height="935" width="722" r="655">
                   <l level="-1" left="359" top="856" size="13" bottom="871" right="375">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="359" width="16" height="15">14 </text>
                   </l><cb/>
-                  <l level="0" left="77" top="75" size="15" bottom="91" right="401">
-                     <text xmlns="" rendition="#f9" size="15" top="75" left="77" width="324" height="16">ständigen Um- und Neudeutung besonders anfällig,</text>
-                  </l><cb/>
-                  <l level="1" left="401" top="74" size="9" bottom="84" right="405">
-                     <text xmlns="" rendition="#f12" size="9" top="74" left="401" width="4" height="10">3</text>
-                  </l>
-                  <l level="0" left="406" top="75" size="15" bottom="91" right="660">
-                     <text xmlns="" rendition="#f9" size="15" top="75" left="406" width="254" height="16"> weil sie für bestimmte soziale Gruppen </text>
-                  </l>
+               <l level="0" left="77" top="74" size="15" bottom="91" right="660">
+                  <text xmlns="" rendition="#f9" size="15" top="75" left="77" width="324" height="16">ständigen Um- und Neudeutung besonders anfällig,</text>
+                  <text xmlns="" rendition="#f12" size="9" top="74" left="401" width="4" height="10">3</text>
+                  <text xmlns="" rendition="#f9" size="15" top="75" left="406" width="254" height="16"> weil sie für bestimmte soziale Gruppen </text>
+               </l>
                   <l level="0" left="77" top="95" size="15" bottom="111" right="658">
                      <text xmlns="" rendition="#f9" size="15" top="95" left="77" width="574" height="16">Identität konstituieren und häufig an aktuelle gesellschaftliche Entwicklungen angepasst werden.</text>
                      <text xmlns="" rendition="#f12" size="9" top="95" left="651" width="4" height="10">4</text>
@@ -536,7 +534,7 @@
                      <text xmlns="" rendition="#f9" size="15" top="803" left="68" width="583" height="16">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </text>
                   </l>
                </page>
-               <page l="77" number="22" position="absolute" top="0" left="0" height="935" width="722" r="658">
+            <page l="77" number="22" position="absolute" top="0" left="0" height="935" width="722" r="658">
                   <l level="-1" left="359" top="856" size="13" bottom="871" right="375">
                      <text xmlns="" rendition="#f7" size="13" top="856" left="359" width="16" height="15">22 </text>
                   </l><cb/>
@@ -643,46 +641,32 @@
                      <text xmlns="" rendition="#f12" size="9" top="722" left="77" width="9" height="10">22</text>
                      <text xmlns="" rendition="#f7" size="13" top="724" left="85" width="135" height="15">  Suerbaum (2002) 112. </text>
                   </l>
-                  <l level="-1" left="77" top="743" size="13" bottom="759" right="176">
-                     <text xmlns="" rendition="#f12" size="9" top="743" left="77" width="9" height="10">23</text>
-                     <text xmlns="" rendition="#f7" size="13" top="744" left="85" width="52" height="15"> Non. </text>
-                     <text xmlns="" rendition="#f7" size="13" top="744" left="127" width="49" height="15">116.31: </text>
-                  </l>
-                  <l level="-1" left="166" top="745" size="13" bottom="759" right="549">
-                     <text xmlns="" rendition="#f13" size="13" top="745" left="166" width="381" height="14">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
-                     <text xmlns="" rendition="#f19" size="7" top="749" left="547" width="2" height="8"> </text>
-                  </l>
-                  <l level="-1" left="77" top="763" size="13" bottom="779" right="153">
-                     <text xmlns="" rendition="#f12" size="9" top="763" left="77" width="9" height="10">24</text>
-                     <text xmlns="" rendition="#f7" size="13" top="764" left="85" width="52" height="15"> Serv. </text>
-                     <text xmlns="" rendition="#f7" size="13" top="764" left="127" width="26" height="15">ad </text>
-                  </l>
-                  <l level="-1" left="144" top="765" size="13" bottom="779" right="166">
-                     <text xmlns="" rendition="#f13" size="13" top="765" left="144" width="22" height="14">Aen</text>
-                  </l><cb/>
-                  <l level="-1" left="165" top="764" size="13" bottom="779" right="206">
-                     <text xmlns="" rendition="#f7" size="13" top="764" left="165" width="41" height="15">. 1.273: </text>
-                  </l>
-                  <l level="-1" left="206" top="765" size="13" bottom="779" right="629">
-                     <text xmlns="" rendition="#f13" size="13" top="765" left="206" width="423" height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
-                  </l><cb/>
-                  <l level="-1" left="630" top="764" size="13" bottom="779" right="633">
-                     <text xmlns="" rendition="#f7" size="13" top="764" left="630" width="3" height="15"> </text>
-                  </l>
-                  <l level="1" left="77" top="783" size="9" bottom="793" right="86">
-                     <text xmlns="" rendition="#f12" size="9" top="783" left="77" width="9" height="10">25</text>
-                  </l>
-                  <l level="-1" left="85" top="785" size="13" bottom="800" right="241">
-                     <text xmlns="" rendition="#f7" size="13" top="785" left="85" width="58" height="15"> Varro </text>
-                     <text xmlns="" rendition="#f13" size="13" top="785" left="133" width="23" height="14">ling.</text>
-                     <text xmlns="" rendition="#f7" size="13" top="785" left="156" width="85" height="15"> 5.43 bzw. 5.53. </text>
-                  </l>
-                  <l level="1" left="77" top="803" size="9" bottom="813" right="86">
-                     <text xmlns="" rendition="#f12" size="9" top="803" left="77" width="9" height="10">26</text>
-                  </l>
-                  <l level="-1" left="85" top="805" size="13" bottom="820" right="210">
-                     <text xmlns="" rendition="#f7" size="13" top="805" left="85" width="125" height="15">  Skutsch (1985) 225.  </text>
-                  </l>
+               <l level="-1" left="77" top="743" size="13" bottom="759" right="549">
+                  <text xmlns="" rendition="#f12" size="9" top="743" left="77" width="9" height="10">23</text>
+                  <text xmlns="" rendition="#f7" size="13" top="744" left="85" width="52" height="15"> Non. </text>
+                  <text xmlns="" rendition="#f7" size="13" top="744" left="127" width="49" height="15">116.31: </text>
+                  <text xmlns="" rendition="#f13" size="13" top="745" left="166" width="381" height="14">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
+                  <text xmlns="" rendition="#f19" size="7" top="749" left="547" width="2" height="8"> </text>
+               </l>
+               <l level="-1" left="77" top="763" size="13" bottom="779" right="633">
+                  <text xmlns="" rendition="#f12" size="9" top="763" left="77" width="9" height="10">24</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="85" width="52" height="15"> Serv. </text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="127" width="26" height="15">ad </text>
+                  <text xmlns="" rendition="#f13" size="13" top="765" left="144" width="22" height="14">Aen</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="165" width="41" height="15">. 1.273: </text>
+                  <text xmlns="" rendition="#f13" size="13" top="765" left="206" width="423" height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="630" width="3" height="15"> </text>
+               </l>
+               <l level="-1" left="77" top="783" size="13" bottom="800" right="241">
+                  <text xmlns="" rendition="#f12" size="9" top="783" left="77" width="9" height="10">25</text>
+                  <text xmlns="" rendition="#f7" size="13" top="785" left="85" width="58" height="15"> Varro </text>
+                  <text xmlns="" rendition="#f13" size="13" top="785" left="133" width="23" height="14">ling.</text>
+                  <text xmlns="" rendition="#f7" size="13" top="785" left="156" width="85" height="15"> 5.43 bzw. 5.53. </text>
+               </l>
+               <l level="-1" left="77" top="803" size="13" bottom="820" right="210">
+                  <text xmlns="" rendition="#f12" size="9" top="803" left="77" width="9" height="10">26</text>
+                  <text xmlns="" rendition="#f7" size="13" top="805" left="85" width="125" height="15">  Skutsch (1985) 225.  </text>
+               </l>
                </page>
                <page l="77" number="140" position="absolute" top="0" left="0" height="935" width="722" r="659">
                   <l level="-1" left="356" top="856" size="13" bottom="871" right="379">

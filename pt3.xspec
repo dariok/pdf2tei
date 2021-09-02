@@ -186,7 +186,7 @@
                </head>
                <pb n="2" height="935" width="722" l="" r=""/>
                <pb n="3" height="935" width="722" l="128" r="439">
-                  <l level="2"
+                  <l level="1"
                      left="68"
                      top="797"
                      size="0"
@@ -1113,7 +1113,7 @@
                            height="15">14 </text>
                   </l>
                </pb>
-               <l level="0" left="77" top="75" size="15" bottom="91" right="401">
+               <l level="0" left="77" top="74" size="15" bottom="91" right="660">
                   <text xmlns=""
                         rendition="#f9"
                         size="15"
@@ -1121,14 +1121,6 @@
                         left="77"
                         width="324"
                         height="16">ständigen Um- und Neudeutung besonders anfällig,</text>
-               </l>
-               <cb/>
-               <l level="1"
-                  left="401"
-                  top="74"
-                  size="9"
-                  bottom="84"
-                  right="405">
                   <text xmlns=""
                         rendition="#f12"
                         size="9"
@@ -1136,8 +1128,6 @@
                         left="401"
                         width="4"
                         height="10">3</text>
-               </l>
-               <l level="0" left="406" top="75" size="15" bottom="91" right="660">
                   <text xmlns=""
                         rendition="#f9"
                         size="15"
@@ -2408,198 +2398,47 @@
                   top="743"
                   size="13"
                   bottom="759"
-                  right="176">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="743"
-                        left="77"
-                        width="9"
-                        height="10">23</text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="744"
-                        left="85"
-                        width="52"
-                        height="15"> Non. </text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="744"
-                        left="127"
-                        width="49"
-                        height="15">116.31: </text>
-               </l>
-               <l level="-1"
-                  left="166"
-                  top="745"
-                  size="13"
-                  bottom="759"
                   right="549">
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="745"
-                        left="166"
-                        width="381"
-                        height="14">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
-                  <text xmlns=""
-                        rendition="#f19"
-                        size="7"
-                        top="749"
-                        left="547"
-                        width="2"
-                        height="8"> </text>
+                  <text xmlns="" rendition="#f12" size="9" top="743" left="77" width="9" height="10">23</text>
+                  <text xmlns="" rendition="#f7" size="13" top="744" left="85" width="52" height="15"> Non. </text>
+                  <text xmlns="" rendition="#f7" size="13" top="744" left="127" width="49" height="15">116.31: </text>
+                  <text xmlns="" rendition="#f13" size="13" top="745" left="166" width="381" height="14"
+                     >manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
+                  <text xmlns="" rendition="#f19" size="7" top="749" left="547" width="2" height="8"> </text>
                </l>
                <l level="-1"
                   left="77"
                   top="763"
                   size="13"
                   bottom="779"
-                  right="153">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="763"
-                        left="77"
-                        width="9"
-                        height="10">24</text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="85"
-                        width="52"
-                        height="15"> Serv. </text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="127"
-                        width="26"
-                        height="15">ad </text>
-               </l>
-               <l level="-1"
-                  left="144"
-                  top="765"
-                  size="13"
-                  bottom="779"
-                  right="166">
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="765"
-                        left="144"
-                        width="22"
-                        height="14">Aen</text>
-               </l>
-               <cb/>
-               <l level="-1"
-                  left="165"
-                  top="764"
-                  size="13"
-                  bottom="779"
-                  right="206">
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="165"
-                        width="41"
-                        height="15">. 1.273: </text>
-               </l>
-               <l level="-1"
-                  left="206"
-                  top="765"
-                  size="13"
-                  bottom="779"
-                  right="629">
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="765"
-                        left="206"
-                        width="423"
-                        height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
-               </l>
-               <cb/>
-               <l level="-1"
-                  left="630"
-                  top="764"
-                  size="13"
-                  bottom="779"
                   right="633">
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="630"
-                        width="3"
-                        height="15"> </text>
+                  <text xmlns="" rendition="#f12" size="9" top="763" left="77" width="9" height="10">24</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="85" width="52" height="15"> Serv. </text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="127" width="26" height="15">ad </text>
+                  <text xmlns="" rendition="#f13" size="13" top="765" left="144" width="22" height="14">Aen</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="165" width="41" height="15">. 1.273: </text>
+                  <text xmlns="" rendition="#f13" size="13" top="765" left="206" width="423" height="14"
+                     >Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="630" width="3" height="15"> </text>
                </l>
-               <l level="1"
+               <l level="-1"
                   left="77"
                   top="783"
-                  size="9"
-                  bottom="793"
-                  right="86">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="783"
-                        left="77"
-                        width="9"
-                        height="10">25</text>
-               </l>
-               <l level="-1"
-                  left="85"
-                  top="785"
                   size="13"
                   bottom="800"
                   right="241">
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="785"
-                        left="85"
-                        width="58"
-                        height="15"> Varro </text>
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="785"
-                        left="133"
-                        width="23"
-                        height="14">ling.</text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="785"
-                        left="156"
-                        width="85"
-                        height="15"> 5.43 bzw. 5.53. </text>
-               </l>
-               <l level="1"
-                  left="77"
-                  top="803"
-                  size="9"
-                  bottom="813"
-                  right="86">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="803"
-                        left="77"
-                        width="9"
-                        height="10">26</text>
+                  <text xmlns="" rendition="#f12" size="9" top="783" left="77" width="9" height="10">25</text>
+                  <text xmlns="" rendition="#f7" size="13" top="785" left="85" width="58" height="15"> Varro </text>
+                  <text xmlns="" rendition="#f13" size="13" top="785" left="133" width="23" height="14">ling.</text>
+                  <text xmlns="" rendition="#f7" size="13" top="785" left="156" width="85" height="15"> 5.43 bzw. 5.53. </text>
                </l>
                <l level="-1"
-                  left="85"
-                  top="805"
+                  left="77"
+                  top="803"
                   size="13"
                   bottom="820"
                   right="210">
+                  <text xmlns="" rendition="#f12" size="9" top="803" left="77" width="9" height="10">26</text>
                   <text xmlns=""
                         rendition="#f7"
                         size="13"

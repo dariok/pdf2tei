@@ -6,7 +6,7 @@
     <x:context href="pt3.xspec?strip-space=yes" select="//x:scenario[@label eq 'T2']/x:expect/*:TEI" />
     <x:expect label=".">
       <TEI>
-        <teiHeader>
+         <teiHeader>
             <encodingDesc>
                <tagsDecl>
                   <rendition scheme="css" xml:id="f0">font-size: 16pt; font-family: AWSBWD+MinionPro; color: #000000;</rendition>
@@ -33,546 +33,546 @@
                   <rendition scheme="css" xml:id="f29">font-size: 9pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
                </tagsDecl>
             </encodingDesc>
-        </teiHeader>
-        <text>
-          <body>
-               <div>
-                  <pb n="1" height="935" width="722" l="68" r="368" />
-                  <head level="4">
-                     <l left="68" top="129" size="16" bottom="147" right="171">
-                        <text xmlns=""
-                              rendition="#f0"
-                              size="16"
-                              top="129"
-                              left="68"
-                              width="103"
-                              height="18">Merryl Rebello </text>
-                     </l>
-                  </head>
-                  <head level="2">
-                     <l left="68" top="161" size="19" bottom="182" right="368">
-                        <text xmlns=""
-                              rendition="#f1"
-                              size="19"
-                              top="161"
-                              left="68"
-                              width="300"
-                              height="21">Romulus in der lateinischen Literatur </text>
-                     </l>
-                     <l left="68" top="187" size="19" bottom="208" right="231">
-                        <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
-                     </l>
-                  </head>
-                  <pb n="2" height="935" width="722" l="" r="" />
-                  <pb n="3" height="935" width="722" l="128" r="439">
-                     <l level="2"
-                        left="68"
-                        top="797"
-                        size="0"
-                        bottom="834"
-                        right="218">
-                        <image xmlns=""
-                               top="797"
-                               left="68"
-                               width="150"
-                               height="37"
-                               src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
-                     </l>
-                  </pb>
-                  <head level="3">
-                     <l left="128" top="156" size="18" bottom="176" right="241">
-                        <text xmlns=""
-                              rendition="#f2"
-                              size="18"
-                              top="156"
-                              left="128"
-                              width="113"
-                              height="20">Merryl Rebello </text>
-                     </l>
-                  </head>
-               </div>
-               <div>
-                  <head level="0">
-                     <l left="128" top="214" size="33" bottom="249" right="356">
-                        <text xmlns=""
-                              rendition="#f3"
-                              size="33"
-                              top="214"
-                              left="128"
-                              width="228"
-                              height="35">
-                           <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">Romulus in der </hi>
-                        </text>
-                     </l>
-                     <l left="128" top="260" size="33" bottom="295" right="439">
-                        <text xmlns="" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
-                           <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">lateinischen Literatur </hi>
-                        </text>
-                     </l>
-                     <l left="128" top="305" size="33" bottom="340" right="414">
-                        <text xmlns=""
+         </teiHeader>
+      <text>
+         <body>
+            <div>
+               <pb n="1" height="935" width="722" l="68" r="368"/>
+               <head level="4">
+                  <l left="68" top="129" size="16" bottom="147" right="171">
+                     <text xmlns=""
+                           rendition="#f0"
+                           size="16"
+                           top="129"
+                           left="68"
+                           width="103"
+                           height="18">Merryl Rebello </text>
+                  </l>
+               </head>
+               <head level="2">
+                  <l left="68" top="161" size="19" bottom="182" right="368">
+                     <text xmlns=""
+                           rendition="#f1"
+                           size="19"
+                           top="161"
+                           left="68"
+                           width="300"
+                           height="21">Romulus in der lateinischen Literatur </text>
+                  </l>
+                  <l left="68" top="187" size="19" bottom="208" right="231">
+                     <text xmlns="" rendition="#f1" size="19" top="187" left="68" width="163" height="21">von Ennius bis Ovid </text>
+                  </l>
+               </head>
+               <pb n="2" height="935" width="722" l="" r=""/>
+               <pb n="3" height="935" width="722" l="128" r="439">
+                  <l level="1"
+                     left="68"
+                     top="797"
+                     size="0"
+                     bottom="834"
+                     right="218">
+                     <image xmlns=""
+                            top="797"
+                            left="68"
+                            width="150"
+                            height="37"
+                            src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
+                  </l>
+               </pb>
+               <head level="3">
+                  <l left="128" top="156" size="18" bottom="176" right="241">
+                     <text xmlns=""
+                           rendition="#f2"
+                           size="18"
+                           top="156"
+                           left="128"
+                           width="113"
+                           height="20">Merryl Rebello </text>
+                  </l>
+               </head>
+            </div>
+            <div>
+               <head level="0">
+                  <l left="128" top="214" size="33" bottom="249" right="356">
+                     <text xmlns=""
                            rendition="#f3"
                            size="33"
-                           top="305"
+                           top="214"
                            left="128"
-                           width="286"
+                           width="228"
                            height="35">
-                           <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">von Ennius bis Ovid </hi>
-                        </text>
-                     </l>
-                  </head>
-                  <pb n="4" height="935" width="722" l="77" r="494"/>
-                  <l level="0"
-                     left="77"
-                     top="489"
-                     size="11"
-                     bottom="502"
-                     right="264">
-                     <text xmlns=""
-                           rendition="#f4"
-                           size="11"
-                           top="489"
-                           left="77"
-                           width="187"
-                           height="13">wbg Academic ist ein Imprint der wbg </text>
+                        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">Romulus in der </hi>
+                     </text>
                   </l>
-                  <l level="0"
-                     left="77"
-                     top="508"
-                     size="11"
-                     bottom="521"
-                     right="387">
-                     <text xmlns=""
-                           rendition="#f4"
-                           size="11"
-                           top="508"
-                           left="77"
-                           width="310"
-                           height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
+                  <l left="128" top="260" size="33" bottom="295" right="439">
+                     <text xmlns="" rendition="#f3" size="33" top="260" left="128" width="311" height="35">
+                        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">lateinischen Literatur </hi>
+                     </text>
                   </l>
-                  <l level="0"
-                     left="77"
-                     top="527"
-                     size="11"
-                     bottom="540"
-                     right="486">
+                  <l left="128" top="305" size="33" bottom="340" right="414">
                      <text xmlns=""
-                           rendition="#f4"
-                           size="11"
-                           top="527"
-                           left="77"
-                           width="409"
-                           height="13">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </text>
+                        rendition="#f3"
+                        size="33"
+                        top="305"
+                        left="128"
+                        width="286"
+                        height="35">
+                        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">von Ennius bis Ovid </hi>
+                     </text>
                   </l>
-                  <l level="0"
-                     left="77"
-                     top="545"
-                     size="11"
-                     bottom="558"
-                     right="368">
+               </head>
+               <pb n="4" height="935" width="722" l="77" r="494"/>
+               <l level="0"
+                  left="77"
+                  top="489"
+                  size="11"
+                  bottom="502"
+                  right="264">
+                  <text xmlns=""
+                        rendition="#f4"
+                        size="11"
+                        top="489"
+                        left="77"
+                        width="187"
+                        height="13">wbg Academic ist ein Imprint der wbg </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="508"
+                  size="11"
+                  bottom="521"
+                  right="387">
+                  <text xmlns=""
+                        rendition="#f4"
+                        size="11"
+                        top="508"
+                        left="77"
+                        width="310"
+                        height="13">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="527"
+                  size="11"
+                  bottom="540"
+                  right="486">
+                  <text xmlns=""
+                        rendition="#f4"
+                        size="11"
+                        top="527"
+                        left="77"
+                        width="409"
+                        height="13">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="545"
+                  size="11"
+                  bottom="558"
+                  right="368">
+                  <text xmlns=""
+                        rendition="#f4"
+                        size="11"
+                        top="545"
+                        left="77"
+                        width="291"
+                        height="13">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="601"
+                  size="11"
+                  bottom="614"
+                  right="370">
+                  <text xmlns=""
+                        rendition="#f4"
+                        size="11"
+                        top="601"
+                        left="77"
+                        width="293"
+                        height="13">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="677"
+                  size="11"
+                  bottom="689"
+                  right="494">
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="677"
+                        left="77"
+                        width="417"
+                        height="12">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="695"
+                  size="11"
+                  bottom="707"
+                  right="428">
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="695"
+                        left="77"
+                        width="351"
+                        height="12">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="714"
+                  size="11"
+                  bottom="726"
+                  right="487">
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="714"
+                        left="77"
+                        width="410"
+                        height="12">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="733"
+                  size="11"
+                  bottom="746"
+                  right="464">
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="733"
+                        left="77"
+                        width="31"
+                        height="12">Lizenz</text>
+                  <text xmlns=""
+                        rendition="#f6"
+                        size="11"
+                        top="733"
+                        left="108"
+                        width="3"
+                        height="13"> </text>
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="733"
+                        left="111"
+                        width="353"
+                        height="12">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="751"
+                  size="11"
+                  bottom="764"
+                  right="469">
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="751"
+                        left="77"
+                        width="70"
+                        height="12">Verwertung in</text>
+                  <text xmlns=""
+                        rendition="#f6"
+                        size="11"
+                        top="751"
+                        left="147"
+                        width="3"
+                        height="13"> </text>
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="751"
+                        left="150"
+                        width="319"
+                        height="12">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </text>
+               </l>
+               <l level="0"
+                  left="77"
+                  top="770"
+                  size="11"
+                  bottom="783"
+                  right="322">
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="770"
+                        left="77"
+                        width="115"
+                        height="12">vorherigen schriftlichen</text>
+                  <text xmlns=""
+                        rendition="#f6"
+                        size="11"
+                        top="770"
+                        left="192"
+                        width="3"
+                        height="13"> </text>
+                  <text xmlns=""
+                        rendition="#f5"
+                        size="11"
+                        top="770"
+                        left="195"
+                        width="127"
+                        height="12">Einwilligung des Verlages.</text>
+               </l>
+            </div>
+            <div>
+               <pb n="5" height="935" width="722" l="68" r="650">
+                  <l level="-1"
+                     left="354"
+                     top="856"
+                     size="13"
+                     bottom="871"
+                     right="364">
                      <text xmlns=""
-                           rendition="#f4"
-                           size="11"
-                           top="545"
-                           left="77"
-                           width="291"
-                           height="13">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </text>
+                           rendition="#f7"
+                           size="13"
+                           top="856"
+                           left="354"
+                           width="10"
+                           height="15">5 </text>
                   </l>
-                  <l level="0"
-                     left="77"
-                     top="601"
-                     size="11"
-                     bottom="614"
-                     right="370">
+               </pb>
+               <head level="0">
+                  <l left="300" top="135" size="33" bottom="171" right="414">
                      <text xmlns=""
-                           rendition="#f4"
-                           size="11"
-                           top="601"
-                           left="77"
-                           width="293"
-                           height="13">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </text>
+                           rendition="#f8"
+                           size="33"
+                           top="135"
+                           left="300"
+                           width="114"
+                           height="36">Vorwort</text>
                   </l>
-                  <l level="0"
-                     left="77"
-                     top="677"
-                     size="11"
-                     bottom="689"
-                     right="494">
+               </head>
+               <l level="0" left="68" top="208" size="15" bottom="224" right="650">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="208"
+                        left="68"
+                        width="582"
+                        height="16">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </text>
+               </l>
+               <l level="0" left="68" top="228" size="15" bottom="244" right="646">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="228"
+                        left="68"
+                        width="578"
+                        height="16">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</text>
+               </l>
+               <l level="0" left="68" top="248" size="15" bottom="264" right="649">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="248"
+                        left="68"
+                        width="581"
+                        height="16">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </text>
+               </l>
+               <l level="0" left="68" top="268" size="15" bottom="284" right="174">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="268"
+                        left="68"
+                        width="106"
+                        height="16">verteidigt wurde. </text>
+               </l>
+               <l level="0" left="81" top="288" size="15" bottom="304" right="647">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="288"
+                        left="81"
+                        width="566"
+                        height="16">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</text>
+               </l>
+               <l level="0" left="68" top="309" size="15" bottom="325" right="454">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="309"
+                        left="68"
+                        width="386"
+                        height="16">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </text>
+               </l>
+               <l level="0" left="81" top="329" size="15" bottom="345" right="651">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="329"
+                        left="81"
+                        width="570"
+                        height="16">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </text>
+               </l>
+               <l level="0" left="68" top="349" size="15" bottom="365" right="651">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="349"
+                        left="68"
+                        width="583"
+                        height="16">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </text>
+               </l>
+               <l level="0" left="68" top="369" size="15" bottom="385" right="646">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="369"
+                        left="68"
+                        width="578"
+                        height="16">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</text>
+               </l>
+               <l level="0" left="68" top="390" size="15" bottom="406" right="426">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="390"
+                        left="68"
+                        width="358"
+                        height="16">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </text>
+               </l>
+               <l level="0" left="81" top="410" size="15" bottom="426" right="646">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="410"
+                        left="81"
+                        width="565"
+                        height="16">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</text>
+               </l>
+               <l level="0" left="68" top="430" size="15" bottom="446" right="649">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="430"
+                        left="68"
+                        width="581"
+                        height="16">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </text>
+               </l>
+               <l level="0" left="68" top="450" size="15" bottom="466" right="293">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="450"
+                        left="68"
+                        width="225"
+                        height="16">Auch ihm gilt mein herzlicher Dank. </text>
+               </l>
+               <l level="0" left="81" top="471" size="15" bottom="487" right="651">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="471"
+                        left="81"
+                        width="570"
+                        height="16">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </text>
+               </l>
+               <l level="0" left="68" top="491" size="15" bottom="507" right="650">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="491"
+                        left="68"
+                        width="582"
+                        height="16">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </text>
+               </l>
+               <l level="0" left="68" top="511" size="15" bottom="527" right="650">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="511"
+                        left="68"
+                        width="582"
+                        height="16">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </text>
+               </l>
+               <l level="0" left="68" top="531" size="15" bottom="547" right="203">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="531"
+                        left="68"
+                        width="135"
+                        height="16">Gemeinschaft zu sein. </text>
+               </l>
+               <l level="0" left="81" top="551" size="15" bottom="567" right="650">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="551"
+                        left="81"
+                        width="569"
+                        height="16">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </text>
+               </l>
+               <l level="0" left="68" top="572" size="15" bottom="588" right="221">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="572"
+                        left="68"
+                        width="153"
+                        height="16">Udolph zurückzuführen. </text>
+               </l>
+               <l level="0" left="81" top="592" size="15" bottom="608" right="652">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="592"
+                        left="81"
+                        width="571"
+                        height="16">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </text>
+               </l>
+               <l level="0" left="68" top="612" size="15" bottom="628" right="183">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="612"
+                        left="68"
+                        width="115"
+                        height="16">Schwester Melissa. </text>
+               </l>
+               <l level="0" left="68" top="653" size="15" bottom="669" right="236">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="653"
+                        left="68"
+                        width="168"
+                        height="16">Hamburg, im Februar 2019 </text>
+               </l>
+               <l level="0" left="68" top="693" size="15" bottom="709" right="158">
+                  <text xmlns=""
+                        rendition="#f9"
+                        size="15"
+                        top="693"
+                        left="68"
+                        width="90"
+                        height="16">Merryl Rebello</text>
+               </l>
+               <pb n="12" height="935" width="722" l="" r=""/>
+            </div>
+            <div>
+               <pb n="13" height="935" width="722" l="68" r="650">
+                  <l level="-1"
+                     left="351"
+                     top="856"
+                     size="13"
+                     bottom="871"
+                     right="367">
                      <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="677"
-                           left="77"
-                           width="417"
-                           height="12">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</text>
+                           rendition="#f7"
+                           size="13"
+                           top="856"
+                           left="351"
+                           width="16"
+                           height="15">13 </text>
                   </l>
-                  <l level="0"
-                     left="77"
-                     top="695"
-                     size="11"
-                     bottom="707"
-                     right="428">
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="695"
-                           left="77"
-                           width="351"
-                           height="12">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</text>
-                  </l>
-                  <l level="0"
-                     left="77"
-                     top="714"
-                     size="11"
-                     bottom="726"
-                     right="487">
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="714"
-                           left="77"
-                           width="410"
-                           height="12">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </text>
-                  </l>
-                  <l level="0"
-                     left="77"
-                     top="733"
-                     size="11"
-                     bottom="746"
-                     right="464">
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="733"
-                           left="77"
-                           width="31"
-                           height="12">Lizenz</text>
-                     <text xmlns=""
-                           rendition="#f6"
-                           size="11"
-                           top="733"
-                           left="108"
-                           width="3"
-                           height="13"> </text>
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="733"
-                           left="111"
-                           width="353"
-                           height="12">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </text>
-                  </l>
-                  <l level="0"
-                     left="77"
-                     top="751"
-                     size="11"
-                     bottom="764"
-                     right="469">
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="751"
-                           left="77"
-                           width="70"
-                           height="12">Verwertung in</text>
-                     <text xmlns=""
-                           rendition="#f6"
-                           size="11"
-                           top="751"
-                           left="147"
-                           width="3"
-                           height="13"> </text>
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="751"
-                           left="150"
-                           width="319"
-                           height="12">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </text>
-                  </l>
-                  <l level="0"
-                     left="77"
-                     top="770"
-                     size="11"
-                     bottom="783"
-                     right="322">
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="770"
-                           left="77"
-                           width="115"
-                           height="12">vorherigen schriftlichen</text>
-                     <text xmlns=""
-                           rendition="#f6"
-                           size="11"
-                           top="770"
-                           left="192"
-                           width="3"
-                           height="13"> </text>
-                     <text xmlns=""
-                           rendition="#f5"
-                           size="11"
-                           top="770"
-                           left="195"
-                           width="127"
-                           height="12">Einwilligung des Verlages.</text>
-                  </l>
-               </div>
-               <div>
-                  <pb n="5" height="935" width="722" l="68" r="650">
-                     <l level="-1"
-                        left="354"
-                        top="856"
-                        size="13"
-                        bottom="871"
-                        right="364">
-                        <text xmlns=""
-                              rendition="#f7"
-                              size="13"
-                              top="856"
-                              left="354"
-                              width="10"
-                              height="15">5 </text>
-                     </l>
-                  </pb>
-                  <head level="0">
-                     <l left="300" top="135" size="33" bottom="171" right="414">
-                        <text xmlns=""
-                              rendition="#f8"
-                              size="33"
-                              top="135"
-                              left="300"
-                              width="114"
-                              height="36">Vorwort</text>
-                     </l>
-                  </head>
-                  <l level="0" left="68" top="208" size="15" bottom="224" right="650">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="208"
-                           left="68"
-                           width="582"
-                           height="16">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </text>
-                  </l>
-                  <l level="0" left="68" top="228" size="15" bottom="244" right="646">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="228"
-                           left="68"
-                           width="578"
-                           height="16">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</text>
-                  </l>
-                  <l level="0" left="68" top="248" size="15" bottom="264" right="649">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="248"
-                           left="68"
-                           width="581"
-                           height="16">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </text>
-                  </l>
-                  <l level="0" left="68" top="268" size="15" bottom="284" right="174">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="268"
-                           left="68"
-                           width="106"
-                           height="16">verteidigt wurde. </text>
-                  </l>
-                  <l level="0" left="81" top="288" size="15" bottom="304" right="647">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="288"
-                           left="81"
-                           width="566"
-                           height="16">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</text>
-                  </l>
-                  <l level="0" left="68" top="309" size="15" bottom="325" right="454">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="309"
-                           left="68"
-                           width="386"
-                           height="16">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </text>
-                  </l>
-                  <l level="0" left="81" top="329" size="15" bottom="345" right="651">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="329"
-                           left="81"
-                           width="570"
-                           height="16">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </text>
-                  </l>
-                  <l level="0" left="68" top="349" size="15" bottom="365" right="651">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="349"
-                           left="68"
-                           width="583"
-                           height="16">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </text>
-                  </l>
-                  <l level="0" left="68" top="369" size="15" bottom="385" right="646">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="369"
-                           left="68"
-                           width="578"
-                           height="16">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</text>
-                  </l>
-                  <l level="0" left="68" top="390" size="15" bottom="406" right="426">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="390"
-                           left="68"
-                           width="358"
-                           height="16">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </text>
-                  </l>
-                  <l level="0" left="81" top="410" size="15" bottom="426" right="646">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="410"
-                           left="81"
-                           width="565"
-                           height="16">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</text>
-                  </l>
-                  <l level="0" left="68" top="430" size="15" bottom="446" right="649">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="430"
-                           left="68"
-                           width="581"
-                           height="16">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </text>
-                  </l>
-                  <l level="0" left="68" top="450" size="15" bottom="466" right="293">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="450"
-                           left="68"
-                           width="225"
-                           height="16">Auch ihm gilt mein herzlicher Dank. </text>
-                  </l>
-                  <l level="0" left="81" top="471" size="15" bottom="487" right="651">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="471"
-                           left="81"
-                           width="570"
-                           height="16">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </text>
-                  </l>
-                  <l level="0" left="68" top="491" size="15" bottom="507" right="650">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="491"
-                           left="68"
-                           width="582"
-                           height="16">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </text>
-                  </l>
-                  <l level="0" left="68" top="511" size="15" bottom="527" right="650">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="511"
-                           left="68"
-                           width="582"
-                           height="16">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </text>
-                  </l>
-                  <l level="0" left="68" top="531" size="15" bottom="547" right="203">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="531"
-                           left="68"
-                           width="135"
-                           height="16">Gemeinschaft zu sein. </text>
-                  </l>
-                  <l level="0" left="81" top="551" size="15" bottom="567" right="650">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="551"
-                           left="81"
-                           width="569"
-                           height="16">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </text>
-                  </l>
-                  <l level="0" left="68" top="572" size="15" bottom="588" right="221">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="572"
-                           left="68"
-                           width="153"
-                           height="16">Udolph zurückzuführen. </text>
-                  </l>
-                  <l level="0" left="81" top="592" size="15" bottom="608" right="652">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="592"
-                           left="81"
-                           width="571"
-                           height="16">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </text>
-                  </l>
-                  <l level="0" left="68" top="612" size="15" bottom="628" right="183">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="612"
-                           left="68"
-                           width="115"
-                           height="16">Schwester Melissa. </text>
-                  </l>
-                  <l level="0" left="68" top="653" size="15" bottom="669" right="236">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="653"
-                           left="68"
-                           width="168"
-                           height="16">Hamburg, im Februar 2019 </text>
-                  </l>
-                  <l level="0" left="68" top="693" size="15" bottom="709" right="158">
-                     <text xmlns=""
-                           rendition="#f9"
-                           size="15"
-                           top="693"
-                           left="68"
-                           width="90"
-                           height="16">Merryl Rebello</text>
-                  </l>
-                  <pb n="12" height="935" width="722" l="" r=""/>
-               </div>
-             <div>
-                <pb n="13" height="935" width="722" l="68" r="650">
-                   <l level="-1"
-                      left="351"
-                      top="856"
-                      size="13"
-                      bottom="871"
-                      right="367">
-                      <text xmlns=""
-                         rendition="#f7"
-                         size="13"
-                         top="856"
-                         left="351"
-                         width="16"
-                         height="15">13 </text>
-                   </l>
-                </pb>
+               </pb>
                <head level="0">
                   <l left="269" top="126" size="33" bottom="162" right="445">
                      <text xmlns=""
@@ -998,7 +998,7 @@
                            height="15">14 </text>
                   </l>
                </pb>
-               <l level="0" left="77" top="75" size="15" bottom="91" right="401">
+               <l level="0" left="77" top="74" size="15" bottom="91" right="660">
                   <text xmlns=""
                         rendition="#f9"
                         size="15"
@@ -1006,14 +1006,6 @@
                         left="77"
                         width="324"
                         height="16">ständigen Um- und Neudeutung besonders anfällig,</text>
-               </l>
-               <cb/>
-               <l level="1"
-                  left="401"
-                  top="74"
-                  size="9"
-                  bottom="84"
-                  right="405">
                   <text xmlns=""
                         rendition="#f12"
                         size="9"
@@ -1021,8 +1013,6 @@
                         left="401"
                         width="4"
                         height="10">3</text>
-               </l>
-               <l level="0" left="406" top="75" size="15" bottom="91" right="660">
                   <text xmlns=""
                         rendition="#f9"
                         size="15"
@@ -1947,7 +1937,7 @@
                         width="7"
                         height="16">  </text>
                </l>
-               <div>
+                  <div>
                <head level="2">
                   <l left="77" top="328" size="19" bottom="349" right="438">
                      <text xmlns=""
@@ -2295,198 +2285,47 @@
                   top="743"
                   size="13"
                   bottom="759"
-                  right="176">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="743"
-                        left="77"
-                        width="9"
-                        height="10">23</text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="744"
-                        left="85"
-                        width="52"
-                        height="15"> Non. </text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="744"
-                        left="127"
-                        width="49"
-                        height="15">116.31: </text>
-               </l>
-               <l level="-1"
-                  left="166"
-                  top="745"
-                  size="13"
-                  bottom="759"
                   right="549">
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="745"
-                        left="166"
-                        width="381"
-                        height="14">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
-                  <text xmlns=""
-                        rendition="#f19"
-                        size="7"
-                        top="749"
-                        left="547"
-                        width="2"
-                        height="8"> </text>
+                  <text xmlns="" rendition="#f12" size="9" top="743" left="77" width="9" height="10">23</text>
+                  <text xmlns="" rendition="#f7" size="13" top="744" left="85" width="52" height="15"> Non. </text>
+                  <text xmlns="" rendition="#f7" size="13" top="744" left="127" width="49" height="15">116.31: </text>
+                  <text xmlns="" rendition="#f13" size="13" top="745" left="166" width="381" height="14"
+                     >manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</text>
+                  <text xmlns="" rendition="#f19" size="7" top="749" left="547" width="2" height="8"> </text>
                </l>
                <l level="-1"
                   left="77"
                   top="763"
                   size="13"
                   bottom="779"
-                  right="153">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="763"
-                        left="77"
-                        width="9"
-                        height="10">24</text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="85"
-                        width="52"
-                        height="15"> Serv. </text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="127"
-                        width="26"
-                        height="15">ad </text>
-               </l>
-               <l level="-1"
-                  left="144"
-                  top="765"
-                  size="13"
-                  bottom="779"
-                  right="166">
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="765"
-                        left="144"
-                        width="22"
-                        height="14">Aen</text>
-               </l>
-               <cb/>
-               <l level="-1"
-                  left="165"
-                  top="764"
-                  size="13"
-                  bottom="779"
-                  right="206">
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="165"
-                        width="41"
-                        height="15">. 1.273: </text>
-               </l>
-               <l level="-1"
-                  left="206"
-                  top="765"
-                  size="13"
-                  bottom="779"
-                  right="629">
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="765"
-                        left="206"
-                        width="423"
-                        height="14">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
-               </l>
-               <cb/>
-               <l level="-1"
-                  left="630"
-                  top="764"
-                  size="13"
-                  bottom="779"
                   right="633">
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="764"
-                        left="630"
-                        width="3"
-                        height="15"> </text>
+                  <text xmlns="" rendition="#f12" size="9" top="763" left="77" width="9" height="10">24</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="85" width="52" height="15"> Serv. </text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="127" width="26" height="15">ad </text>
+                  <text xmlns="" rendition="#f13" size="13" top="765" left="144" width="22" height="14">Aen</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="165" width="41" height="15">. 1.273: </text>
+                  <text xmlns="" rendition="#f13" size="13" top="765" left="206" width="423" height="14"
+                     >Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</text>
+                  <text xmlns="" rendition="#f7" size="13" top="764" left="630" width="3" height="15"> </text>
                </l>
-               <l level="1"
+               <l level="-1"
                   left="77"
                   top="783"
-                  size="9"
-                  bottom="793"
-                  right="86">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="783"
-                        left="77"
-                        width="9"
-                        height="10">25</text>
-               </l>
-               <l level="-1"
-                  left="85"
-                  top="785"
                   size="13"
                   bottom="800"
                   right="241">
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="785"
-                        left="85"
-                        width="58"
-                        height="15"> Varro </text>
-                  <text xmlns=""
-                        rendition="#f13"
-                        size="13"
-                        top="785"
-                        left="133"
-                        width="23"
-                        height="14">ling.</text>
-                  <text xmlns=""
-                        rendition="#f7"
-                        size="13"
-                        top="785"
-                        left="156"
-                        width="85"
-                        height="15"> 5.43 bzw. 5.53. </text>
-               </l>
-               <l level="1"
-                  left="77"
-                  top="803"
-                  size="9"
-                  bottom="813"
-                  right="86">
-                  <text xmlns=""
-                        rendition="#f12"
-                        size="9"
-                        top="803"
-                        left="77"
-                        width="9"
-                        height="10">26</text>
+                  <text xmlns="" rendition="#f12" size="9" top="783" left="77" width="9" height="10">25</text>
+                  <text xmlns="" rendition="#f7" size="13" top="785" left="85" width="58" height="15"> Varro </text>
+                  <text xmlns="" rendition="#f13" size="13" top="785" left="133" width="23" height="14">ling.</text>
+                  <text xmlns="" rendition="#f7" size="13" top="785" left="156" width="85" height="15"> 5.43 bzw. 5.53. </text>
                </l>
                <l level="-1"
-                  left="85"
-                  top="805"
+                  left="77"
+                  top="803"
                   size="13"
                   bottom="820"
                   right="210">
+                  <text xmlns="" rendition="#f12" size="9" top="803" left="77" width="9" height="10">26</text>
                   <text xmlns=""
                         rendition="#f7"
                         size="13"
@@ -2556,8 +2395,8 @@
                         width="265"
                         height="16">was sein Nacheiferer aus ihm gemacht hat. </text>
                </l>
-               </div>
-               <div>
+                  </div>
+                  <div>
                <head level="2">
                   <l left="77" top="212" size="19" bottom="233" right="483">
                      <text xmlns=""
@@ -3886,12 +3725,12 @@
                         width="9"
                         height="15">   </text>
                </l>
-               </div>
+                  </div>
                </div>
             </div>
-          </body>
-        </text>
-      </TEI>
+         </body>
+      </text>
+   </TEI>
     </x:expect>
   </x:scenario>
   
