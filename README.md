@@ -1,6 +1,6 @@
 # PDF2TEI
 
-basic conversion from PDF to TEI trying to guess the structure of a text.
+basic conversion from PDF to TEI trying to guess the structure of a text. *Postprocessing required!*
 
 ## Usage
 
@@ -34,3 +34,16 @@ ant -Dname=pdftei -DoutDir=../output -Dpdf=../incoming/pdf-to-tei.pdf -Dsaxon=sa
 ### General workflow
 1. use `pdftohtml -xml file.pdf` to create a basic XML
 1. apply `pt1.xsl` to `pt4.xsl` sequentially
+
+## Limitations
+While these scripts try their best to guess a structure – headings, paragraphs – from the PDF, there are major
+limitations to this approach. Hence, the output is not valid TEI but must be postprocessed.
+We cannot, for instance, determine for certain whether a smaller passage is a footnote or a quotation without knowledge
+of the contents. Also, we can only assume that a page has a maximum of one line of heading and footer each. Pages with
+more than that will result in a wrong structure and possibly a column break.
+
+To facilitate the postprocessing, values that were calculated during transformation were retained in the result. This
+means that there are the dimensional attributes @left, @top, @size, @bottom, and @right present for every line, and
+@height, @width, and @l (for the most frequently used @left of all lines) on pb.
+Additionally, all tei:l are comprised of one or more tei:hi with layout information (most importantly @rendition but
+also dimensional attributes).
