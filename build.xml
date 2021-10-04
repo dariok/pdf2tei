@@ -32,6 +32,6 @@
     <xslt in="${xml2}" style="pt2.xsl" out="${xml3}" classpath="${saxon}" />
     <xslt in="${xml3}" style="pt3.xsl" out="${xml4}" classpath="${saxon}" />
     <xslt in="${xml4}" style="pt4.xsl" out="${xml5}" classpath="${saxon}" />
-    <xslt in="${xml5}" style="pt5.xsl" out="${targetDir}/${name}-tei.xml" classpath="${saxon}" />
+    <xslt in="${xml5}" style="pt5.xsl" out="${targetDir}/${name}.xml" classpath="${saxon}" />
   </target>
 </project>
