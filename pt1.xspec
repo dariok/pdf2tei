@@ -5287,4 +5287,73 @@
       </x:expect>
     </x:scenario>
   </x:scenario>
+   
+   <x:scenario label="T3: lines">
+      <x:context>
+         <page number="8" position="absolute" top="0" left="0" height="892" width="629">
+            <fontspec id="8" size="14" family="FYBYBY+MinionPro" color="#141414"/>
+            <fontspec id="9" size="8" family="FYBYBY+MinionPro" color="#141414"/>
+            <text top="110" left="77" width="356" height="20" font="8">und das Funktionieren des Körpers in Analogie zu einer Uhr.</text>
+            <text top="112" left="433" width="4" height="12" font="9">5</text>
+            <text top="110" left="437" width="125" height="20" font="8"> Demgegenüber stan-</text>
+            <text top="131" left="77" width="485" height="20" font="8">den die berühmten Automaten des französischen Konstrukteurs Jacques de Vaucan-</text>
+            <text top="152" left="77" width="140" height="20" font="8">son (der „Flötenspieler“</text>
+            <text top="153" left="216" width="4" height="12" font="9">6</text>
+            <text top="152" left="220" width="346" height="20" font="8">) sowie der Schweizer Uhrmacherfamilie Jaquet-Droz (der </text>
+            <text top="173" left="77" width="488" height="20" font="8">„Schreiber“, der „Zeichner“ und der „Klavierspieler“), bei denen das Vorbild (bes. für </text>
+            <text top="193" left="77" width="444" height="20" font="8">den „Flötenspieler“) der menschliche Körper und seine Bewegungen waren.</text>
+            <text top="194" left="521" width="4" height="12" font="9">7</text>
+            <text top="193" left="525" width="41" height="20" font="8"> Nicht </text>
+            <text top="214" left="77" width="485" height="20" font="8">nur der Mensch wurde also technisch zu analysieren versucht, sondern auch der Au-</text>
+            <text top="235" left="77" width="485" height="20" font="8">tomat, die Maschine, gründete sich auf die Nachahmung des Menschlichen in Ausse-</text>
+            <text top="255" left="77" width="485" height="20" font="8">hen und Ausdruck. Obwohl Technik noch weit davon entfernt war, organische Funk-</text>
+            <text top="276" left="77" width="489" height="20" font="8">tionsweisen oder gar die kognitiven Leistungen des Menschen nachzuahmen, zeigt </text>
+         </page>
+      </x:context>
+      <x:expect label=".">
+         <page number="8" position="absolute" top="0" left="0" height="892" width="629">
+            <l left="77" top="110" bottom="130" right="562" size="14">
+               <text top="110" left="77" width="356" height="20" rendition="#f8" size="14"
+                  >und das Funktionieren des Körpers in Analogie zu einer Uhr.</text>
+               <text top="112" left="433" width="4" height="12" size="8" rendition="#f9">5</text>
+               <text top="110" left="437" width="125" height="20" size="14" rendition="#f8"> Demgegenüber stan-</text>
+            </l>
+            <l top="131" left="77" right="562" bottom="151" size="14">
+               <text top="131" left="77" width="485" height="20" rendition="#f8" size="14"
+                  >den die berühmten Automaten des französischen Konstrukteurs Jacques de Vaucan-</text>
+            </l>
+            <l top="152" left="77" right="566" bottom="172" size="14">
+               <text top="152" left="77" width="140" height="20" rendition="#f8" size="14">son (der „Flötenspieler“</text>
+               <text top="153" left="216" width="4" height="12" rendition="#f9" size="8">6</text>
+               <text top="152" left="220" width="346" height="20" rendition="#f8" size="14"
+                  >) sowie der Schweizer Uhrmacherfamilie Jaquet-Droz (der </text>
+            </l>
+            <l top="173" left="77" right="565" bottom="193" size="14">
+               <text top="173" left="77" width="488" height="20" rendition="#f8" size="14">„Schreiber“, der „Zeichner“ und der „Klavierspieler“), bei denen das Vorbild (bes. für </text>
+            </l>
+            <l top="193" left="77" right="566" bottom="213" size="14">
+               <text top="193" left="77" width="444" height="20" rendition="#f8" size="14"
+                  >den „Flötenspieler“) der menschliche Körper und seine Bewegungen waren.</text>
+               <text top="194" left="521" width="4" height="12" rendition="#f9" size="8">7</text>
+               <text top="193" left="525" width="41" height="20" rendition="#f8" size="14"> Nicht </text>
+            </l>
+            <l top="214" left="77" right="562" bottom="234" size="14">
+               <text top="214" left="77" width="485" height="20" rendition="#f8" size="14"
+                  >nur der Mensch wurde also technisch zu analysieren versucht, sondern auch der Au-</text>
+            </l>
+            <l top="235" left="77" right="562" bottom="255" size="14">
+               <text top="235" left="77" width="485" height="20" rendition="#f8" size="14"
+                  >tomat, die Maschine, gründete sich auf die Nachahmung des Menschlichen in Ausse-</text>
+            </l>
+            <l top="255" left="77" right="562" bottom="275" size="14">
+               <text top="255" left="77" width="485" height="20" rendition="#f8" size="14"
+                  >hen und Ausdruck. Obwohl Technik noch weit davon entfernt war, organische Funk-</text>
+            </l>
+            <l top="276" left="77" right="566" bottom="296" size="14">
+               <text top="276" left="77" width="489" height="20" rendition="#f8" size="14"
+                  >tionsweisen oder gar die kognitiven Leistungen des Menschen nachzuahmen, zeigt </text>
+            </l>
+         </page>
+      </x:expect>
+   </x:scenario>
 </x:description>

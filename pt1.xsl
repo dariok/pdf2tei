@@ -49,7 +49,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*" />
       <xsl:for-each-group select="*[not(self::*:fontspec)]" group-starting-with="*[
-         @top/number() gt preceding-sibling::*[@top][1]/@top + preceding-sibling::*[@top][1]/@height
+         @top/number() ge preceding-sibling::*[@top][1]/@top + preceding-sibling::*[@top][1]/@height
          or @top/number() lt preceding-sibling::*[@top][1]/@top - preceding-sibling::*[@top][1]/@height
       ]">
         <xsl:variable name="bottom" select="for $e in current-group() return $e/@top + $e/@height"/>
