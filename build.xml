@@ -9,6 +9,7 @@
     </pathconvert>
     <mkdir dir="${targetDir}/temp" />
     
+    <tempfile property="xml1" suffix="-1.xml" destdir="${targetDir}/temp"/>
     <tempfile property="xml2" suffix="-2.xml" destdir="${targetDir}/temp"/>
     <tempfile property="xml3" suffix="-3.xml" destdir="${targetDir}/temp"/>
     <tempfile property="xml4" suffix="-4.xml" destdir="${targetDir}/temp"/>
@@ -28,7 +29,8 @@
       </filterchain>
     </copy>
     
-    <xslt in="${targetDir}/temp/temp.xml" style="pt1.xsl" out="${xml2}" classpath="${saxon}" />
+    <xslt in="${targetDir}/temp/temp.xml" style="pt0.xsl" out="${xml1}" classpath="${saxon}" />
+    <xslt in="${xml1}" style="pt1.xsl" out="${xml2}" classpath="${saxon}" />
     <xslt in="${xml2}" style="pt2.xsl" out="${xml3}" classpath="${saxon}" />
     <xslt in="${xml3}" style="pt3.xsl" out="${xml4}" classpath="${saxon}" />
     <xslt in="${xml4}" style="pt4.xsl" out="${xml5}" classpath="${saxon}" />
