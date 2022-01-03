@@ -499,443 +499,443 @@
          </teiHeader>
          <text xmlns="http://www.tei-c.org/ns/1.0">
             <page xmlns="" number="1" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="129" left="68" width="103" height="18" font="0" size="16" rendition="#f0">Merryl Rebello </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="161" left="68" width="300" height="21" font="1" size="19" rendition="#f1">Romulus in der lateinischen Literatur </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="187" left="68" width="163" height="21" font="1" size="19" rendition="#f1">von Ennius bis Ovid </run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="129" left="68" width="103" height="18" font="0" size="16" rendition="#f0">Merryl Rebello </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="161" left="68" width="300" height="21" font="1" size="19" rendition="#f1">Romulus in der lateinischen Literatur </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="187" left="68" width="163" height="21" font="1" size="19" rendition="#f1">von Ennius bis Ovid </hi>
             </page>
             <page xmlns="" number="2" position="absolute" top="0" left="0" height="935" width="722"> </page>
             <page xmlns="" number="3" position="absolute" top="0" left="0" height="935" width="722">
               <image top="797" left="68" width="150" height="37" size="37"
                 src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="156" left="128" width="113" height="20" font="2" size="18" rendition="#f2">Merryl Rebello </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="214" left="128" width="228" height="35" font="3" size="33" rendition="#f3"><b xmlns="">Romulus in der </b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="260" left="128" width="311" height="35" font="3" size="33" rendition="#f3"><b xmlns="">lateinischen Literatur </b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="305" left="128" width="286" height="35" font="3" size="33" rendition="#f3"><b xmlns="">von Ennius bis Ovid </b></run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="156" left="128" width="113" height="20" font="2" size="18" rendition="#f2">Merryl Rebello </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="214" left="128" width="228" height="35" font="3" size="33" rendition="#f3"><b xmlns="">Romulus in der </b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="260" left="128" width="311" height="35" font="3" size="33" rendition="#f3"><b xmlns="">lateinischen Literatur </b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="305" left="128" width="286" height="35" font="3" size="33" rendition="#f3"><b xmlns="">von Ennius bis Ovid </b></hi>
             </page>
             <page xmlns="" number="4" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="489" left="77" width="187" height="13" font="4" size="11" rendition="#f4">wbg Academic ist ein Imprint der wbg </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="508" left="77" width="310" height="13" font="4" size="11" rendition="#f4">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="527" left="77" width="409" height="13" font="4" size="11" rendition="#f4">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="545" left="77" width="291" height="13" font="4" size="11" rendition="#f4">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="601" left="77" width="293" height="13" font="4" size="11" rendition="#f4">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="677" left="77" width="417" height="12" font="5" size="11" rendition="#f5">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="695" left="77" width="351" height="12" font="5" size="11" rendition="#f5">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="714" left="77" width="410" height="12" font="5" size="11" rendition="#f5">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="733" left="77" width="31" height="12" font="5" size="11" rendition="#f5">Lizenz</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="733" left="108" width="3" height="13" font="6" size="11" rendition="#f6"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="733" left="111" width="353" height="12" font="5" size="11" rendition="#f5">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="751" left="77" width="70" height="12" font="5" size="11" rendition="#f5">Verwertung in</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="751" left="147" width="3" height="13" font="6" size="11" rendition="#f6"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="751" left="150" width="319" height="12" font="5" size="11" rendition="#f5">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="770" left="77" width="115" height="12" font="5" size="11" rendition="#f5">vorherigen schriftlichen</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="770" left="192" width="3" height="13" font="6" size="11" rendition="#f6"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="770" left="195" width="127" height="12" font="5" size="11" rendition="#f5">Einwilligung des Verlages.</run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="489" left="77" width="187" height="13" font="4" size="11" rendition="#f4">wbg Academic ist ein Imprint der wbg </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="508" left="77" width="310" height="13" font="4" size="11" rendition="#f4">© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="527" left="77" width="409" height="13" font="4" size="11" rendition="#f4">Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="545" left="77" width="291" height="13" font="4" size="11" rendition="#f4">Satz und eBook: Satzweiss.com Print, Web, Software GmbH </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="601" left="77" width="293" height="13" font="4" size="11" rendition="#f4">Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="677" left="77" width="417" height="12" font="5" size="11" rendition="#f5">Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="695" left="77" width="351" height="12" font="5" size="11" rendition="#f5">Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="714" left="77" width="410" height="12" font="5" size="11" rendition="#f5">Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="733" left="77" width="31" height="12" font="5" size="11" rendition="#f5">Lizenz</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="733" left="108" width="3" height="13" font="6" size="11" rendition="#f6"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="733" left="111" width="353" height="12" font="5" size="11" rendition="#f5">zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="751" left="77" width="70" height="12" font="5" size="11" rendition="#f5">Verwertung in</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="751" left="147" width="3" height="13" font="6" size="11" rendition="#f6"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="751" left="150" width="319" height="12" font="5" size="11" rendition="#f5">anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="770" left="77" width="115" height="12" font="5" size="11" rendition="#f5">vorherigen schriftlichen</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="770" left="192" width="3" height="13" font="6" size="11" rendition="#f6"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="770" left="195" width="127" height="12" font="5" size="11" rendition="#f5">Einwilligung des Verlages.</hi>
             </page>
             <page xmlns="" number="5" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="354" width="10" height="15" font="7" size="13" rendition="#f7">5 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="135" left="300" width="114" height="36" font="8" size="33" rendition="#f8">Vorwort</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="208" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="228" left="68" width="578" height="16" font="9" size="15" rendition="#f9">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="248" left="68" width="581" height="16" font="9" size="15" rendition="#f9">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="268" left="68" width="106" height="16" font="9" size="15" rendition="#f9">verteidigt wurde. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="288" left="81" width="566" height="16" font="9" size="15" rendition="#f9">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="309" left="68" width="386" height="16" font="9" size="15" rendition="#f9">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="329" left="81" width="570" height="16" font="9" size="15" rendition="#f9">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="349" left="68" width="583" height="16" font="9" size="15" rendition="#f9">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="369" left="68" width="578" height="16" font="9" size="15" rendition="#f9">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="390" left="68" width="358" height="16" font="9" size="15" rendition="#f9">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="410" left="81" width="565" height="16" font="9" size="15" rendition="#f9">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="430" left="68" width="581" height="16" font="9" size="15" rendition="#f9">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="450" left="68" width="225" height="16" font="9" size="15" rendition="#f9">Auch ihm gilt mein herzlicher Dank. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="471" left="81" width="570" height="16" font="9" size="15" rendition="#f9">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="491" left="68" width="582" height="16" font="9" size="15" rendition="#f9">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="511" left="68" width="582" height="16" font="9" size="15" rendition="#f9">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="531" left="68" width="135" height="16" font="9" size="15" rendition="#f9">Gemeinschaft zu sein. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="551" left="81" width="569" height="16" font="9" size="15" rendition="#f9">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="572" left="68" width="153" height="16" font="9" size="15" rendition="#f9">Udolph zurückzuführen. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="592" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="612" left="68" width="115" height="16" font="9" size="15" rendition="#f9">Schwester Melissa. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="653" left="68" width="168" height="16" font="9" size="15" rendition="#f9">Hamburg, im Februar 2019 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="693" left="68" width="90" height="16" font="9" size="15" rendition="#f9">Merryl Rebello</run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="354" width="10" height="15" font="7" size="13" rendition="#f7">5 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="135" left="300" width="114" height="36" font="8" size="33" rendition="#f8">Vorwort</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="208" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Dieses Buch ist die überarbeitete Fassung meiner Dissertation „Die Darstellung des Romulus in </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="228" left="68" width="578" height="16" font="9" size="15" rendition="#f9">der lateinischen Literatur von Ennius bis Ovid“, die der Philosophischen Fakultät der Georg-Au-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="248" left="68" width="581" height="16" font="9" size="15" rendition="#f9">gust-Universität Göttingen im Sommersemester 2015 vorgelegen hat und im Juli desselben Jahres </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="268" left="68" width="106" height="16" font="9" size="15" rendition="#f9">verteidigt wurde. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="288" left="81" width="566" height="16" font="9" size="15" rendition="#f9">Das Promotionsprojekt wurde über einen Zeitraum von drei Jahren vom DFG-Graduierten-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="309" left="68" width="386" height="16" font="9" size="15" rendition="#f9">kolleg 896 „Götterbilder – Gottesbilder – Weltbilder“ gefördert. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="329" left="81" width="570" height="16" font="9" size="15" rendition="#f9">Meinem Doktorvater Prof. Dr. Peter Alois Kuhlmann danke ich sehr herzlich dafür, dass er </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="349" left="68" width="583" height="16" font="9" size="15" rendition="#f9">diese Arbeit angeregt und ihre Entstehung mit so viel Interesse, Geduld und hilfreichem Rat </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="369" left="68" width="578" height="16" font="9" size="15" rendition="#f9">begleitet hat. Seine persönliche und stets motivierende Betreuung in zahlreichen Gesprächen wa-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="390" left="68" width="358" height="16" font="9" size="15" rendition="#f9">ren mir in allen Stadien der Arbeit eine unschätzbare Hilfe. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="410" left="81" width="565" height="16" font="9" size="15" rendition="#f9">Wertvolle und detaillierte Hinweise, die zu einer deutlichen Verbesserung der Arbeit beige-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="430" left="68" width="581" height="16" font="9" size="15" rendition="#f9">tragen haben, erhielt ich auch von meinem Zweitgutachter Prof. Dr. Heinz-Günther Nesselrath. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="450" left="68" width="225" height="16" font="9" size="15" rendition="#f9">Auch ihm gilt mein herzlicher Dank. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="471" left="81" width="570" height="16" font="9" size="15" rendition="#f9">Der Kreis meiner Kollegen und Freunde am Göttinger Seminar für Klassische Philologie bot </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="491" left="68" width="582" height="16" font="9" size="15" rendition="#f9">die Möglichkeit zu wissenschaftlichem und persönlichem Austausch, wie sie andernorts kaum </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="511" left="68" width="582" height="16" font="9" size="15" rendition="#f9">zu finden ist. Es war für mich eine sehr bereichernde Erfahrung, für einige Zeit ein Teil dieser </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="531" left="68" width="135" height="16" font="9" size="15" rendition="#f9">Gemeinschaft zu sein. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="551" left="81" width="569" height="16" font="9" size="15" rendition="#f9">Die Ursprünge meines Interesses an der lateinischen Philologie sind auf meinen Lehrer Eugen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="572" left="68" width="153" height="16" font="9" size="15" rendition="#f9">Udolph zurückzuführen. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="592" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Widmen möchte ich dieses Buch meinen Eltern Monika und Benedict Rebello und meiner </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="612" left="68" width="115" height="16" font="9" size="15" rendition="#f9">Schwester Melissa. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="653" left="68" width="168" height="16" font="9" size="15" rendition="#f9">Hamburg, im Februar 2019 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="693" left="68" width="90" height="16" font="9" size="15" rendition="#f9">Merryl Rebello</hi>
             </page>
             <page xmlns="" number="12" position="absolute" top="0" left="0" height="935" width="722"> </page>
             <page xmlns="" number="13" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="351" width="16" height="15" font="7" size="13" rendition="#f7">13 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="126" left="269" width="176" height="36" font="8" size="33" rendition="#f8">1. Einleitung</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="199" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="219" left="68" width="581" height="16" font="9" size="15" rendition="#f9">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="239" left="68" width="581" height="16" font="9" size="15" rendition="#f9">gefunden und gesäugt. Hirten nehmen die Kinder bei sich auf und ziehen sie groß. In ihrer Jugend </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="260" left="68" width="578" height="16" font="9" size="15" rendition="#f9">beginnen sich die beiden Brüder zu Konkurrenten zu entwickeln. Nach Einholung der Vogelzei-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="280" left="68" width="578" height="16" font="9" size="15" rendition="#f9">chen beginnt Romulus, eine Mauer für eine neue Stadt zu bauen. Remus überspringt sie, um sei-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="300" left="68" width="582" height="16" font="9" size="15" rendition="#f9">nen Bruder zu verhöhnen, und wird zur Strafe erschlagen. Romulus benennt die neu gegründete </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="320" left="68" width="578" height="16" font="9" size="15" rendition="#f9">Stadt nach sich selbst: Rom. Im weiteren Verlauf der Geschichte wird sie zur Weltherrschaft auf-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="340" left="68" width="49" height="16" font="9" size="15" rendition="#f9">steigen. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="361" left="81" width="569" height="16" font="9" size="15" rendition="#f9">Obwohl uns diese einfache und alte Geschichte heute nicht mehr als historisch gilt, scheint sie </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="381" left="68" width="582" height="16" font="9" size="15" rendition="#f9">doch immerhin so viel universal gültige Wahrheit zu enthalten, dass sie zumindest in einem Teil </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="401" left="68" width="584" height="16" font="9" size="15" rendition="#f9">unserer Gesellschaft immer noch von Generation zu Generation weitergegeben wird, z. B. in </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="421" left="68" width="87" height="16" font="9" size="15" rendition="#f9">Schulbüchern.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="421" left="155" width="4" height="10" font="12" size="9" rendition="#f12">1</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="421" left="159" width="491" height="16" font="9" size="15" rendition="#f9"> Schaut man sich aber um, so stellt man fest, dass der Stoff dieser Sage eigentlich </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="442" left="68" width="582" height="16" font="9" size="15" rendition="#f9">nichts Urrömisches ist, sondern Teile dieser Geschichte so oder so ähnlich auch in der Bibel oder </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="462" left="68" width="145" height="16" font="9" size="15" rendition="#f9">in den indischen Veden</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="462" left="213" width="4" height="10" font="12" size="9" rendition="#f12">2</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="462" left="217" width="433" height="16" font="9" size="15" rendition="#f9"> erzählt werden. Das macht sie zu einem Mythos und ihre Elemente zu </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="482" left="68" width="61" height="16" font="9" size="15" rendition="#f9">Motiven. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="502" left="81" width="570" height="16" font="9" size="15" rendition="#f9">Diese Motive können in immer neuer Variation kombiniert und auch ergänzt werden, sodass </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="523" left="68" width="583" height="16" font="9" size="15" rendition="#f9">die Botschaft der Geschichte sich ändert. Dabei sind Gründungsmythen für den Prozess der </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="601" left="68" width="4" height="10" font="12" size="9" rendition="#f12">1</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="602" left="72" width="574" height="15" font="7" size="13" rendition="#f7"> In den Schulbüchern wird die Gründung Roms meist gleich in einer der ersten Latein-Lektionen the-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="621" left="89" width="557" height="15" font="7" size="13" rendition="#f7">matisiert. Schützsack (2011) reißt in einer vergleichenden Untersuchung an, wie die Romulus-Thema-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="639" left="89" width="561" height="15" font="7" size="13" rendition="#f7">tik, vor allem der Aspekt des Brudermords, in fünf aktuellen Lateinlehrwerken umgesetzt wird. Doch </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="657" left="89" width="561" height="15" font="7" size="13" rendition="#f7">auch jenseits der Lehrbuchphase erfreut sich das Thema Romulus ungebrochener Beliebtheit: Simons </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="676" left="89" width="560" height="15" font="7" size="13" rendition="#f7">(2016) hat eine zehn Unterrichtseinheiten umfassende Reihe zum Vergleich der Apotheose des Romulus </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="694" left="89" width="559" height="15" font="7" size="13" rendition="#f7">bei Livius und Ovid für die Oberstufe konzipiert; Sauer (2016) liefert umfangreiches Unterrichtsmaterial </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="89" width="345" height="15" font="7" size="13" rendition="#f7">zum Bild von Romulus in Ciceros staatsphilosophischer Schrift </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="434" width="71" height="14" font="13" size="13" rendition="#f13">De re publica</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="504" width="3" height="15" font="7" size="13" rendition="#f7">.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="68" width="4" height="10" font="12" size="9" rendition="#f12">2</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="732" left="72" width="2" height="15" font="7" size="13" rendition="#f7"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="732" left="89" width="559" height="15" font="7" size="13" rendition="#f7">Zumindest das Zwillings- bzw. Brüdermotiv deutet auf einen gemeinsamen indoeuropäischen Ursprung </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="751" left="89" width="561" height="15" font="7" size="13" rendition="#f7">der Sage hin. Manifestationen dieses Motivs sind die beiden Ashvins namens Dasra und Dasatya im </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="89" width="560" height="15" font="7" size="13" rendition="#f7">Rigveda, die griechischen Dioskuren Kastor und Polydeukes oder die Brüder Kain und Abel in der Bibel, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="89" width="293" height="15" font="7" size="13" rendition="#f7">s. Briquel (1976) 145f mit Hinweis auf Harris (1906) </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="788" left="382" width="172" height="14" font="13" size="13" rendition="#f13">The Cult of the Heavenly Twins</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="554" width="92" height="15" font="7" size="13" rendition="#f7">. Zum Motiv der</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="806" left="89" width="253" height="15" font="7" size="13" rendition="#f7">Aussetzung des Königskindes s. Binder (1964).</run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="351" width="16" height="15" font="7" size="13" rendition="#f7">13 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="126" left="269" width="176" height="36" font="8" size="33" rendition="#f8">1. Einleitung</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="199" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="219" left="68" width="581" height="16" font="9" size="15" rendition="#f9">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="239" left="68" width="581" height="16" font="9" size="15" rendition="#f9">gefunden und gesäugt. Hirten nehmen die Kinder bei sich auf und ziehen sie groß. In ihrer Jugend </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="260" left="68" width="578" height="16" font="9" size="15" rendition="#f9">beginnen sich die beiden Brüder zu Konkurrenten zu entwickeln. Nach Einholung der Vogelzei-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="280" left="68" width="578" height="16" font="9" size="15" rendition="#f9">chen beginnt Romulus, eine Mauer für eine neue Stadt zu bauen. Remus überspringt sie, um sei-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="300" left="68" width="582" height="16" font="9" size="15" rendition="#f9">nen Bruder zu verhöhnen, und wird zur Strafe erschlagen. Romulus benennt die neu gegründete </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="320" left="68" width="578" height="16" font="9" size="15" rendition="#f9">Stadt nach sich selbst: Rom. Im weiteren Verlauf der Geschichte wird sie zur Weltherrschaft auf-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="340" left="68" width="49" height="16" font="9" size="15" rendition="#f9">steigen. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="361" left="81" width="569" height="16" font="9" size="15" rendition="#f9">Obwohl uns diese einfache und alte Geschichte heute nicht mehr als historisch gilt, scheint sie </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="381" left="68" width="582" height="16" font="9" size="15" rendition="#f9">doch immerhin so viel universal gültige Wahrheit zu enthalten, dass sie zumindest in einem Teil </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="401" left="68" width="584" height="16" font="9" size="15" rendition="#f9">unserer Gesellschaft immer noch von Generation zu Generation weitergegeben wird, z. B. in </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="421" left="68" width="87" height="16" font="9" size="15" rendition="#f9">Schulbüchern.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="421" left="155" width="4" height="10" font="12" size="9" rendition="#f12">1</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="421" left="159" width="491" height="16" font="9" size="15" rendition="#f9"> Schaut man sich aber um, so stellt man fest, dass der Stoff dieser Sage eigentlich </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="442" left="68" width="582" height="16" font="9" size="15" rendition="#f9">nichts Urrömisches ist, sondern Teile dieser Geschichte so oder so ähnlich auch in der Bibel oder </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="462" left="68" width="145" height="16" font="9" size="15" rendition="#f9">in den indischen Veden</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="462" left="213" width="4" height="10" font="12" size="9" rendition="#f12">2</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="462" left="217" width="433" height="16" font="9" size="15" rendition="#f9"> erzählt werden. Das macht sie zu einem Mythos und ihre Elemente zu </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="482" left="68" width="61" height="16" font="9" size="15" rendition="#f9">Motiven. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="502" left="81" width="570" height="16" font="9" size="15" rendition="#f9">Diese Motive können in immer neuer Variation kombiniert und auch ergänzt werden, sodass </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="523" left="68" width="583" height="16" font="9" size="15" rendition="#f9">die Botschaft der Geschichte sich ändert. Dabei sind Gründungsmythen für den Prozess der </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="601" left="68" width="4" height="10" font="12" size="9" rendition="#f12">1</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="602" left="72" width="574" height="15" font="7" size="13" rendition="#f7"> In den Schulbüchern wird die Gründung Roms meist gleich in einer der ersten Latein-Lektionen the-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="621" left="89" width="557" height="15" font="7" size="13" rendition="#f7">matisiert. Schützsack (2011) reißt in einer vergleichenden Untersuchung an, wie die Romulus-Thema-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="639" left="89" width="561" height="15" font="7" size="13" rendition="#f7">tik, vor allem der Aspekt des Brudermords, in fünf aktuellen Lateinlehrwerken umgesetzt wird. Doch </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="657" left="89" width="561" height="15" font="7" size="13" rendition="#f7">auch jenseits der Lehrbuchphase erfreut sich das Thema Romulus ungebrochener Beliebtheit: Simons </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="676" left="89" width="560" height="15" font="7" size="13" rendition="#f7">(2016) hat eine zehn Unterrichtseinheiten umfassende Reihe zum Vergleich der Apotheose des Romulus </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="694" left="89" width="559" height="15" font="7" size="13" rendition="#f7">bei Livius und Ovid für die Oberstufe konzipiert; Sauer (2016) liefert umfangreiches Unterrichtsmaterial </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="89" width="345" height="15" font="7" size="13" rendition="#f7">zum Bild von Romulus in Ciceros staatsphilosophischer Schrift </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="434" width="71" height="14" font="13" size="13" rendition="#f13">De re publica</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="504" width="3" height="15" font="7" size="13" rendition="#f7">.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="68" width="4" height="10" font="12" size="9" rendition="#f12">2</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="732" left="72" width="2" height="15" font="7" size="13" rendition="#f7"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="732" left="89" width="559" height="15" font="7" size="13" rendition="#f7">Zumindest das Zwillings- bzw. Brüdermotiv deutet auf einen gemeinsamen indoeuropäischen Ursprung </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="751" left="89" width="561" height="15" font="7" size="13" rendition="#f7">der Sage hin. Manifestationen dieses Motivs sind die beiden Ashvins namens Dasra und Dasatya im </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="89" width="560" height="15" font="7" size="13" rendition="#f7">Rigveda, die griechischen Dioskuren Kastor und Polydeukes oder die Brüder Kain und Abel in der Bibel, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="89" width="293" height="15" font="7" size="13" rendition="#f7">s. Briquel (1976) 145f mit Hinweis auf Harris (1906) </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="788" left="382" width="172" height="14" font="13" size="13" rendition="#f13">The Cult of the Heavenly Twins</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="554" width="92" height="15" font="7" size="13" rendition="#f7">. Zum Motiv der</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="806" left="89" width="253" height="15" font="7" size="13" rendition="#f7">Aussetzung des Königskindes s. Binder (1964).</hi>
             </page>
             <page xmlns="" number="14" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="359" width="16" height="15" font="7" size="13" rendition="#f7">14 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="75" left="77" width="324" height="16" font="9" size="15" rendition="#f9">ständigen Um- und Neudeutung besonders anfällig,</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="74" left="401" width="4" height="10" font="12" size="9" rendition="#f12">3</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="75" left="406" width="254" height="16" font="9" size="15" rendition="#f9"> weil sie für bestimmte soziale Gruppen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="95" left="77" width="574" height="16" font="9" size="15" rendition="#f9">Identität konstituieren und häufig an aktuelle gesellschaftliche Entwicklungen angepasst werden.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="95" left="651" width="4" height="10" font="12" size="9" rendition="#f12">4</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="95" left="655" width="3" height="16" font="9" size="15" rendition="#f9"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="115" left="89" width="566" height="16" font="9" size="15" rendition="#f9">Auch die gesamte Antike hindurch fluktuiert der Romulus-Mythos, wenn er von unterschied-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="136" left="77" width="582" height="16" font="9" size="15" rendition="#f9">lichen Parteien in den verschiedensten Absichten erzählt wird: Die frühesten, die ihn benutzen, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="156" left="77" width="582" height="16" font="9" size="15" rendition="#f9">sind griechische Geschichtsschreiber ab etwa dem späten 4. Jh. v. Chr., die eine Erklärung dafür </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="176" left="77" width="249" height="16" font="9" size="15" rendition="#f9">liefern wollen, weshalb Rom Rom heißt.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="176" left="326" width="4" height="10" font="12" size="9" rendition="#f12">5</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="176" left="330" width="330" height="16" font="9" size="15" rendition="#f9"> Einer der letzten, der die Hauptfigur der römischen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="196" left="77" width="585" height="16" font="9" size="15" rendition="#f9">Gründungssage zumindest noch in seinem Namen trägt, ist der letzte weströmische Kaiser </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="216" left="77" width="578" height="16" font="9" size="15" rendition="#f9">Romulus Augustulus (geb. um 460 n. Chr.). Dazwischen liegt ein ganzes Spektrum an Möglich-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="237" left="77" width="579" height="16" font="9" size="15" rendition="#f9">keiten des Umgangs mit der Romulus-Figur, das von der völligen Identifikation mit dem „Nati-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="257" left="77" width="586" height="16" font="9" size="15" rendition="#f9">onalhelden“ bis hin zur Distanzierung vom Brudermörder und Tyrannen alle denkbaren </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="277" left="77" width="125" height="16" font="9" size="15" rendition="#f9">Nuancen beinhaltet. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="297" left="89" width="569" height="16" font="9" size="15" rendition="#f9">Die vorliegende Arbeit beschäftigt sich inhaltlich, zeitlich und auch sprachlich gesehen nur mit </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="77" width="578" height="16" font="9" size="15" rendition="#f9">einer Teilmenge des soeben skizzierten Themenkomplexes: In ihr soll es darum gehen, wie römi-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="338" left="77" width="268" height="16" font="9" size="15" rendition="#f9">sche, genauer gesagt lateinisch schreibende</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="338" left="345" width="4" height="10" font="12" size="9" rendition="#f12">6</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="338" left="349" width="308" height="16" font="9" size="15" rendition="#f9"> Autoren, angefangen bei Ennius und endend bei </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="358" left="77" width="581" height="16" font="9" size="15" rendition="#f9">Ovid, die Figur des Romulus in ihren Werken darstellen. Die Arbeit ist philologisch ausgerichtet, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="378" left="77" width="578" height="16" font="9" size="15" rendition="#f9">d. h. es werden hauptsächlich lateinische Primärtexte interpretiert. Historische und archäologi-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="399" left="77" width="578" height="16" font="9" size="15" rendition="#f9">sche Probleme werden demgegenüber nur in dem Maße angesprochen, wie es für die Untersu-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="419" left="77" width="357" height="16" font="9" size="15" rendition="#f9">chung literarischer Romulus-Darstellungen erforderlich ist.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="476" left="77" width="357" height="20" font="2" size="18" rendition="#f2">Überblick über Aufbau und Methodik der Arbeit </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="520" left="77" width="578" height="16" font="9" size="15" rendition="#f9">Die Arbeit ist diachron und innerhalb des gewählten Zeitabschnittes auf größtmögliche Vollstän-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="540" left="77" width="578" height="16" font="9" size="15" rendition="#f9">digkeit hin angelegt, weil das Hauptziel meiner Untersuchung, eine differenzierte (Neu-)Beurtei-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="560" left="77" width="581" height="16" font="9" size="15" rendition="#f9">lung der Romulus-Darstellung, dadurch erreicht werden soll, dass möglichst viele aussagekräftige </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="617" left="77" width="4" height="10" font="12" size="9" rendition="#f12">3</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="619" left="81" width="137" height="15" font="7" size="13" rendition="#f7"> Deremetz (2013) 229. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="637" left="77" width="4" height="10" font="12" size="9" rendition="#f12">4</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="639" left="81" width="577" height="15" font="7" size="13" rendition="#f7"> Raaflaub (2006) 24: „Das Bedürfnis nach zeitgeschichtlicher Aktualität war deshalb einer der wichtigsten </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="658" left="98" width="479" height="15" font="7" size="13" rendition="#f7">Verformungsfaktoren in der antiken (Re-)konstruktion der römischen Frühgeschichte.“ </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="676" left="77" width="4" height="10" font="12" size="9" rendition="#f12">5</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="677" left="81" width="577" height="15" font="7" size="13" rendition="#f7"> Classen (1993) nennt die sizilianischen Geschichtsschreiber Alkimos und Kallias (spätes 4. Jh. v. Chr.), </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="696" left="98" width="560" height="15" font="7" size="13" rendition="#f7">die über Rhomylos und Rhomos schreiben. Eine Rhome als Namensgeberin Roms kennen zwar bereits </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="714" left="98" width="557" height="15" font="7" size="13" rendition="#f7">ältere Quellen (Hellanikos von Lesbos, gestorben um 400 v. Chr.), jedoch findet sich diese in der römi-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="732" left="98" width="560" height="15" font="7" size="13" rendition="#f7">schen Tradition nicht wieder. Später befassen sich Hieronymos von Kardia, Timaios von Tauromenion </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="751" left="98" width="503" height="15" font="7" size="13" rendition="#f7">und Diokles von Peparethos mit der mythischen Stadtgründung Roms, s. Meister (1990) 142.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="77" width="4" height="10" font="12" size="9" rendition="#f12">6</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="770" left="81" width="554" height="15" font="7" size="13" rendition="#f7"> Griechische Texte wie z. B. Dionysius von Halikarnass’ Schilderung der römischen Frühzeit in den </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="771" left="634" width="21" height="14" font="13" size="13" rendition="#f13">An-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="790" left="98" width="105" height="14" font="13" size="13" rendition="#f13">tiquitates Romanae</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="789" left="203" width="240" height="15" font="7" size="13" rendition="#f7"> und Plutarchs Romulus-Biographie in den </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="790" left="443" width="85" height="14" font="13" size="13" rendition="#f13">Vitae parallelae</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="789" left="528" width="131" height="15" font="7" size="13" rendition="#f7"> sind nicht Gegenstand </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="808" left="98" width="79" height="15" font="7" size="13" rendition="#f7">dieser Arbeit. </run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="359" width="16" height="15" font="7" size="13" rendition="#f7">14 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="75" left="77" width="324" height="16" font="9" size="15" rendition="#f9">ständigen Um- und Neudeutung besonders anfällig,</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="74" left="401" width="4" height="10" font="12" size="9" rendition="#f12">3</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="75" left="406" width="254" height="16" font="9" size="15" rendition="#f9"> weil sie für bestimmte soziale Gruppen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="95" left="77" width="574" height="16" font="9" size="15" rendition="#f9">Identität konstituieren und häufig an aktuelle gesellschaftliche Entwicklungen angepasst werden.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="95" left="651" width="4" height="10" font="12" size="9" rendition="#f12">4</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="95" left="655" width="3" height="16" font="9" size="15" rendition="#f9"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="115" left="89" width="566" height="16" font="9" size="15" rendition="#f9">Auch die gesamte Antike hindurch fluktuiert der Romulus-Mythos, wenn er von unterschied-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="136" left="77" width="582" height="16" font="9" size="15" rendition="#f9">lichen Parteien in den verschiedensten Absichten erzählt wird: Die frühesten, die ihn benutzen, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="156" left="77" width="582" height="16" font="9" size="15" rendition="#f9">sind griechische Geschichtsschreiber ab etwa dem späten 4. Jh. v. Chr., die eine Erklärung dafür </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="176" left="77" width="249" height="16" font="9" size="15" rendition="#f9">liefern wollen, weshalb Rom Rom heißt.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="176" left="326" width="4" height="10" font="12" size="9" rendition="#f12">5</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="176" left="330" width="330" height="16" font="9" size="15" rendition="#f9"> Einer der letzten, der die Hauptfigur der römischen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="196" left="77" width="585" height="16" font="9" size="15" rendition="#f9">Gründungssage zumindest noch in seinem Namen trägt, ist der letzte weströmische Kaiser </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="216" left="77" width="578" height="16" font="9" size="15" rendition="#f9">Romulus Augustulus (geb. um 460 n. Chr.). Dazwischen liegt ein ganzes Spektrum an Möglich-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="237" left="77" width="579" height="16" font="9" size="15" rendition="#f9">keiten des Umgangs mit der Romulus-Figur, das von der völligen Identifikation mit dem „Nati-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="257" left="77" width="586" height="16" font="9" size="15" rendition="#f9">onalhelden“ bis hin zur Distanzierung vom Brudermörder und Tyrannen alle denkbaren </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="277" left="77" width="125" height="16" font="9" size="15" rendition="#f9">Nuancen beinhaltet. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="297" left="89" width="569" height="16" font="9" size="15" rendition="#f9">Die vorliegende Arbeit beschäftigt sich inhaltlich, zeitlich und auch sprachlich gesehen nur mit </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="77" width="578" height="16" font="9" size="15" rendition="#f9">einer Teilmenge des soeben skizzierten Themenkomplexes: In ihr soll es darum gehen, wie römi-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="338" left="77" width="268" height="16" font="9" size="15" rendition="#f9">sche, genauer gesagt lateinisch schreibende</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="338" left="345" width="4" height="10" font="12" size="9" rendition="#f12">6</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="338" left="349" width="308" height="16" font="9" size="15" rendition="#f9"> Autoren, angefangen bei Ennius und endend bei </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="358" left="77" width="581" height="16" font="9" size="15" rendition="#f9">Ovid, die Figur des Romulus in ihren Werken darstellen. Die Arbeit ist philologisch ausgerichtet, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="378" left="77" width="578" height="16" font="9" size="15" rendition="#f9">d. h. es werden hauptsächlich lateinische Primärtexte interpretiert. Historische und archäologi-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="399" left="77" width="578" height="16" font="9" size="15" rendition="#f9">sche Probleme werden demgegenüber nur in dem Maße angesprochen, wie es für die Untersu-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="419" left="77" width="357" height="16" font="9" size="15" rendition="#f9">chung literarischer Romulus-Darstellungen erforderlich ist.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="476" left="77" width="357" height="20" font="2" size="18" rendition="#f2">Überblick über Aufbau und Methodik der Arbeit </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="520" left="77" width="578" height="16" font="9" size="15" rendition="#f9">Die Arbeit ist diachron und innerhalb des gewählten Zeitabschnittes auf größtmögliche Vollstän-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="540" left="77" width="578" height="16" font="9" size="15" rendition="#f9">digkeit hin angelegt, weil das Hauptziel meiner Untersuchung, eine differenzierte (Neu-)Beurtei-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="560" left="77" width="581" height="16" font="9" size="15" rendition="#f9">lung der Romulus-Darstellung, dadurch erreicht werden soll, dass möglichst viele aussagekräftige </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="617" left="77" width="4" height="10" font="12" size="9" rendition="#f12">3</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="619" left="81" width="137" height="15" font="7" size="13" rendition="#f7"> Deremetz (2013) 229. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="637" left="77" width="4" height="10" font="12" size="9" rendition="#f12">4</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="639" left="81" width="577" height="15" font="7" size="13" rendition="#f7"> Raaflaub (2006) 24: „Das Bedürfnis nach zeitgeschichtlicher Aktualität war deshalb einer der wichtigsten </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="658" left="98" width="479" height="15" font="7" size="13" rendition="#f7">Verformungsfaktoren in der antiken (Re-)konstruktion der römischen Frühgeschichte.“ </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="676" left="77" width="4" height="10" font="12" size="9" rendition="#f12">5</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="677" left="81" width="577" height="15" font="7" size="13" rendition="#f7"> Classen (1993) nennt die sizilianischen Geschichtsschreiber Alkimos und Kallias (spätes 4. Jh. v. Chr.), </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="696" left="98" width="560" height="15" font="7" size="13" rendition="#f7">die über Rhomylos und Rhomos schreiben. Eine Rhome als Namensgeberin Roms kennen zwar bereits </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="714" left="98" width="557" height="15" font="7" size="13" rendition="#f7">ältere Quellen (Hellanikos von Lesbos, gestorben um 400 v. Chr.), jedoch findet sich diese in der römi-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="732" left="98" width="560" height="15" font="7" size="13" rendition="#f7">schen Tradition nicht wieder. Später befassen sich Hieronymos von Kardia, Timaios von Tauromenion </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="751" left="98" width="503" height="15" font="7" size="13" rendition="#f7">und Diokles von Peparethos mit der mythischen Stadtgründung Roms, s. Meister (1990) 142.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="77" width="4" height="10" font="12" size="9" rendition="#f12">6</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="770" left="81" width="554" height="15" font="7" size="13" rendition="#f7"> Griechische Texte wie z. B. Dionysius von Halikarnass’ Schilderung der römischen Frühzeit in den </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="771" left="634" width="21" height="14" font="13" size="13" rendition="#f13">An-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="790" left="98" width="105" height="14" font="13" size="13" rendition="#f13">tiquitates Romanae</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="789" left="203" width="240" height="15" font="7" size="13" rendition="#f7"> und Plutarchs Romulus-Biographie in den </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="790" left="443" width="85" height="14" font="13" size="13" rendition="#f13">Vitae parallelae</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="789" left="528" width="131" height="15" font="7" size="13" rendition="#f7"> sind nicht Gegenstand </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="808" left="98" width="79" height="15" font="7" size="13" rendition="#f7">dieser Arbeit. </hi>
             </page>
             <page xmlns="" number="15" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="351" width="16" height="15" font="7" size="13" rendition="#f7">15 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="75" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Textzeugnisse zu Wort kommen und miteinander in einen Zusammenhang gebracht werden. In </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="95" left="68" width="578" height="16" font="9" size="15" rendition="#f9">dieser Differenzierung sehe ich auch den Mehrwert dieser Arbeit angesichts der Fülle von Mo-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="115" left="68" width="581" height="16" font="9" size="15" rendition="#f9">nographien und Aufsätzen, die sich entweder schwerpunktmäßig oder am Rande mit Romulus </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="136" left="68" width="578" height="16" font="9" size="15" rendition="#f9">beschäftigen, dabei aber meist nur eine kleine Auswahl an Texten ansprechen (s. den Forschungs-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="156" left="68" width="108" height="16" font="9" size="15" rendition="#f9">überblick unten). </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="176" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Die Arbeit ist in fünf Kapitel unterteilt: Zunächst werden die Romulus-Darstellungen der </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="196" left="68" width="578" height="16" font="9" size="15" rendition="#f9">frühen lateinischen Dichter, d. h. des Naevius, Ennius und Lucilius, skizziert und (wo der Über-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="216" left="68" width="578" height="16" font="9" size="15" rendition="#f9">lieferungszustand der Texte dies noch zulässt) untersucht. Im nächsten Kapitel stehen Texte un-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="237" left="68" width="581" height="16" font="9" size="15" rendition="#f9">terschiedlicher Gattungen aus allen Schaffensperioden Ciceros im Fokus. An seinem Oeuvre lässt </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="257" left="68" width="581" height="16" font="9" size="15" rendition="#f9">sich zum ersten Mal dokumentieren, wie sich das Romulus-Bild eines Autors über einen längeren </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="277" left="68" width="581" height="16" font="9" size="15" rendition="#f9">Zeitraum entwickelt. Es folgt ein Kapitel zur Verwendung des Namens „Romulus“ in Schimpfwörtern </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="297" left="68" width="579" height="16" font="9" size="15" rendition="#f9">in der Invektive, das kontextuell eng mit dem zuvor dargestellten Romulus-Bild bei Cicero in Verbin-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="68" width="488" height="16" font="9" size="15" rendition="#f9">dung steht. Als nächstes steht mit dem Abschnitt zur Gründungssage im ersten Buch </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="556" width="91" height="16" font="11" size="15" rendition="#f11">Ab urbe condita</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="646" width="3" height="16" font="9" size="15" rendition="#f9"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="338" left="68" width="582" height="16" font="9" size="15" rendition="#f9">bei Livius erneut eine längere Textsequenz im Zentrum der Untersuchung. Im letzten Kapitel nehme </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="358" left="68" width="582" height="16" font="9" size="15" rendition="#f9">ich das umfangreiche Corpus der Augusteischen Dichter Vergil, Horaz und Ovid als Grundlage, um </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="379" left="68" width="488" height="16" font="9" size="15" rendition="#f9">zu zeigen, welche Schwerpunkte sie jeweils bei ihrer Darstellung des Romulus setzen. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="399" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Eine solche Gliederung nimmt neben einem unterschiedlichen Umfang der einzelnen Teile </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="419" left="68" width="581" height="16" font="9" size="15" rendition="#f9">auch in Kauf, dass einige der Kapitel sich mit Texten nur eines Autors auseinandersetzen (dies ist </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="439" left="68" width="582" height="16" font="9" size="15" rendition="#f9">bei Cicero und Livius der Fall), wohingegen in anderen Kapiteln aus formalen und inhaltlichen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="459" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Gründen mehrere Autoren zusammengruppiert werden (wie es z. B. im Schimpfwort-Kapitel oder </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="480" left="68" width="578" height="16" font="9" size="15" rendition="#f9">bei den Dichtern der Fall ist). Auch muss man hinnehmen, dass Fragen mikrostruktureller Chro-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="500" left="68" width="581" height="16" font="9" size="15" rendition="#f9">nologie, also z. B. das Verhältnis einzelner Gedichte von Horaz und Vergil zueinander, bei einem </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="520" left="68" width="583" height="16" font="9" size="15" rendition="#f9">solchen Aufbau nicht im Detail berücksichtigt werden können. Diese Gliederung in fünf große </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="540" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Blöcke bietet aber den Vorteil, dass Tendenzen klarer hervortreten und sich die einzelnen Teile </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="561" left="68" width="578" height="16" font="9" size="15" rendition="#f9">gut miteinander vergleichen lassen. Dies soll dem Leser auch durch regelmäßige Zusammenfas-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="581" left="68" width="503" height="16" font="9" size="15" rendition="#f9">sungen der (Teil-)Ergebnisse am Ende der jeweiligen Einheiten ermöglicht werden. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="601" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Angesichts dieser Vielzahl von römischen Schriftstellern, die so deutlich unterschiedliche </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="621" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Werke verfasst haben, erschien es nicht sinnvoll, eine einzige Methode der Interpretation zu </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="642" left="68" width="578" height="16" font="9" size="15" rendition="#f9">entwickeln und diese auf alle Texte anzuwenden. Vielmehr habe ich mir die Freiheit vorbehal-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="662" left="68" width="578" height="16" font="9" size="15" rendition="#f9">ten, die Texte mit jeweils unterschiedlicher Herangehensweise zu untersuchen: Bei den frag-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="682" left="68" width="587" height="16" font="9" size="15" rendition="#f9">mentarischen oder (auch ohne Textverstümmelung) kürzeren Zeugnissen zu Romulus </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="702" left="68" width="583" height="16" font="9" size="15" rendition="#f9">versuche ich, anhand der Einzeldarstellungen einen kohärenten Text, d. h. eine Sequenz von </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="722" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Aussagen zu Romulus zu gewinnen, indem ich z. B. nach Ähnlichkeiten und Abweichungen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="743" left="68" width="583" height="16" font="9" size="15" rendition="#f9">innerhalb dieser Gruppe von Stellen suche, aber auch regelmäßig den Vergleich zu anderen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="763" left="68" width="337" height="16" font="9" size="15" rendition="#f9">ungefähr zur selben Zeit schreibenden Autoren ziehe. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="783" left="81" width="569" height="16" font="9" size="15" rendition="#f9">Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="803" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="351" width="16" height="15" font="7" size="13" rendition="#f7">15 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="75" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Textzeugnisse zu Wort kommen und miteinander in einen Zusammenhang gebracht werden. In </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="95" left="68" width="578" height="16" font="9" size="15" rendition="#f9">dieser Differenzierung sehe ich auch den Mehrwert dieser Arbeit angesichts der Fülle von Mo-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="115" left="68" width="581" height="16" font="9" size="15" rendition="#f9">nographien und Aufsätzen, die sich entweder schwerpunktmäßig oder am Rande mit Romulus </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="136" left="68" width="578" height="16" font="9" size="15" rendition="#f9">beschäftigen, dabei aber meist nur eine kleine Auswahl an Texten ansprechen (s. den Forschungs-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="156" left="68" width="108" height="16" font="9" size="15" rendition="#f9">überblick unten). </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="176" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Die Arbeit ist in fünf Kapitel unterteilt: Zunächst werden die Romulus-Darstellungen der </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="196" left="68" width="578" height="16" font="9" size="15" rendition="#f9">frühen lateinischen Dichter, d. h. des Naevius, Ennius und Lucilius, skizziert und (wo der Über-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="216" left="68" width="578" height="16" font="9" size="15" rendition="#f9">lieferungszustand der Texte dies noch zulässt) untersucht. Im nächsten Kapitel stehen Texte un-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="237" left="68" width="581" height="16" font="9" size="15" rendition="#f9">terschiedlicher Gattungen aus allen Schaffensperioden Ciceros im Fokus. An seinem Oeuvre lässt </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="257" left="68" width="581" height="16" font="9" size="15" rendition="#f9">sich zum ersten Mal dokumentieren, wie sich das Romulus-Bild eines Autors über einen längeren </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="277" left="68" width="581" height="16" font="9" size="15" rendition="#f9">Zeitraum entwickelt. Es folgt ein Kapitel zur Verwendung des Namens „Romulus“ in Schimpfwörtern </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="297" left="68" width="579" height="16" font="9" size="15" rendition="#f9">in der Invektive, das kontextuell eng mit dem zuvor dargestellten Romulus-Bild bei Cicero in Verbin-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="68" width="488" height="16" font="9" size="15" rendition="#f9">dung steht. Als nächstes steht mit dem Abschnitt zur Gründungssage im ersten Buch </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="556" width="91" height="16" font="11" size="15" rendition="#f11">Ab urbe condita</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="646" width="3" height="16" font="9" size="15" rendition="#f9"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="338" left="68" width="582" height="16" font="9" size="15" rendition="#f9">bei Livius erneut eine längere Textsequenz im Zentrum der Untersuchung. Im letzten Kapitel nehme </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="358" left="68" width="582" height="16" font="9" size="15" rendition="#f9">ich das umfangreiche Corpus der Augusteischen Dichter Vergil, Horaz und Ovid als Grundlage, um </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="379" left="68" width="488" height="16" font="9" size="15" rendition="#f9">zu zeigen, welche Schwerpunkte sie jeweils bei ihrer Darstellung des Romulus setzen. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="399" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Eine solche Gliederung nimmt neben einem unterschiedlichen Umfang der einzelnen Teile </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="419" left="68" width="581" height="16" font="9" size="15" rendition="#f9">auch in Kauf, dass einige der Kapitel sich mit Texten nur eines Autors auseinandersetzen (dies ist </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="439" left="68" width="582" height="16" font="9" size="15" rendition="#f9">bei Cicero und Livius der Fall), wohingegen in anderen Kapiteln aus formalen und inhaltlichen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="459" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Gründen mehrere Autoren zusammengruppiert werden (wie es z. B. im Schimpfwort-Kapitel oder </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="480" left="68" width="578" height="16" font="9" size="15" rendition="#f9">bei den Dichtern der Fall ist). Auch muss man hinnehmen, dass Fragen mikrostruktureller Chro-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="500" left="68" width="581" height="16" font="9" size="15" rendition="#f9">nologie, also z. B. das Verhältnis einzelner Gedichte von Horaz und Vergil zueinander, bei einem </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="520" left="68" width="583" height="16" font="9" size="15" rendition="#f9">solchen Aufbau nicht im Detail berücksichtigt werden können. Diese Gliederung in fünf große </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="540" left="68" width="582" height="16" font="9" size="15" rendition="#f9">Blöcke bietet aber den Vorteil, dass Tendenzen klarer hervortreten und sich die einzelnen Teile </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="561" left="68" width="578" height="16" font="9" size="15" rendition="#f9">gut miteinander vergleichen lassen. Dies soll dem Leser auch durch regelmäßige Zusammenfas-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="581" left="68" width="503" height="16" font="9" size="15" rendition="#f9">sungen der (Teil-)Ergebnisse am Ende der jeweiligen Einheiten ermöglicht werden. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="601" left="81" width="571" height="16" font="9" size="15" rendition="#f9">Angesichts dieser Vielzahl von römischen Schriftstellern, die so deutlich unterschiedliche </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="621" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Werke verfasst haben, erschien es nicht sinnvoll, eine einzige Methode der Interpretation zu </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="642" left="68" width="578" height="16" font="9" size="15" rendition="#f9">entwickeln und diese auf alle Texte anzuwenden. Vielmehr habe ich mir die Freiheit vorbehal-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="662" left="68" width="578" height="16" font="9" size="15" rendition="#f9">ten, die Texte mit jeweils unterschiedlicher Herangehensweise zu untersuchen: Bei den frag-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="682" left="68" width="587" height="16" font="9" size="15" rendition="#f9">mentarischen oder (auch ohne Textverstümmelung) kürzeren Zeugnissen zu Romulus </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="702" left="68" width="583" height="16" font="9" size="15" rendition="#f9">versuche ich, anhand der Einzeldarstellungen einen kohärenten Text, d. h. eine Sequenz von </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="722" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Aussagen zu Romulus zu gewinnen, indem ich z. B. nach Ähnlichkeiten und Abweichungen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="743" left="68" width="583" height="16" font="9" size="15" rendition="#f9">innerhalb dieser Gruppe von Stellen suche, aber auch regelmäßig den Vergleich zu anderen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="763" left="68" width="337" height="16" font="9" size="15" rendition="#f9">ungefähr zur selben Zeit schreibenden Autoren ziehe. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="783" left="81" width="569" height="16" font="9" size="15" rendition="#f9">Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="803" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </hi>
             </page>
             <page xmlns="" number="22" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="359" width="16" height="15" font="7" size="13" rendition="#f7">22 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="123" left="304" width="128" height="26" font="17" size="24" rendition="#f17">2.1.  Naevius </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="174" left="77" width="581" height="16" font="9" size="15" rendition="#f9">Naevius wurde um 285 v. Chr. geboren und diente im ersten Punischen Krieg als Soldat. Er verfasste </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="194" left="77" width="582" height="16" font="9" size="15" rendition="#f9">Tragödien nach griechischen Vorlagen bzw. übertrug die Stoffe ins Lateinische, dichtete römischen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="215" left="77" width="455" height="16" font="9" size="15" rendition="#f9">Praetexten und auch Komödien. Sein Spät- und Hauptwerk jedoch war das </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="215" left="531" width="98" height="16" font="11" size="15" rendition="#f11">Bellum Punicum</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="215" left="629" width="30" height="16" font="9" size="15" rendition="#f9">, ein </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="235" left="77" width="583" height="16" font="9" size="15" rendition="#f9">Epos in Saturniern, das den ersten Punischen Krieg besingt. Die Einteilung dieses Epos in sieben </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="255" left="77" width="578" height="16" font="9" size="15" rendition="#f9">Bücher wurde bereits in der Antike vorgenommen, geht aber nicht auf Naevius selbst zurück, son-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="275" left="77" width="408" height="16" font="9" size="15" rendition="#f9">dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="275" left="485" width="9" height="10" font="12" size="9" rendition="#f12">21</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="275" left="493" width="7" height="16" font="9" size="15" rendition="#f9">  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="328" left="77" width="229" height="21" font="1" size="19" rendition="#f1">2.1.1.  Die „Archäologie“ des </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="328" left="305" width="129" height="20" font="18" size="19" rendition="#f18">Bellum Punicum</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="328" left="434" width="4" height="21" font="1" size="19" rendition="#f1"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="374" left="77" width="579" height="16" font="9" size="15" rendition="#f9">Dem eigentlichen Kerngeschehen des Punischen Krieges vorgeschaltet war eine drei Bücher umfas-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="394" left="77" width="583" height="16" font="9" size="15" rendition="#f9">sende, in der Forschung als „Archäologie“ bezeichnete Behandlung der Frühgeschichte Roms „vom </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="414" left="77" width="541" height="16" font="9" size="15" rendition="#f9">Auszug des Aeneas aus Troja bis zur Gründung und Benennung Roms durch Romulus [...]“.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="414" left="617" width="9" height="10" font="12" size="9" rendition="#f12">22</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="414" left="626" width="32" height="16" font="9" size="15" rendition="#f9"> Dies </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="434" left="77" width="579" height="16" font="9" size="15" rendition="#f9">kann sicher rekonstruiert werden, wenngleich der Name „Romulus“ in den entsprechenden Fragmen-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="455" left="77" width="141" height="16" font="9" size="15" rendition="#f9">ten nicht genannt wird.  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="475" left="89" width="569" height="16" font="9" size="15" rendition="#f9">In Frg. 21-22 W. ist zwar nicht von Romulus, aber von Amulius die Rede, der sich an dieser Stelle </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="495" left="77" width="280" height="16" font="9" size="15" rendition="#f9">mit einer Geste des Danks gen Himmel wendet.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="495" left="356" width="9" height="10" font="12" size="9" rendition="#f12">23</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="495" left="365" width="293" height="16" font="9" size="15" rendition="#f9"> Indirekte Zeugnisse liefern der Universalgelehrte </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="515" left="77" width="96" height="16" font="9" size="15" rendition="#f9">Varro sowie der </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="516" left="172" width="38" height="16" font="11" size="15" rendition="#f11">Aeneis</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="515" left="210" width="447" height="16" font="9" size="15" rendition="#f9">-Kommentator Servius. Letzterer schreibt, dass Romulus sowohl bei Naevius </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="536" left="77" width="259" height="16" font="9" size="15" rendition="#f9">als auch bei Ennius ein Enkel des Aeneas ist.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="535" left="336" width="9" height="10" font="12" size="9" rendition="#f12">24</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="536" left="345" width="7" height="16" font="9" size="15" rendition="#f9">  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="556" left="89" width="372" height="16" font="9" size="15" rendition="#f9">Bei Varro lesen wir, dass Naevius den Namen des Hügels Aventin </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="556" left="461" width="54" height="16" font="11" size="15" rendition="#f11">ab avibus</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="556" left="514" width="143" height="16" font="9" size="15" rendition="#f9"> herleitet, den des Palatin </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="577" left="77" width="223" height="16" font="9" size="15" rendition="#f9">hingegen mit dem Blöken von Vieh (</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="577" left="300" width="36" height="16" font="11" size="15" rendition="#f11">balare</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="577" left="335" width="267" height="16" font="9" size="15" rendition="#f9">) in Zusammenhang bringt und ihn deshalb </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="577" left="602" width="54" height="16" font="11" size="15" rendition="#f11">Balatium</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="577" left="655" width="3" height="16" font="9" size="15" rendition="#f9"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="597" left="77" width="38" height="16" font="9" size="15" rendition="#f9">nennt.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="596" left="114" width="9" height="10" font="12" size="9" rendition="#f12">25</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="597" left="122" width="533" height="16" font="9" size="15" rendition="#f9"> Die zweite Etymologie könnte auf pastoralen Kontext bei Naevius hindeuten und würde da-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="617" left="77" width="581" height="16" font="9" size="15" rendition="#f9">mit zur Geschichte von der Aussetzung der Zwillinge passen. Die Assoziation des Aventin mit Vögeln </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="637" left="77" width="582" height="16" font="9" size="15" rendition="#f9">wiederum könnte bedeuten, dass es bereits bei Naevius eine Augurialszene mit den Zwillingsbrüdern </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="657" left="77" width="24" height="16" font="9" size="15" rendition="#f9">gab.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="657" left="100" width="9" height="10" font="12" size="9" rendition="#f12">26</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="657" left="109" width="549" height="16" font="9" size="15" rendition="#f9"> Keine der Informationen – weder die bei Varro noch die bei Servius – muss allerdings zwingend </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="702" left="77" width="9" height="10" font="12" size="9" rendition="#f12">21</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="704" left="85" width="52" height="15" font="7" size="13" rendition="#f7"> Suet. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="704" left="128" width="38" height="14" font="13" size="13" rendition="#f13">gramm</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="704" left="166" width="28" height="15" font="7" size="13" rendition="#f7">. 2.4. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="722" left="77" width="9" height="10" font="12" size="9" rendition="#f12">22</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="724" left="85" width="135" height="15" font="7" size="13" rendition="#f7">  Suerbaum (2002) 112. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="743" left="77" width="9" height="10" font="12" size="9" rendition="#f12">23</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="744" left="85" width="52" height="15" font="7" size="13" rendition="#f7"> Non. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="744" left="127" width="49" height="15" font="7" size="13" rendition="#f7">116.31: </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="745" left="166" width="381" height="14" font="13" size="13" rendition="#f13">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="749" left="547" width="2" height="8" font="19" size="7" rendition="#f19"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="763" left="77" width="9" height="10" font="12" size="9" rendition="#f12">24</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="764" left="85" width="52" height="15" font="7" size="13" rendition="#f7"> Serv. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="764" left="127" width="26" height="15" font="7" size="13" rendition="#f7">ad </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="765" left="144" width="22" height="14" font="13" size="13" rendition="#f13">Aen</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="764" left="165" width="41" height="15" font="7" size="13" rendition="#f7">. 1.273: </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="765" left="206" width="423" height="14" font="13" size="13" rendition="#f13">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="764" left="630" width="3" height="15" font="7" size="13" rendition="#f7"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="783" left="77" width="9" height="10" font="12" size="9" rendition="#f12">25</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="785" left="85" width="58" height="15" font="7" size="13" rendition="#f7"> Varro </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="785" left="133" width="23" height="14" font="13" size="13" rendition="#f13">ling.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="785" left="156" width="85" height="15" font="7" size="13" rendition="#f7"> 5.43 bzw. 5.53. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="803" left="77" width="9" height="10" font="12" size="9" rendition="#f12">26</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="805" left="85" width="125" height="15" font="7" size="13" rendition="#f7">  Skutsch (1985) 225.  </run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="359" width="16" height="15" font="7" size="13" rendition="#f7">22 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="123" left="304" width="128" height="26" font="17" size="24" rendition="#f17">2.1.  Naevius </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="174" left="77" width="581" height="16" font="9" size="15" rendition="#f9">Naevius wurde um 285 v. Chr. geboren und diente im ersten Punischen Krieg als Soldat. Er verfasste </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="194" left="77" width="582" height="16" font="9" size="15" rendition="#f9">Tragödien nach griechischen Vorlagen bzw. übertrug die Stoffe ins Lateinische, dichtete römischen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="215" left="77" width="455" height="16" font="9" size="15" rendition="#f9">Praetexten und auch Komödien. Sein Spät- und Hauptwerk jedoch war das </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="215" left="531" width="98" height="16" font="11" size="15" rendition="#f11">Bellum Punicum</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="215" left="629" width="30" height="16" font="9" size="15" rendition="#f9">, ein </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="235" left="77" width="583" height="16" font="9" size="15" rendition="#f9">Epos in Saturniern, das den ersten Punischen Krieg besingt. Die Einteilung dieses Epos in sieben </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="255" left="77" width="578" height="16" font="9" size="15" rendition="#f9">Bücher wurde bereits in der Antike vorgenommen, geht aber nicht auf Naevius selbst zurück, son-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="275" left="77" width="408" height="16" font="9" size="15" rendition="#f9">dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="275" left="485" width="9" height="10" font="12" size="9" rendition="#f12">21</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="275" left="493" width="7" height="16" font="9" size="15" rendition="#f9">  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="328" left="77" width="229" height="21" font="1" size="19" rendition="#f1">2.1.1.  Die „Archäologie“ des </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="328" left="305" width="129" height="20" font="18" size="19" rendition="#f18">Bellum Punicum</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="328" left="434" width="4" height="21" font="1" size="19" rendition="#f1"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="374" left="77" width="579" height="16" font="9" size="15" rendition="#f9">Dem eigentlichen Kerngeschehen des Punischen Krieges vorgeschaltet war eine drei Bücher umfas-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="394" left="77" width="583" height="16" font="9" size="15" rendition="#f9">sende, in der Forschung als „Archäologie“ bezeichnete Behandlung der Frühgeschichte Roms „vom </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="414" left="77" width="541" height="16" font="9" size="15" rendition="#f9">Auszug des Aeneas aus Troja bis zur Gründung und Benennung Roms durch Romulus [...]“.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="414" left="617" width="9" height="10" font="12" size="9" rendition="#f12">22</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="414" left="626" width="32" height="16" font="9" size="15" rendition="#f9"> Dies </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="434" left="77" width="579" height="16" font="9" size="15" rendition="#f9">kann sicher rekonstruiert werden, wenngleich der Name „Romulus“ in den entsprechenden Fragmen-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="455" left="77" width="141" height="16" font="9" size="15" rendition="#f9">ten nicht genannt wird.  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="475" left="89" width="569" height="16" font="9" size="15" rendition="#f9">In Frg. 21-22 W. ist zwar nicht von Romulus, aber von Amulius die Rede, der sich an dieser Stelle </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="495" left="77" width="280" height="16" font="9" size="15" rendition="#f9">mit einer Geste des Danks gen Himmel wendet.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="495" left="356" width="9" height="10" font="12" size="9" rendition="#f12">23</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="495" left="365" width="293" height="16" font="9" size="15" rendition="#f9"> Indirekte Zeugnisse liefern der Universalgelehrte </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="515" left="77" width="96" height="16" font="9" size="15" rendition="#f9">Varro sowie der </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="516" left="172" width="38" height="16" font="11" size="15" rendition="#f11">Aeneis</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="515" left="210" width="447" height="16" font="9" size="15" rendition="#f9">-Kommentator Servius. Letzterer schreibt, dass Romulus sowohl bei Naevius </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="536" left="77" width="259" height="16" font="9" size="15" rendition="#f9">als auch bei Ennius ein Enkel des Aeneas ist.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="535" left="336" width="9" height="10" font="12" size="9" rendition="#f12">24</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="536" left="345" width="7" height="16" font="9" size="15" rendition="#f9">  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="556" left="89" width="372" height="16" font="9" size="15" rendition="#f9">Bei Varro lesen wir, dass Naevius den Namen des Hügels Aventin </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="556" left="461" width="54" height="16" font="11" size="15" rendition="#f11">ab avibus</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="556" left="514" width="143" height="16" font="9" size="15" rendition="#f9"> herleitet, den des Palatin </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="577" left="77" width="223" height="16" font="9" size="15" rendition="#f9">hingegen mit dem Blöken von Vieh (</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="577" left="300" width="36" height="16" font="11" size="15" rendition="#f11">balare</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="577" left="335" width="267" height="16" font="9" size="15" rendition="#f9">) in Zusammenhang bringt und ihn deshalb </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="577" left="602" width="54" height="16" font="11" size="15" rendition="#f11">Balatium</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="577" left="655" width="3" height="16" font="9" size="15" rendition="#f9"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="597" left="77" width="38" height="16" font="9" size="15" rendition="#f9">nennt.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="596" left="114" width="9" height="10" font="12" size="9" rendition="#f12">25</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="597" left="122" width="533" height="16" font="9" size="15" rendition="#f9"> Die zweite Etymologie könnte auf pastoralen Kontext bei Naevius hindeuten und würde da-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="617" left="77" width="581" height="16" font="9" size="15" rendition="#f9">mit zur Geschichte von der Aussetzung der Zwillinge passen. Die Assoziation des Aventin mit Vögeln </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="637" left="77" width="582" height="16" font="9" size="15" rendition="#f9">wiederum könnte bedeuten, dass es bereits bei Naevius eine Augurialszene mit den Zwillingsbrüdern </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="657" left="77" width="24" height="16" font="9" size="15" rendition="#f9">gab.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="657" left="100" width="9" height="10" font="12" size="9" rendition="#f12">26</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="657" left="109" width="549" height="16" font="9" size="15" rendition="#f9"> Keine der Informationen – weder die bei Varro noch die bei Servius – muss allerdings zwingend </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="702" left="77" width="9" height="10" font="12" size="9" rendition="#f12">21</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="704" left="85" width="52" height="15" font="7" size="13" rendition="#f7"> Suet. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="704" left="128" width="38" height="14" font="13" size="13" rendition="#f13">gramm</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="704" left="166" width="28" height="15" font="7" size="13" rendition="#f7">. 2.4. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="722" left="77" width="9" height="10" font="12" size="9" rendition="#f12">22</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="724" left="85" width="135" height="15" font="7" size="13" rendition="#f7">  Suerbaum (2002) 112. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="743" left="77" width="9" height="10" font="12" size="9" rendition="#f12">23</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="744" left="85" width="52" height="15" font="7" size="13" rendition="#f7"> Non. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="744" left="127" width="49" height="15" font="7" size="13" rendition="#f7">116.31: </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="745" left="166" width="381" height="14" font="13" size="13" rendition="#f13">manusque susum ad caelum sustulit suas rex / Amulius divisque gratulatur.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="749" left="547" width="2" height="8" font="19" size="7" rendition="#f19"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="763" left="77" width="9" height="10" font="12" size="9" rendition="#f12">24</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="764" left="85" width="52" height="15" font="7" size="13" rendition="#f7"> Serv. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="764" left="127" width="26" height="15" font="7" size="13" rendition="#f7">ad </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="765" left="144" width="22" height="14" font="13" size="13" rendition="#f13">Aen</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="764" left="165" width="41" height="15" font="7" size="13" rendition="#f7">. 1.273: </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="765" left="206" width="423" height="14" font="13" size="13" rendition="#f13">Naevius et Ennius Aeneae ex filia nepotem Romulum conditorem urbis tradunt.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="764" left="630" width="3" height="15" font="7" size="13" rendition="#f7"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="783" left="77" width="9" height="10" font="12" size="9" rendition="#f12">25</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="785" left="85" width="58" height="15" font="7" size="13" rendition="#f7"> Varro </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="785" left="133" width="23" height="14" font="13" size="13" rendition="#f13">ling.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="785" left="156" width="85" height="15" font="7" size="13" rendition="#f7"> 5.43 bzw. 5.53. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="803" left="77" width="9" height="10" font="12" size="9" rendition="#f12">26</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="805" left="85" width="125" height="15" font="7" size="13" rendition="#f7">  Skutsch (1985) 225.  </hi>
             </page>
             <page xmlns="" number="140" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="356" width="23" height="15" font="7" size="13" rendition="#f7">140 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="75" left="77" width="581" height="16" font="9" size="15" rendition="#f9">so könnte der Vorwurf lauten. Der echte Romulus gehört in eine Weltstadt, Cicero aber ist nur </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="95" left="77" width="582" height="16" font="9" size="15" rendition="#f9">eine schlechtere Kopie, also ein „Provinz-Romulus“ oder auch ein „Romulus für Arme“. Auch </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="115" left="77" width="578" height="16" font="9" size="15" rendition="#f9">hier haben wir es also mit dem Vorwurf zu tun, dass der Nachahmer das Original nicht errei-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="136" left="77" width="581" height="16" font="9" size="15" rendition="#f9">chen kann. Und wieder lässt sich festhalten: Nicht Romulus ist negativ dargestellt, sondern das, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="156" left="77" width="265" height="16" font="9" size="15" rendition="#f9">was sein Nacheiferer aus ihm gemacht hat. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="212" left="77" width="274" height="21" font="1" size="19" rendition="#f1">4.4.3.  „Du Schwuchtel-Romulus“ (</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="212" left="350" width="122" height="20" font="18" size="19" rendition="#f18">cinaede Romule</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="212" left="472" width="11" height="21" font="1" size="19" rendition="#f1">) </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="257" left="77" width="582" height="16" font="9" size="15" rendition="#f9">Wenn Sulla und Cicero aufgrund ihrer Romulus-Nachahmung ins Lächerliche gezogen werden, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="277" left="77" width="582" height="16" font="9" size="15" rendition="#f9">so wäre es verwunderlich, wenn Caesar von dieser Bewegung verschont bliebe. Zwar ist über ihn </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="298" left="77" width="581" height="16" font="9" size="15" rendition="#f9">nicht bekannt, dass er sich in seinen Werken zum Romulus stilisiert hätte, aber gegen Ende seines </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="77" width="476" height="16" font="9" size="15" rendition="#f9">Lebens häufen sich die Parallelisierungen zu Romulus in seinen Handlungen.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="552" width="13" height="10" font="12" size="9" rendition="#f12">371</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="318" left="565" width="95" height="16" font="9" size="15" rendition="#f9"> Er gehört also </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="338" left="77" width="256" height="16" font="9" size="15" rendition="#f9">durchaus in den Kreis potenzieller Opfer.  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="359" left="89" width="190" height="16" font="9" size="15" rendition="#f9">Und tatsächlich wird in Catulls </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="359" left="280" width="44" height="16" font="11" size="15" rendition="#f11">carmen</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="359" left="324" width="286" height="16" font="9" size="15" rendition="#f9"> 29 eine Person gleich zweimal (V. 5 u. V. 9) als </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="359" left="610" width="48" height="16" font="11" size="15" rendition="#f11">cinaede </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="379" left="77" width="46" height="16" font="11" size="15" rendition="#f11">Romule</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="379" left="122" width="533" height="16" font="9" size="15" rendition="#f9"> tituliert, die gemeinhin als Caesar dechiffriert wird. Das gesamte Gedicht ist eine Invek-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="399" left="77" width="582" height="16" font="9" size="15" rendition="#f9">tive gegen Caesar und die Machenschaften der Triumvirn und wird aufgrund der Anspielungen </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="419" left="77" width="565" height="16" font="9" size="15" rendition="#f9">auf die Eroberungspolitik in die Zeit nach Caesars erstem Britannienfeldzug 55 v. Chr. datiert.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="419" left="642" width="13" height="10" font="12" size="9" rendition="#f12">372</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="419" left="655" width="3" height="16" font="9" size="15" rendition="#f9"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="440" left="77" width="581" height="16" font="9" size="15" rendition="#f9">In einem Satz zusammengefasst, könnte der Vorwurf des Gedichtes lauten „Wie kannst du, Caesar, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="460" left="77" width="582" height="16" font="9" size="15" rendition="#f9">es dulden, dass dein Liebling Mamurra die Provinzen ausbeutet und die Kriegsbeute verprasst?“  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="480" left="89" width="26" height="16" font="9" size="15" rendition="#f9">Mit </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="481" left="116" width="97" height="16" font="11" size="15" rendition="#f11">cinaede Romule</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="480" left="213" width="446" height="16" font="9" size="15" rendition="#f9"> liegt eindeutig ein Gebrauch als Schimpfwort vor, der sich jedoch von </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="501" left="77" width="425" height="16" font="9" size="15" rendition="#f9">den vorigen Beispielen in dem Punkt strukturell unterscheidet, dass </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="501" left="502" width="46" height="16" font="11" size="15" rendition="#f11">Romule</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="501" left="549" width="110" height="16" font="9" size="15" rendition="#f9"> hier als Adjektiv </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="521" left="77" width="536" height="16" font="9" size="15" rendition="#f9">verwendet wird, das in Catulls Dichtung nicht viel mehr bedeuten muss als „römisch“</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="521" left="613" width="13" height="10" font="12" size="9" rendition="#f12">373</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="521" left="626" width="33" height="16" font="9" size="15" rendition="#f9"> (das </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="541" left="77" width="582" height="16" font="9" size="15" rendition="#f9">allerdings hier natürlich vom Namen Romulus abgeleitet ist). Der Ausdruck kann also in etwa </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="562" left="77" width="502" height="16" font="9" size="15" rendition="#f9">mit „römische Schwuchtel“ oder „Schwuchtel-Romulus“ übersetzt werden, wobei </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="562" left="579" width="53" height="16" font="11" size="15" rendition="#f11">cinaedus</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="562" left="632" width="23" height="16" font="9" size="15" rendition="#f9"> be-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="582" left="77" width="582" height="16" font="9" size="15" rendition="#f9">kanntlich den beim Geschlechtsverkehr zwischen Männern den passiven Part übernehmenden </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="602" left="77" width="37" height="16" font="9" size="15" rendition="#f9">Mann</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="602" left="114" width="2" height="11" font="27" size="10" rendition="#f27"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="602" left="117" width="542" height="16" font="9" size="15" rendition="#f9">bezeichnet. Angriffe auf die Sexualität gehören ebenfalls zum Standard-Repertoire der </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="622" left="77" width="412" height="16" font="9" size="15" rendition="#f9">Invektive und sind auch im Rest des Catull-Gedichtes sehr präsent.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="622" left="489" width="13" height="10" font="12" size="9" rendition="#f12">374</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="622" left="502" width="7" height="16" font="9" size="15" rendition="#f9">  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="669" left="77" width="13" height="10" font="12" size="9" rendition="#f12">371</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="671" left="90" width="568" height="15" font="7" size="13" rendition="#f7">  So soll Caesar Romulus zu bestimmten Anlässen in seiner Kleidung nachgeahmt und hohe rote Schuhe </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="690" left="98" width="524" height="15" font="7" size="13" rendition="#f7">getragen haben, s. Cass. Dio 43.43.2 u. vgl. Cass. Dio Frg. 1.7. Weitere Akte Caesars der Romulus-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="690" left="622" width="33" height="14" font="13" size="13" rendition="#f13">imita-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="708" left="98" width="17" height="14" font="13" size="13" rendition="#f13">tio </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="708" left="115" width="180" height="15" font="7" size="13" rendition="#f7">führt Classen (1962) 194-196 an. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="726" left="77" width="13" height="10" font="12" size="9" rendition="#f12">372</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="728" left="90" width="129" height="15" font="7" size="13" rendition="#f7">  Syndikus (1984) 176f. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="747" left="77" width="13" height="10" font="12" size="9" rendition="#f12">373</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="748" left="90" width="128" height="15" font="7" size="13" rendition="#f7">  Vgl. Catull. 34.22-24: </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="748" left="218" width="104" height="14" font="13" size="13" rendition="#f13">Romuli [...] gentem</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="748" left="322" width="337" height="15" font="7" size="13" rendition="#f7"> kann wörtlich als „Volk des Romulus“ übersetzt werden, ist </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="767" left="98" width="417" height="15" font="7" size="13" rendition="#f7">aber auch hier kaum mehr als ein poetischer Ausdruck für „römisches Volk“.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="785" left="77" width="13" height="10" font="12" size="9" rendition="#f12">374</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="90" width="86" height="15" font="7" size="13" rendition="#f7"> Catull. 29.7f: </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="170" width="351" height="14" font="13" size="13" rendition="#f13">perambulabit omnium cubilia / ut albulus columbus aut Adoneus</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="521" width="78" height="15" font="7" size="13" rendition="#f7">. Catull. 19.13 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="599" width="56" height="14" font="13" size="13" rendition="#f13">nostra dif-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="806" left="98" width="82" height="14" font="13" size="13" rendition="#f13">fututa Mentula</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="806" left="180" width="9" height="15" font="7" size="13" rendition="#f7">.  </run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="356" width="23" height="15" font="7" size="13" rendition="#f7">140 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="75" left="77" width="581" height="16" font="9" size="15" rendition="#f9">so könnte der Vorwurf lauten. Der echte Romulus gehört in eine Weltstadt, Cicero aber ist nur </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="95" left="77" width="582" height="16" font="9" size="15" rendition="#f9">eine schlechtere Kopie, also ein „Provinz-Romulus“ oder auch ein „Romulus für Arme“. Auch </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="115" left="77" width="578" height="16" font="9" size="15" rendition="#f9">hier haben wir es also mit dem Vorwurf zu tun, dass der Nachahmer das Original nicht errei-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="136" left="77" width="581" height="16" font="9" size="15" rendition="#f9">chen kann. Und wieder lässt sich festhalten: Nicht Romulus ist negativ dargestellt, sondern das, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="156" left="77" width="265" height="16" font="9" size="15" rendition="#f9">was sein Nacheiferer aus ihm gemacht hat. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="212" left="77" width="274" height="21" font="1" size="19" rendition="#f1">4.4.3.  „Du Schwuchtel-Romulus“ (</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="212" left="350" width="122" height="20" font="18" size="19" rendition="#f18">cinaede Romule</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="212" left="472" width="11" height="21" font="1" size="19" rendition="#f1">) </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="257" left="77" width="582" height="16" font="9" size="15" rendition="#f9">Wenn Sulla und Cicero aufgrund ihrer Romulus-Nachahmung ins Lächerliche gezogen werden, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="277" left="77" width="582" height="16" font="9" size="15" rendition="#f9">so wäre es verwunderlich, wenn Caesar von dieser Bewegung verschont bliebe. Zwar ist über ihn </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="298" left="77" width="581" height="16" font="9" size="15" rendition="#f9">nicht bekannt, dass er sich in seinen Werken zum Romulus stilisiert hätte, aber gegen Ende seines </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="77" width="476" height="16" font="9" size="15" rendition="#f9">Lebens häufen sich die Parallelisierungen zu Romulus in seinen Handlungen.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="552" width="13" height="10" font="12" size="9" rendition="#f12">371</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="318" left="565" width="95" height="16" font="9" size="15" rendition="#f9"> Er gehört also </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="338" left="77" width="256" height="16" font="9" size="15" rendition="#f9">durchaus in den Kreis potenzieller Opfer.  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="359" left="89" width="190" height="16" font="9" size="15" rendition="#f9">Und tatsächlich wird in Catulls </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="359" left="280" width="44" height="16" font="11" size="15" rendition="#f11">carmen</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="359" left="324" width="286" height="16" font="9" size="15" rendition="#f9"> 29 eine Person gleich zweimal (V. 5 u. V. 9) als </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="359" left="610" width="48" height="16" font="11" size="15" rendition="#f11">cinaede </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="379" left="77" width="46" height="16" font="11" size="15" rendition="#f11">Romule</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="379" left="122" width="533" height="16" font="9" size="15" rendition="#f9"> tituliert, die gemeinhin als Caesar dechiffriert wird. Das gesamte Gedicht ist eine Invek-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="399" left="77" width="582" height="16" font="9" size="15" rendition="#f9">tive gegen Caesar und die Machenschaften der Triumvirn und wird aufgrund der Anspielungen </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="419" left="77" width="565" height="16" font="9" size="15" rendition="#f9">auf die Eroberungspolitik in die Zeit nach Caesars erstem Britannienfeldzug 55 v. Chr. datiert.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="419" left="642" width="13" height="10" font="12" size="9" rendition="#f12">372</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="419" left="655" width="3" height="16" font="9" size="15" rendition="#f9"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="440" left="77" width="581" height="16" font="9" size="15" rendition="#f9">In einem Satz zusammengefasst, könnte der Vorwurf des Gedichtes lauten „Wie kannst du, Caesar, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="460" left="77" width="582" height="16" font="9" size="15" rendition="#f9">es dulden, dass dein Liebling Mamurra die Provinzen ausbeutet und die Kriegsbeute verprasst?“  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="480" left="89" width="26" height="16" font="9" size="15" rendition="#f9">Mit </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="481" left="116" width="97" height="16" font="11" size="15" rendition="#f11">cinaede Romule</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="480" left="213" width="446" height="16" font="9" size="15" rendition="#f9"> liegt eindeutig ein Gebrauch als Schimpfwort vor, der sich jedoch von </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="501" left="77" width="425" height="16" font="9" size="15" rendition="#f9">den vorigen Beispielen in dem Punkt strukturell unterscheidet, dass </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="501" left="502" width="46" height="16" font="11" size="15" rendition="#f11">Romule</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="501" left="549" width="110" height="16" font="9" size="15" rendition="#f9"> hier als Adjektiv </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="521" left="77" width="536" height="16" font="9" size="15" rendition="#f9">verwendet wird, das in Catulls Dichtung nicht viel mehr bedeuten muss als „römisch“</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="521" left="613" width="13" height="10" font="12" size="9" rendition="#f12">373</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="521" left="626" width="33" height="16" font="9" size="15" rendition="#f9"> (das </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="541" left="77" width="582" height="16" font="9" size="15" rendition="#f9">allerdings hier natürlich vom Namen Romulus abgeleitet ist). Der Ausdruck kann also in etwa </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="562" left="77" width="502" height="16" font="9" size="15" rendition="#f9">mit „römische Schwuchtel“ oder „Schwuchtel-Romulus“ übersetzt werden, wobei </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="562" left="579" width="53" height="16" font="11" size="15" rendition="#f11">cinaedus</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="562" left="632" width="23" height="16" font="9" size="15" rendition="#f9"> be-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="582" left="77" width="582" height="16" font="9" size="15" rendition="#f9">kanntlich den beim Geschlechtsverkehr zwischen Männern den passiven Part übernehmenden </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="602" left="77" width="37" height="16" font="9" size="15" rendition="#f9">Mann</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="602" left="114" width="2" height="11" font="27" size="10" rendition="#f27"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="602" left="117" width="542" height="16" font="9" size="15" rendition="#f9">bezeichnet. Angriffe auf die Sexualität gehören ebenfalls zum Standard-Repertoire der </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="622" left="77" width="412" height="16" font="9" size="15" rendition="#f9">Invektive und sind auch im Rest des Catull-Gedichtes sehr präsent.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="622" left="489" width="13" height="10" font="12" size="9" rendition="#f12">374</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="622" left="502" width="7" height="16" font="9" size="15" rendition="#f9">  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="669" left="77" width="13" height="10" font="12" size="9" rendition="#f12">371</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="671" left="90" width="568" height="15" font="7" size="13" rendition="#f7">  So soll Caesar Romulus zu bestimmten Anlässen in seiner Kleidung nachgeahmt und hohe rote Schuhe </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="690" left="98" width="524" height="15" font="7" size="13" rendition="#f7">getragen haben, s. Cass. Dio 43.43.2 u. vgl. Cass. Dio Frg. 1.7. Weitere Akte Caesars der Romulus-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="690" left="622" width="33" height="14" font="13" size="13" rendition="#f13">imita-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="708" left="98" width="17" height="14" font="13" size="13" rendition="#f13">tio </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="708" left="115" width="180" height="15" font="7" size="13" rendition="#f7">führt Classen (1962) 194-196 an. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="726" left="77" width="13" height="10" font="12" size="9" rendition="#f12">372</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="728" left="90" width="129" height="15" font="7" size="13" rendition="#f7">  Syndikus (1984) 176f. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="747" left="77" width="13" height="10" font="12" size="9" rendition="#f12">373</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="748" left="90" width="128" height="15" font="7" size="13" rendition="#f7">  Vgl. Catull. 34.22-24: </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="748" left="218" width="104" height="14" font="13" size="13" rendition="#f13">Romuli [...] gentem</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="748" left="322" width="337" height="15" font="7" size="13" rendition="#f7"> kann wörtlich als „Volk des Romulus“ übersetzt werden, ist </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="767" left="98" width="417" height="15" font="7" size="13" rendition="#f7">aber auch hier kaum mehr als ein poetischer Ausdruck für „römisches Volk“.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="785" left="77" width="13" height="10" font="12" size="9" rendition="#f12">374</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="90" width="86" height="15" font="7" size="13" rendition="#f7"> Catull. 29.7f: </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="170" width="351" height="14" font="13" size="13" rendition="#f13">perambulabit omnium cubilia / ut albulus columbus aut Adoneus</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="521" width="78" height="15" font="7" size="13" rendition="#f7">. Catull. 19.13 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="599" width="56" height="14" font="13" size="13" rendition="#f13">nostra dif-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="806" left="98" width="82" height="14" font="13" size="13" rendition="#f13">fututa Mentula</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="806" left="180" width="9" height="15" font="7" size="13" rendition="#f7">.  </hi>
             </page>
             <page xmlns="" number="145" position="absolute" top="0" left="0" height="935" width="722">
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="856" left="347" width="23" height="15" font="7" size="13" rendition="#f7">145 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="79" left="72" width="254" height="16" font="9" size="15" rendition="#f9">Nam Catonem nostrum non tu amas plus </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="100" left="72" width="277" height="16" font="9" size="15" rendition="#f9">quam ego; sed tamen ille optimo animo utens </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="120" left="72" width="279" height="16" font="9" size="15" rendition="#f9">et summa fide nocet interdum rei publicae; di-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="140" left="72" width="267" height="16" font="9" size="15" rendition="#f9">cit enim tamquam in Platonis πολιτείᾳ, non </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="161" left="72" width="61" height="16" font="9" size="15" rendition="#f9">tamquam </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="161" left="134" width="98" height="16" font="14" size="15"
-                 rendition="#f14"><b xmlns="">in Romuli faece</b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="161" left="232" width="84" height="16" font="9" size="15" rendition="#f9">, sententiam.  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="79" left="360" width="265" height="16" font="9" size="15" rendition="#f9">Denn du liebst unseren Cato nicht mehr als </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="100" left="360" width="279" height="16" font="9" size="15" rendition="#f9">ich; aber trotzdem schadet er, obwohl er beste </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="120" left="360" width="272" height="16" font="9" size="15" rendition="#f9">Absichten hat und höchst aufrichtig handelt, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="140" left="360" width="283" height="16" font="9" size="15" rendition="#f9">manchmal dem Staat; er stimmt nämlich so ab </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="161" left="360" width="235" height="16" font="9" size="15" rendition="#f9">wie in Platons Idealstaat und nicht wie </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="161" left="595" width="40" height="16" font="14" size="15"
-                 rendition="#f14"><b xmlns="">in der </b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="181" left="360" width="37" height="16" font="14" size="15"
-                 rendition="#f14"><b xmlns="">Gosse</b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="181" left="397" width="14" height="10" font="29" size="9" rendition="#f29"><b xmlns="">388</b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="181" left="411" width="85" height="16" font="14" size="15"
-                 rendition="#f14"><b xmlns="">des Romulus.</b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="182" left="495" width="3" height="16" font="9" size="15" rendition="#f9"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="211" left="72" width="27" height="16" font="9" size="15" rendition="#f9">Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="211" left="99" width="23" height="16" font="11" size="15" rendition="#f11">Att.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="211" left="122" width="35" height="16" font="9" size="15" rendition="#f9"> 2.1.8 </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="256" left="68" width="28" height="16" font="11" size="15" rendition="#f11">Faex</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="256" left="96" width="550" height="16" font="9" size="15" rendition="#f9"> hat ein Bedeutungsspektrum von „Bodensatz, Hefe“ (im Kontext der Lebensmittelverarbei-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="276" left="68" width="478" height="16" font="9" size="15" rendition="#f9">tung) über „Abschaum“ bis hin zu „Kot“. In der letztgenannten Bedeutung ist </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="276" left="546" width="25" height="16" font="11" size="15" rendition="#f11">faex</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="276" left="571" width="76" height="16" font="9" size="15" rendition="#f9"> in Schimpf-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="296" left="68" width="583" height="16" font="9" size="15" rendition="#f9">wörtern dann im wahrsten Sinne des Wortes Fäkalsprache bzw. Koprolalie. Cicero benutzt das </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="317" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Wort in seinem gesamten Oeuvre ausschließlich im übertragenen Sinne, und zwar wie in der </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="337" left="68" width="255" height="16" font="9" size="15" rendition="#f9">zitierten Briefpassage in der Konstruktion </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="380" left="111" width="260" height="15" font="7" size="13" rendition="#f7">Präposition + (Demonstrativum+) (Adjektiv +) </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="380" left="371" width="40" height="14" font="13" size="13" rendition="#f13">faece + </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="380" left="411" width="81" height="15" font="7" size="13" rendition="#f7">Genitivattribut</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="380" left="492" width="12" height="9" font="21" size="8" rendition="#f21">389</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="380" left="504" width="6" height="15" font="7" size="13" rendition="#f7">  </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="417" left="68" width="579" height="16" font="9" size="15" rendition="#f9">Wie der Blick auf die anderen Fundstellen für diesen Ausdruck bei Cicero zeigt, ist ein herablas-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="438" left="68" width="582" height="16" font="9" size="15" rendition="#f9">sender Gebrauch dieser Formulierung auch in der Invektive durchaus mehrfach belegt; das Volk </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="458" left="68" width="352" height="16" font="9" size="15" rendition="#f9">erscheint dann immer in einem äußerst schlechten Licht.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="458" left="420" width="13" height="10" font="12" size="9" rendition="#f12">390</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="458" left="433" width="218" height="16" font="9" size="15" rendition="#f9"> In der zitierten Passage wird auch </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="478" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Romulus mit Menschen niederen Standes in Verbindung gebracht. In einer Episode bei Livius </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="498" left="68" width="578" height="16" font="9" size="15" rendition="#f9">werden wir später lesen können, dass Romulus ein Asyl gegründet und dort Menschen zweifel-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="519" left="68" width="581" height="16" font="9" size="15" rendition="#f9">haften Ranges um sich geschart haben soll, um die Stadt Rom mit Menschen zu füllen – dies passt </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="579" left="68" width="13" height="10" font="12" size="9" rendition="#f12">388</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="581" left="81" width="116" height="15" font="7" size="13" rendition="#f7">  Es ist schwierig, für </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="581" left="197" width="22" height="14" font="13" size="13" rendition="#f13">faex</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="581" left="219" width="431" height="15" font="7" size="13" rendition="#f7"> eine deutsche Übersetzung zu finden, die alle Nuancen des lateinischen Wortes </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="600" left="89" width="560" height="15" font="7" size="13" rendition="#f7">wiedergibt. „Abschaum“ würde den Lebensmittelkontext in die Zielsprache bringen, aber man kann nur </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="618" left="89" width="557" height="15" font="7" size="13" rendition="#f7">Abschaum sein oder als solcher behandelt werden und sich nicht im Abschaum befinden. „Gosse“ hin-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="636" left="89" width="557" height="15" font="7" size="13" rendition="#f7">gegen gibt zwar den fäkalsprachlichen Aspekt adäquat wieder und zeigt auch die gleiche soziale Herab-</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="654" left="89" width="560" height="15" font="7" size="13" rendition="#f7">setzung, die in der Sprechhaltung Ciceros zu erkennen ist – und es kann auch örtlich gebraucht werden. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="673" left="89" width="484" height="15" font="7" size="13" rendition="#f7">Als Bezeichnung für einen schlechten Staat ist „Gosse“ im Deutschen allerdings unüblich.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="691" left="68" width="13" height="10" font="12" size="9" rendition="#f12">389</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="692" left="81" width="3" height="15" font="7" size="13" rendition="#f7"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="693" left="89" width="111" height="14" font="13" size="13" rendition="#f13">Ex ea faece legationis</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="692" left="200" width="31" height="15" font="7" size="13" rendition="#f7"> (Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="693" left="232" width="24" height="14" font="13" size="13" rendition="#f13">Verr</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="692" left="256" width="51" height="15" font="7" size="13" rendition="#f7">., 2.1.99); </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="693" left="307" width="164" height="14" font="13" size="13" rendition="#f13">illam omnem faecem civitatum</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="692" left="471" width="31" height="15" font="7" size="13" rendition="#f7"> (Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="693" left="502" width="27" height="14" font="13" size="13" rendition="#f13">Flacc</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="692" left="530" width="45" height="15" font="7" size="13" rendition="#f7">. 18.10); </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="693" left="575" width="74" height="14" font="13" size="13" rendition="#f13">ex omni faece </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="89" width="27" height="14" font="13" size="13" rendition="#f13">urbis</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="711" left="116" width="34" height="15" font="7" size="13" rendition="#f7"> (Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="150" width="16" height="14" font="13" size="13" rendition="#f13">Pis</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="711" left="166" width="34" height="15" font="7" size="13" rendition="#f7">. 9.7); </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="200" width="155" height="14" font="13" size="13" rendition="#f13">apud sordem urbis et faecem</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="711" left="355" width="34" height="15" font="7" size="13" rendition="#f7"> (Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="389" width="17" height="14" font="13" size="13" rendition="#f13">Att</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="711" left="406" width="57" height="15" font="7" size="13" rendition="#f7">. 1.16.11); </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="712" left="463" width="187" height="14" font="13" size="13" rendition="#f13">nam apud perdidissimam illam et </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="89" width="123" height="14" font="13" size="13" rendition="#f13">infimam faecem populi</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="212" width="32" height="15" font="7" size="13" rendition="#f7"> (Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="244" width="13" height="14" font="13" size="13" rendition="#f13">Q.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="257" width="3" height="15" font="7" size="13" rendition="#f7"> </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="260" width="12" height="14" font="13" size="13" rendition="#f13">fr.</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="730" left="272" width="40" height="15" font="7" size="13" rendition="#f7"> 2.5.3). </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="748" left="68" width="13" height="10" font="12" size="9" rendition="#f12">390</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="749" left="81" width="279" height="15" font="7" size="13" rendition="#f7">  Opelt (1965) 228 weist darauf hin, dass Cicero mit </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="750" left="360" width="22" height="14" font="13" size="13" rendition="#f13">faex</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="749" left="382" width="267" height="15" font="7" size="13" rendition="#f7"> auch seine Geringschätzung als Autor gegenüber </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="89" width="299" height="15" font="7" size="13" rendition="#f7">seinem urteilsunfähigen Publikum ausdrückt, vgl. Cic. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="388" width="21" height="14" font="13" size="13" rendition="#f13">fam</run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="409" width="45" height="15" font="7" size="13" rendition="#f7">. 7.32.2. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="454" width="72" height="14" font="13" size="13" rendition="#f13">sed quoniam </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="770" left="526" width="118" height="13" font="24" size="13" rendition="#f24"><b xmlns="">tanta faex est in urbe</b></run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="769" left="643" width="6" height="14" font="13" size="13" rendition="#f13">, </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="787" left="89" width="560" height="14" font="13" size="13" rendition="#f13">ut nihil tam sit ἀκύθηρον quod non alicui venustum esse videatur, pugna, si me amas, [...] ut sacramento </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="806" left="89" width="132" height="14" font="13" size="13" rendition="#f13">contendas mea non esse. </run>
-              <run xmlns="http://www.tei-c.org/ns/1.0" top="806" left="222" width="9" height="15" font="7" size="13" rendition="#f7">   </run>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="856" left="347" width="23" height="15" font="7" size="13" rendition="#f7">145 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="79" left="72" width="254" height="16" font="9" size="15" rendition="#f9">Nam Catonem nostrum non tu amas plus </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="100" left="72" width="277" height="16" font="9" size="15" rendition="#f9">quam ego; sed tamen ille optimo animo utens </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="120" left="72" width="279" height="16" font="9" size="15" rendition="#f9">et summa fide nocet interdum rei publicae; di-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="140" left="72" width="267" height="16" font="9" size="15" rendition="#f9">cit enim tamquam in Platonis πολιτείᾳ, non </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="161" left="72" width="61" height="16" font="9" size="15" rendition="#f9">tamquam </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="161" left="134" width="98" height="16" font="14" size="15"
+                 rendition="#f14"><b xmlns="">in Romuli faece</b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="161" left="232" width="84" height="16" font="9" size="15" rendition="#f9">, sententiam.  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="79" left="360" width="265" height="16" font="9" size="15" rendition="#f9">Denn du liebst unseren Cato nicht mehr als </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="100" left="360" width="279" height="16" font="9" size="15" rendition="#f9">ich; aber trotzdem schadet er, obwohl er beste </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="120" left="360" width="272" height="16" font="9" size="15" rendition="#f9">Absichten hat und höchst aufrichtig handelt, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="140" left="360" width="283" height="16" font="9" size="15" rendition="#f9">manchmal dem Staat; er stimmt nämlich so ab </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="161" left="360" width="235" height="16" font="9" size="15" rendition="#f9">wie in Platons Idealstaat und nicht wie </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="161" left="595" width="40" height="16" font="14" size="15"
+                 rendition="#f14"><b xmlns="">in der </b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="181" left="360" width="37" height="16" font="14" size="15"
+                 rendition="#f14"><b xmlns="">Gosse</b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="181" left="397" width="14" height="10" font="29" size="9" rendition="#f29"><b xmlns="">388</b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="181" left="411" width="85" height="16" font="14" size="15"
+                 rendition="#f14"><b xmlns="">des Romulus.</b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="182" left="495" width="3" height="16" font="9" size="15" rendition="#f9"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="211" left="72" width="27" height="16" font="9" size="15" rendition="#f9">Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="211" left="99" width="23" height="16" font="11" size="15" rendition="#f11">Att.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="211" left="122" width="35" height="16" font="9" size="15" rendition="#f9"> 2.1.8 </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="256" left="68" width="28" height="16" font="11" size="15" rendition="#f11">Faex</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="256" left="96" width="550" height="16" font="9" size="15" rendition="#f9"> hat ein Bedeutungsspektrum von „Bodensatz, Hefe“ (im Kontext der Lebensmittelverarbei-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="276" left="68" width="478" height="16" font="9" size="15" rendition="#f9">tung) über „Abschaum“ bis hin zu „Kot“. In der letztgenannten Bedeutung ist </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="276" left="546" width="25" height="16" font="11" size="15" rendition="#f11">faex</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="276" left="571" width="76" height="16" font="9" size="15" rendition="#f9"> in Schimpf-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="296" left="68" width="583" height="16" font="9" size="15" rendition="#f9">wörtern dann im wahrsten Sinne des Wortes Fäkalsprache bzw. Koprolalie. Cicero benutzt das </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="317" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Wort in seinem gesamten Oeuvre ausschließlich im übertragenen Sinne, und zwar wie in der </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="337" left="68" width="255" height="16" font="9" size="15" rendition="#f9">zitierten Briefpassage in der Konstruktion </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="380" left="111" width="260" height="15" font="7" size="13" rendition="#f7">Präposition + (Demonstrativum+) (Adjektiv +) </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="380" left="371" width="40" height="14" font="13" size="13" rendition="#f13">faece + </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="380" left="411" width="81" height="15" font="7" size="13" rendition="#f7">Genitivattribut</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="380" left="492" width="12" height="9" font="21" size="8" rendition="#f21">389</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="380" left="504" width="6" height="15" font="7" size="13" rendition="#f7">  </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="417" left="68" width="579" height="16" font="9" size="15" rendition="#f9">Wie der Blick auf die anderen Fundstellen für diesen Ausdruck bei Cicero zeigt, ist ein herablas-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="438" left="68" width="582" height="16" font="9" size="15" rendition="#f9">sender Gebrauch dieser Formulierung auch in der Invektive durchaus mehrfach belegt; das Volk </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="458" left="68" width="352" height="16" font="9" size="15" rendition="#f9">erscheint dann immer in einem äußerst schlechten Licht.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="458" left="420" width="13" height="10" font="12" size="9" rendition="#f12">390</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="458" left="433" width="218" height="16" font="9" size="15" rendition="#f9"> In der zitierten Passage wird auch </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="478" left="68" width="583" height="16" font="9" size="15" rendition="#f9">Romulus mit Menschen niederen Standes in Verbindung gebracht. In einer Episode bei Livius </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="498" left="68" width="578" height="16" font="9" size="15" rendition="#f9">werden wir später lesen können, dass Romulus ein Asyl gegründet und dort Menschen zweifel-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="519" left="68" width="581" height="16" font="9" size="15" rendition="#f9">haften Ranges um sich geschart haben soll, um die Stadt Rom mit Menschen zu füllen – dies passt </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="579" left="68" width="13" height="10" font="12" size="9" rendition="#f12">388</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="581" left="81" width="116" height="15" font="7" size="13" rendition="#f7">  Es ist schwierig, für </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="581" left="197" width="22" height="14" font="13" size="13" rendition="#f13">faex</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="581" left="219" width="431" height="15" font="7" size="13" rendition="#f7"> eine deutsche Übersetzung zu finden, die alle Nuancen des lateinischen Wortes </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="600" left="89" width="560" height="15" font="7" size="13" rendition="#f7">wiedergibt. „Abschaum“ würde den Lebensmittelkontext in die Zielsprache bringen, aber man kann nur </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="618" left="89" width="557" height="15" font="7" size="13" rendition="#f7">Abschaum sein oder als solcher behandelt werden und sich nicht im Abschaum befinden. „Gosse“ hin-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="636" left="89" width="557" height="15" font="7" size="13" rendition="#f7">gegen gibt zwar den fäkalsprachlichen Aspekt adäquat wieder und zeigt auch die gleiche soziale Herab-</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="654" left="89" width="560" height="15" font="7" size="13" rendition="#f7">setzung, die in der Sprechhaltung Ciceros zu erkennen ist – und es kann auch örtlich gebraucht werden. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="673" left="89" width="484" height="15" font="7" size="13" rendition="#f7">Als Bezeichnung für einen schlechten Staat ist „Gosse“ im Deutschen allerdings unüblich.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="691" left="68" width="13" height="10" font="12" size="9" rendition="#f12">389</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="692" left="81" width="3" height="15" font="7" size="13" rendition="#f7"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="693" left="89" width="111" height="14" font="13" size="13" rendition="#f13">Ex ea faece legationis</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="692" left="200" width="31" height="15" font="7" size="13" rendition="#f7"> (Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="693" left="232" width="24" height="14" font="13" size="13" rendition="#f13">Verr</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="692" left="256" width="51" height="15" font="7" size="13" rendition="#f7">., 2.1.99); </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="693" left="307" width="164" height="14" font="13" size="13" rendition="#f13">illam omnem faecem civitatum</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="692" left="471" width="31" height="15" font="7" size="13" rendition="#f7"> (Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="693" left="502" width="27" height="14" font="13" size="13" rendition="#f13">Flacc</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="692" left="530" width="45" height="15" font="7" size="13" rendition="#f7">. 18.10); </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="693" left="575" width="74" height="14" font="13" size="13" rendition="#f13">ex omni faece </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="89" width="27" height="14" font="13" size="13" rendition="#f13">urbis</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="711" left="116" width="34" height="15" font="7" size="13" rendition="#f7"> (Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="150" width="16" height="14" font="13" size="13" rendition="#f13">Pis</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="711" left="166" width="34" height="15" font="7" size="13" rendition="#f7">. 9.7); </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="200" width="155" height="14" font="13" size="13" rendition="#f13">apud sordem urbis et faecem</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="711" left="355" width="34" height="15" font="7" size="13" rendition="#f7"> (Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="389" width="17" height="14" font="13" size="13" rendition="#f13">Att</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="711" left="406" width="57" height="15" font="7" size="13" rendition="#f7">. 1.16.11); </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="712" left="463" width="187" height="14" font="13" size="13" rendition="#f13">nam apud perdidissimam illam et </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="89" width="123" height="14" font="13" size="13" rendition="#f13">infimam faecem populi</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="212" width="32" height="15" font="7" size="13" rendition="#f7"> (Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="244" width="13" height="14" font="13" size="13" rendition="#f13">Q.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="257" width="3" height="15" font="7" size="13" rendition="#f7"> </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="260" width="12" height="14" font="13" size="13" rendition="#f13">fr.</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="730" left="272" width="40" height="15" font="7" size="13" rendition="#f7"> 2.5.3). </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="748" left="68" width="13" height="10" font="12" size="9" rendition="#f12">390</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="749" left="81" width="279" height="15" font="7" size="13" rendition="#f7">  Opelt (1965) 228 weist darauf hin, dass Cicero mit </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="750" left="360" width="22" height="14" font="13" size="13" rendition="#f13">faex</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="749" left="382" width="267" height="15" font="7" size="13" rendition="#f7"> auch seine Geringschätzung als Autor gegenüber </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="89" width="299" height="15" font="7" size="13" rendition="#f7">seinem urteilsunfähigen Publikum ausdrückt, vgl. Cic. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="388" width="21" height="14" font="13" size="13" rendition="#f13">fam</hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="409" width="45" height="15" font="7" size="13" rendition="#f7">. 7.32.2. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="454" width="72" height="14" font="13" size="13" rendition="#f13">sed quoniam </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="770" left="526" width="118" height="13" font="24" size="13" rendition="#f24"><b xmlns="">tanta faex est in urbe</b></hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="769" left="643" width="6" height="14" font="13" size="13" rendition="#f13">, </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="787" left="89" width="560" height="14" font="13" size="13" rendition="#f13">ut nihil tam sit ἀκύθηρον quod non alicui venustum esse videatur, pugna, si me amas, [...] ut sacramento </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="806" left="89" width="132" height="14" font="13" size="13" rendition="#f13">contendas mea non esse. </hi>
+              <hi xmlns="http://www.tei-c.org/ns/1.0" top="806" left="222" width="9" height="15" font="7" size="13" rendition="#f7">   </hi>
             </page>
          </text>
       </TEI>
@@ -960,14 +960,14 @@
          </x:context>
          <x:expect label=".">
             <page number="13" position="absolute" top="0" left="0" height="935" width="722">
-               <run top="856" left="351" width="16" height="15" font="7"
-                  rendition="#f7" size="13">13 </run>
-               <run top="126" left="269" width="176" height="36" font="8"
-                  rendition="#f8" size="33">1. Einleitung</run>
-               <run top="199" left="68" width="583" height="16" font="9"
-                  rendition="#f9" size="15">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </run>
-               <run top="219" left="68" width="581" height="16" font="9"
-                  rendition="#f9" size="15">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </run>
+               <hi top="856" left="351" width="16" height="15" font="7"
+                  rendition="#f7" size="13">13 </hi>
+               <hi top="126" left="269" width="176" height="36" font="8"
+                  rendition="#f8" size="33">1. Einleitung</hi>
+               <hi top="199" left="68" width="583" height="16" font="9"
+                  rendition="#f9" size="15">Welches Schulbuch für den Lateinunterricht käme ohne die Gründungssage Roms aus? Sie ist </hi>
+               <hi top="219" left="68" width="581" height="16" font="9"
+                  rendition="#f9" size="15">rasch erzählt: Die Zwillinge Romulus und Remus werden als Kinder ausgesetzt, von einer Wölfin </hi>
             </page>
          </x:expect>
       </x:scenario>
@@ -983,10 +983,10 @@
          </x:context>
          <x:expect label=".">
             <page>
-               <run size="15" top="275" left="77" width="408" height="16" rendition="#f9" font="9"
-                  >dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</run>
-               <run size="9" top="275" left="485" width="9" height="10" rendition="#f12" font="12">21</run>
-               <run size="15" top="275" left="493" width="7" height="16" rendition="#f9" font="9">  </run>
+               <hi size="15" top="275" left="77" width="408" height="16" rendition="#f9" font="9"
+                  >dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</hi>
+               <hi size="9" top="275" left="485" width="9" height="10" rendition="#f12" font="12">21</hi>
+               <hi size="15" top="275" left="493" width="7" height="16" rendition="#f9" font="9">  </hi>
             </page>
          </x:expect>
       </x:scenario>
@@ -1016,29 +1016,29 @@
       </x:context>
       <x:expect label=".">
          <page number="8" position="absolute" top="0" left="0" height="892" width="629">
-            <run top="110" left="77" width="356" height="20" rendition="#f8" size="14" font="8"
-               >und das Funktionieren des Körpers in Analogie zu einer Uhr.</run>
-            <run top="112" left="433" width="4" height="12" size="8" rendition="#f9" font="9">5</run>
-            <run top="110" left="437" width="125" height="20" size="14" rendition="#f8" font="8"> Demgegenüber stan-</run>
-            <run top="131" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
-               >den die berühmten Automaten des französischen Konstrukteurs Jacques de Vaucan-</run>
-            <run top="152" left="77" width="140" height="20" rendition="#f8" size="14" font="8">son (der „Flötenspieler“</run>
-            <run top="153" left="216" width="4" height="12" rendition="#f9" size="8" font="9">6</run>
-            <run top="152" left="220" width="346" height="20" rendition="#f8" size="14" font="8"
-               >) sowie der Schweizer Uhrmacherfamilie Jaquet-Droz (der </run>
-            <run top="173" left="77" width="488" height="20" rendition="#f8" size="14" font="8">„Schreiber“, der „Zeichner“ und der „Klavierspieler“), bei denen das Vorbild (bes. für </run>
-            <run top="193" left="77" width="444" height="20" rendition="#f8" size="14" font="8"
-               >den „Flötenspieler“) der menschliche Körper und seine Bewegungen waren.</run>
-            <run top="194" left="521" width="4" height="12" rendition="#f9" size="8" font="9">7</run>
-            <run top="193" left="525" width="41" height="20" rendition="#f8" size="14" font="8"> Nicht </run>
-            <run top="214" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
-               >nur der Mensch wurde also technisch zu analysieren versucht, sondern auch der Au-</run>
-            <run top="235" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
-               >tomat, die Maschine, gründete sich auf die Nachahmung des Menschlichen in Ausse-</run>
-            <run top="255" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
-               >hen und Ausdruck. Obwohl Technik noch weit davon entfernt war, organische Funk-</run>
-            <run top="276" left="77" width="489" height="20" rendition="#f8" size="14" font="8"
-               >tionsweisen oder gar die kognitiven Leistungen des Menschen nachzuahmen, zeigt </run>
+            <hi top="110" left="77" width="356" height="20" rendition="#f8" size="14" font="8"
+               >und das Funktionieren des Körpers in Analogie zu einer Uhr.</hi>
+            <hi top="112" left="433" width="4" height="12" size="8" rendition="#f9" font="9">5</hi>
+            <hi top="110" left="437" width="125" height="20" size="14" rendition="#f8" font="8"> Demgegenüber stan-</hi>
+            <hi top="131" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
+               >den die berühmten Automaten des französischen Konstrukteurs Jacques de Vaucan-</hi>
+            <hi top="152" left="77" width="140" height="20" rendition="#f8" size="14" font="8">son (der „Flötenspieler“</hi>
+            <hi top="153" left="216" width="4" height="12" rendition="#f9" size="8" font="9">6</hi>
+            <hi top="152" left="220" width="346" height="20" rendition="#f8" size="14" font="8"
+               >) sowie der Schweizer Uhrmacherfamilie Jaquet-Droz (der </hi>
+            <hi top="173" left="77" width="488" height="20" rendition="#f8" size="14" font="8">„Schreiber“, der „Zeichner“ und der „Klavierspieler“), bei denen das Vorbild (bes. für </hi>
+            <hi top="193" left="77" width="444" height="20" rendition="#f8" size="14" font="8"
+               >den „Flötenspieler“) der menschliche Körper und seine Bewegungen waren.</hi>
+            <hi top="194" left="521" width="4" height="12" rendition="#f9" size="8" font="9">7</hi>
+            <hi top="193" left="525" width="41" height="20" rendition="#f8" size="14" font="8"> Nicht </hi>
+            <hi top="214" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
+               >nur der Mensch wurde also technisch zu analysieren versucht, sondern auch der Au-</hi>
+            <hi top="235" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
+               >tomat, die Maschine, gründete sich auf die Nachahmung des Menschlichen in Ausse-</hi>
+            <hi top="255" left="77" width="485" height="20" rendition="#f8" size="14" font="8"
+               >hen und Ausdruck. Obwohl Technik noch weit davon entfernt war, organische Funk-</hi>
+            <hi top="276" left="77" width="489" height="20" rendition="#f8" size="14" font="8"
+               >tionsweisen oder gar die kognitiven Leistungen des Menschen nachzuahmen, zeigt </hi>
          </page>
       </x:expect>
    </x:scenario>
@@ -1105,55 +1105,55 @@
       </x:context>
       <x:expect label=".">
          <page number="7" position="absolute" top="0" left="0" height="892" width="629">
-            <run top="815" left="308" width="6" height="18" font="6" size="13" rendition="#f6">7</run>
-            <run top="115" left="239" width="158" height="44" font="7" rendition="#f7" size="32">Einleitung:  </run>
-            <run top="154" left="111" width="406" height="44" font="7" rendition="#f7" size="32">Das produktiv-problematische </run>
-            <run top="193" left="164" width="301" height="44" font="7" rendition="#f7" size="32">Wechselverhältnis von </run>
-            <run top="232" left="144" width="332" height="44" font="7" rendition="#f7" size="32">Organismus und Technik</run>
-            <run top="297" left="310" width="243" height="20" font="8" rendition="#f8" size="14">von Kevin Liggieri und Marco Tamborini</run>
-            <run top="338" left="68" width="490" height="20" font="8" rendition="#f8" size="14">Der Mensch wird seit der Antike nicht nur als Organismus, sondern immer auch </run>
-            <run top="359" left="68" width="154" height="20" font="8" rendition="#f8" size="14">als Maschine beschrieben.</run>
-            <run top="360" left="222" width="4" height="12" font="9" size="8" rendition="#f9">1</run>
-            <run top="359" left="226" width="332" height="20" font="8" rendition="#f8" size="14"> Dieses konfliktreiche Deutungsmuster zwischen Leben </run>
-            <run top="380" left="68" width="489" height="20" font="8" rendition="#f8" size="14">und Technik radikalisiert sich seit dem 18. Jahrhundert mit dem Aufkommen einer </run>
-            <run top="400" left="68" width="485" height="20" font="8" rendition="#f8" size="14">umfassenden Verwissenschaftlichung, Quantifizierung und Technisierung des Men-</run>
-            <run top="421" left="68" width="490" height="20" font="8" rendition="#f8" size="14">schen. Im Streit zwischen Materialismus und Idealismus wird der Mensch auf der </run>
-            <run top="442" left="68" width="485" height="20" font="8" rendition="#f8" size="14">einen Seite als quantifizierbare und damit determinierte Marionette und auf der an-</run>
-            <run top="462" left="68" width="300" height="20" font="8" rendition="#f8" size="14">deren Seite als autonomer Puppenspieler aufgefasst.</run>
-            <run top="464" left="368" width="4" height="12" font="9" size="8" rendition="#f9">2</run>
-            <run top="462" left="372" width="185" height="20" font="8" rendition="#f8" size="14"> So beschreibt der französische </run>
-            <run top="483" left="68" width="490" height="20" font="8" rendition="#f8" size="14">Arzt Julien Offray de La Mettrie, angeregt durch René Descartes Bezeichnung der </run>
-            <run top="504" left="68" width="122" height="20" font="8" rendition="#f8" size="14">Tiere als Automaten,</run>
-            <run top="505" left="189" width="4" height="12" font="9" size="8" rendition="#f9">3</run>
-            <run top="504" left="194" width="330" height="20" font="8" rendition="#f8" size="14"> den Menschen als „vortrefflich eingerichtete Maschine.“</run>
-            <run top="505" left="524" width="4" height="12" font="9" size="8" rendition="#f9">4</run>
-            <run top="504" left="528" width="30" height="20" font="8" rendition="#f8" size="14"> Die </run>
-            <run top="524" left="68" width="489" height="20" font="8" rendition="#f8" size="14">Maschine geriet zum wichtigsten Interpretationsmuster, um den menschlichen und </run>
-            <run top="545" left="68" width="485" height="20" font="8" rendition="#f8" size="14">tierischen Organismus zu verstehen, zu erforschen und nachzubilden. Hierfür dien-</run>
-            <run top="566" left="68" width="485" height="20" font="8" rendition="#f8" size="14">ten im 17. und 18. Jahrhundert zeitgenössische Techniken wie Uhrwerke und die Hy-</run>
-            <run top="629" left="68" width="4" height="10" font="10" size="7" rendition="#f10">1</run>
-            <run top="628" left="72" width="481" height="18" font="6" size="13" rendition="#f6">  Vgl. K. Liggieri/O. Müller, Mensch-Maschine-Interaktion seit der Antike. Imaginations-</run>
-            <run top="643" left="89" width="469" height="18" font="6" size="13" rendition="#f6">räume, Narrationen und Selbstverständnisdiskurse, in: K. Liggieri/O. Müller (Hrsg.), </run>
-            <run top="659" left="89" width="301" height="18" font="11" size="13" rendition="#f11"><i>Mensch-Maschine-Interaktion. Geschichte – Kultur – Ethik</i></run>
-            <run top="659" left="390" width="162" height="18" font="6" size="13" rendition="#f6">. Metzler-Handbuch, Stuttgart/</run>
-            <run top="675" left="89" width="105" height="18" font="6" size="13" rendition="#f6">Weimar 2019, 3–14.</run>
-            <run top="695" left="68" width="4" height="10" font="10" size="7" rendition="#f10">2</run>
-            <run top="694" left="72" width="486" height="18" font="6" size="13" rendition="#f6">  Siehe C. Zelle, Maschinen-Metaphern in der Ästhetik des 18.  Jahrhunderts (Lessing, </run>
-            <run top="709" left="89" width="101" height="18" font="6" size="13" rendition="#f6">Lenz, Schiller), in: </run>
-            <run top="709" left="190" width="140" height="18" font="11" size="13" rendition="#f11"><i>Zeitschrift für Germanistik</i></run>
-            <run top="709" left="330" width="227" height="18" font="6" size="13" rendition="#f6"> 3 (1997), 510–520 sowie zur historischen </run>
-            <run top="725" left="89" width="324" height="18" font="6" size="13" rendition="#f6">Einordnung K. Meyer-Drawe, Maschine, in: C. Wulf (Hrsg.), </run>
-            <run top="725" left="413" width="143" height="18" font="11" size="13" rendition="#f11"><i>Vom Menschen. Handbuch </i></run>
-            <run top="741" left="89" width="133" height="18" font="11" size="13" rendition="#f11"><i>Historische Anthropologie</i></run>
-            <run top="741" left="222" width="175" height="18" font="6" size="13" rendition="#f6">, Weinheim/Basel 1997, 726–738.</run>
-            <run top="760" left="68" width="4" height="10" font="10" size="7" rendition="#f10">3</run>
-            <run top="759" left="72" width="114" height="18" font="6" size="13" rendition="#f6">  Vgl. R. Descartes, </run>
-            <run top="759" left="186" width="202" height="18" font="11" size="13" rendition="#f11"><i>Philosophische Schriften in einem Band</i></run>
-            <run top="759" left="388" width="114" height="18" font="6" size="13" rendition="#f6">, Hamburg 1996, 90ff.</run>
-            <run top="779" left="68" width="4" height="10" font="10" size="7" rendition="#f10">4</run>
-            <run top="778" left="72" width="119" height="18" font="6" size="13" rendition="#f6">  J. O. D. La Mettrie, </run>
-            <run top="778" left="191" width="144" height="18" font="11" size="13" rendition="#f11"><i>Der Mensch eine Maschine, </i></run>
-            <run top="778" left="335" width="96" height="18" font="6" size="13" rendition="#f6">Stuttgart 2007, 24.</run>
+            <hi top="815" left="308" width="6" height="18" font="6" size="13" rendition="#f6">7</hi>
+            <hi top="115" left="239" width="158" height="44" font="7" rendition="#f7" size="32">Einleitung:  </hi>
+            <hi top="154" left="111" width="406" height="44" font="7" rendition="#f7" size="32">Das produktiv-problematische </hi>
+            <hi top="193" left="164" width="301" height="44" font="7" rendition="#f7" size="32">Wechselverhältnis von </hi>
+            <hi top="232" left="144" width="332" height="44" font="7" rendition="#f7" size="32">Organismus und Technik</hi>
+            <hi top="297" left="310" width="243" height="20" font="8" rendition="#f8" size="14">von Kevin Liggieri und Marco Tamborini</hi>
+            <hi top="338" left="68" width="490" height="20" font="8" rendition="#f8" size="14">Der Mensch wird seit der Antike nicht nur als Organismus, sondern immer auch </hi>
+            <hi top="359" left="68" width="154" height="20" font="8" rendition="#f8" size="14">als Maschine beschrieben.</hi>
+            <hi top="360" left="222" width="4" height="12" font="9" size="8" rendition="#f9">1</hi>
+            <hi top="359" left="226" width="332" height="20" font="8" rendition="#f8" size="14"> Dieses konfliktreiche Deutungsmuster zwischen Leben </hi>
+            <hi top="380" left="68" width="489" height="20" font="8" rendition="#f8" size="14">und Technik radikalisiert sich seit dem 18. Jahrhundert mit dem Aufkommen einer </hi>
+            <hi top="400" left="68" width="485" height="20" font="8" rendition="#f8" size="14">umfassenden Verwissenschaftlichung, Quantifizierung und Technisierung des Men-</hi>
+            <hi top="421" left="68" width="490" height="20" font="8" rendition="#f8" size="14">schen. Im Streit zwischen Materialismus und Idealismus wird der Mensch auf der </hi>
+            <hi top="442" left="68" width="485" height="20" font="8" rendition="#f8" size="14">einen Seite als quantifizierbare und damit determinierte Marionette und auf der an-</hi>
+            <hi top="462" left="68" width="300" height="20" font="8" rendition="#f8" size="14">deren Seite als autonomer Puppenspieler aufgefasst.</hi>
+            <hi top="464" left="368" width="4" height="12" font="9" size="8" rendition="#f9">2</hi>
+            <hi top="462" left="372" width="185" height="20" font="8" rendition="#f8" size="14"> So beschreibt der französische </hi>
+            <hi top="483" left="68" width="490" height="20" font="8" rendition="#f8" size="14">Arzt Julien Offray de La Mettrie, angeregt durch René Descartes Bezeichnung der </hi>
+            <hi top="504" left="68" width="122" height="20" font="8" rendition="#f8" size="14">Tiere als Automaten,</hi>
+            <hi top="505" left="189" width="4" height="12" font="9" size="8" rendition="#f9">3</hi>
+            <hi top="504" left="194" width="330" height="20" font="8" rendition="#f8" size="14"> den Menschen als „vortrefflich eingerichtete Maschine.“</hi>
+            <hi top="505" left="524" width="4" height="12" font="9" size="8" rendition="#f9">4</hi>
+            <hi top="504" left="528" width="30" height="20" font="8" rendition="#f8" size="14"> Die </hi>
+            <hi top="524" left="68" width="489" height="20" font="8" rendition="#f8" size="14">Maschine geriet zum wichtigsten Interpretationsmuster, um den menschlichen und </hi>
+            <hi top="545" left="68" width="485" height="20" font="8" rendition="#f8" size="14">tierischen Organismus zu verstehen, zu erforschen und nachzubilden. Hierfür dien-</hi>
+            <hi top="566" left="68" width="485" height="20" font="8" rendition="#f8" size="14">ten im 17. und 18. Jahrhundert zeitgenössische Techniken wie Uhrwerke und die Hy-</hi>
+            <hi top="629" left="68" width="4" height="10" font="10" size="7" rendition="#f10">1</hi>
+            <hi top="628" left="72" width="481" height="18" font="6" size="13" rendition="#f6">  Vgl. K. Liggieri/O. Müller, Mensch-Maschine-Interaktion seit der Antike. Imaginations-</hi>
+            <hi top="643" left="89" width="469" height="18" font="6" size="13" rendition="#f6">räume, Narrationen und Selbstverständnisdiskurse, in: K. Liggieri/O. Müller (Hrsg.), </hi>
+            <hi top="659" left="89" width="301" height="18" font="11" size="13" rendition="#f11"><i>Mensch-Maschine-Interaktion. Geschichte – Kultur – Ethik</i></hi>
+            <hi top="659" left="390" width="162" height="18" font="6" size="13" rendition="#f6">. Metzler-Handbuch, Stuttgart/</hi>
+            <hi top="675" left="89" width="105" height="18" font="6" size="13" rendition="#f6">Weimar 2019, 3–14.</hi>
+            <hi top="695" left="68" width="4" height="10" font="10" size="7" rendition="#f10">2</hi>
+            <hi top="694" left="72" width="486" height="18" font="6" size="13" rendition="#f6">  Siehe C. Zelle, Maschinen-Metaphern in der Ästhetik des 18.  Jahrhunderts (Lessing, </hi>
+            <hi top="709" left="89" width="101" height="18" font="6" size="13" rendition="#f6">Lenz, Schiller), in: </hi>
+            <hi top="709" left="190" width="140" height="18" font="11" size="13" rendition="#f11"><i>Zeitschrift für Germanistik</i></hi>
+            <hi top="709" left="330" width="227" height="18" font="6" size="13" rendition="#f6"> 3 (1997), 510–520 sowie zur historischen </hi>
+            <hi top="725" left="89" width="324" height="18" font="6" size="13" rendition="#f6">Einordnung K. Meyer-Drawe, Maschine, in: C. Wulf (Hrsg.), </hi>
+            <hi top="725" left="413" width="143" height="18" font="11" size="13" rendition="#f11"><i>Vom Menschen. Handbuch </i></hi>
+            <hi top="741" left="89" width="133" height="18" font="11" size="13" rendition="#f11"><i>Historische Anthropologie</i></hi>
+            <hi top="741" left="222" width="175" height="18" font="6" size="13" rendition="#f6">, Weinheim/Basel 1997, 726–738.</hi>
+            <hi top="760" left="68" width="4" height="10" font="10" size="7" rendition="#f10">3</hi>
+            <hi top="759" left="72" width="114" height="18" font="6" size="13" rendition="#f6">  Vgl. R. Descartes, </hi>
+            <hi top="759" left="186" width="202" height="18" font="11" size="13" rendition="#f11"><i>Philosophische Schriften in einem Band</i></hi>
+            <hi top="759" left="388" width="114" height="18" font="6" size="13" rendition="#f6">, Hamburg 1996, 90ff.</hi>
+            <hi top="779" left="68" width="4" height="10" font="10" size="7" rendition="#f10">4</hi>
+            <hi top="778" left="72" width="119" height="18" font="6" size="13" rendition="#f6">  J. O. D. La Mettrie, </hi>
+            <hi top="778" left="191" width="144" height="18" font="11" size="13" rendition="#f11"><i>Der Mensch eine Maschine, </i></hi>
+            <hi top="778" left="335" width="96" height="18" font="6" size="13" rendition="#f6">Stuttgart 2007, 24.</hi>
          </page>
       </x:expect>
    </x:scenario>
