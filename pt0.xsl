@@ -92,10 +92,10 @@
       <xd:desc>Later evaluations need <xd:pre>@size</xd:pre> so we set it to <xd:pre>@height</xd:pre>.</xd:desc>
    </xd:doc>
    <xsl:template match="*:image">
-      <xsl:copy>
+      <graphic>
          <xsl:attribute name="size" select="@height" />
          <xsl:apply-templates select="@*" />
-      </xsl:copy>
+      </graphic>
    </xsl:template>
    
    <xd:doc>

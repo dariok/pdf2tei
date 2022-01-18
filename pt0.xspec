@@ -505,7 +505,7 @@
             </page>
             <page xmlns="" number="2" position="absolute" top="0" left="0" height="935" width="722"> </page>
             <page xmlns="" number="3" position="absolute" top="0" left="0" height="935" width="722">
-              <image top="797" left="68" width="150" height="37" size="37"
+              <graphic xmlns="http://www.tei-c.org/ns/1.0" top="797" left="68" width="150" height="37" size="37"
                 src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/>
               <hi xmlns="http://www.tei-c.org/ns/1.0" top="156" left="128" width="113" height="20" font="2" size="18" rendition="#f2">Merryl Rebello </hi>
               <hi xmlns="http://www.tei-c.org/ns/1.0" top="214" left="128" width="228" height="35" font="3" size="33" rendition="#f3"><b xmlns="">Romulus in der </b></hi>
