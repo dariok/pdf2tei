@@ -33,7 +33,7 @@ ant -Dname=pdftei -DoutDir=../output -Dpdf=../incoming/pdf-to-tei.pdf -Dsaxon=sa
 
 ### General workflow
 1. use `pdftohtml -xml file.pdf` to create a basic XML
-1. apply `pt1.xsl` to `pt4.xsl` sequentially
+1. apply `pt0.xsl` to `pt5.xsl` sequentially
 
 ## Limitations
 While these scripts try their best to guess a structure – headings, paragraphs – from the PDF, there are major
