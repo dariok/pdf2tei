@@ -99,6 +99,12 @@
    </xsl:template>
    
    <xd:doc>
+      <xd:desc>Strip text that consists of whitespace only. This is necessary to prevent the text order from being corrupted in later steps</xd:desc>
+   </xd:doc>
+   
+   <xsl:template match="text[string-length(translate(., ' &#9;&#xA;&#xD;','')) = 0]" />
+    
+   <xd:doc>
       <xd:desc>
          <xd:p>Default</xd:p>
       </xd:desc>
