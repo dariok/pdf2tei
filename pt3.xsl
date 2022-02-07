@@ -97,9 +97,12 @@
     <xsl:variable name="level" select="@level" />
     <xsl:variable name="end" select="(following-sibling::tei:l | following-sibling::tei:head[@level != $level])[1]" />
     
-    <xsl:choose>
+    <!-- xsl:choose auskommentiert, da hierdurch Überschriften aus Ursprungsdokument verloren gehen  
+    TODO: xspec test-->
+    
+<!--    <xsl:choose>
       <xsl:when test="preceding-sibling::*[1][@level eq $level]" />
-      <xsl:otherwise>
+      <xsl:otherwise>-->
         <head level="{$level}">
           <xsl:apply-templates select="*" />
            <xsl:choose>
@@ -111,8 +114,8 @@
               </xsl:otherwise>
            </xsl:choose>
         </head>
-      </xsl:otherwise>
-    </xsl:choose>
+      <!--</xsl:otherwise>
+    </xsl:choose>-->
   </xsl:template>
   
   <xd:doc>

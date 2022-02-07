@@ -20,13 +20,14 @@
        <!-- tei:head[1] as there may be other tei:head with @level gt $level + 1 – e.g. a skipped level or there is no
           really good levelling – and we don’t want to destroy the order of thexts -->
        <xsl:apply-templates select="tei:head[1]/preceding-sibling::tei:pb" />
+<!--       <xsl:apply-templates select="tei:div/tei:head[1]/preceding-sibling::tei:pb"></xsl:apply-templates>-->
        <xsl:apply-templates select="tei:head[1]" />
        <xsl:call-template name="blocks">
           <xsl:with-param name="context" select="tei:head/following-sibling::*" />
           <xsl:with-param name="level" select="0" />
        </xsl:call-template>
     </div>
-  </xsl:template>
+  </xsl:template>   
    
    <xd:doc>
       <xd:desc>
@@ -38,7 +39,7 @@
    <xsl:template name="blocks">
       <xsl:param name="context" />
       <xsl:param name="level" as="xs:integer"/>
-      
+       
       <xsl:for-each-group select="$context" group-starting-with="tei:l[(@level/number() = $level) and pt:ab(.)]">
          <xsl:apply-templates select="current-group()[self::tei:head]" />
          <xsl:if test="count(current-group()[not(self::tei:div or self::tei:head)]) gt 0">
