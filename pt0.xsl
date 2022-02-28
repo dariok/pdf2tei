@@ -55,9 +55,9 @@
                </tagsDecl>
             </encodingDesc>
          </teiHeader>
-         <text>
+         <body>
             <xsl:apply-templates select="*:page" />
-         </text>
+         </body>
       </TEI>
    </xsl:template>
    
@@ -72,14 +72,6 @@
       <run>
          <xsl:apply-templates select="@*" />
          <xsl:attribute name="size">
-            <!--<xsl:choose>
-               <xsl:when test="@font">
-                  <xsl:sequence select="$specs[@id = $font]/@size/number()" />
-               </xsl:when>
-               <xsl:otherwise>
-                  <xsl:value-of select="@top + @height"/>
-               </xsl:otherwise>
-            </xsl:choose>-->
             <xsl:sequence select="$specs[@id = $font]/@size/number()" />
          </xsl:attribute>
          <xsl:attribute name="rendition" select="'#f' || @font" />
