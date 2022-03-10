@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+   xmlns:x="http://www.jenitennison.com/xslt/xspec"
    xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns:pt="https://github.com/dariok/pdf2tei"
    xmlns="http://www.tei-c.org/ns/1.0"
@@ -40,7 +41,7 @@
       <xsl:param name="level" as="xs:integer"/>
       
       <xsl:for-each-group select="$context" group-starting-with="tei:l[(@level/number() = $level) and pt:ab(.)]">
-         <xsl:apply-templates select="current-group()[self::tei:head]" />
+<!--         <xsl:apply-templates select="current-group()[self::tei:head]" />-->
          <xsl:if test="count(current-group()[not(self::tei:div or self::tei:head)]) gt 0">
             <ab>
                <xsl:choose>
@@ -179,6 +180,13 @@
             </xsl:otherwise>
          </xsl:choose>
       </hi>
+   </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>Necessary for dealing with mixed content in XSpec</xd:desc>
+   </xd:doc>
+   <xsl:template match="x:text">
+      <xsl:apply-templates />
    </xsl:template>
    
    <xd:doc>
