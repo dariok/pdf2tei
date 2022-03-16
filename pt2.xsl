@@ -16,22 +16,21 @@
   </xd:doc>
   
   <xsl:template match="tei:TEI">
-    <xsl:variable name="sizes">
-      <xsl:for-each-group select="tei:text//tei:l" group-by="@size">
+    <xsl:variable name="sizes" as="xs:double+">
+      <xsl:for-each-group select="descendant::tei:l" group-by="@size">
         <xsl:sort select="count(current-group())" order="descending" />
-        <s>
-          <xsl:value-of select="current-group()[1]/@size"/>
-        </s>
+        
+         <xsl:sequence select="number(current-group()[1]/@size)" />
       </xsl:for-each-group>
     </xsl:variable>
     
-    <xsl:variable name="mainsize" as="xs:int">
-      <xsl:value-of select="number($sizes/*[1])"/>
+    <xsl:variable name="mainsize" as="xs:double">
+      <xsl:value-of select="$sizes[1]"/>
     </xsl:variable>
     
     <TEI>
       <xsl:sequence select="tei:teiHeader" />
-      <xsl:apply-templates select="tei:text">
+      <xsl:apply-templates select="tei:body">
         <xsl:with-param name="sizes" select="$sizes" tunnel="1" />
         <xsl:with-param name="mainsize" select="$mainsize" tunnel="1" />
       </xsl:apply-templates>
@@ -75,15 +74,14 @@
   </xd:doc>
   <xsl:template match="tei:l">
     <xsl:param name="sizes" tunnel="true" />
-    <xsl:param name="mainsize" tunnel="true" />
-    <xsl:variable name="mysize" select="number(@size)" />
-    <xsl:variable name="mytop" select="number(@top)" />
+    <xsl:param name="mainsize" tunnel="true" as="xs:double" />
+    <xsl:variable name="mysize" select="number(@size)" as="xs:double" />
+    <xsl:variable name="mytop" select="number(@top)" as="xs:double" />
     
     <xsl:choose>
-      <xsl:when test="$mysize &gt; $mainsize">
+      <xsl:when test="$mysize gt $mainsize">
         <head>
-          <xsl:attribute name="level"
-            select="count($sizes/*[. &gt; $mysize])" />
+          <xsl:attribute name="level" select="count($sizes[. gt $mysize])" />
           <xsl:sequence select="." />
         </head>
       </xsl:when>
@@ -95,7 +93,7 @@
       <xsl:otherwise>
         <l>
           <xsl:attribute name="level"
-             select="count($sizes/*[. &gt; $mysize and . &lt; $mainsize]) - 1" />
+             select="count($sizes[. gt $mysize and . lt $mainsize]) - 1" />
           <xsl:sequence select="@* | node()" />
         </l>
       </xsl:otherwise>
@@ -105,6 +103,15 @@
       <cb />
     </xsl:if>
   </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>tei:body (from pt0.xsl) → tei:text</xd:desc>
+   </xd:doc>
+   <xsl:template match="tei:body">
+      <text>
+         <xsl:apply-templates />
+      </text>
+   </xsl:template>
   
   <xd:doc>
     <xd:desc>

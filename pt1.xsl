@@ -3,6 +3,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
   xmlns:pt="https://github.com/dariok/pdf2tei"
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="#all"
@@ -20,7 +21,7 @@
   <xsl:template match="*:page">
     <xsl:copy>
       <xsl:apply-templates select="@*" />
-      <xsl:for-each-group select="*" group-starting-with="*[
+      <xsl:for-each-group select="*[not(self::x:text)]" group-starting-with="*[
          @top/number() ge preceding-sibling::*[@top][1]/@top + preceding-sibling::*[@top][1]/@size
          or @top/number() lt preceding-sibling::*[@top][1]/@top - preceding-sibling::*[@top][1]/@size
       ]">
@@ -51,6 +52,13 @@
     </xd:desc>
   </xd:doc>
   <xsl:template match="@font" />
+   
+   <xd:doc>
+      <xd:desc>This one is onyl necessary to deal with mixed content in XSpec</xd:desc>
+   </xd:doc>
+   <xsl:template match="x:text">
+      <xsl:value-of select="." />
+   </xsl:template>
   
   <xd:doc>
     <xd:desc>
