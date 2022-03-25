@@ -69,7 +69,7 @@
    </xd:doc>
    <xsl:template match="*:text">
       <xsl:variable name="font" select="@font"/>
-      <hi>
+      <run>
          <xsl:apply-templates select="@*" />
          <xsl:attribute name="size">
             <xsl:sequence select="$specs[@id = $font]/@size/number()" />
@@ -77,7 +77,7 @@
          <xsl:attribute name="rendition" select="'#f' || @font" />
          
          <xsl:sequence select="node()" />
-      </hi>
+      </run>
    </xsl:template>
    
    <xd:doc>

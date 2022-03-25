@@ -164,10 +164,10 @@
    
    <xd:doc>
       <xd:desc>
-         <xd:p><xd:pre>text</xd:pre> to <xd:pre>tei:hi</xd:pre>, avoiding nested hi</xd:p>
+         <xd:p><xd:pre>run</xd:pre> to <xd:pre>tei:hi</xd:pre>, avoiding nested hi</xd:p>
       </xd:desc>
    </xd:doc>
-   <xsl:template match="tei:l/*:text">
+   <xsl:template match="tei:l/*:run">
       <hi>
          <xsl:sequence select="@*" />
          <xsl:choose>
