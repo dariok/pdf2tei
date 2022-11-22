@@ -67,7 +67,7 @@
             <xd:pre>@size</xd:pre></xd:p>
       </xd:desc>
    </xd:doc>
-   <xsl:template match="*:text">
+ <!--  <xsl:template match="*:text">
       <xsl:variable name="font" select="@font"/>
       <run>
          <xsl:apply-templates select="@*" />
@@ -78,7 +78,7 @@
          
          <xsl:sequence select="node()" />
       </run>
-   </xsl:template>
+   </xsl:template>-->
    
    <xd:doc>
       <xd:desc>Later evaluations need <xd:pre>@size</xd:pre> so we set it to <xd:pre>@height</xd:pre>.</xd:desc>
@@ -97,6 +97,14 @@
    <xsl:template match="text[string-length(translate(., ' &#9;&#xA;&#xD;','')) = 0]" />
    
    <xd:doc>
+      <xd:desc>Irgendwas mit outline-Elementen machen?</xd:desc>
+   </xd:doc>
+   
+<!--   <xsl:template match="*:pdf2xml/*:outline">
+      
+   </xsl:template>-->
+   
+   <xd:doc>
       <xd:desc>
          <xd:p>Default</xd:p>
       </xd:desc>
@@ -105,6 +113,31 @@
       <xsl:copy>
          <xsl:apply-templates select="@* | node()" />
       </xsl:copy>
+   </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>Handling for footnote pointers</xd:desc>
+   </xd:doc>
+   
+   <!-- funktioniert natürlich nur da, wo fußnoten auch in a sind, seltener Fall -->
+   
+   <xsl:template match="*:a">
+      <xsl:choose>
+         <xsl:when test="number(.) = number(.)">
+            <ref type="footnote" target="#{normalize-space()}">
+               <xsl:value-of select="."/>
+            </ref>
+         </xsl:when>
+         <!--<xsl:when test="not(contains(., 'http'))">
+                <ref>
+                <xsl:sequence>
+                    <xsl:attribute name="target">
+                        <xsl:value-of select="concat(preceding::a[1], .)"/>
+                    </xsl:attribute>
+                </xsl:sequence>
+                </ref>
+            </xsl:when>-->
+      </xsl:choose>
    </xsl:template>
    
 </xsl:stylesheet>

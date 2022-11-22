@@ -12,22 +12,22 @@
    <xsl:output indent="1" />
    
    <xd:doc>
-     <xd:desc>
-       <xd:p>Try to find the borders of blocks</xd:p>
-     </xd:desc>
+      <xd:desc>
+         <xd:p>Try to find the borders of blocks</xd:p>
+      </xd:desc>
    </xd:doc>
-  <xsl:template match="tei:div[tei:l]">
-    <div>
-       <!-- tei:head[1] as there may be other tei:head with @level gt $level + 1 – e.g. a skipped level or there is no
-          really good levelling – and we don’t want to destroy the order of thexts -->
-       <xsl:apply-templates select="tei:head[1]/preceding-sibling::tei:pb" />
-       <xsl:apply-templates select="tei:head[1]" />
-       <xsl:call-template name="blocks">
-          <xsl:with-param name="context" select="tei:head/following-sibling::*" />
-          <xsl:with-param name="level" select="0" />
-       </xsl:call-template>
-    </div>
-  </xsl:template>
+   <xsl:template match="tei:div[tei:l]">
+      <div>
+         <!-- tei:head[1] as there may be other tei:head with @level gt $level + 1 – e.g. a skipped level or there is no
+          really good levelling – and we don’t want to destroy the order of the text -->
+         <xsl:apply-templates select="tei:head[1]/preceding-sibling::tei:pb" />
+         <xsl:apply-templates select="tei:head[1]" />
+         <xsl:call-template name="blocks">
+            <xsl:with-param name="context" select="tei:head/following-sibling::*" />
+            <xsl:with-param name="level" select="0" />
+         </xsl:call-template>
+      </div>
+   </xsl:template>
    
    <xd:doc>
       <xd:desc>
@@ -41,7 +41,7 @@
       <xsl:param name="level" as="xs:integer"/>
       
       <xsl:for-each-group select="$context" group-starting-with="tei:l[(@level/number() = $level) and pt:ab(.)]">
-<!--         <xsl:apply-templates select="current-group()[self::tei:head]" />-->
+         <!--         <xsl:apply-templates select="current-group()[self::tei:head]" />-->
          <xsl:if test="count(current-group()[not(self::tei:div or self::tei:head)]) gt 0">
             <ab>
                <xsl:choose>
@@ -77,6 +77,7 @@
       </xd:desc>
       <xd:param name="context">The context item</xd:param>
    </xd:doc>
+   
    <xsl:function name="pt:ab" as="xs:boolean">
       <xsl:param name="context" as="element()" />
       
@@ -164,23 +165,31 @@
    
    <xd:doc>
       <xd:desc>
-         <xd:p><xd:pre>run</xd:pre> to <xd:pre>tei:hi</xd:pre>, avoiding nested hi</xd:p>
+         <xd:p><xd:pre>run</xd:pre> to <xd:pre>tei:hi</xd:pre><!--, avoiding nested hi--></xd:p>
       </xd:desc>
    </xd:doc>
    <xsl:template match="tei:l/*:run">
       <hi>
          <xsl:sequence select="@*" />
-         <xsl:choose>
-            <xsl:when test="tei:hi">
+         <xsl:sequence select="node()"></xsl:sequence>
+         <!--<xsl:choose>
+            <!-\- exclude hi/@rend bold or italic chunks to preserve text correctly -\->
+            <xsl:when test="tei:hi/not(@rend)">
                <xsl:sequence select="tei:hi/@rend" />
                <xsl:sequence select="tei:hi/text()" />
             </xsl:when>
             <xsl:otherwise>
-               <xsl:sequence select="text()" />
+               <xsl:sequence select="node()" />
             </xsl:otherwise>
-         </xsl:choose>
+         </xsl:choose>-->
       </hi>
    </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>TODO: A line must not end on a space character</xd:desc>
+   </xd:doc>
+   
+   <!-- wäre zumindest wünschenswert für Post-Processing -->
    
    <xd:doc>
       <xd:desc>Necessary for dealing with mixed content in XSpec</xd:desc>
@@ -193,8 +202,8 @@
       <xd:desc>Default</xd:desc>
    </xd:doc>
    <xsl:template match="@* | node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()" />
-    </xsl:copy>
-  </xsl:template>
+      <xsl:copy>
+         <xsl:apply-templates select="@* | node()" />
+      </xsl:copy>
+   </xsl:template>
 </xsl:stylesheet>
