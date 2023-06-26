@@ -81,7 +81,7 @@
     <xsl:choose>
       <xsl:when test="$mysize gt $mainsize">
         <head>
-          <xsl:attribute name="level" select="count($sizes[. gt $mysize])" />
+          <xsl:attribute name="level" select="1 + count($sizes[. gt $mainsize and . lt $mysize])" />
           <l>
             <xsl:apply-templates select="@* | node()" />
           </l>
@@ -95,7 +95,7 @@
       <xsl:otherwise>
         <l>
           <xsl:attribute name="level"
-             select="count($sizes[. gt $mysize and . lt $mainsize]) - 1" />
+             select="-1 - count($sizes[. gt $mysize and . lt $mainsize])" />
           <xsl:apply-templates select="@* | node()" />
         </l>
       </xsl:otherwise>
