@@ -1026,4 +1026,457 @@
       </x:expect>
     </x:scenario>
   </x:scenario>
+   
+   <x:scenario label="T3: add space when runs don’t immediately connect">
+      <!-- HA 29 -->
+      <x:scenario label="T3.1">
+         <x:context>
+      <TEI xmlns="http://www.tei-c.org/ns/1.0">
+         <teiHeader>
+            <encodingDesc>
+               <tagsDecl>
+                  <rendition scheme="css" xml:id="f0">font-size: 15pt; font-family: Times New Roman--Identity-H; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f4">font-size: 15pt; font-family: Times New Roman,Bold--Identity-H; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f7">font-size: 12pt; font-family: Times New Roman,Bold--Identity-H; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f8">font-size: 10pt; font-family: Times New Roman--Identity-H; color: #000000;</rendition>
+               </tagsDecl>
+            </encodingDesc>
+         </teiHeader>
+         <body>
+            <page number="7"
+            position="absolute"
+            top="0"
+            left="0"
+            height="892"
+            width="629">
+         <l left="134" top="101" size="12" bottom="116" right="496">
+            <run top="101"
+                 left="134"
+                 width="14"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>M</b>
+            </run>
+            <run top="104"
+                 left="148"
+                 width="40"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>ÓNIKA</b>
+            </run>
+            <run top="101"
+                 left="190"
+                 width="11"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>C</b>
+            </run>
+            <run top="104"
+                 left="201"
+                 width="65"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>ONTRERAS</b>
+            </run>
+            <run top="101"
+                 left="268"
+                 width="8"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>S</b>
+            </run>
+            <run top="104"
+                 left="276"
+                 width="21"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>AIZ</b>
+            </run>
+            <run top="101"
+                 left="300"
+                 width="17"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>/ L</b>
+            </run>
+            <run top="104"
+                 left="317"
+                 width="29"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>ASSE</b>
+            </run>
+            <run top="101"
+                 left="349"
+                 width="12"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>H</b>
+            </run>
+            <run top="104"
+                 left="360"
+                 width="34"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>ÖLCK</b>
+            </run>
+            <run top="101"
+                 left="398"
+                 width="15"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>/ S</b>
+            </run>
+            <run top="104"
+                 left="413"
+                 width="39"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>TEFAN</b>
+            </run>
+            <run top="101"
+                 left="455"
+                 width="11"
+                 height="19"
+                 size="15"
+                 rendition="#f4">
+               <b>R</b>
+            </run>
+            <run top="104"
+                 left="466"
+                 width="30"
+                 height="15"
+                 size="12"
+                 rendition="#f7">
+               <b>INKE</b>
+            </run>
+         </l>
+         <l left="107" top="156" size="17" bottom="173" right="522">
+            <run top="156"
+                 left="107"
+                 width="415"
+                 height="22"
+                 size="17"
+                 rendition="#f3">
+               <b>GOBERNANZA Y SEGURIDAD EN LAS FRONTERAS</b>
+            </run>
+         </l>
+         <l left="75" top="311" size="15" bottom="326" right="555">
+            <run top="311"
+               left="75"
+               width="480"
+               height="19"
+               size="15"
+               rendition="#f0">principalmente en México, Chile y Argentina. Este periodo se caracterizó por</run>
+         </l>
+         <l left="75" top="593" size="15" bottom="613" right="554">
+            <run top="598"
+                 left="75"
+                 width="209"
+                 height="19"
+                 size="15"
+                 rendition="#f0">la provisión de bienes colectivos.</run>
+            <run top="593"
+                 left="284"
+                 width="5"
+                 height="12"
+                 size="10"
+                 rendition="#f8">1</run>
+            <run top="598"
+                 left="295"
+                 width="259"
+                 height="19"
+                 size="15"
+                 rendition="#f0">Contrastando con la noción weberiana de</run>
+         </l>
+         <l left="75" top="617" size="15" bottom="632" right="554">
+            <run top="617"
+                 left="75"
+                 width="479"
+                 height="19"
+                 size="15"
+                 rendition="#f0">“dominio” y “poder”, que se refieren a la “probabilidad de imponer la propia</run>
+         </l>
+         <l left="90" top="731" size="13" bottom="749" right="554">
+            <run top="731"
+                 left="90"
+                 width="4"
+                 height="11"
+                 size="8"
+                 rendition="#f9">1</run>
+            <run top="736"
+                 left="109"
+                 width="445"
+                 height="16"
+                 size="13"
+                 rendition="#f5">Anke Draude / Cord Schmelzle / Thomas Risse: Grundbegriffe der</run>
+         </l>
+         <l left="75" top="750" size="13" bottom="763" right="551">
+            <run top="750"
+                 left="75"
+                 width="136"
+                 height="16"
+                 size="13"
+                 rendition="#f5">Governanceforschung. En:</run>
+            <run top="750"
+                 left="214"
+                 width="203"
+                 height="16"
+                 size="13"
+                 rendition="#f10">
+               <i>SFB-Governance Working Paper Series</i>
+            </run>
+            <run top="750"
+                 left="417"
+                 width="134"
+                 height="16"
+                 size="13"
+                 rendition="#f5">, Nr. 36. Berlin 2012, p. 6.</run>
+         </l>
+      </page>
+   </body>
+</TEI>
+         </x:context>
+         <x:expect label="runs with space">
+      <TEI xmlns="http://www.tei-c.org/ns/1.0">
+         <teiHeader>
+            <encodingDesc>
+               <tagsDecl>
+                  <rendition scheme="css" xml:id="f0">font-size: 15pt; font-family: Times New Roman--Identity-H; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f4">font-size: 15pt; font-family: Times New Roman,Bold--Identity-H; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f7">font-size: 12pt; font-family: Times New Roman,Bold--Identity-H; color: #000000;</rendition>
+                  <rendition scheme="css" xml:id="f8">font-size: 10pt; font-family: Times New Roman--Identity-H; color: #000000;</rendition>
+               </tagsDecl>
+            </encodingDesc>
+         </teiHeader>
+         <text>
+            <page l="75" r="554" number="7"
+               position="absolute"
+               top="0"
+               left="0"
+               height="892"
+               width="629">
+               <l left="134" top="101" size="12" bottom="116" right="496" level="0">
+                  <run top="101"
+                     left="134"
+                     width="14"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>M</b>
+                  </run>
+                  <run top="104"
+                     left="148"
+                     width="40"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>ÓNIKA</b>
+                  </run>
+                  <run><x:text> </x:text></run>
+                  <run top="101"
+                     left="190"
+                     width="11"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>C</b>
+                  </run>
+                  <run top="104"
+                     left="201"
+                     width="65"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>ONTRERAS</b>
+                  </run>
+                  <run><x:text> </x:text></run>
+                  <run top="101"
+                     left="268"
+                     width="8"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>S</b>
+                  </run>
+                  <run top="104"
+                     left="276"
+                     width="21"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>AIZ</b>
+                  </run>
+                  <run><x:text> </x:text></run>
+                  <run top="101"
+                     left="300"
+                     width="17"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>/ L</b>
+                  </run>
+                  <run top="104"
+                     left="317"
+                     width="29"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>ASSE</b>
+                  </run>
+                  <run><x:text> </x:text></run>
+                  <run top="101"
+                     left="349"
+                     width="12"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>H</b>
+                  </run>
+                  <run top="104"
+                     left="360"
+                     width="34"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>ÖLCK</b>
+                  </run>
+                  <run><x:text> </x:text></run>
+                  <run top="101"
+                     left="398"
+                     width="15"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>/ S</b>
+                  </run>
+                  <run top="104"
+                     left="413"
+                     width="39"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>TEFAN</b>
+                  </run>
+                  <run><x:text> </x:text></run>
+                  <run top="101"
+                     left="455"
+                     width="11"
+                     height="19"
+                     size="15"
+                     rendition="#f4">
+                     <b>R</b>
+                  </run>
+                  <run top="104"
+                     left="466"
+                     width="30"
+                     height="15"
+                     size="12"
+                     rendition="#f7">
+                     <b>INKE</b>
+                  </run>
+               </l>
+               <head level="0"><l left="107" top="156" size="17" bottom="173" right="522">
+                  <run top="156"
+                     left="107"
+                     width="415"
+                     height="22"
+                     size="17"
+                     rendition="#f3">
+                     <b>GOBERNANZA Y SEGURIDAD EN LAS FRONTERAS</b>
+                  </run>
+               </l></head>
+               <l left="75" top="311" size="15" bottom="326" right="555" level="0">
+                  <run top="311"
+                     left="75"
+                     width="480"
+                     height="19"
+                     size="15"
+                     rendition="#f0">principalmente en México, Chile y Argentina. Este periodo se caracterizó por</run>
+               </l>
+               <l left="75" top="593" size="15" bottom="613" right="554" level="0">
+                  <run top="598"
+                     left="75"
+                     width="209"
+                     height="19"
+                     size="15"
+                     rendition="#f0">la provisión de bienes colectivos.</run>
+                  <run top="593"
+                     left="284"
+                     width="5"
+                     height="12"
+                     size="10"
+                     rendition="#f8">1</run>
+                  <run><x:text> </x:text></run>
+                  <run top="598"
+                     left="295"
+                     width="259"
+                     height="19"
+                     size="15"
+                     rendition="#f0">Contrastando con la noción weberiana de</run>
+               </l>
+               <l left="75" top="617" size="15" bottom="632" right="554" level="0">
+                  <run top="617"
+                     left="75"
+                     width="479"
+                     height="19"
+                     size="15"
+                     rendition="#f0">“dominio” y “poder”, que se refieren a la “probabilidad de imponer la propia</run>
+               </l>
+               <l left="90" top="731" size="13" bottom="749" right="554" level="-1">
+                  <run top="731"
+                     left="90"
+                     width="4"
+                     height="11"
+                     size="8"
+                     rendition="#f9">1</run>
+                  <run><x:text> </x:text></run>
+                  <run top="736"
+                     left="109"
+                     width="445"
+                     height="16"
+                     size="13"
+                     rendition="#f5">Anke Draude / Cord Schmelzle / Thomas Risse: Grundbegriffe der</run>
+               </l>
+               <l left="75" top="750" size="13" bottom="763" right="551" level="-1">
+                  <run top="750"
+                     left="75"
+                     width="136"
+                     height="16"
+                     size="13"
+                     rendition="#f5">Governanceforschung. En:</run>
+                  <run><x:text> </x:text></run>
+                  <run top="750"
+                     left="214"
+                     width="203"
+                     height="16"
+                     size="13"
+                     rendition="#f10">
+                     <i>SFB-Governance Working Paper Series</i>
+                  </run>
+                  <run top="750"
+                     left="417"
+                     width="134"
+                     height="16"
+                     size="13"
+                     rendition="#f5">, Nr. 36. Berlin 2012, p. 6.</run>
+               </l>
+            </page>
+         </text>
+      </TEI>
+         </x:expect>
+      </x:scenario>
+   </x:scenario>
 </x:description>

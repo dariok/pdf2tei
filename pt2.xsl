@@ -82,7 +82,9 @@
       <xsl:when test="$mysize gt $mainsize">
         <head>
           <xsl:attribute name="level" select="count($sizes[. gt $mysize])" />
-          <xsl:sequence select="." />
+          <l>
+            <xsl:apply-templates select="@* | node()" />
+          </l>
         </head>
       </xsl:when>
       <xsl:when test="$mainsize eq $mysize">
@@ -94,7 +96,7 @@
         <l>
           <xsl:attribute name="level"
              select="count($sizes[. gt $mysize and . lt $mainsize]) - 1" />
-          <xsl:sequence select="@* | node()" />
+          <xsl:apply-templates select="@* | node()" />
         </l>
       </xsl:otherwise>
     </xsl:choose>
@@ -112,7 +114,25 @@
          <xsl:apply-templates />
       </text>
    </xsl:template>
-  
+   
+   <xd:doc>
+      <xd:desc>
+         <xd:p>If there is a gap between text runs, translate this to a space</xd:p>
+      </xd:desc>
+   </xd:doc>
+  <xsl:template match="*:l/*[preceding-sibling::*]">
+      <xsl:variable name="prec" select="preceding-sibling::*[1]" />
+      <xsl:if test="
+        number($prec/@left) + number($prec/@width) lt number(@left) - 1
+        and not(ends-with($prec, ' '))
+        and not(starts-with(., ' '))">
+        <run>
+          <xsl:text> </xsl:text>
+        </run>
+      </xsl:if>
+      <xsl:sequence select="." />
+   </xsl:template>
+   
   <xd:doc>
     <xd:desc>
       <xd:p>Default</xd:p>
