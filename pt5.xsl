@@ -14,9 +14,10 @@
    <xd:doc>
      <xd:desc>
        <xd:p>Try to find the borders of blocks</xd:p>
+        <xd:p>Variant 1: there is a heading from which we start finding blocks.</xd:p>
      </xd:desc>
    </xd:doc>
-  <xsl:template match="tei:div[tei:l]">
+  <xsl:template match="tei:div[tei:l and tei:head]">
     <div>
        <!-- tei:head[1] as there may be other tei:head with @level gt $level + 1 – e.g. a skipped level or there is no
           really good levelling – and we don’t want to destroy the order of thexts -->
@@ -28,6 +29,19 @@
        </xsl:call-template>
     </div>
   </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>
+         <xd:p>Try to find the borders of blocks</xd:p>
+         <xd:p>Variant 2: no heading here but in a sub-div.</xd:p>
+      </xd:desc>
+   </xd:doc>
+   <xsl:template match="tei:div[tei:l and not(tei:head) and tei:div/tei:head]">
+      <div>
+         <xsl:apply-templates select="tei:div[1]/preceding-sibling::node()" />
+      </div>
+      <xsl:apply-templates select="tei:div | node()[preceding-sibling::tei:div]" />
+   </xsl:template>
    
    <xd:doc>
       <xd:desc>
@@ -162,7 +176,7 @@
    </xd:doc>
    <xsl:template match="tei:head/@level" />
    
-   <!--<xd:doc>
+   <xd:doc>
       <xd:desc>
          <xd:p><xd:pre>text</xd:pre> to <xd:pre>tei:hi</xd:pre>, avoiding nested hi</xd:p>
       </xd:desc>
@@ -180,7 +194,7 @@
             </xsl:otherwise>
          </xsl:choose>
       </hi>
-   </xsl:template>-->
+   </xsl:template>
    
    <xd:doc>
       <xd:desc>Necessary for dealing with mixed content in XSpec</xd:desc>
