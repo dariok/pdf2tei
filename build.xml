@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="." name="" default="default">
+<project basedir="." name="pdf2tei" default="default">
    <target name="initial">
       <!-- create a directory for the processing results within ${outDir} -->
       <pathconvert property="targetDir">
@@ -38,3 +38,4 @@
       <xslt in="${xml5}" style="pt5.xsl" out="${targetDir}/${name}.xml" classpath="${saxon}" />
    </target>
 </project>
+
