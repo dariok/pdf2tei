@@ -1478,5 +1478,257 @@
       </TEI>
          </x:expect>
       </x:scenario>
+      <x:scenario label="T3.2">
+         <x:context>
+            <x:param name="mainsize" select="12" tunnel="yes" />
+            <l xmlns="http://www.tei-c.org/ns/1.0"
+               left="134"
+               top="101"
+               size="12"
+               bottom="116"
+               right="496">
+               <run top="101"
+                  left="134"
+                  width="14"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">M</b>
+               </run>
+               <run top="104"
+                  left="148"
+                  width="40"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ÓNIKA</b>
+               </run>
+               <run top="101"
+                  left="190"
+                  width="11"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">C</b>
+               </run>
+               <run top="104"
+                  left="201"
+                  width="65"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ONTRERAS</b>
+               </run>
+               <run top="101"
+                  left="268"
+                  width="8"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">S</b>
+               </run>
+               <run top="104"
+                  left="276"
+                  width="21"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">AIZ</b>
+               </run>
+               <run top="101"
+                  left="300"
+                  width="17"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">/ L</b>
+               </run>
+               <run top="104"
+                  left="317"
+                  width="29"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ASSE</b>
+               </run>
+               <run top="101"
+                  left="349"
+                  width="12"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">H</b>
+               </run>
+               <run top="104"
+                  left="360"
+                  width="34"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ÖLCK</b>
+               </run>
+               <run top="101"
+                  left="398"
+                  width="15"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">/ S</b>
+               </run>
+               <run top="104"
+                  left="413"
+                  width="39"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">TEFAN</b>
+               </run>
+               <run top="101"
+                  left="455"
+                  width="11"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">R</b>
+               </run>
+               <run top="104"
+                  left="466"
+                  width="30"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">INKE</b>
+               </run>
+            </l>
+         </x:context>
+         <x:expect label=".">
+            <l xmlns="http://www.tei-c.org/ns/1.0"
+               level="..."
+               left="134"
+               top="101"
+               size="12"
+               bottom="116"
+               right="496">
+               <run top="101"
+                  left="134"
+                  width="14"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">M</b>
+               </run>
+               <run top="104"
+                  left="148"
+                  width="40"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ÓNIKA</b>
+               </run>
+               <run><x:text> </x:text></run>
+               <run top="101"
+                  left="190"
+                  width="11"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">C</b>
+               </run>
+               <run top="104"
+                  left="201"
+                  width="65"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ONTRERAS</b>
+               </run>
+               <run><x:text> </x:text></run>
+               <run top="101"
+                  left="268"
+                  width="8"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">S</b>
+               </run>
+               <run top="104"
+                  left="276"
+                  width="21"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">AIZ</b>
+               </run>
+               <run><x:text> </x:text></run>
+               <run top="101"
+                  left="300"
+                  width="17"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">/ L</b>
+               </run>
+               <run top="104"
+                  left="317"
+                  width="29"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ASSE</b>
+               </run>
+               <run><x:text> </x:text></run>
+               <run top="101"
+                  left="349"
+                  width="12"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">H</b>
+               </run>
+               <run top="104"
+                  left="360"
+                  width="34"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">ÖLCK</b>
+               </run>
+               <run><x:text> </x:text></run>
+               <run top="101"
+                  left="398"
+                  width="15"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">/ S</b>
+               </run>
+               <run top="104"
+                  left="413"
+                  width="39"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">TEFAN</b>
+               </run>
+               <run><x:text> </x:text></run>
+               <run top="101"
+                  left="455"
+                  width="11"
+                  height="19"
+                  size="15"
+                  rendition="#f4">
+                  <b xmlns="">R</b>
+               </run>
+               <run top="104"
+                  left="466"
+                  width="30"
+                  height="15"
+                  size="12"
+                  rendition="#f7">
+                  <b xmlns="">INKE</b>
+               </run>
+            </l>
+         </x:expect>
+      </x:scenario>
    </x:scenario>
 </x:description>

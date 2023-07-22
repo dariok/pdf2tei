@@ -120,17 +120,37 @@
          <xd:p>If there is a gap between text runs, translate this to a space</xd:p>
       </xd:desc>
    </xd:doc>
-  <xsl:template match="*:l/*[preceding-sibling::*]">
+   <xsl:template match="tei:l/tei:run[preceding-sibling::*]">
       <xsl:variable name="prec" select="preceding-sibling::*[1]" />
-      <xsl:if test="
-        number($prec/@left) + number($prec/@width) lt number(@left) - 1
-        and not(ends-with($prec, ' '))
-        and not(starts-with(., ' '))">
-        <run>
-          <xsl:text> </xsl:text>
-        </run>
+      <xsl:variable name="precRight" select="number($prec/@left) + number($prec/@width)" />
+      
+      <xsl:variable name="myContent">
+         <xsl:apply-templates select="." mode="runContent" />
+      </xsl:variable>
+      <xsl:variable name="precContent">
+         <xsl:apply-templates select="$prec" mode="runContent" />
+      </xsl:variable>
+      
+      <xsl:if test="$precRight lt number(@left) - 1 and not(ends-with($precContent, ' ') or starts-with($myContent, ' '))">
+         <run>
+            <xsl:text> </xsl:text>
+         </run>
       </xsl:if>
       <xsl:sequence select="." />
+   </xsl:template>
+   
+   <xd:doc>
+     <xd:desc>to see whether there are spaces in the text content</xd:desc>
+   </xd:doc>
+  <xsl:template match="tei:run" mode="runContent">
+      <xsl:choose>
+         <xsl:when test="*">
+            <xsl:value-of select="*"/>
+         </xsl:when>
+         <xsl:otherwise>
+            <xsl:value-of select="."/>
+         </xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
   <xd:doc>
