@@ -115,6 +115,15 @@
     </xsl:choose>
   </xsl:template>
   
+  <xsl:template match="tei:text">
+    <text>
+      <xsl:attribute name="maxLevel">
+        <xsl:value-of select="max(//tei:head/@level ! number())"/>
+      </xsl:attribute>
+      <xsl:apply-templates />
+    </text>
+  </xsl:template>
+  
   <xd:doc>
     <xd:desc>Default</xd:desc>
   </xd:doc>

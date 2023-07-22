@@ -32,28 +32,37 @@
                   <rendition scheme="css" xml:id="f29">font-size: 9pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
                </tagsDecl>
             </encodingDesc>
-         </teiHeader><text><body><div><pb n="1" l="68" height="935" width="722" r="368" /><head
-            level="4"><l
+         </teiHeader>
+   <text>
+      <body
+         ><div
+            ><pb n="1" l="68" height="935" width="722" r="368" /><head
+            level="1"><l
                left="68" top="129" size="16" bottom="145" right="171"><run
                   rendition="#f0" size="16" top="129" left="68" width="103" height="18"
-                  >Merryl Rebello </run></l></head><div><head
-            level="2"><l
+                  >Merryl Rebello </run></l></head
+         ><div><head
+            level="3"><l
                left="68" top="161" size="19" bottom="180" right="368"><run
                   rendition="#f1" size="19" top="161" left="68" width="300" height="21"
                   >Romulus in der lateinischen Literatur </run></l><l
                left="68" top="187" size="19" bottom="206" right="231"><run
                   rendition="#f1" size="19" top="187" left="68" width="163" height="21"
-                  >von Ennius bis Ovid </run></l></head><pb
-            n="2" l="" height="935" width="722" r="" /><pb
+                  >von Ennius bis Ovid </run></l></head
+            ><pb
+            n="2" l="" height="935" width="722" r=""/><div
+         ><pb
             n="3" l="128" height="935" width="722" r="439"><l
-               level="1" left="68" top="797" size="0" bottom="834" right="218"><image
+               level="-3" left="68" top="797" size="0" bottom="834" right="218"><image
                   xmlns="" top="797" left="68" width="150" height="37" size="37"
                   src="/home/dario/git/oatbyco/output/Rebello_OA/temp-3_1.png"/></l></pb><head
-               level="3"><l
+               level="2"><l
                   left="128" top="156" size="18" bottom="174" right="241"><run
                      rendition="#f2" size="18" top="156" left="128" width="113" height="20"
-                     >Merryl Rebello </run></l></head></div></div><div><head
-               level="0"><l
+                     >Merryl Rebello </run></l></head
+            ></div></div></div
+         ><div><head
+               level="5"><l
                   left="128" top="214" size="33" bottom="247" right="356"><run
                      rendition="#f3" size="33" top="214" left="128" width="228" height="35"
                      ><hi rend="bold">Romulus in der </hi></run></l><l
@@ -62,51 +71,52 @@
                      ><hi rend="bold">lateinischen Literatur </hi></run></l><l
                   left="128" top="305" size="33" bottom="338" right="414"><run
                      rendition="#f3" size="33" top="305" left="128" width="286" height="35"
-                     ><hi rend="bold">von Ennius bis Ovid </hi></run></l></head><pb
-            n="4" l="77" height="935" width="722" r="494" /><l
-               level="0" left="77" top="489" size="11" bottom="500" right="264"><run
+                     ><hi rend="bold">von Ennius bis Ovid </hi></run></l></head
+               ><pb n="4" l="77" height="935" width="722" r="494" /><l
+               level="-2" left="77" top="489" size="11" bottom="500" right="264"><run
                   rendition="#f4" size="11" top="489" left="77" width="187" height="13"
                   >wbg Academic ist ein Imprint der wbg </run></l><l
-               level="0" left="77" top="508" size="11" bottom="519" right="387"><run
+               level="-2" left="77" top="508" size="11" bottom="519" right="387"><run
                   rendition="#f4" size="11" top="508" left="77" width="310" height="13"
                   >© 2019 by wbg (Wissenschaftliche Buchgesellschaft), Darmstadt </run></l><l
-               level="0" left="77" top="527" size="11" bottom="538" right="486"><run
+               level="-2" left="77" top="527" size="11" bottom="538" right="486"><run
                   rendition="#f4" size="11" top="527" left="77" width="409" height="13"
                   >Die Herausgabe des Werkes wurde durch die Vereinsmitglieder der wbg ermöglicht. </run></l><l
-               level="0" left="77" top="545" size="11" bottom="556" right="368"><run
+               level="-2" left="77" top="545" size="11" bottom="556" right="368"><run
                   rendition="#f4" size="11" top="545" left="77" width="291" height="13"
                   >Satz und eBook: Satzweiss.com Print, Web, Software GmbH </run></l><l
-               level="0" left="77" top="601" size="11" bottom="612" right="370"><run
+               level="-2" left="77" top="601" size="11" bottom="612" right="370"><run
                   rendition="#f4" size="11" top="601" left="77" width="293" height="13"
                   >Besuchen Sie uns im Internet: www.wbg-wissenverbindet.de </run></l><l
-               level="0" left="77" top="677" size="11" bottom="688" right="494"><run
+               level="-2" left="77" top="677" size="11" bottom="688" right="494"><run
                   rendition="#f5" size="11" top="677" left="77" width="417" height="12"
                   >Dieses Werk ist mit Ausnahme der Einbandabbildung als Open-Access-Publikation im</run></l><l
-               level="0" left="77" top="695" size="11" bottom="706" right="428"><run
+               level="-2" left="77" top="695" size="11" bottom="706" right="428"><run
                   rendition="#f5" size="11" top="695" left="77" width="351" height="12"
                   >Sinne der Creative-Commons-Lizenz BY International 4.0 (»Attribution-</run></l><l
-               level="0" left="77" top="714" size="11" bottom="725" right="487"><run
+               level="-2" left="77" top="714" size="11" bottom="725" right="487"><run
                   rendition="#f5" size="11" top="714" left="77" width="410" height="12"
                   >Noncommercial-No Derivatives International«) veröffentlicht. Um eine Kopie dieser </run></l><l
-               level="0" left="77" top="733" size="11" bottom="744" right="464"><run
+               level="-2" left="77" top="733" size="11" bottom="744" right="464"><run
                   rendition="#f5" size="11" top="733" left="77" width="31" height="12">Lizenz</run><run
                   rendition="#f6" size="11" top="733" left="108" width="3" height="13"><x:text> </x:text></run><run
                   rendition="#f5" size="11" top="733" left="111" width="353" height="12"
                   >zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/. Jede </run></l><l
-               level="0" left="77" top="751" size="11" bottom="762" right="469"><run
+               level="-2" left="77" top="751" size="11" bottom="762" right="469"><run
                   rendition="#f5" size="11" top="751" left="77" width="70" height="12">Verwertung in</run><run
                      rendition="#f6" size="11" top="751" left="147" width="3" height="13"><x:text> </x:text></run><run
                   rendition="#f5" size="11" top="751" left="150" width="319" height="12"
                   >anderen als den durch diese Lizenz zugelassenen Fällen bedarf der </run></l><l
-               level="0" left="77" top="770" size="11" bottom="781" right="322"><run
+               level="-2" left="77" top="770" size="11" bottom="781" right="322"><run
                    rendition="#f5" size="11" top="770" left="77" width="115" height="12">vorherigen schriftlichen</run><run
                       rendition="#f6" size="11" top="770" left="192" width="3" height="13"><x:text> </x:text></run><run
                    rendition="#f5" size="11" top="770" left="195" width="127" height="12"
-                   >Einwilligung des Verlages.</run></l></div><div><pb
-            n="5" l="68" height="935" width="722" r="650"><l
+                   >Einwilligung des Verlages.</run></l
+            ></div
+         ><div><pb n="5" l="68" height="935" width="722" r="650"><l
                level="-1" left="354" top="856" size="13" bottom="869" right="364"><run
                   rendition="#f7" size="13" top="856" left="354" width="10" height="15">5 </run></l></pb><head
-               level="0"><l
+               level="5"><l
                   left="300" top="135" size="33" bottom="168" right="414"><run
                      rendition="#f8" size="33" top="135" left="300" width="114" height="36"
                      >Vorwort</run></l></head><l
@@ -179,12 +189,14 @@
                level="0" left="68" top="693" size="15" bottom="708" right="158"><run
                   rendition="#f9" size="15" top="693" left="68" width="90" height="16"
                   >Merryl Rebello</run></l><pb
-            n="12" l="" height="935" width="722" r="" /></div><div><pb
-            n="13" l="68" height="935" width="722" r="650"><l
+            n="12" l="" height="935" width="722" r=""
+         /></div
+         ><div
+            ><pb n="13" l="68" height="935" width="722" r="650"><l
                level="-1" left="351" top="856" size="13" bottom="869" right="367"><run
                   rendition="#f7" size="13" top="856" left="351" width="16" height="15"
                   >13 </run></l></pb><head
-               level="0"><l
+               level="5"><l
                   left="269" top="126" size="33" bottom="159" right="445"><run
                      rendition="#f8" size="33" top="126" left="269" width="176" height="36"
                      >1. Einleitung</run></l></head><l
@@ -354,8 +366,8 @@
                   >sche Probleme werden demgegenüber nur in dem Maße angesprochen, wie es für die Untersu-</run></l><l
                level="0" left="77" top="419" size="15" bottom="434" right="434"><run
                   rendition="#f9" size="15" top="419" left="77" width="357" height="16"
-                  >chung literarischer Romulus-Darstellungen erforderlich ist.</run></l><head
-               level="3"><l
+                  >chung literarischer Romulus-Darstellungen erforderlich ist.</run></l><div><head
+               level="2"><l
                   left="77" top="476" size="18" bottom="494" right="434"><run
                      rendition="#f2" size="18" top="476" left="77" width="357" height="20"
                      >Überblick über Aufbau und Methodik der Arbeit </run></l></head><l
@@ -525,11 +537,12 @@
                   >Dieses Vorgehen führt z. B. bei Cicero zwangsläufig dazu, dass ein „Text“ entsteht, der so vom </run></l><l
                level="0" left="68" top="803" size="15" bottom="818" right="651"><run
                   rendition="#f9" size="15" top="803" left="68" width="583" height="16"
-                  >Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </run></l><div><pb
+                  >Autor nicht verfasst wurde: Dass Cicero eine kohärente Romulus-Darstellung zu verfassen </run></l></div
+         ><div><pb
             n="22" l="77" height="935" width="722" r="658"><l
                level="-1" left="359" top="856" size="13" bottom="869" right="375"><run
                   rendition="#f7" size="13" top="856" left="359" width="16" height="15">22 </run></l></pb><head
-               level="1"><l
+               level="4"><l
                   left="304" top="123" size="24" bottom="147" right="432"><run
                   rendition="#f17" size="24" top="123" left="304" width="128" height="26"
                   >2.1.  Naevius </run></l></head><l
@@ -554,8 +567,9 @@
                   rendition="#f9" size="15" top="275" left="77" width="408" height="16"
                   >dern erfolgte erst Ende des 2. Jh. v. Chr. durch C. Octavius Lampadio.</run><run
                   rendition="#f12" size="9" top="275" left="485" width="9" height="10">21</run><run
-                     rendition="#f9" size="15" top="275" left="493" width="7" height="16"><x:text>  </x:text></run></l><div><head
-               level="2"><l
+                     rendition="#f9" size="15" top="275" left="493" width="7" height="16"><x:text>  </x:text></run></l><div
+         ><head
+               level="3"><l
                   left="77" top="328" size="19" bottom="347" right="438"><run
                      rendition="#f1" size="19" top="328" left="77" width="229" height="21"
                      >2.1.1.  Die „Archäologie“ des </run><run
@@ -677,7 +691,7 @@
                level="0" left="77" top="156" size="15" bottom="171" right="342"><run
                   rendition="#f9" size="15" top="156" left="77" width="265" height="16"
                   >was sein Nacheiferer aus ihm gemacht hat. </run></l></div><div><head
-               level="2"><l
+               level="3"><l
                   left="77" top="212" size="19" bottom="231" right="483"><run
                      rendition="#f1" size="19" top="212" left="77" width="274" height="21"
                      >4.4.3.  „Du Schwuchtel-Romulus“ (</run><run
@@ -970,13 +984,17 @@
                level="-1" left="89" top="806" size="13" bottom="819" right="231"><run
                   rendition="#f13" size="13" top="806" left="89" width="132" height="14"
                   >contendas mea non esse. </run><run
-                  rendition="#f7" size="13" top="806" left="222" width="9" height="15"><x:text>   </x:text
-               ></run></l></div></div></div></body></text></TEI></x:expect>
+                  rendition="#f7" size="13" top="806" left="222" width="9" height="15"><x:text>   </x:text></run></l
+         ></div></div></div>
+      </body>
+   </text
+      ></TEI
+    ></x:expect>
   </x:scenario>
   
   <x:scenario label="T2">
     <x:context>
-      <text>
+      <text maxLevel="3">
          <pb n="13" height="935" width="722" l="68" r="651">
             <l level="-1"
                left="351"
@@ -993,7 +1011,7 @@
                   height="15">13 </text>
             </l>
          </pb>
-         <head level="0">
+         <head level="3">
             <l left="269" top="126" size="33" bottom="162" right="445">
                <text xmlns=""
                   rendition="#f8"
@@ -1029,7 +1047,7 @@
                   height="15">21 </text>
             </l>
          </pb>
-         <head level="0">
+         <head level="3">
             <l left="138" top="126" size="33" bottom="162" right="577">
                <text xmlns=""
                   rendition="#f8"
@@ -1100,7 +1118,7 @@
                   height="15">22 </text>
             </l>
          </pb>
-         <head level="1">
+         <head level="2">
             <l left="304" top="123" size="24" bottom="149" right="432">
                <text xmlns=""
                   rendition="#f17"
@@ -1191,9 +1209,9 @@
                top="275"
                left="493"
                width="7"
-               height="16">  </text>
+               height="16"><x:text>  </x:text></text>
          </l>
-         <head level="2">
+         <head level="1">
             <l left="77" top="328" size="19" bottom="349" right="438">
                <text xmlns=""
                   rendition="#f1"
@@ -1215,7 +1233,7 @@
                   top="328"
                   left="434"
                   width="4"
-                  height="21"> </text>
+                  height="21"><x:text> </x:text></text>
             </l>
          </head>
          <l level="0" left="77" top="374" size="15" bottom="390" right="656">
@@ -1245,7 +1263,7 @@
                width="551"
                height="16">lung, da Varro, der nur am sprachlichen Aspekt interessiert ist, jeweils nur ein Wort zitiert. </text>
          </l>
-         <head level="2">
+         <head level="1">
             <l left="77" top="310" size="19" bottom="331" right="345">
                <text xmlns=""
                   rendition="#f1"
@@ -1301,7 +1319,7 @@
                width="571"
                height="16">beobachten, dass Romulus’ Auftreten offenbar nicht an eine bestimmte Gattung gebunden ist.  </text>
          </l>
-         <head level="1">
+         <head level="2">
             <l left="309" top="503" size="24" bottom="529" right="427">
                <text xmlns=""
                   rendition="#f17"
@@ -1369,7 +1387,7 @@
                   height="15">48 </text>
             </l>
          </pb>
-         <head level="0">
+         <head level="3">
             <l left="303" top="126" size="33" bottom="162" right="429">
                <text xmlns=""
                   rendition="#f8"
@@ -1392,7 +1410,11 @@
       </text>
     </x:context>
     <x:expect label=".">
-     <text><body>
+       <x:text>
+   </x:text>
+     <text>
+        <x:text>
+      </x:text><body>
        <div>
          <pb n="13" height="935" width="722" l="68" r="651">
             <l level="-1"
@@ -1410,7 +1432,7 @@
                   height="15">13 </text>
             </l>
          </pb>
-         <head level="0">
+         <head level="3">
             <l left="269" top="126" size="33" bottom="162" right="445">
                <text xmlns=""
                   rendition="#f8"
@@ -1448,7 +1470,7 @@
                   height="15">21 </text>
             </l>
          </pb>
-         <head level="0">
+         <head level="3">
             <l left="138" top="126" size="33" bottom="162" right="577">
                <text xmlns=""
                   rendition="#f8"
@@ -1520,7 +1542,7 @@
                   height="15">22 </text>
             </l>
          </pb>
-         <head level="1">
+         <head level="2">
             <l left="304" top="123" size="24" bottom="149" right="432">
                <text xmlns=""
                   rendition="#f17"
@@ -1611,10 +1633,10 @@
                top="275"
                left="493"
                width="7"
-               height="16">  </text>
+               height="16"><x:text>  </x:text></text>
          </l>
             <div>
-         <head level="2">
+         <head level="1">
             <l left="77" top="328" size="19" bottom="349" right="438">
                <text xmlns=""
                   rendition="#f1"
@@ -1636,7 +1658,7 @@
                   top="328"
                   left="434"
                   width="4"
-                  height="21"> </text>
+                  height="21"><x:text> </x:text></text>
             </l>
          </head>
          <l level="0" left="77" top="374" size="15" bottom="390" right="656">
@@ -1668,7 +1690,7 @@
          </l>
             </div>
             <div>
-         <head level="2">
+         <head level="1">
             <l left="77" top="310" size="19" bottom="331" right="345">
                <text xmlns=""
                   rendition="#f1"
@@ -1727,7 +1749,7 @@
             </div>
         </div>
         <div>
-         <head level="1">
+         <head level="2">
             <l left="309" top="503" size="24" bottom="529" right="427">
                <text xmlns=""
                   rendition="#f17"
@@ -1798,7 +1820,7 @@
                   height="15">48 </text>
             </l>
          </pb>
-         <head level="0">
+         <head level="3">
             <l left="303" top="126" size="33" bottom="162" right="429">
                <text xmlns=""
                   rendition="#f8"
@@ -1819,7 +1841,11 @@
                height="16">Romulus’ Name fällt bei Cicero häufig. Die Bandbreite der Funktionen, die er erfüllen kann, ist </text>
          </l>
         </div>
+         <x:text>
+      </x:text>
         </body>
+        <x:text>
+   </x:text>
       </text>
     </x:expect>
   </x:scenario>

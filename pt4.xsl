@@ -18,13 +18,21 @@
     </xd:desc>
   </xd:doc>
   <xsl:template match="tei:text">
+    <xsl:text>
+   </xsl:text>
     <text>
+      <xsl:text>
+      </xsl:text>
       <body>
         <xsl:call-template name="divStructure">
           <xsl:with-param name="context" select="*" />
-          <xsl:with-param name="level" select="0" />
+          <xsl:with-param name="level" select="@maxLevel" />
         </xsl:call-template>
+        <xsl:text>
+      </xsl:text>
       </body>
+      <xsl:text>
+   </xsl:text>
     </text>
   </xsl:template>
   
@@ -40,24 +48,33 @@
   </xd:doc>
   <xsl:template name="divStructure">
     <xsl:param name="level" as="xs:integer" />
-    <xsl:param name="context" as="element()+" />
+    <xsl:param name="context" as="element()*" />
     
     <xsl:for-each-group select="$context"
       group-starting-with="tei:head[@level = $level and not(preceding-sibling::*[1][self::tei:pb])]
-      | tei:pb[following-sibling::*[1][self::tei:head and @level = $level]]">
+                         | tei:pb[following-sibling::*[1][self::tei:head and @level = $level]]">
     
       <xsl:choose>
+        <xsl:when test="not(current-group()[self::tei:head])">
+          <xsl:apply-templates select="current-group()" />
+        </xsl:when>
         <xsl:when test="current-group()[1][self::tei:head] or current-group()[2][self::tei:head]">
           <div>
             <xsl:apply-templates select="current-group()[1], current-group()[2][self::tei:head]" />
             <xsl:call-template name="divStructure">
-              <xsl:with-param name="context" select="current-group()[2][not(self::tei:head)], current-group()[position() gt 2] " />
-              <xsl:with-param name="level" select="$level + 1" />
+              <xsl:with-param name="context" select="current-group()[2][not(self::tei:head)], current-group()[position() gt 2]" />
+              <xsl:with-param name="level" select="$level - 1" />
             </xsl:call-template>
           </div>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:apply-templates select="current-group()"/>
+          <xsl:call-template name="divStructure">
+            <xsl:with-param name="context" select="current-group()" />
+            <xsl:with-param name="level" select="$level - 1" />
+          </xsl:call-template>
+          <!--<div>
+            <xsl:apply-templates select="current-group()" />
+          </div>-->
         </xsl:otherwise>
       </xsl:choose>
     </xsl:for-each-group>
