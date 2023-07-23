@@ -54,6 +54,8 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- for now, we hope that all styles like bold and italics are encoded with the respective elements; if that is not
+       the case, we will have to try to evaluate the font names -->
   <xd:doc>
     <xd:desc>
       <xd:p>Bold sections: <xd:pre>tei:hi</xd:pre>; use <xd:pre>@rend</xd:pre> for now.</xd:p>
@@ -86,8 +88,6 @@
     </xsl:choose>
   </xsl:template>
   
-  
-  
   <xd:doc>
     <xd:desc>
       <xd:p>Group headings by level</xd:p>
@@ -115,6 +115,10 @@
     </xsl:choose>
   </xsl:template>
   
+  <xd:doc>
+    <xd:desc>We need to add info about the highest value for @level of any tei:head as entry point for the creation
+             of tei:div in the next step.</xd:desc>
+  </xd:doc>
   <xsl:template match="tei:text">
     <text>
       <xsl:attribute name="maxLevel">
