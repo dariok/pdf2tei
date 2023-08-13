@@ -47,3 +47,8 @@ means that there are the dimensional attributes @left, @top, @size, @bottom, and
 @height, @width, and @l (for the most frequently used @left of all lines) on pb.
 Additionally, all tei:l are comprised of one or more tei:hi with layout information (most importantly @rendition but
 also dimensional attributes).
+
+---
+
+Some contributions to this software were created within the scope of a project funded by the German BMBF, project ID 16TOA015A.
+
