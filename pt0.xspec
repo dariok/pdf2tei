@@ -1182,4 +1182,142 @@
       </x:expect>
    </x:scenario>
    
+   <x:scenario label="T5">
+     <x:context>
+       <page number="44" position="absolute" top="0" left="0" height="892" width="629">
+          <fontspec id="20" size="13" family="TimesNewRomanPSMT--Identity-H" color="#000000"/>
+          <fontspec id="21" size="13" family="TimesNewRomanPS" color="#000000"/> 
+          <fontspec id="24" size="9" family="TimesNewRomanPSMT--Identity-H" color="#000000"/>
+          <fontspec id="25" size="15" family="SymbolMT--Identity-H" color="#000000"/>
+          <text top="665" left="90" width="4" height="11" font="24">3</text>
+          <text top="670" left="98" width="457" height="17" font="20">Resulta muy revelador que la falta de seguridad y la inestabilidad de América Latina tras</text>
+          <text top="684" left="75" width="479" height="17" font="20">su emancipación suelen ser vistas como pruebas de que no fue moderna y no produjo Estados</text>
+          <text top="699" left="75" width="480" height="17" font="20">modernos. Véase por ejemplo: David S. Landes: The Wealth and Poverty of Nations. Why</text>
+          <text top="714" left="75" width="322" height="17" font="20">Some Are So Rich and Some So Poor. New York 1999, p. 313.</text>
+          <text top="726" left="90" width="4" height="11" font="24">4</text>
+          <text top="731" left="98" width="182" height="17" font="20">Hay que señalar que el concepto de</text>
+          <text top="731" left="284" width="78" height="17" font="21"><i>human security</i></text>
+          <text top="731" left="366" width="189" height="17" font="20">no ha acabado con la idea de que los</text>
+          <text top="746" left="75" width="480" height="17" font="20">Estados proporcionen la seguridad de sus habitantes sino más bien ha complementado y</text>
+          <text top="761" left="75" width="479" height="17" font="20">ampliado el concepto de seguridad en sí. Véase: Final Report of the Commission on Human</text>
+          <text top="775" left="75" width="479" height="17" font="20">Security 2003. En: http://www.humansecurity-chs.org/finalreport/index.html (página</text>
+          <text top="790" left="75" width="479" height="17" font="20">consultada 26.3.2012); Roland Paris: Human Security: Paradigm Shift or Hot Air? En:</text>
+          <text top="804" left="75" width="112" height="17" font="21"><i>International Security</i></text>
+          <text top="804" left="190" width="174" height="17" font="20">Vol. 26, No. 2 (2001), pp. 87-102.</text>
+       </page>
+     </x:context>
+     <x:expect label=".">
+       <page number="44" position="absolute" top="0" left="0" height="892" width="629">
+         <run top="665" xmlns="http://www.tei-c.org/ns/1.0"
+            left="90"
+            width="4"
+            height="11"
+            font="24"
+            size="9"
+            rendition="#f24">3</run>
+         <run top="670" xmlns="http://www.tei-c.org/ns/1.0"
+            left="98"
+            width="457"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">Resulta muy revelador que la falta de seguridad y la inestabilidad de América Latina tras</run>
+         <run top="684" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="479"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">su emancipación suelen ser vistas como pruebas de que no fue moderna y no produjo Estados</run>
+         <run top="699" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="480"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">modernos. Véase por ejemplo: David S. Landes: The Wealth and Poverty of Nations. Why</run>
+         <run top="714" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="322"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">Some Are So Rich and Some So Poor. New York 1999, p. 313.</run>
+         <run top="726" xmlns="http://www.tei-c.org/ns/1.0"
+            left="90"
+            width="4"
+            height="11"
+            font="24"
+            size="9"
+            rendition="#f24">4</run>
+         <run top="731" xmlns="http://www.tei-c.org/ns/1.0"
+            left="98"
+            width="182"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">Hay que señalar que el concepto de</run>
+         <run top="731" xmlns="http://www.tei-c.org/ns/1.0"
+            left="284"
+            width="78"
+            height="17"
+            font="21"
+            size="13"
+            rendition="#f21">
+            <i xmlns="">human security</i>
+          </run>
+         <run top="731" xmlns="http://www.tei-c.org/ns/1.0"
+            left="366"
+            width="189"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">no ha acabado con la idea de que los</run>
+         <run top="746" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="480"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">Estados proporcionen la seguridad de sus habitantes sino más bien ha complementado y</run>
+         <run top="761" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="479"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">ampliado el concepto de seguridad en sí. Véase: Final Report of the Commission on Human</run>
+         <run top="775" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="479"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">Security 2003. En: http://www.humansecurity-chs.org/finalreport/index.html (página</run>
+         <run top="790" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="479"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">consultada 26.3.2012); Roland Paris: Human Security: Paradigm Shift or Hot Air? En:</run>
+         <run top="804" xmlns="http://www.tei-c.org/ns/1.0"
+            left="75"
+            width="112"
+            height="17"
+            font="21"
+            size="13"
+            rendition="#f21">
+            <i xmlns="">International Security</i>
+          </run>
+         <run top="804" xmlns="http://www.tei-c.org/ns/1.0"
+            left="190"
+            width="174"
+            height="17"
+            font="20"
+            size="13"
+            rendition="#f20">Vol. 26, No. 2 (2001), pp. 87-102.</run>
+        </page>
+     </x:expect>
+   </x:scenario>
 </x:description>
