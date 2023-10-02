@@ -58,7 +58,20 @@
 <!--         <xsl:apply-templates select="current-group()[self::tei:head]" />-->
          <xsl:if test="count(current-group()[not(self::tei:div or self::tei:head)]) gt 0">
             <ab>
-               <xsl:choose>
+               <xsl:for-each-group select="current-group()[not(self::tei:div)]"
+                     group-adjacent="(@level, $level)[1]">
+                  <xsl:choose>
+                     <xsl:when test="current-grouping-key() = $level">
+                        <xsl:apply-templates select="current-group()" />
+                     </xsl:when>
+                     <xsl:otherwise>
+                        <ab>
+                           <xsl:apply-templates select="current-group()" />
+                        </ab>
+                     </xsl:otherwise>
+                  </xsl:choose>
+               </xsl:for-each-group>
+               <!--<xsl:choose>
                   <xsl:when test="current-group()[@level = $level - 1]">
                      <xsl:for-each-group select="current-group()[not(self::tei:div)]"
                         group-starting-with="tei:l[@level ne preceding-sibling::tei:l[1]/@level]">
@@ -78,7 +91,7 @@
                   <xsl:otherwise>
                      <xsl:apply-templates select="current-group()[not(self::tei:div)]" />
                   </xsl:otherwise>
-               </xsl:choose>
+               </xsl:choose>-->
             </ab>
          </xsl:if>
          <xsl:apply-templates select="current-group()[self::tei:div]" />
@@ -182,14 +195,33 @@
       </xd:desc>
    </xd:doc>
    <xsl:template match="tei:l/*:run">
+      <xsl:choose>
+         <xsl:when test="tei:hi">
+            <xsl:apply-templates select="tei:hi" />
+         </xsl:when>
+         <xsl:otherwise>
+            <hi>
+               <xsl:sequence select="@*" />
+               <xsl:sequence select="text()" />
+            </hi>
+         </xsl:otherwise>
+      </xsl:choose>
+   </xsl:template>
+   
+   <xd:doc>
+      <xd:desc>hi may contain other hi</xd:desc>
+   </xd:doc>
+   <xsl:template match="tei:hi">
       <hi>
-         <xsl:sequence select="@*" />
+         <xsl:sequence select="../@*" />
+         
          <xsl:choose>
             <xsl:when test="tei:hi">
-               <xsl:sequence select="tei:hi/@rend" />
+               <xsl:attribute name="rend" select="@rend || ' ' || tei:hi/@rend" />
                <xsl:sequence select="tei:hi/text()" />
             </xsl:when>
             <xsl:otherwise>
+               <xsl:sequence select="@rend" />
                <xsl:sequence select="text()" />
             </xsl:otherwise>
          </xsl:choose>

@@ -32,7 +32,9 @@
                   <rendition scheme="css" xml:id="f29">font-size: 9pt; font-family: ZAGSWU+MinionPro; color: #000000;</rendition>
                </tagsDecl>
             </encodingDesc>
-         </teiHeader><text><body><div><pb n="1" l="68" height="935" width="722" r="368" /><head><l
+         </teiHeader>
+   <text>
+      <body><div><pb n="1" l="68" height="935" width="722" r="368" /><head><l
                left="68" top="129" size="16" bottom="145" right="171"><run
                   rendition="#f0" size="16" top="129" left="68" width="103" height="18"
                   >Merryl Rebello </run></l></head><head><l
@@ -969,8 +971,8 @@
    
    <x:scenario label="T2">
       <x:context href="pt4.xspec?strip-space=yes" select="//x:scenario[@label = 'T2']/x:expect/tei:text" />
-      <x:expect label=".">
-         <text>
+      <x:expect label="." xml:space="preserve"><text>
+        
       <body>
        <div>
          <pb n="13" height="935" width="722" l="68" r="651">
