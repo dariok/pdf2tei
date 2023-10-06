@@ -52,7 +52,7 @@
    </xd:doc>
    <xsl:template name="blocks">
       <xsl:param name="context" />
-      <xsl:param name="level" as="xs:integer"/>
+      <xsl:param name="level" as="xs:double"/>
       
       <xsl:for-each-group select="$context" group-starting-with="tei:l[(@level/number() = $level) and pt:ab(.)]">
 <!--         <xsl:apply-templates select="current-group()[self::tei:head]" />-->
@@ -65,9 +65,10 @@
                         <xsl:apply-templates select="current-group()" />
                      </xsl:when>
                      <xsl:otherwise>
-                        <ab>
-                           <xsl:apply-templates select="current-group()" />
-                        </ab>
+                        <xsl:call-template name="blocks">
+                           <xsl:with-param name="context" select="current-group()" />
+                           <xsl:with-param name="level" select="max(current-group()/@level)" />
+                        </xsl:call-template>
                      </xsl:otherwise>
                   </xsl:choose>
                </xsl:for-each-group>
@@ -195,17 +196,18 @@
       </xd:desc>
    </xd:doc>
    <xsl:template match="tei:l/*:run">
-      <xsl:choose>
-         <xsl:when test="tei:hi">
-            <xsl:apply-templates select="tei:hi" />
-         </xsl:when>
-         <xsl:otherwise>
-            <hi>
-               <xsl:sequence select="@*" />
-               <xsl:sequence select="text()" />
-            </hi>
-         </xsl:otherwise>
-      </xsl:choose>
+      <hi>
+         <xsl:sequence select="@*" />
+         <xsl:choose>
+            <xsl:when test="tei:hi">
+               <xsl:sequence select="tei:hi/@*" />
+               <xsl:apply-templates select="tei:hi/node()" />
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:apply-templates />
+            </xsl:otherwise>
+         </xsl:choose>
+      </hi>
    </xsl:template>
    
    <xd:doc>
@@ -213,7 +215,7 @@
    </xd:doc>
    <xsl:template match="tei:hi">
       <hi>
-         <xsl:sequence select="../@*" />
+<!--         <xsl:sequence select="../@*[not(name() = 'level')]" />-->
          
          <xsl:choose>
             <xsl:when test="tei:hi">
@@ -221,8 +223,8 @@
                <xsl:sequence select="tei:hi/text()" />
             </xsl:when>
             <xsl:otherwise>
-               <xsl:sequence select="@rend" />
-               <xsl:sequence select="text()" />
+               <xsl:sequence select="@*" />
+               <xsl:apply-templates />
             </xsl:otherwise>
          </xsl:choose>
       </hi>
