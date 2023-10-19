@@ -81,11 +81,12 @@
    </xsl:template>
    
    <xd:doc>
-      <xd:desc>Later evaluations need <xd:pre>@size</xd:pre> so we set it to <xd:pre>@height</xd:pre>.</xd:desc>
+      <xd:desc>Later evaluations need <xd:pre>@size</xd:pre> so we set it to <xd:pre>@height</xd:pre>, but at least 2
+         (this is due to the fact that in the next step we need some margin of error when looking for lines.</xd:desc>
    </xd:doc>
    <xsl:template match="*:image">
       <xsl:copy>
-         <xsl:attribute name="size" select="@height" />
+         <xsl:attribute name="size" select="if ( number(@height) gt 0 ) then @height else 2" />
          <xsl:apply-templates select="@*" />
       </xsl:copy>
    </xsl:template>
