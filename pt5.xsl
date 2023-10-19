@@ -196,18 +196,24 @@
       </xd:desc>
    </xd:doc>
    <xsl:template match="tei:l/*:run">
-      <hi>
-         <xsl:sequence select="@*" />
-         <xsl:choose>
-            <xsl:when test="tei:hi">
-               <xsl:sequence select="tei:hi/@*" />
-               <xsl:apply-templates select="tei:hi/node()" />
-            </xsl:when>
-            <xsl:otherwise>
+      <xsl:choose>
+         <xsl:when test="tei:hi">
+            <xsl:variable name="atts" select="@*" />
+            <xsl:for-each select="tei:hi">
+               <hi>
+                  <xsl:sequence select="$atts" />
+                  <xsl:sequence select="@*" />
+                  <xsl:apply-templates select="node()" />
+               </hi>
+            </xsl:for-each>
+         </xsl:when>
+         <xsl:otherwise>
+            <hi>
+               <xsl:sequence select="@*" />
                <xsl:apply-templates />
-            </xsl:otherwise>
-         </xsl:choose>
-      </hi>
+            </hi>
+         </xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
    <xd:doc>
